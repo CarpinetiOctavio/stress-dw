@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# macOS / IDE
+.DS_Store
+.idea/
+
+# Local data and logs (dataset is obtained from its source, not versioned)
+data/raw/
+data/processed/
+logs/
