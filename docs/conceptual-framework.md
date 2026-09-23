@@ -39,6 +39,13 @@ The project's argument rests on three levels, and they are not interchangeable:
 
 Rows marked "no source description" or "reinterpreted here" carry an assumption, not an established fact; the specification in Chat 1 should treat them accordingly.
 
+---
+
+### Addendum (2026-09-23)
+The reading of mental_health_interview above corrects the legacy's original treatment of the field. See ADR-0000, Findings (F3 addendum), for what was originally considered when the legacy model was designed and why the project now operates on the corrected reading.
+
+---
+
 ## 5. What this dataset cannot measure
 
 - **Stigma itself.** No stigma scale, no perceived/personal/self-stigma items of any kind.
@@ -95,7 +102,3 @@ This section is provisional. Several items depend on checks in `docs/audit/legac
 - Andrade, L. H., Alonso, J., Mneimneh, Z., Wells, J. E., Al-Hamzawi, A., Borges, G., Bromet, E., Bruffaerts, R., de Girolamo, G., de Graaf, R., Florescu, S., Gureje, O., Hinkov, H. R., Hu, C., Huang, Y., Hwang, I., Jin, R., Karam, E. G., Kovess-Masfety, V., Levinson, D., Matschinger, H., O'Neill, S., Posada-Villa, J., Sagar, R., Sampson, N. A., Sasu, C., Stein, D. J., Takeshima, T., Viana, M. C., Xavier, M., & Kessler, R. C. (2014). Barriers to mental health treatment: results from the WHO World Mental Health surveys. *Psychological Medicine*, 44(6), 1303–1317.
 - Schnyder, N., Panczak, R., Groth, N., & Schultze-Lutter, F. (2017). Association between mental health-related stigma and active help-seeking: systematic review and meta-analysis. *British Journal of Psychiatry*, 210, 261–268.
 
----
-
-### Addendum (2026-09-23)
-The reading of mental_health_interview above corrects the legacy's original treatment of the field. See ADR-0000, Findings (F3 addendum), for what was originally considered when the legacy model was designed and why the project now operates on the corrected reading.
