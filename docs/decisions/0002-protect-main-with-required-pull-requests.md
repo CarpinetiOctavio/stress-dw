@@ -13,10 +13,10 @@ decision-makers: Octavio Carpineti
 ## Decision Drivers
 
 * The repository is part of a professional portfolio for SCU; a visible pull-request history is itself a signal of engineering discipline to anyone reviewing it, independent of team size.
-* Octavio is currently the sole contributor, so protections that assume a multi-reviewer team (a required approving review from a second person, code owners) have no practical effect yet.
+* There is currently a single contributor, so protections that assume a multi-reviewer team (a required approving review from a second person, code owners) have no practical effect yet.
 * PRs #1 and #2 already show the habit is adopted in practice — formalizing it is enforcement, not a behavior change.
 * No CI pipeline exists yet, so requiring passing status checks before merge isn't enforceable today.
-* Overprotecting now, in a way that blocks Octavio's own merges entirely, would add friction to a solo project without a corresponding benefit.
+* Overprotecting now, in a way that blocks the sole contributor's own merges entirely, would add friction to a solo project without a corresponding benefit.
 
 ## Considered Options
 
@@ -27,7 +27,7 @@ decision-makers: Octavio Carpineti
 
 ## Decision Outcome
 
-{Pending confirmation.} Recommended option: "Protect `main`: require a pull request before merging; disallow force-pushes and branch deletion; no required status checks", because it formalizes what PRs #1 and #2 already did in practice, keeps the engineering-discipline signal visible for the portfolio, and does not depend on a CI pipeline that does not exist yet.
+Chosen option: "Protect `main`: require a pull request before merging; disallow force-pushes and branch deletion; no required status checks", because it formalizes what PRs #1 and #2 already did in practice, keeps the engineering-discipline signal visible for the portfolio, and does not depend on a CI pipeline that does not exist yet.
 
 ### Consequences
 

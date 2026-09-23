@@ -24,6 +24,13 @@ A later audit of the legacy report found defects that originate in the specifica
 
 Dataset provenance is a separate finding and does not depend on the codebase; it is addressed in ADR-0001.
 
+---
+
+### Addendum (2026-09-23)
+F3's description of the legacy's misreading of mental_health_interview is grounded in the report's own text, which treats the field as participation/exposure ("ha participado en entrevista de salud mental"). At the time the legacy model was designed, the field was treated as indicating whether a person had gone through an interview that determined they were mentally unwell — a diagnostic or assessment event, not mere attendance. Rebuilding from scratch, per ADR-0003, this reading is corrected: the field is read according to its Kaggle-documented description ("Would you bring up a mental health issue with a potential employer in an interview?"), an attitudinal disclosure-willingness item, not an exposure or diagnostic event; the new pipeline operates on this corrected reading rather than the original one. This addendum records the original treatment of the field for traceability. It does not change F3's status — F3 remains Established against the report's text.
+
+---
+
 ## Decision Drivers
 
 * F1 and F2 are defects in the specification of grain and measures; they propagate through schema, ETL and reporting.
@@ -78,3 +85,4 @@ Chosen option: "Rebuild from scratch on a corrected written specification", beca
 * Legacy mirror at the original state: [`stress-dw-legacy@legacy-original`](https://github.com/CarpinetiOctavio/stress-dw-legacy/tree/legacy-original) (`f2308d29217c8130a14875d7dad7070272b92d28`).
 * Original repository: [`OctavioCarpineti/DW_DB2`](https://github.com/OctavioCarpineti/DW_DB2).
 * Related: [ADR-0001](0001-position-as-portfolio-project.md).
+
