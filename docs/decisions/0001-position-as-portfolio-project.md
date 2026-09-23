@@ -30,8 +30,9 @@ All sources were retrieved on 2026-09-19. Captures are stored in `docs/audit/evi
 
 * **H1.** The file combines records derived from an OSMI-type survey (the described columns) with columns from another source (the symptom columns). Test: compare the distributions of `Timestamp`, `Gender`, `Country`, `family_history` and `treatment` with the OSMI 2014 data; measure association (Cramér's V) between the two column groups. A near-zero association across groups, with real structure inside the OSMI-type group, would support H1.
 * **H2.** The rows are replicated or resampled. Test: duplicate rate and unique-profile counts ignoring `Timestamp`.
+* **H3 (added 2026-09-22, after H1/H2 above).**  The eight undocumented symptom columns (Days_Indoors, Growing_Stress, Changes_Habits, Mental_Health_History, Mood_Swings, Coping_Struggles, Work_Interest, Social_Weakness) match, verbatim, the columns of the RHMCD-20 dataset (Salehin, Amin et al., Mendeley, DOI 10.17632/pxjmjyfdh2.1, published 2023-12-18). If confirmed, this identifies the second source hypothesized in H1 — and raises an additional inconsistency: RHMCD-20 is framed around COVID-era quarantine and postdates the file's claimed 2014–2016 Timestamp range by nearly a decade. Test: compare marginal distributions of the eight shared columns against RHMCD-20; test for row-level matches on those columns.
 
-Both tests belong to the legacy audit (`docs/audit/legacy-audit.md`), not to this ADR.
+* All three tests belong to the legacy audit (`docs/audit/legacy-audit.md`), not to this ADR.
 
 ## Decision Drivers
 
