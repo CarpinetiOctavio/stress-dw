@@ -27,7 +27,7 @@ decision-makers: Octavio Carpineti
 
 ## Decision Outcome
 
-Recommended option: "Protect `main`: require a pull request before merging; disallow force-pushes and branch deletion; no required status checks", because it formalizes what PRs #1 and #2 already did in practice, keeps the engineering-discipline signal visible for the portfolio, and does not depend on a CI pipeline that does not exist yet.
+Chosen option: "Protect `main`: require a pull request before merging; disallow force-pushes and branch deletion; no required status checks", because it formalizes what PRs #1 and #2 already did in practice, keeps the engineering-discipline signal visible for the portfolio, and does not depend on a CI pipeline that does not exist yet.
 
 ### Consequences
 
