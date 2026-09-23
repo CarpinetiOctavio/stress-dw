@@ -8,6 +8,10 @@ Decisions are recorded in [MADR](https://adr.github.io/madr/) format, one file p
 | [0001](0001-position-as-portfolio-project.md)                     | Position the project as a portfolio piece and do not pursue academic publication | accepted |
 | [0002](0002-protect-main-with-required-pull-requests.md)          | Protect `main` with required pull requests | accepted |
 | [0003](0003-redefine-indicators-14-to-16.md)                      | Redefine indicators 14–16 around verifiable constructs | proposed |
+| [0004](0004-revise-business-questions.md) | Revise Fase 1 business questions to match corrected variable semantics and dataset scope | proposed |
+| [0005](0005-redefine-indicators-1-to-13.md) | Redefine indicators 1–13 around verifiable constructs | proposed |
+| [0006](0006-final-questions-and-indicators.md) | Consolidated record: final Fase 1 questions and indicator definitions | proposed |
+
 
 ## Deviations from base MADR
 

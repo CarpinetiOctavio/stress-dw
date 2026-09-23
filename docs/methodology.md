@@ -1,0 +1,13 @@
+# Hefesto methodology
+
+This project follows the Hefesto methodology for dimensional data warehouse design — the legacy course project did, and this rebuild does too. Hefesto proceeds through four sequential phases, each one's output feeding the next. This is a light orientation, not a full treatment: enough that a "Fase N" citation elsewhere in this repo's documentation points somewhere, not a substitute for `docs/specification.md` or the methodology's own literature.
+
+**Phase 1 — Requirements Analysis** (Spanish: *Fase 1, Análisis de Requerimientos*). Identifies the business questions the warehouse must answer, the perspectives (dimensions) and indicators (metrics) those questions imply, and a first conceptual model connecting them. This project's Phase 1 output is its business questions — originally drafted in the legacy report, revised where needed in [ADR-0004](decisions/0004-revise-business-questions.md), consolidated in [ADR-0006](decisions/0006-final-questions-and-indicators.md).
+
+**Phase 2 — OLTP Analysis** (Spanish: *Fase 2, Análisis de los OLTP*). Examines the source data to establish correspondences between the conceptual model and the fields actually available, defines the grain of each perspective, and expands the conceptual model with derived fields and indicator formulas. This project's Phase 2 output is its indicator definitions — [ADR-0003](decisions/0003-redefine-indicators-14-to-16.md) for indicators 14–16, [ADR-0005](decisions/0005-redefine-indicators-1-to-13.md) for 1–13, consolidated in ADR-0006 — and the dimension grain decisions formalized in `docs/specification.md`.
+
+**Phase 3 — Logical Model Design** (Spanish: *Fase 3, Diseño del Modelo Lógico*). Translates the expanded conceptual model into a relational schema — a star schema, in this project's case — with dimension tables, a fact table, and the relationships between them. [ADR-0000](decisions/0000-rebuild-from-scratch-instead-of-continuing-legacy.md) documents why this phase's legacy output (F1, F2, F4) drove the rebuild; `docs/specification.md` carries this project's corrected version.
+
+**Phase 4 — Data Integration** (Spanish: *Fase 4, Integración de Datos*). Defines how the warehouse is populated: staging strategy, ETL process, initial load, and update policy. Not yet specified for this rebuild.
+
+For how the legacy course project carried out these four phases, see the legacy report at tag `legacy-original` (Spanish, unmodified — see [ADR-0000](decisions/0000-rebuild-from-scratch-instead-of-continuing-legacy.md) on why it stays that way). For how this rebuild carries them out, see `docs/specification.md` and the ADRs in `docs/decisions/`, which carry the reasoning; this document is only a map of the four phases themselves.
