@@ -13,8 +13,6 @@ Decisions are recorded in [MADR](https://adr.github.io/madr/) format, one file p
 | [0006](0006-final-questions-and-indicators.md) | Consolidated record: final Fase 1 questions and indicator definitions | proposed |
 
 
-* A dimensional data warehouse (star schema, MySQL, Python ETL) built with the [Hefesto methodology](docs/methodology.md), rebuilt from scratch after an audit of a university course project.
-
 ## Deviations from base MADR
 
 * **Findings section**, between Context and Problem Statement and Decision Drivers. Not part of base MADR. Use it only when the decision rests on evidence gathered against the repository, the dataset, or an external source; omit it otherwise. Each row cites where the evidence lives and marks a status of `Established`, a hypothesis still to test, or `Pending` a check.
