@@ -35,7 +35,7 @@ F3's description of the legacy's misreading of mental_health_interview is ground
 
 * F1 and F2 are defects in the specification of grain and measures; they propagate through schema, ETL and reporting.
 * The audit is only reproducible against an unmodified legacy state, so the legacy must stay citable as it was.
-* Lessons to carry over: `treatment` modeled as a measure, not a dimension attribute (the legacy corrected this late: Phase 3, "Dim_Acceso: Corrección"); additive measures; explicit grain.
+* Lessons to carry over: `treatment` modeled as a measure, not a dimension attribute (the legacy corrected this late: Phase 3, "Dim_Acceso: Corrección" (Spanish: "Dim_Acces: Correction")); additive measures; explicit grain.
 * The new repository is written in English from the first commit; the legacy stays in Spanish.
 
 ## Considered Options
