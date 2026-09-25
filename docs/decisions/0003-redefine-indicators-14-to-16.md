@@ -66,7 +66,18 @@ Chosen because this is the only combination across the three indicators that nev
 
 ### Confirmation
 
-`docs/specification.md` implements these as query patterns over person-grain additive facts (counts, not stored ratios), not as three pre-aggregated percentage columns. A post-build audit sums each design's cell counts back to its declared population size (the three-symptom cluster for 14; the tagged union for 15 and 16) and checks it against a direct `COUNT(*)` on the same filter, run independently.
+`docs/specification.md` implements these as query patterns over person-grain additive facts (counts, not stored ratios), not as three pre-aggregated percentage columns. A post-build audit sums each design's cell counts back to its declared population size (the three-symptom cluster for 14; the union of explicit recognition and the three-symptom cluster, restricted to `care_options IN ('Yes','Not sure')`, for 15 and 16) and checks it against a direct `COUNT(*)` on the same filter, run independently.
+
+### Addendum (2026-09-23)
+
+The inclusion-path tag defined above (`explicit_only` / `convergent_only` / `both`) placed `Growing_Stress = 'Maybe'` and `Growing_Stress = 'No'` together inside `convergent_only` — the same fold this ADR rejects for indicator 14, where the three levels are partitioned. It is replaced by two direct cuts, `Growing_Stress` (all three levels) and `symptom_cluster` (Boolean), over the same union population (`Growing_Stress = 'Yes' OR` the three-symptom cluster). Four combinations occur in that population — (`'Yes'`, cluster), (`'Yes'`, no cluster), (`'Maybe'`, cluster), (`'No'`, cluster) — because the union excludes every row that meets neither condition (`'Maybe'` without the cluster, and `'No'` without it). Consequences for the definitions above:
+
+* Indicator 15: up to 4 × 2 = 8 cells (was 6). Its name drops the suffix "by inclusion path", which no longer applies: *care-options-to-treatment conversion rate*.
+* Indicator 16: up to 4 × 2 × 3 = 24 cells (was 18). The headline cell is `Growing_Stress = 'Yes'`, `symptom_cluster` true, `care_options = 'Yes'`, `mental_health_interview = 'Yes'` — the cell previously written `inclusion_path = both`, `care_options = 'Yes'`, `mental_health_interview = 'Yes'`. The "up to 18 cells" small-`n` note under Consequences reads "up to 24"; the minimum-count rule it flags is set in `docs/specification.md`.
+* Indicators 15 and 16 are restricted to `care_options IN ('Yes','Not sure')` as a declared population filter: the literal scope of Q7.2 ("...and who report having care options available") and the implied scope of Q7.1, whose wording lists only "Yes" and "Not sure". This is a filter, not a fold — both retained levels are reported separately — and `'No'` rows are outside these two indicators' scope.
+* The Constraint above ("used separately as a tag") reads "used separately as a cut". The schema question it leaves to the specification, whether the derived column still needs to exist in the symptoms dimension, is settled in [ADR-0007](0007-person-grain-fact-table-and-dimension-grain-rule.md): it does not, and neither component is stored.
+
+This addendum records the original design for traceability; it supersedes the tagged design.
 
 ## Pros and Cons of the Options
 
