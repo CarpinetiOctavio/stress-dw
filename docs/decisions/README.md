@@ -7,10 +7,11 @@ Decisions are recorded in [MADR](https://adr.github.io/madr/) format, one file p
 | [0000](0000-rebuild-from-scratch-instead-of-continuing-legacy.md) | Rebuild the pipeline from scratch instead of continuing on the legacy codebase | accepted |
 | [0001](0001-position-as-portfolio-project.md)                     | Position the project as a portfolio piece and do not pursue academic publication | accepted |
 | [0002](0002-protect-main-with-required-pull-requests.md)          | Protect `main` with required pull requests | accepted |
-| [0003](0003-redefine-indicators-14-to-16.md)                      | Redefine indicators 14–16 around verifiable constructs | proposed |
-| [0004](0004-revise-business-questions.md) | Revise Fase 1 business questions to match corrected variable semantics and dataset scope | proposed |
-| [0005](0005-redefine-indicators-1-to-13.md) | Redefine indicators 1–13 around verifiable constructs | proposed |
-| [0006](0006-final-questions-and-indicators.md) | Consolidated record: final Fase 1 questions and indicator definitions | proposed |
+| [0003](0003-redefine-indicators-14-to-16.md)                      | Redefine indicators 14–16 around verifiable constructs | accepted |
+| [0004](0004-revise-business-questions.md) | Revise Fase 1 business questions to match corrected variable semantics and dataset scope | accepted |
+| [0005](0005-redefine-indicators-1-to-13.md) | Redefine indicators 1–13 around verifiable constructs | accepted |
+| [0006](0006-final-questions-and-indicators.md) | Consolidated record: final Fase 1 questions and indicator definitions | accepted |
+| [0007](0007-person-grain-fact-table-and-dimension-grain-rule.md) | Model the fact table at person grain, bound dimensions by a grain rule, and derive conditions at query time | accepted |
 
 
 ## Deviations from base MADR
