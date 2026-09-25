@@ -25,9 +25,9 @@ decision-makers: Octavio Carpineti
 
 ## Considered Options
 
-1. {Option 1}
-2. {Option 2}
-3. {Option 3}
+* {Option 1}
+* {Option 2}
+* {Option 3}
 
 ## Decision Outcome
 

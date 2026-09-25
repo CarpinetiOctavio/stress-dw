@@ -83,6 +83,14 @@ This section settles what construct each indicator's variables can honestly supp
 
 **Direction:** something like "disclosure willingness and care-options availability, relative to lifetime treatment-seeking" — explicitly not "postponement," since nothing in the file carries a delay or time-to-treatment measure.
 
+---
+
+### Addendum (2026-09-25)
+
+Indicators 14–16 were finalized in [ADR-0003](decisions/0003-redefine-indicators-14-to-16.md) and consolidated in [ADR-0006](decisions/0006-final-questions-and-indicators.md); those are now the source of record for what each indicator measures, and `docs/specification/indicators.md` is the implementation contract this section fed into. This section is kept for traceability of the reasoning that led there, with one correction: indicator 14's **Direction** above ("implicit-cluster group vs. explicit-stress group, with both groups defined and reported") describes what ADR-0003 calls Design B, which was considered and not chosen. The accepted design (Design A) restricts the population to the three-symptom cluster only and partitions it by `growing_stress`'s three levels, so the comparison groups differ only in explicit recognition, not in symptom profile — Design B's explicit group carried no such restriction, which is exactly why ADR-0003 rejected it (it would confound recognition with severity). Indicators 15 and 16's directions above are consistent with the final design.
+
+---
+
 ## 7. Threats to validity
 
 This section is provisional. Several items depend on checks in `docs/audit/legacy-audit.md` that have not run yet (A1–A10, all `Pending`); it will be finalized once they close.
