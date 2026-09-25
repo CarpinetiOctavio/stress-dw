@@ -6,7 +6,7 @@ Evidence behind [ADR-0000](../decisions/0000-rebuild-from-scratch-instead-of-con
 
 | ID | Check | Method | Result |
 |----|-------|--------|--------|
-| A1 | The legacy input is the Kaggle file (P9) | Compare SHA-256 of the legacy raw file and a fresh download | Pending |
+| A1 | The legacy input is the Kaggle file (P9) | Compare SHA-256 of the legacy raw file and a fresh download | Established — both hashes are `083f44e9cdf84f56abf08b9fa1862d80b87237afa74e2cacc9328a63d9291686`; see `docs/dataset-provenance.md` |
 | A2 | Fan-out in `Dim_Sintomas` (F1) | Group the four stored source columns and count groups with more than one row; count staged records matching more than one dimension row; compare grain groups with 350,699 fact rows; confirm the resulting distinct-group count against the report's stated ~259 combinations (Script 3 output), and confirm `Dim_Acceso`'s combinations against its stated 9 as the fan-out-free control | Pending |
 | A3 | Actual foreign-key name for occupation (F4) | Read the fact-table DDL | Pending |
 | A4 | Duplicates ignoring `Timestamp` (H2) | Count duplicate rows on the 16 non-timestamp columns; unique-profile counts | Pending |
