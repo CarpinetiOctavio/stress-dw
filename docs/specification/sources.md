@@ -28,12 +28,12 @@ Modeling one of the four excluded columns is an amendment to this specification.
 
 ## Value domains
 
-Domains as documented in the legacy report (correspondence and granularity tables). They are provisional until check A12 of the [legacy audit](../audit/legacy-audit.md) has run; a domain that the profile contradicts is amended here before any dimension is built.
+Domains as documented in the legacy report (correspondence and granularity tables), confirmed against the raw file by check A12 of the [legacy audit](../audit/legacy-audit.md): every value in every modeled column matches what is listed below exactly, with no case or whitespace variants and no NULL, empty, or whitespace-only values found.
 
 | Column | Documented domain |
 |--------|-------------------|
 | `Gender` | `Male`, `Female` |
-| `Country` | the 35 countries of the [country-to-region mapping](country-region-mapping.md) (the legacy report states 36; unresolved, check A8) |
+| `Country` | the 35 countries of the [country-to-region mapping](country-region-mapping.md), confirmed against the raw file by check A8; the legacy report's "36" was inaccurate |
 | `Occupation` | `Business`, `Corporate`, `Housewife`, `Others`, `Student` |
 | `family_history` | `Yes`, `No` |
 | `treatment` | `Yes`, `No` |
@@ -44,7 +44,7 @@ Domains as documented in the legacy report (correspondence and granularity table
 | `Social_Weakness` | `Yes`, `No`, `Maybe` |
 | `mental_health_interview` | `Yes`, `No`, `Maybe` |
 | `care_options` | `Yes`, `No`, `Not sure` |
-| `Timestamp` | parsed to (year, month); range per the Data Card: 2014-08-27 to 2016-02-01; parse format to be established (A12) |
+| `Timestamp` | parsed to (year, month); range per the Data Card: 2014-08-27 to 2016-02-01; format confirmed as `%m/%d/%Y %H:%M` by check A12, 0 unparsable values |
 
 The legacy report writes `1-14 days` in one place and `1 - 14 days` (spaces around the hyphen) in an example table. The unspaced form is used throughout this specification.
 
