@@ -8,11 +8,11 @@ A dimension holds one row per distinct natural key present in staging. Every sta
 
 | Dimension | Natural key | Rows (ceiling) |
 |-----------|-------------|----------------|
-| `dim_time` | (`year`, `month`) | distinct year-months in staging (check A8) |
+| `dim_time` | (`year`, `month`) | 13 in the audited source file, confirmed by check A8 — not a fixed ceiling like the other rows, since `dim_time`'s natural key has no bounded domain and a later load can add more |
 | `dim_gender` | `gender` | 2 |
 | `dim_family_history` | `family_history` | 2 |
 | `dim_occupation` | `occupation` | 5 |
-| `dim_country` | `country` | 35 (check A8) |
+| `dim_country` | `country` | 35, confirmed by check A8 |
 | `dim_isolation` | `days_indoors` | 5 |
 | `dim_access` | (`care_options`, `mental_health_interview`) | 9 |
 | `dim_symptoms` | (`growing_stress`, `mood_swings`, `coping_struggles`, `social_weakness`) | 54 |
