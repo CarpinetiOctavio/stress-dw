@@ -102,6 +102,8 @@ Problem: "deciden buscar tratamiento" ("decide to seek treatment," present tense
 
 Revised: Among respondents with explicit stress recognition, a convergent symptom profile, or both, what proportion report having ever sought treatment (`treatment`, lifetime), broken down by resource availability (`care_options`, "Yes" and "Not sure" reported separately) and by which condition led to their inclusion (explicit-only / convergent-only / both)? Objective: measure the gap between resource availability and actual lifetime treatment-seeking, without implying an active, ongoing decision process.
 
+Amended (2026-09-23): Among respondents with explicit stress recognition, a convergent symptom profile, or both, what proportion report having ever sought treatment (`treatment`, lifetime), broken down by resource availability (`care_options`, "Yes" and "Not sure" reported separately; respondents reporting "No" are outside this question's scope), by explicit stress recognition (`Growing_Stress`, all three levels), and by whether a convergent symptom profile is present? Reason: the clause "by which condition led to their inclusion (explicit-only / convergent-only / both)" grouped `Growing_Stress = 'Maybe'` with `'No'` inside "convergent-only"; it is replaced by two direct cuts (ADR-0003, Addendum). The objective line above is unchanged. For the Confirmation below, this amended wording is the corrected wording for Q7.1.
+
 ### Q7.2 — originally:
 
 "¿Entre las personas que reportan estrés o síntomas relacionados, cuál es la proporción de quienes participaron en una entrevista de salud mental (mental_health_interview ≠ 'No') y, aun teniendo cobertura (care_options ≠ 'No'), no buscan tratamiento (treatment = No)?"
