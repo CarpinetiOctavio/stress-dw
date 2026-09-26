@@ -38,7 +38,7 @@ Chosen option: "Protect `main`: require a pull request before merging; disallow 
 
 ### Confirmation
 
-Settings → Branches → branch protection rule on `main`, visible in the repository's own settings; a direct push to `main` failing is the fitness function.
+Settings → Rulesets → `protect-main` on `main`, visible in the repository's own settings; a direct push to `main` failing is the fitness function.
 
 ## Pros and Cons of the Options
 
