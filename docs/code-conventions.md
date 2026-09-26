@@ -6,7 +6,7 @@ Extends the [model conventions](specification/definitions.md#model-conventions) 
 
 - Python 3.12+.
 - `ruff` for both linting and formatting (`ruff check`, `ruff format`) — one tool, not black/flake8/isort/pyupgrade separately. Configuration lives in `pyproject.toml`.
-- `mypy --strict`. A `# type: ignore[<code>]` is allowed only with a comment naming why — typically an incomplete pandas or mysql.connector stub — never a blanket ignore.
+- mypy --strict. A # type: ignore[<code>] is allowed only with a comment naming why — typically an incomplete pandas or duckdb stub — never a blanket ignore.
 - Dependencies declared in `pyproject.toml`, managed with `uv`. No `requirements.txt`.
 
 ## 2. Naming
