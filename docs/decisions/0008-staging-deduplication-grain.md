@@ -78,4 +78,4 @@ The staging load report states three counts: the raw row count (292,364), the co
 
 * Related: [ADR-0007](0007-person-grain-fact-table-and-dimension-grain-rule.md) (fact grain, not reopened here), [ADR-0001](0001-position-as-portfolio-project.md) (no population claim).
 * Evidence: [`legacy-audit.md`](../audit/legacy-audit.md) (A4, A13); this ADR's own G1.
-* The contract this decision feeds: `docs/specification/staging.md` (not yet written).
+* The contract this decision feeds: [`staging.md`](../specification/staging.md).
