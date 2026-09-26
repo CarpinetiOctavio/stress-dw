@@ -17,7 +17,7 @@ Dimensional data warehouse (Hefesto methodology), rebuilt from an audited univer
 - `main` is protected. Work on a branch, open a PR, never push to `main`. [ADR-0002]
 - Execute and report evidence — commands actually run, numbers actually computed. Never fill a gap from memory or assumption; say "pending" instead.
 - Decisions aren't Code's to make. If a result contradicts an existing ADR or the specification, flag it and stop — resolving it happens outside this session.
-- Fase 4 is specified in [`staging.md`](docs/specification/staging.md), except its update policy, still marked proposed and not confirmed there. Don't build or run pipeline code until that's resolved. Until then, the only in-scope work against the legacy repo is the read-only checks in `docs/audit/legacy-audit.md`.
+- Fase 4 is specified in full in [`staging.md`](docs/specification/staging.md); every part, including update policy, is confirmed. The only work executed so far against the legacy repo is the read-only checks in `docs/audit/legacy-audit.md`; no pipeline code exists yet in this repo.
 - English only, code and docs, no exception. The legacy repo stays in Spanish, untouched. [writing-conventions.md, rule 1]
 
 ## Already decided — don't relitigate
