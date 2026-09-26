@@ -59,9 +59,9 @@ A step that aborts leaves every table it would have written unchanged from befor
 
 ## Update policy
 
-*Proposed; not yet confirmed.* A full reload: every run truncates and repopulates `staging_response`, the eight dimensions, and `fact_response` from the source file, rather than appending to what a previous run loaded.
+A full reload: every run truncates and repopulates `staging_response`, the eight dimensions, and `fact_response` from the source file, rather than appending to what a previous run loaded.
 
-The legacy report's argument for full reload — recalculating pre-aggregated percentages on any new row is expensive — does not apply here: [ADR-0007](../decisions/0007-person-grain-fact-table-and-dimension-grain-rule.md) stores no pre-aggregated value anywhere. The reason proposed instead: the source file is a fixed historical export with no documented collection methodology or update cadence ([ADR-0001](../decisions/0001-position-as-portfolio-project.md)), so there is no real incremental-arrival scenario to design against for this project. An incremental policy would need a defined mechanism for new data to arrive, which this project does not have; specifying one without that would be designing for a use case this project cannot exercise.
+The legacy report's argument for full reload — recalculating pre-aggregated percentages on any new row is expensive — does not apply here: [ADR-0007](../decisions/0007-person-grain-fact-table-and-dimension-grain-rule.md) stores no pre-aggregated value anywhere. The reason instead: the source file is a fixed historical export with no documented collection methodology or update cadence ([ADR-0001](../decisions/0001-position-as-portfolio-project.md)), so there is no real incremental-arrival scenario to design against for this project. An incremental policy would need a defined mechanism for new data to arrive, which this project does not have; specifying one without that would be designing for a use case this project cannot exercise.
 
 ## More information
 
