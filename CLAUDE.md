@@ -9,7 +9,7 @@ Dimensional data warehouse (Hefesto methodology), rebuilt from an audited univer
 - [`docs/writing-conventions.md`](docs/writing-conventions.md) — style rules for everything written here: English, impersonal voice, glossing, one home per concept. Applies to code comments and commit messages, not only prose docs.
 - [`docs/code-conventions.md`](docs/code-conventions.md) — Python and SQL style, naming, docstrings, testing, and error handling. Read before writing any code, not only before committing it.
 - [`docs/methodology.md`](docs/methodology.md) — what "Fase N" means when an ADR or the specification cites it.
-- [`docs/audit/legacy-audit.md`](docs/audit/legacy-audit.md) — the pending checks (A1–A12) and their method.
+- [`docs/audit/legacy-audit.md`](docs/audit/legacy-audit.md) — the checks (A1–A13) and their method.
 
 ## Hard rules
 
@@ -25,3 +25,4 @@ Dimensional data warehouse (Hefesto methodology), rebuilt from an audited univer
 - Star schema, one fact table `fact_response` at person grain (one row per survey response), eight dimensions. [ADR-0007]
 - `explicit_recognition` and `symptom_cluster` are computed at query time; neither is ever a stored column. [ADR-0007]
 - Country-to-region mapping is the fixed table in [`specification/country-region-mapping.md`](docs/specification/country-region-mapping.md), not inferred.
+- Deduplicate staged records on all 17 source columns, not only the columns this specification models: 290,051 records reach staging. [ADR-0008]
