@@ -15,7 +15,7 @@
 | `symptoms_id` | INT | NOT NULL, foreign key to [`dim_symptoms`](dimensions.md#dim_symptoms) | |
 | `treatment` | VARCHAR(3) | NOT NULL; `Yes` or `No` | lifetime treatment-seeking, raw categorical value |
 
-Foreign keys are enforced by the database [ADR-0009](docs/decisions/0009-use-duckdb-as-database-engine.md). The table has no other column.
+Foreign keys are enforced by the database ([ADR-0009](docs/decisions/0009-use-duckdb-as-database-engine.md)). The table has no other column.
 
 ## Grain
 
