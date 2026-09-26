@@ -1,6 +1,6 @@
 # stress-dw
 
-Work in progress. A dimensional data warehouse (star schema, MySQL, Python ETL) built with the [Hefesto methodology](docs/methodology.md), rebuilt from scratch after an audit of a university course project.
+Work in progress. A dimensional data warehouse (star schema, [DuckDB](docs/decisions/0009-use-duckdb-as-database-engine.md), Python ETL) built with the [Hefesto methodology](docs/methodology.md), rebuilt from scratch after an audit of a university course project.
 
 > **Provenance limitation.** The dataset used here ([Kaggle](https://www.kaggle.com/datasets/bhavikjikadara/mental-health-dataset)) has no documented provenance: its uploader states only that it was collected from the internet, and most of its columns have no description. It is used as a methodological test bench. No output of this project should be read as a finding about any population. The raw file itself is not committed to this repository either — the same open question about its provenance extends to whether its declared license covers the whole file. See [ADR-0001](docs/decisions/0001-position-as-portfolio-project.md) and [`docs/dataset-provenance.md`](docs/dataset-provenance.md) for both.
 
@@ -12,6 +12,19 @@ Work in progress. A dimensional data warehouse (star schema, MySQL, Python ETL) 
 ## Status
 
 Specification and audit in progress. There is no runnable pipeline yet. Decisions are recorded in [`docs/decisions`](docs/decisions); audit evidence and checks are in [`docs/audit`](docs/audit).
+
+## Development
+
+Requires [uv](https://docs.astral.sh/uv/), which installs the Python version pinned in `.python-version` and every dependency declared in `pyproject.toml`:
+
+```sh
+uv sync
+uv run ruff check && uv run ruff format --check
+uv run mypy
+uv run pytest
+```
+
+The source file is obtained separately and verified before any load; see [`staging.md`](docs/specification/staging.md#extraction). Code style is in [`docs/code-conventions.md`](docs/code-conventions.md).
 
 ## License
 
