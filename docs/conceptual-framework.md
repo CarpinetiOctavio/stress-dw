@@ -55,6 +55,16 @@ The reading of mental_health_interview above corrects the legacy's original trea
 - **Postponement or delay.** No time-to-treatment variable exists anywhere in the file.
 - **Representativeness of any population.** Provenance is undocumented by the source (ADR-0001, P1–P3, P6); the marginal skew in the source-described columns versus the near-uniform symptom columns (P8) is consistent with — though not proof of — a file that combines sources with different sampling designs (H1, H3; see §7).
 
+
+---
+
+### Addendum (2026-09-25)
+
+A13 (`docs/audit/legacy-audit.md`) tested the duplication found by A4 directly: a complete combinatorial grid and simple batch loading are both ruled out, and the structure is non-uniform across the file rather than an even artifact. Duplication concentrates almost entirely in the United States (mean 10.0 repeats per profile) and the United Kingdom (4.8), while 17 of the file's 35 countries — including its 13 smallest — have no duplicate profiles at all. Ten duplicate-group sizes that each repeat an identical group count (390 or 396 groups) are each confined to a single country, nine to the United States and one to the United Kingdom. This sharpens, without resolving, the H1 concern above: a construction artifact concentrated in the two countries an OSMI-type source would skew toward is a more specific pattern than an even cross-file association, and is consistent with — though still not proof of — the same source-mixing hypothesis. A5, A6, and A10 test this with external comparison data and are expected to be more conclusive; A13's mechanism remains unidentified.
+
+---
+
+
 ## 6. Indicators 14–16: what they can support
 
 This section settles what construct each indicator's variables can honestly support, given the corrections in §4. It does not fix SQL-level formulas, numerators, or denominators — that belongs to the specification in Chat 1, per ADR-0000's confirmation that "each indicator definition names a construct its variables can support."
