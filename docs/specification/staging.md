@@ -54,8 +54,9 @@ Parsed to `response_timestamp` as `%m/%d/%Y %H:%M`, the format check A12 confirm
 ## Load order and transactions
 
 1. `staging_response`, from the cleaned, deduplicated extraction. One transaction; the load rule's abort applies to the whole staging load, not a single row.
-2. The eight dimensions, each by `SELECT DISTINCT` on its [natural key](definitions.md#dimension-grain-rule) from `staging_response` ([row set](dimensions.md#row-set)). Independent of each other; any order. Each dimension load is its own transaction.
-3. `fact_response`, last, joining `staging_response` to all eight dimensions on their natural keys ([invariant I2](fact-table.md#invariants)). One transaction; a foreign key that fails to resolve aborts the fact load, consistent with [invariant I3](fact-table.md#invariants).
+2. The eight dimensions and `fact_response`, together in one transaction ([ADR-0010](../decisions/0010-reload-dimensions-and-fact-in-one-transaction.md)). The transaction drops `fact_response` and the eight dimensions, recreates them from their DDL, and then loads:
+   1. the eight dimensions, each by `SELECT DISTINCT` on its [natural key](definitions.md#dimension-grain-rule) from `staging_response` ([row set](dimensions.md#row-set)), independent of each other, in any order;
+   2. `fact_response`, last, joining `staging_response` to all eight dimensions on their natural keys ([invariant I2](fact-table.md#invariants)). A foreign key that fails to resolve aborts the step, consistent with [invariant I3](fact-table.md#invariants).
 
 A step that aborts leaves every table it would have written unchanged from before the run; nothing partial commits.
 
