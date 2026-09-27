@@ -1,6 +1,6 @@
 from collections import Counter
 
-from stress_dw.domains import COUNTRY_REGION, DOMAINS
+from stress_dw.domains import COUNTRY_REGION, DOMAINS, ISOLATION_LEVELS
 
 
 def test_the_mapping_has_the_35_countries_in_the_specified_region_counts() -> None:
@@ -22,3 +22,8 @@ def test_the_country_domain_is_the_mapping() -> None:
 def test_no_domain_holds_two_literals_differing_only_in_case() -> None:
     for domain in DOMAINS.values():
         assert len({literal.lower() for literal in domain}) == len(domain)
+
+
+def test_the_isolation_domain_is_the_mapping_in_sort_order() -> None:
+    assert DOMAINS["Days_Indoors"] == tuple(ISOLATION_LEVELS)
+    assert [order for order, _ in ISOLATION_LEVELS.values()] == [1, 2, 3, 4, 5]

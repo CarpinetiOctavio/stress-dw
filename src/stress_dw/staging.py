@@ -1,10 +1,8 @@
 """Populate `staging_response` from the source file (docs/specification/staging.md).
 
 Steps run in the order staging.md fixes: verify the source file, extract,
-clean, enforce the load rule, deduplicate, load. Running this module performs
-a full reload into the project's DuckDB file and prints the load report:
-
-    uv run python -m stress_dw.staging
+clean, enforce the load rule, deduplicate, load. `stress_dw.pipeline` runs
+this step, then the warehouse reload.
 """
 
 import hashlib
@@ -18,8 +16,6 @@ import pandas as pd
 from stress_dw.domains import DOMAINS, TIMESTAMP_FORMAT
 from stress_dw.schema import ensure_schema
 
-SOURCE_PATH = Path("data/raw/mental_health.csv")
-DATABASE_PATH = Path("data/stress_dw.duckdb")
 SOURCE_SHA256 = "083f44e9cdf84f56abf08b9fa1862d80b87237afa74e2cacc9328a63d9291686"
 
 # The 17 source columns, in file order (docs/specification/sources.md#column-map).
@@ -225,16 +221,3 @@ def run(connection: duckdb.DuckDBPyConnection, path: Path) -> StagingReport:
         duplicates_removed=len(extracted) - len(deduplicated),
         staged_rows=len(deduplicated),
     )
-
-
-def main() -> None:
-    """Fully reload `staging_response` in `DATABASE_PATH` and print the report."""
-    with duckdb.connect(DATABASE_PATH) as connection:
-        report = run(connection, SOURCE_PATH)
-    print(f"raw rows:           {report.raw_rows:>9,}")
-    print(f"duplicates removed: {report.duplicates_removed:>9,}")
-    print(f"staged rows:        {report.staged_rows:>9,}")
-
-
-if __name__ == "__main__":
-    main()
