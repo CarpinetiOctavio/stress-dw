@@ -2,8 +2,7 @@
 
 Implements step 2 of docs/specification/staging.md#load-order-and-transactions
 (ADR-0010): one transaction drops the nine tables, recreates them from their
-DDL, and loads them. The fact load is not implemented yet; `fact_response` is
-recreated empty.
+DDL, and loads the eight dimensions and then `fact_response`.
 """
 
 from dataclasses import dataclass
@@ -24,9 +23,13 @@ class MappingError(ValueError):
     """A staged value has no entry in a fixed dimension mapping."""
 
 
+class FactReconciliationError(ValueError):
+    """`fact_response` does not hold one row per staged record (invariant I1)."""
+
+
 @dataclass(frozen=True)
 class WarehouseReport:
-    """Row count of each dimension, and the months `dim_time` has no row for.
+    """Row counts of the dimensions and the fact table, and months with no row.
 
     `missing_months` lists, as `YYYY-MM`, the calendar months between the
     earliest and the latest staged month that hold no staged record
@@ -34,6 +37,7 @@ class WarehouseReport:
     """
 
     dimension_rows: dict[str, int]
+    fact_rows: int
     missing_months: list[str]
 
 
@@ -75,8 +79,11 @@ def reload_warehouse(connection: duckdb.DuckDBPyConnection) -> WarehouseReport:
 
     Raises:
         MappingError: See `check_mappings`; raised before anything is dropped.
-        duckdb.Error: A statement failed; a note on the exception names the
-            table.
+        FactReconciliationError: `fact_response` and `staging_response` differ
+            in row count after the fact load; checked before the commit.
+        duckdb.Error: A statement failed, including a fact row whose foreign
+            key does not resolve (invariant I3); a note on the exception
+            names the table.
     """
     check_mappings(connection)
     connection.register(
@@ -97,9 +104,10 @@ def reload_warehouse(connection: duckdb.DuckDBPyConnection) -> WarehouseReport:
             connection.execute(f"DROP TABLE {table}")
         for table in (*DIMENSIONS, "fact_response"):
             connection.execute(read_ddl(table))
-        for table in DIMENSIONS:
+        for table in (*DIMENSIONS, "fact_response"):
             connection.execute(_read_load(table))
-    except duckdb.Error as error:
+        _check_fact_reconciles(connection)
+    except (duckdb.Error, FactReconciliationError) as error:
         connection.rollback()
         error.add_note(f"while reloading table {table}")
         raise
@@ -112,12 +120,24 @@ def reload_warehouse(connection: duckdb.DuckDBPyConnection) -> WarehouseReport:
         dimension_rows={
             dimension: _count(connection, dimension) for dimension in DIMENSIONS
         },
+        fact_rows=_count(connection, "fact_response"),
         missing_months=_missing_months(connection),
     )
 
 
-def _read_load(dimension: str) -> str:
-    return (files("stress_dw") / "sql" / "dimensions" / f"{dimension}.sql").read_text()
+def _read_load(table: str) -> str:
+    directory = "fact" if table == "fact_response" else "dimensions"
+    return (files("stress_dw") / "sql" / directory / f"{table}.sql").read_text()
+
+
+def _check_fact_reconciles(connection: duckdb.DuckDBPyConnection) -> None:
+    staged = _count(connection, "staging_response")
+    facts = _count(connection, "fact_response")
+    if facts != staged:
+        raise FactReconciliationError(
+            f"fact_response holds {facts} rows for {staged} staged records; "
+            f"fact load aborted"
+        )
 
 
 def _count(connection: duckdb.DuckDBPyConnection, table: str) -> int:

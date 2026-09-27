@@ -6,7 +6,12 @@ import pytest
 
 from stress_dw import warehouse
 from stress_dw.schema import TABLES, create_schema
-from stress_dw.warehouse import DIMENSIONS, MappingError, reload_warehouse
+from stress_dw.warehouse import (
+    DIMENSIONS,
+    FactReconciliationError,
+    MappingError,
+    reload_warehouse,
+)
 
 # A valid staged record, by `staging_response` column, `response_id` excluded.
 VALID_RECORD: dict[str, object] = {
@@ -58,6 +63,7 @@ def test_each_dimension_holds_one_row_per_distinct_natural_key(
     report = reload_warehouse(connection)
     assert rows(connection, "dim_gender") == [(1, "Female"), (2, "Male")]
     assert report.dimension_rows == dict.fromkeys(DIMENSIONS, 1) | {"dim_gender": 2}
+    assert report.fact_rows == 4
 
 
 def test_surrogate_keys_follow_natural_key_order(
@@ -154,12 +160,11 @@ def test_a_reload_succeeds_while_fact_rows_reference_every_dimension(
     # transactions cannot handle under DuckDB (ADR-0009, E3).
     stage(connection, {})
     reload_warehouse(connection)
-    connection.execute(
-        "INSERT INTO fact_response VALUES (1, 1, 1, 1, 1, 1, 1, 1, 1, 'Yes')"
-    )
+    assert len(rows(connection, "fact_response")) == 1
     connection.execute("UPDATE staging_response SET gender = 'Male'")
     reload_warehouse(connection)
     assert rows(connection, "dim_gender") == [(1, "Male")]
+    assert rows(connection, "fact_response") == [(1, 1, 1, 1, 1, 1, 1, 1, 1, "Yes")]
 
 
 def test_a_failure_inside_the_reload_leaves_the_nine_tables_as_they_were(
@@ -169,10 +174,8 @@ def test_a_failure_inside_the_reload_leaves_the_nine_tables_as_they_were(
     # recreation, and all but the last dimension load.
     stage(connection, {})
     reload_warehouse(connection)
-    connection.execute(
-        "INSERT INTO fact_response VALUES (1, 1, 1, 1, 1, 1, 1, 1, 1, 'Yes')"
-    )
     before = snapshot(connection)
+    assert len(before["fact_response"]) == 1
     read_load = warehouse._read_load
 
     def fail_on_last_dimension(dimension: str) -> str:
@@ -197,3 +200,78 @@ def test_a_failure_inside_the_reload_leaves_the_nine_tables_as_they_were(
     assert foreign_keys == (8,)
     assert sorted(name for (name,) in tables) == sorted(TABLES)
     assert f"while reloading table {DIMENSIONS[-1]}" in raised.value.__notes__
+
+
+def test_each_staged_record_becomes_one_fact_row_with_its_dimension_keys(
+    connection: duckdb.DuckDBPyConnection,
+) -> None:
+    stage(
+        connection,
+        {"gender": "Male", "treatment": "No"},
+        {"country": "Brazil", "response_timestamp": datetime(2015, 2, 1, 0, 0)},
+    )
+    reload_warehouse(connection)
+    facts = connection.execute(
+        """
+        SELECT
+            fact_response.response_id, dim_time.period, dim_gender.gender,
+            dim_country.country, fact_response.treatment
+        FROM fact_response
+        JOIN dim_time USING (time_id)
+        JOIN dim_gender USING (gender_id)
+        JOIN dim_country USING (country_id)
+        ORDER BY fact_response.response_id
+        """
+    ).fetchall()
+    assert facts == [
+        (1, "2014-08", "Male", "United States", "No"),
+        (2, "2015-02", "Female", "Brazil", "Yes"),
+    ]
+
+
+def test_the_fact_load_copies_response_id_from_staging(
+    connection: duckdb.DuckDBPyConnection,
+) -> None:
+    stage(connection, {}, {})
+    connection.execute("UPDATE staging_response SET response_id = response_id + 100")
+    reload_warehouse(connection)
+    ids = connection.execute(
+        "SELECT response_id FROM fact_response ORDER BY 1"
+    ).fetchall()
+    assert ids == [(101,), (102,)]
+
+
+def test_an_unresolved_foreign_key_aborts_and_leaves_the_nine_tables_as_they_were(
+    connection: duckdb.DuckDBPyConnection, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    # dim_gender is left empty, so every staged record's gender_id is NULL.
+    stage(connection, {})
+    reload_warehouse(connection)
+    before = snapshot(connection)
+    read_load = warehouse._read_load
+
+    def empty_dim_gender(table: str) -> str:
+        return "SELECT 1" if table == "dim_gender" else read_load(table)
+
+    monkeypatch.setattr(warehouse, "_read_load", empty_dim_gender)
+    with pytest.raises(duckdb.ConstraintException) as raised:
+        reload_warehouse(connection)
+    assert snapshot(connection) == before
+    assert "while reloading table fact_response" in raised.value.__notes__
+
+
+def test_a_fact_row_count_differing_from_staging_aborts_before_commit(
+    connection: duckdb.DuckDBPyConnection, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    stage(connection, {}, {})
+    reload_warehouse(connection)
+    before = snapshot(connection)
+    read_load = warehouse._read_load
+
+    def skip_fact_load(table: str) -> str:
+        return "SELECT 1" if table == "fact_response" else read_load(table)
+
+    monkeypatch.setattr(warehouse, "_read_load", skip_fact_load)
+    with pytest.raises(FactReconciliationError, match="0 rows for 2 staged"):
+        reload_warehouse(connection)
+    assert snapshot(connection) == before
