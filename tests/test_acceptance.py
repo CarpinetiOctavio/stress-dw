@@ -8,10 +8,12 @@ from collections.abc import Iterator
 from pathlib import Path
 
 import duckdb
+import pandas as pd
 import pytest
 from test_schema import EXPECTED_COLUMNS
 
 from stress_dw.domains import COUNTRY_REGION, TIMESTAMP_FORMAT
+from stress_dw.indicators import INDICATORS, IndicatorResult, run_indicator
 from stress_dw.staging import run
 from stress_dw.warehouse import reload_warehouse
 
@@ -301,3 +303,174 @@ def test_c7_every_dimension_row_is_referenced_by_a_fact_row(
         """
     ).fetchone()
     assert unreferenced == (0,)
+
+
+# Each indicator's population, transcribed from indicators.md as a predicate
+# over staging_response's own columns: independent of the indicator SQL,
+# which evaluates it through fact_response and the dimensions.
+SYMPTOM_CLUSTER_IN_STAGING = """(
+    mood_swings IN ('Medium', 'High')
+    AND coping_struggles = 'Yes'
+    AND days_indoors IN ('15-30 days', '31-60 days', 'More than 2 months')
+)"""
+EXPLICIT_OR_CLUSTER_WITH_CARE_OPTIONS = (
+    f"(growing_stress = 'Yes' OR {SYMPTOM_CLUSTER_IN_STAGING})"
+    " AND care_options IN ('Yes', 'Not sure')"
+)
+POPULATIONS: dict[int, str] = dict.fromkeys(range(1, 17), "TRUE") | {
+    3: "family_history = 'Yes'",
+    4: "family_history = 'Yes'",
+    14: SYMPTOM_CLUSTER_IN_STAGING,
+    15: EXPLICIT_OR_CLUSTER_WITH_CARE_OPTIONS,
+    16: EXPLICIT_OR_CLUSTER_WITH_CARE_OPTIONS,
+}
+# Indicators 5 and 6's condition C, over staging_response's columns.
+CO_OCCURRENCE_IN_STAGING = "growing_stress = 'Yes' AND coping_struggles = 'Yes'"
+
+
+def staging_count(warehouse: duckdb.DuckDBPyConnection, predicate: str) -> int:
+    # `predicate` is one of the fixed transcriptions above; no value is
+    # interpolated from outside this module.
+    row = warehouse.execute(
+        f"SELECT COUNT(*) FROM staging_response WHERE {predicate}"
+    ).fetchone()
+    assert row is not None
+    return int(row[0])
+
+
+def cells(result: IndicatorResult) -> pd.DataFrame:
+    """One row per cell, with its denominator: each cell counted once."""
+    keys = list(result.indicator.cuts)
+    if "grouping_set" in result.rows.columns:
+        keys = ["grouping_set", *keys]
+    if not keys:
+        # No cuts: the whole population is a single cell.
+        return result.rows[["denominator"]].head(1)
+    return result.rows.drop_duplicates(keys)[[*keys, "denominator"]]
+
+
+@pytest.fixture(scope="module")
+def indicators(
+    warehouse: duckdb.DuckDBPyConnection,
+) -> dict[int, IndicatorResult]:
+    return {number: run_indicator(warehouse, number) for number in INDICATORS}
+
+
+@pytest.mark.parametrize("number", INDICATORS)
+def test_c8_cell_denominators_sum_to_the_population_counted_from_staging(
+    warehouse: duckdb.DuckDBPyConnection,
+    indicators: dict[int, IndicatorResult],
+    number: int,
+) -> None:
+    population = staging_count(warehouse, POPULATIONS[number])
+    denominators = cells(indicators[number])
+    if "grouping_set" in denominators.columns:
+        # Each grouping set partitions the population on its own.
+        sums = denominators.groupby("grouping_set").denominator.sum()
+        assert dict(sums) == {
+            "occupation, country": population,
+            "occupation, region": population,
+        }
+    else:
+        assert denominators.denominator.sum() == population
+
+
+@pytest.mark.parametrize(
+    "number",
+    [n for n, i in INDICATORS.items() if i.pattern in ("A", "C") and n != 8],
+)
+def test_c8_pattern_a_numerators_sum_to_the_cell_denominator(
+    indicators: dict[int, IndicatorResult], number: int
+) -> None:
+    # Indicator 8 keeps only the Yes level, so its numerators cannot sum to
+    # the denominator; C9 checks it against indicator 7 instead.
+    result = indicators[number]
+    rows = result.rows
+    keys = list(result.indicator.cuts)
+    if keys:
+        per_cell = rows.groupby(keys).agg(
+            numerators=("numerator", "sum"), denominator=("denominator", "first")
+        )
+        assert (per_cell.numerators == per_cell.denominator).all()
+    else:
+        assert rows.numerator.sum() == rows.denominator.iloc[0]
+
+
+@pytest.mark.parametrize("number", [5, 6])
+def test_c8_pattern_b_numerators_sum_to_the_rows_satisfying_the_condition(
+    warehouse: duckdb.DuckDBPyConnection,
+    indicators: dict[int, IndicatorResult],
+    number: int,
+) -> None:
+    satisfying = staging_count(warehouse, CO_OCCURRENCE_IN_STAGING)
+    sums = indicators[number].rows.groupby("grouping_set").numerator.sum()
+    assert dict(sums) == {
+        "occupation, country": satisfying,
+        "occupation, region": satisfying,
+    }
+
+
+@pytest.mark.parametrize("number", [5, 6])
+def test_c8_region_cells_are_sums_over_their_countries(
+    indicators: dict[int, IndicatorResult], number: int
+) -> None:
+    rows = indicators[number].rows
+    by_country = rows[rows.grouping_set == "occupation, country"].assign(
+        region=lambda frame: frame.country.map(COUNTRY_REGION)
+    )
+    rolled_up = (
+        by_country.groupby(["occupation", "region"])[["numerator", "denominator"]]
+        .sum()
+        .sort_index()
+    )
+    by_region = (
+        rows[rows.grouping_set == "occupation, region"]
+        .set_index(["occupation", "region"])[["numerator", "denominator"]]
+        .sort_index()
+    )
+    pd.testing.assert_frame_equal(rolled_up, by_region)
+
+
+@pytest.mark.parametrize(("count", "rate"), [(1, 2), (3, 4), (5, 6), (13, 12)])
+def test_c9_the_count_indicator_equals_the_rate_indicators_numerators(
+    indicators: dict[int, IndicatorResult], count: int, rate: int
+) -> None:
+    counted = indicators[count]
+    keys = list(counted.indicator.cuts)
+    if "grouping_set" in counted.rows.columns:
+        keys = ["grouping_set", *keys]
+    if "level" in counted.rows.columns:
+        keys = [*keys, "level"]
+    summed = (
+        indicators[rate].rows.groupby(keys, dropna=False).numerator.sum().sort_index()
+    )
+    expected = counted.rows.set_index(keys).numerator.sort_index()
+    pd.testing.assert_series_equal(summed, expected, check_names=False)
+
+
+def test_c9_indicator_8_equals_the_yes_numerators_of_indicator_7(
+    indicators: dict[int, IndicatorResult],
+) -> None:
+    keys = ["gender", "growing_stress"]
+    rate = indicators[7].rows
+    yes = rate[rate.level == "Yes"].set_index(keys).numerator.sort_index()
+    count = indicators[8].rows.set_index(keys).numerator.sort_index()
+    pd.testing.assert_series_equal(count, yes)
+
+
+def test_c9_indicator_16_summed_over_mental_health_interview_equals_indicator_15(
+    indicators: dict[int, IndicatorResult],
+) -> None:
+    keys = ["growing_stress", "symptom_cluster", "care_options"]
+    full = indicators[16]
+    numerators = full.rows.groupby([*keys, "level"]).numerator.sum().sort_index()
+    denominators = cells(full).groupby(keys).denominator.sum().sort_index()
+    fifteen = indicators[15]
+    pd.testing.assert_series_equal(
+        numerators,
+        fifteen.rows.set_index([*keys, "level"]).numerator.sort_index(),
+    )
+    pd.testing.assert_series_equal(
+        denominators,
+        cells(fifteen).set_index(keys).denominator.sort_index(),
+    )
