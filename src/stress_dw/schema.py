@@ -31,6 +31,7 @@ keys and `treatment`. The remaining columns rest on two grounds, by kind:
   in any of them can only come from a pipeline defect.
 """
 
+from collections.abc import Sequence
 from importlib.resources import files
 
 import duckdb
@@ -66,8 +67,34 @@ def create_schema(connection: duckdb.DuckDBPyConnection) -> None:
         duckdb.Error: A CREATE TABLE statement failed; a note on the exception
             names the table.
     """
+    _create_tables(connection, TABLES)
+
+
+def ensure_schema(connection: duckdb.DuckDBPyConnection) -> None:
+    """Create the tables in `TABLES` that do not exist yet, in one transaction.
+
+    Lets the full reload of docs/specification/staging.md#update-policy run
+    against a database a previous run already created. An existing table is
+    left as it is; its definition is not compared against its DDL file.
+
+    Raises:
+        duckdb.Error: A CREATE TABLE statement failed; a note on the exception
+            names the table.
+    """
+    existing = {
+        name
+        for (name,) in connection.execute(
+            "SELECT table_name FROM information_schema.tables"
+        ).fetchall()
+    }
+    _create_tables(connection, [table for table in TABLES if table not in existing])
+
+
+def _create_tables(
+    connection: duckdb.DuckDBPyConnection, tables: Sequence[str]
+) -> None:
     connection.begin()
-    for table in TABLES:
+    for table in tables:
         try:
             connection.execute(read_ddl(table))
         except duckdb.Error as error:
