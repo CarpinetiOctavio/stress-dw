@@ -1,7 +1,8 @@
-"""Value domains of the modeled source columns, and the country-to-region mapping.
+"""Value domains of the modeled source columns, and the fixed dimension mappings.
 
-Transcribed from docs/specification/sources.md#value-domains and
-docs/specification/country-region-mapping.md, which remain the home of both;
+Transcribed from docs/specification/sources.md#value-domains,
+docs/specification/country-region-mapping.md, and
+docs/specification/dimensions.md#dim_isolation, which remain the home of each;
 a change there is a change here.
 """
 
@@ -44,6 +45,16 @@ COUNTRY_REGION: dict[str, str] = {
     "Mexico": "Latin America and the Caribbean",
 }
 
+# `sort_order` and `duration_band` of each `days_indoors` level, per
+# dimensions.md#dim_isolation.
+ISOLATION_LEVELS: dict[str, tuple[int, str]] = {
+    "Go out Every day": (1, "Low"),
+    "1-14 days": (2, "Low"),
+    "15-30 days": (3, "Medium"),
+    "31-60 days": (4, "High"),
+    "More than 2 months": (5, "High"),
+}
+
 # Enumerated domain of each modeled source column except `Timestamp`, keyed by
 # source column name.
 DOMAINS: dict[str, tuple[str, ...]] = {
@@ -52,13 +63,7 @@ DOMAINS: dict[str, tuple[str, ...]] = {
     "Occupation": ("Business", "Corporate", "Housewife", "Others", "Student"),
     "family_history": ("Yes", "No"),
     "treatment": ("Yes", "No"),
-    "Days_Indoors": (
-        "Go out Every day",
-        "1-14 days",
-        "15-30 days",
-        "31-60 days",
-        "More than 2 months",
-    ),
+    "Days_Indoors": tuple(ISOLATION_LEVELS),
     "Growing_Stress": ("Yes", "No", "Maybe"),
     "Mood_Swings": ("Low", "Medium", "High"),
     "Coping_Struggles": ("Yes", "No"),
