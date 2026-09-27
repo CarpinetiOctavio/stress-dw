@@ -35,7 +35,7 @@ The source file is not versioned in this repository (`data/raw/` is gitignored â
 
 ## Cleaning and normalization
 
-Trimming and case normalization are declared here, as [model conventions](definitions.md#model-conventions) requires, and applied before deduplication. Check A12 found no case or whitespace variant, and no NULL, empty, or whitespace-only value, in any of the thirteen modeled columns across the full source file: the rule currently changes no value. It stays declared for any future load the source file's own guarantees do not cover.
+Trimming and case normalization are declared here, as [model conventions](definitions.md#model-conventions) requires, and applied before deduplication. Trimming removes leading and trailing whitespace from each of the thirteen modeled columns. Case normalization applies to the twelve with an enumerated [domain](sources.md#value-domains), every modeled column but `Timestamp`: each value is matched case-insensitively against its column's domain; a match is rewritten to the domain literal's case; a value with no case-insensitive match is left unchanged for the [load rule](#load-rule) to reject. No other matching is attempted. Check A12 found no case or whitespace variant, and no NULL, empty, or whitespace-only value, in any of the thirteen modeled columns across the full source file: the rule currently changes no value. It stays declared for any future load the source file's own guarantees do not cover.
 
 The four unmodeled columns are not cleaned or validated. They are read at extraction only to compute the deduplication key below, then discarded: no NULL or malformed value among them reaches a column this specification stores.
 

@@ -3,7 +3,7 @@ from collections.abc import Iterator
 import duckdb
 import pytest
 
-from stress_dw.schema import TABLES, create_schema
+from stress_dw.schema import TABLES, create_schema, ensure_schema, read_ddl
 
 # Columns and types per docs/specification/staging.md, dimensions.md, and
 # fact-table.md, as DuckDB reports them: VARCHAR(n) and CHAR(n) are stored as
@@ -257,3 +257,26 @@ def test_a_failed_statement_leaves_no_table_behind() -> None:
         ).fetchall()
     assert tables == [("dim_country",)]
     assert "while creating table dim_country" in raised.value.__notes__
+
+
+def test_ensure_schema_creates_only_the_missing_tables() -> None:
+    with duckdb.connect() as connection:
+        connection.execute(read_ddl("dim_gender"))
+        connection.execute("INSERT INTO dim_gender VALUES (1, 'Female')")
+        ensure_schema(connection)
+        tables = connection.execute(
+            "SELECT table_name FROM information_schema.tables"
+        ).fetchall()
+        kept = connection.execute("SELECT * FROM dim_gender").fetchall()
+    assert sorted(name for (name,) in tables) == sorted(TABLES)
+    assert kept == [(1, "Female")]
+
+
+def test_ensure_schema_on_a_complete_schema_changes_nothing(
+    connection: duckdb.DuckDBPyConnection,
+) -> None:
+    ensure_schema(connection)
+    count = connection.execute(
+        "SELECT COUNT(*) FROM information_schema.tables"
+    ).fetchone()
+    assert count == (len(TABLES),)
