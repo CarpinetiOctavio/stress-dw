@@ -9,6 +9,7 @@ from pathlib import Path
 
 import duckdb
 import pytest
+from test_schema import EXPECTED_COLUMNS
 
 from stress_dw.domains import COUNTRY_REGION, TIMESTAMP_FORMAT
 from stress_dw.staging import run
@@ -167,3 +168,136 @@ def test_c6_dim_country_has_one_row_per_staged_country_at_most_35(
     dimension_rows, staged_countries = counts
     assert dimension_rows == staged_countries
     assert dimension_rows <= 35
+
+
+FACT_JOINED_TO_DIMENSIONS = """
+    FROM staging_response
+    JOIN dim_time
+        ON dim_time.year = year(staging_response.response_timestamp)
+        AND dim_time.month = month(staging_response.response_timestamp)
+    JOIN dim_gender USING (gender)
+    JOIN dim_family_history USING (family_history)
+    JOIN dim_occupation USING (occupation)
+    JOIN dim_country USING (country)
+    JOIN dim_isolation USING (days_indoors)
+    JOIN dim_access USING (care_options, mental_health_interview)
+    JOIN dim_symptoms
+        USING (growing_stress, mood_swings, coping_struggles, social_weakness)
+"""
+
+
+def test_c2_joining_staging_to_the_eight_dimensions_multiplies_no_rows(
+    warehouse: duckdb.DuckDBPyConnection,
+) -> None:
+    counts = warehouse.execute(
+        f"""
+        SELECT
+            (SELECT COUNT(*) {FACT_JOINED_TO_DIMENSIONS}),
+            (SELECT COUNT(*) FROM staging_response)
+        """
+    ).fetchone()
+    assert counts == (290_051, 290_051)
+
+
+def test_c3_fact_response_reconciles_with_staging(
+    warehouse: duckdb.DuckDBPyConnection,
+) -> None:
+    counts = warehouse.execute(
+        """
+        SELECT
+            (SELECT COUNT(*) FROM fact_response),
+            (SELECT COUNT(*) FROM staging_response),
+            (SELECT COUNT(*) FROM (
+                SELECT response_id FROM fact_response
+                EXCEPT SELECT response_id FROM staging_response
+            )),
+            (SELECT COUNT(*) FROM (
+                SELECT response_id FROM staging_response
+                EXCEPT SELECT response_id FROM fact_response
+            ))
+        """
+    ).fetchone()
+    assert counts == (290_051, 290_051, 0, 0)
+
+
+@pytest.mark.parametrize("table", EXPECTED_COLUMNS)
+def test_c4_the_built_table_has_exactly_the_specified_columns_and_types(
+    warehouse: duckdb.DuckDBPyConnection, table: str
+) -> None:
+    # The same closed list test_schema.py checks against create_schema alone,
+    # checked here against the database the pipeline builds.
+    columns = warehouse.execute(
+        """
+        SELECT column_name, data_type
+        FROM information_schema.columns
+        WHERE table_name = ?
+        ORDER BY ordinal_position
+        """,
+        [table],
+    ).fetchall()
+    assert columns == EXPECTED_COLUMNS[table]
+
+
+FOREIGN_KEYS: dict[str, str] = {
+    f"{dimension.removeprefix('dim_')}_id": dimension for dimension in NATURAL_KEYS
+}
+
+
+def test_c5_the_eight_foreign_keys_exist_with_the_specified_names(
+    warehouse: duckdb.DuckDBPyConnection,
+) -> None:
+    foreign_keys = warehouse.execute(
+        """
+        SELECT constraint_column_names, referenced_table, referenced_column_names
+        FROM duckdb_constraints()
+        WHERE table_name = 'fact_response' AND constraint_type = 'FOREIGN KEY'
+        """
+    ).fetchall()
+    assert sorted(foreign_keys) == sorted(
+        ([column], dimension, [column]) for column, dimension in FOREIGN_KEYS.items()
+    )
+
+
+@pytest.mark.parametrize(("column", "dimension"), FOREIGN_KEYS.items())
+def test_c5_no_fact_row_is_orphaned(
+    warehouse: duckdb.DuckDBPyConnection, column: str, dimension: str
+) -> None:
+    # Identifiers only, from the fixed table above; no value is interpolated.
+    orphans = warehouse.execute(
+        f"""
+        SELECT COUNT(*) FROM fact_response
+        WHERE {column} NOT IN (SELECT {column} FROM {dimension})
+        """
+    ).fetchone()
+    assert orphans == (0,)
+
+
+def test_c5_the_foreign_keys_are_enforced(
+    warehouse: duckdb.DuckDBPyConnection,
+) -> None:
+    warehouse.begin()
+    try:
+        with pytest.raises(duckdb.ConstraintException):
+            warehouse.execute(
+                """
+                INSERT INTO fact_response
+                SELECT MAX(response_id) + 1, -1, 1, 1, 1, 1, 1, 1, 1, 'Yes'
+                FROM fact_response
+                """
+            )
+    finally:
+        warehouse.rollback()
+
+
+@pytest.mark.parametrize(("column", "dimension"), FOREIGN_KEYS.items())
+def test_c7_every_dimension_row_is_referenced_by_a_fact_row(
+    warehouse: duckdb.DuckDBPyConnection, column: str, dimension: str
+) -> None:
+    # Identifiers only, from the fixed table above; no value is interpolated.
+    unreferenced = warehouse.execute(
+        f"""
+        SELECT COUNT(*) FROM {dimension}
+        WHERE {column} NOT IN (SELECT {column} FROM fact_response)
+        """
+    ).fetchone()
+    assert unreferenced == (0,)

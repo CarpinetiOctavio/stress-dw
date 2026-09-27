@@ -7,7 +7,9 @@ from stress_dw.schema import TABLES, create_schema, ensure_schema, read_ddl
 
 # Columns and types per docs/specification/staging.md, dimensions.md, and
 # fact-table.md, as DuckDB reports them: VARCHAR(n) and CHAR(n) are stored as
-# VARCHAR, DATETIME as TIMESTAMP.
+# VARCHAR, DATETIME as TIMESTAMP. A closed list: matching it exactly also
+# satisfies acceptance check C4, since no column outside the specification,
+# such as `explicit_recognition` or `symptom_cluster`, can exist.
 EXPECTED_COLUMNS: dict[str, list[tuple[str, str]]] = {
     "staging_response": [
         ("response_id", "INTEGER"),
