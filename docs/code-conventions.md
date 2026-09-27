@@ -22,7 +22,7 @@ Extends the [model conventions](specification/definitions.md#model-conventions) 
 ## 4. Testing
 
 - `pytest`. One test module per source module, named `test_<module>.py`.
-- Every acceptance check in [`acceptance.md`](specification/acceptance.md) (C1 through C10) is an automated test, not a query run and recorded by hand — the checks need to be re-run on every load, and Fase 4's update policy will need that repeatability once it's specified.
+- Every acceptance check in [`acceptance.md`](specification/acceptance.md) (C1 through C11) is an automated test, not a query run and recorded by hand — the checks need to be re-run on every load, and the [update policy](specification/staging.md#update-policy) reloads every table on every run.
 - A test's name states the behavior it checks, not the function under test: `test_orphan_fact_rows_are_zero`, not `test_load_facts`.
 
 ## 5. SQL
