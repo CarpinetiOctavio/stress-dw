@@ -301,3 +301,78 @@ def test_c7_every_dimension_row_is_referenced_by_a_fact_row(
         """
     ).fetchone()
     assert unreferenced == (0,)
+
+
+# The two derived conditions of definitions.md, each written twice: through
+# fact_response and the dimensions, as the query layer evaluates them, and
+# directly against staging_response's columns, with no dimension join.
+DERIVED_CONDITIONS: dict[str, tuple[str, str]] = {
+    "explicit_recognition": (
+        """
+        SELECT fact_response.response_id
+        FROM fact_response
+        JOIN dim_symptoms USING (symptoms_id)
+        WHERE dim_symptoms.growing_stress = 'Yes'
+        """,
+        """
+        SELECT response_id FROM staging_response
+        WHERE growing_stress = 'Yes'
+        """,
+    ),
+    "symptom_cluster": (
+        """
+        SELECT fact_response.response_id
+        FROM fact_response
+        JOIN dim_symptoms USING (symptoms_id)
+        JOIN dim_isolation USING (isolation_id)
+        WHERE dim_symptoms.mood_swings IN ('Medium', 'High')
+            AND dim_symptoms.coping_struggles = 'Yes'
+            AND dim_isolation.days_indoors
+                IN ('15-30 days', '31-60 days', 'More than 2 months')
+        """,
+        """
+        SELECT response_id FROM staging_response
+        WHERE mood_swings IN ('Medium', 'High')
+            AND coping_struggles = 'Yes'
+            AND days_indoors IN ('15-30 days', '31-60 days', 'More than 2 months')
+        """,
+    ),
+}
+
+
+@pytest.mark.parametrize("condition", DERIVED_CONDITIONS)
+def test_c10_both_paths_count_the_same_rows(
+    warehouse: duckdb.DuckDBPyConnection, condition: str
+) -> None:
+    """C10 as acceptance.md states it: equal row counts."""
+    through_dimensions, from_staging = DERIVED_CONDITIONS[condition]
+    counts = warehouse.execute(
+        f"""
+        SELECT
+            (SELECT COUNT(*) FROM ({through_dimensions})),
+            (SELECT COUNT(*) FROM ({from_staging}))
+        """
+    ).fetchone()
+    assert counts is not None
+    assert counts[0] == counts[1]
+
+
+@pytest.mark.parametrize("condition", DERIVED_CONDITIONS)
+def test_c10_both_paths_select_the_same_response_ids(
+    warehouse: duckdb.DuckDBPyConnection, condition: str
+) -> None:
+    """C10, strengthened: the same set of `response_id` values, not only the same count.
+
+    Two paths can agree on a count while selecting different rows; equal sets
+    rule that out. Set equality implies the count equality acceptance.md asks
+    for, which the test above checks as literally stated.
+    """
+    through_dimensions, from_staging = DERIVED_CONDITIONS[condition]
+    differences = warehouse.execute(
+        f"""
+        SELECT
+            (SELECT COUNT(*) FROM ({through_dimensions} EXCEPT {from_staging})),
+            (SELECT COUNT(*) FROM ({from_staging} EXCEPT {through_dimensions}))
+        """
+    ).fetchone()
+    assert differences == (0, 0)
