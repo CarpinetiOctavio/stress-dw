@@ -12,6 +12,9 @@ Decisions are recorded in [MADR](https://adr.github.io/madr/) format, one file p
 | [0005](0005-redefine-indicators-1-to-13.md) | Redefine indicators 1–13 around verifiable constructs | accepted |
 | [0006](0006-final-questions-and-indicators.md) | Consolidated record: final Fase 1 questions and indicator definitions | accepted |
 | [0007](0007-person-grain-fact-table-and-dimension-grain-rule.md) | Model the fact table at person grain, bound dimensions by a grain rule, and derive conditions at query time | accepted |
+| [0008](0008-staging-deduplication-grain.md) | Deduplicate staged records on all 17 source columns, not the columns this specification models | accepted |
+| [0009](0009-use-duckdb-as-database-engine.md) | Use DuckDB as the pipeline's database engine | accepted |
+| [0010](0010-reload-dimensions-and-fact-in-one-transaction.md) | Reload the eight dimensions and the fact table in one transaction | accepted |
 
 
 ## Deviations from base MADR

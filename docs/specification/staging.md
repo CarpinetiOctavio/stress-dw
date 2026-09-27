@@ -54,14 +54,15 @@ Parsed to `response_timestamp` as `%m/%d/%Y %H:%M`, the format check A12 confirm
 ## Load order and transactions
 
 1. `staging_response`, from the cleaned, deduplicated extraction. One transaction; the load rule's abort applies to the whole staging load, not a single row.
-2. The eight dimensions, each by `SELECT DISTINCT` on its [natural key](definitions.md#dimension-grain-rule) from `staging_response` ([row set](dimensions.md#row-set)). Independent of each other; any order. Each dimension load is its own transaction.
-3. `fact_response`, last, joining `staging_response` to all eight dimensions on their natural keys ([invariant I2](fact-table.md#invariants)). One transaction; a foreign key that fails to resolve aborts the fact load, consistent with [invariant I3](fact-table.md#invariants).
+2. The eight dimensions and `fact_response`, together in one transaction ([ADR-0010](../decisions/0010-reload-dimensions-and-fact-in-one-transaction.md)). The transaction drops `fact_response` and the eight dimensions, recreates them from their DDL, and then loads:
+   1. the eight dimensions, each by `SELECT DISTINCT` on its [natural key](definitions.md#dimension-grain-rule) from `staging_response` ([row set](dimensions.md#row-set)), independent of each other, in any order;
+   2. `fact_response`, last, joining `staging_response` to all eight dimensions on their natural keys ([invariant I2](fact-table.md#invariants)). A foreign key that fails to resolve aborts the step, consistent with [invariant I3](fact-table.md#invariants).
 
 A step that aborts leaves every table it would have written unchanged from before the run; nothing partial commits.
 
 ## Update policy
 
-A full reload: every run truncates and repopulates `staging_response`, the eight dimensions, and `fact_response` from the source file, rather than appending to what a previous run loaded.
+A full reload: every run replaces the contents of `staging_response`, the eight dimensions, and `fact_response` with a fresh load from the source file, rather than appending to what a previous run loaded.
 
 The legacy report's argument for full reload — recalculating pre-aggregated percentages on any new row is expensive — does not apply here: [ADR-0007](../decisions/0007-person-grain-fact-table-and-dimension-grain-rule.md) stores no pre-aggregated value anywhere. The reason instead: the source file is a fixed historical export with no documented collection methodology or update cadence ([ADR-0001](../decisions/0001-position-as-portfolio-project.md)), so there is no real incremental-arrival scenario to design against for this project. An incremental policy would need a defined mechanism for new data to arrive, which this project does not have; specifying one without that would be designing for a use case this project cannot exercise.
 
