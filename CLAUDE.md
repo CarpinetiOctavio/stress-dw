@@ -10,6 +10,7 @@ Dimensional data warehouse (Hefesto methodology), rebuilt from an audited univer
 - [`docs/code-conventions.md`](docs/code-conventions.md) — Python and SQL style, naming, docstrings, testing, and error handling. Read before writing any code, not only before committing it.
 - [`docs/methodology.md`](docs/methodology.md) — what "Fase N" means when an ADR or the specification cites it.
 - [`docs/audit/legacy-audit.md`](docs/audit/legacy-audit.md) — the checks (A1–A13) and their method.
+- [`docs/audit/phase4-closure.md`](docs/audit/phase4-closure.md) — where Fase 4 left off: how to reproduce it, its results, and what is still out of scope.
 
 ## Hard rules
 
