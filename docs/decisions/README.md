@@ -15,6 +15,7 @@ Decisions are recorded in [MADR](https://adr.github.io/madr/) format, one file p
 | [0008](0008-staging-deduplication-grain.md) | Deduplicate staged records on all 17 source columns, not the columns this specification models | accepted |
 | [0009](0009-use-duckdb-as-database-engine.md) | Use DuckDB as the pipeline's database engine | accepted |
 | [0010](0010-reload-dimensions-and-fact-in-one-transaction.md) | Reload the eight dimensions and the fact table in one transaction | accepted |
+| [0011](0011-preregister-correspondence-criteria-before-exposing-indicator-values.md) | Fix the correspondence criteria in a commit before any indicator value is exposed, and declare what was already known about the data | accepted |
 
 
 ## Deviations from base MADR
