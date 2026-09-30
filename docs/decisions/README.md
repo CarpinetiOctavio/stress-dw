@@ -16,6 +16,7 @@ Decisions are recorded in [MADR](https://adr.github.io/madr/) format, one file p
 | [0009](0009-use-duckdb-as-database-engine.md) | Use DuckDB as the pipeline's database engine | accepted |
 | [0010](0010-reload-dimensions-and-fact-in-one-transaction.md) | Reload the eight dimensions and the fact table in one transaction | accepted |
 | [0011](0011-preregister-correspondence-criteria-before-exposing-indicator-values.md) | Fix the correspondence criteria in a commit before any indicator value is exposed, and declare what was already known about the data | accepted |
+| [0012](0012-cite-only-frozen-and-versioned-sources-as-evidence.md) | Cite only the frozen legacy source and versioned artifacts, and admit outside material only as declared corroboration | accepted |
 
 
 ## Deviations from base MADR
