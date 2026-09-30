@@ -23,6 +23,13 @@ No new finding IDs are introduced here; both rows cite evidence already establis
 | F1 | A dimension column depends on a value the dimension does not store; the join from staging to that dimension is ambiguous and the fact load multiplies rows. | ADR-0000, Findings | Established at documented-schema level; quantification pending (A2) |
 | F2 | The fact table stores pre-aggregated ratios without numerators or denominators; the report's sample query averages them. | ADR-0000, Findings | Established |
 
+---
+
+### Addendum (2026-09-29)
+F2, as cited in this record's Context and Findings, is qualified by the [2026-09-29 addendum to ADR-0000](0000-rebuild-from-scratch-instead-of-continuing-legacy.md#addendum-2026-09-29), which records which count and ratio columns the legacy stored. This decision is unaffected: it relies on the legacy fact table storing ratios without the size of the group they are computed over, which still holds.
+
+---
+
 ## Decision Drivers
 
 * F1's mechanism: when a dimension's stored columns do not determine one of its own columns, one combination of stored values can require different derived values. Whatever rule prevents this must be checkable on the dimension alone, without looking at the fact table.

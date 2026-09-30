@@ -31,6 +31,13 @@ F3's description of the legacy's misreading of mental_health_interview is ground
 
 ---
 
+### Addendum (2026-09-29)
+F2's phrase "without numerators or denominators" is not exact. At `legacy-original`, the fact table (`sql/02_crear_tablas.sql`, `Hechos_Estres_SaludMental`) and the flat export (`CSV procesado /dw_salud_mental.csv`) store five `cantidad_*` (English: "count") columns (`cantidad_estres`, `cantidad_historial_estres`, `cantidad_estres_afrontamiento`, `cantidad_tratamiento`, `cantidad_estres_acceso`) beside twelve `porcentaje_*` (English: "percentage") columns, and no column holds the size of the group a ratio is computed over. The report's Phase 2 formulas (pages 28–29 of the PDF), with the column assigned to each indicator on pages 44–45, define five pairs in which the count's condition is the ratio's numerator: indicators 1 and 2 (`cantidad_estres`, `porcentaje_estres`), 3 and 4 (`cantidad_historial_estres`, `porcentaje_historial_estres`), 5 and 6 (`cantidad_estres_afrontamiento`, `porcentaje_estres_afrontamiento_ocupacion`), 8 and 7a (`cantidad_tratamiento`, `porcentaje_tratamiento`), and 13 and 12 (`cantidad_estres_acceso`, `porcentaje_acceso_recursos`). The denominators are all rows for indicators 2, 6 and 7a, rows with `family_history = 'Yes'` for indicator 4, and rows with `Growing_Stress = 'Yes'` for indicator 12; the formula of indicator 6 also groups by occupation and country. The implementation was checked in `python/04_cargar_hechos.py` for the treatment pair only: it computes `cantidad_tratamiento` as the count of `Yes` (indicator 8) and `porcentaje_tratamiento` as that count over `COUNT(*)` times 100 (indicator 7), lines 172–185, per group of the eight-dimension `GROUP BY` (line 336). `COUNT(*)` counts rows of a join that includes `Dim_Sintomas`, the table of the F1 mechanism, so these counts are counts of join rows; whether each row is one person is what F1 and check A2 address. The core of F2, an unweighted mean of stored ratios, is unaffected, and F2's status does not change.
+
+F4 gains one inconsistency. The report's results table (page 68 of the PDF at `legacy-original`, an embedded image) gives the exported CSV as "350,699 (40 columnas)" (English: "40 columns"). The flat export at `legacy-original` has 38 columns in its header and in each of its 350,699 data rows. This inconsistency is established against the report and the export, both at `legacy-original`.
+
+---
+
 ## Decision Drivers
 
 * F1 and F2 are defects in the specification of grain and measures; they propagate through schema, ETL and reporting.
