@@ -24,3 +24,13 @@ Evidence behind [ADR-0000](../decisions/0000-rebuild-from-scratch-instead-of-con
 
 * The legacy ETL cleaned 292,364 records to 290,051 by removing 2,313 exact duplicates across all 17 columns, including `Timestamp` (ETL log and `01_limpiar_datos.py` at tag `legacy-original`).
 * Two staging loads of 290,051 records occurred on 9 November 2025 (13:10 and 22:01); the count was unchanged after the second load. The fact table loaded 350,699 aggregated records the same day at 22:07. The repository's two commits are both dated 13 November 2025 (UTC-3) (ETL log at tag `legacy-original`; [ADR-0000](../decisions/0000-rebuild-from-scratch-instead-of-continuing-legacy.md)).
+
+## Evidence
+
+Artifacts under [`evidence/`](evidence/) that concern the legacy audit, one row per artifact, following rule 4 of [ADR-0012](../decisions/0012-cite-only-frozen-and-versioned-sources-as-evidence.md). None is replaced or edited once added.
+
+| File | Taken | Shows | Provenance | Relation to the frozen source |
+|------|-------|-------|------------|-------------------------------|
+| `evidence/looker-studio-treatment-by-gender-metrics-2026-09-28.png` | 2026-09-28 | Setup of the treatment-by-gender bar chart: data source `Stress (csv)`, dimension `genero`, metrics `AVG` of `porcentaje_tratamiento` and `porcentaje_no_tratamiento` | Chart of the Looker Studio report built while the report was continued (140-page version, not versioned); captured from the existing report | Design: same model and formulas as the frozen report (ADR-0012, S3). Structure: the three fields exist in the frozen export. Content: unverified until A7 |
+| `evidence/looker-studio-treatment-by-gender-filters-2026-09-28.png` | 2026-09-28 | Same chart, filter, date range dimension and sort settings: no filter, no date range dimension, sorted by `AVG` of `porcentaje_tratamiento` descending | Same as above | Same as above |
+| `evidence/report-versions-comparison-2026-09-29.md` | 2026-09-29 | Method, SHA-256 of both PDFs and of the five compared sections in each version, and the differences found between the frozen report (127 pages) and its 140-page version | Analysis over an unversioned document (the 140-page version), run on the two PDFs | Compares the frozen report at `legacy-original` with the continuation; the record is the only trace of the continuation's text |
