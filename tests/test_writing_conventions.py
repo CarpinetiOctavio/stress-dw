@@ -8,8 +8,10 @@ Three things are checked:
 
 * Personal names. They are derived from the ``decision-makers`` lines of
   the decision records, so no name is written here. A whole-word match
-  fails unless it is on a ``decision-makers`` line, inside a URL or an
-  account or repository identifier, or in ``LICENSE``.
+  fails unless it is on a ``decision-makers`` line, inside a URL, or in
+  ``LICENSE``. A name joined to another word by a slash is still a whole
+  word and fails; an identifier in which the name runs into other word
+  characters is not a whole-word match.
 * Attribution of an act to a person, role or tool: a listed role or tool
   followed by a listed verb, or "according to", "per" or "as agreed with"
   (and similar) followed by a listed role or tool.
@@ -39,7 +41,7 @@ TEXT_SUFFIXES = {".md", ".py", ".sql", ".toml", ".properties"}
 TEXT_NAMES = {".gitignore", ".python-version", "LICENSE"}
 PROSE_SUFFIXES = {".md", ".py", ".sql"}
 
-URL_OR_IDENTIFIER = re.compile(r"https?://\S+|[\w.@-]+/[\w./@#-]+")
+URL = re.compile(r"https?://\S+")
 INLINE_CODE = re.compile(r"`[^`]*`")
 QUOTATION = re.compile(r"\"[^\"]*\"|“[^”]*”")
 
@@ -150,7 +152,7 @@ def _prose(path: Path) -> list[tuple[int, str]]:
         prose = _sql_prose(text)
     else:
         prose = _markdown_prose(text)
-    return [(number, URL_OR_IDENTIFIER.sub(" ", line)) for number, line in prose]
+    return [(number, URL.sub(" ", line)) for number, line in prose]
 
 
 def _name_hits(root: Path) -> list[str]:
@@ -164,7 +166,7 @@ def _name_hits(root: Path) -> list[str]:
         for number, line in enumerate(lines, start=1):
             if line.startswith("decision-makers:"):
                 continue
-            for match in pattern.finditer(URL_OR_IDENTIFIER.sub(" ", line)):
+            for match in pattern.finditer(URL.sub(" ", line)):
                 hits.append(f"{path.relative_to(root)}:{number}: {match.group(0)}")
     return hits
 
@@ -210,17 +212,31 @@ def test_no_first_or_second_person_appears_outside_the_readme() -> None:
     assert _person_hits(REPOSITORY_ROOT) == []
 
 
-def test_an_untracked_document_that_git_does_not_ignore_is_scanned(
-    tmp_path: Path,
-) -> None:
+def _scratch_repository(root: Path) -> None:
     # A scratch repository, so the check never writes into this one.
-    subprocess.run(["git", "init", "--quiet"], cwd=tmp_path, check=True)
-    record = tmp_path / "docs" / "decisions" / "0000-placeholder.md"
+    subprocess.run(["git", "init", "--quiet"], cwd=root, check=True)
+    record = root / "docs" / "decisions" / "0000-placeholder.md"
     record.parent.mkdir(parents=True)
     record.write_text(
         "---\ndecision-makers: Placeholder Person\n---\n", encoding="utf-8"
     )
-    subprocess.run(["git", "add", str(record)], cwd=tmp_path, check=True)
+    subprocess.run(["git", "add", str(record)], cwd=root, check=True)
+
+
+def test_an_untracked_document_that_git_does_not_ignore_is_scanned(
+    tmp_path: Path,
+) -> None:
+    _scratch_repository(tmp_path)
     (tmp_path / "draft.md").write_text("Drafted by Placeholder.\n", encoding="utf-8")
 
     assert _name_hits(tmp_path) == ["draft.md:1: Placeholder"]
+
+
+def test_a_name_joined_to_another_word_by_a_slash_is_flagged(tmp_path: Path) -> None:
+    _scratch_repository(tmp_path)
+    (tmp_path / "draft.md").write_text(
+        "Placeholder/Code decided this.\n", encoding="utf-8"
+    )
+
+    assert _name_hits(tmp_path) == ["draft.md:1: Placeholder"]
+    assert _attribution_hits(tmp_path) == ["draft.md:1: Code decided"]
