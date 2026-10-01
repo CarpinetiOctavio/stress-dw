@@ -8,7 +8,14 @@ The repository is written in English, code and documents alike, with no exceptio
 
 ## 2. Voice
 
-Impersonal. A document never says who thought, decided, or noticed something: it says "at the time X was considered...", "this was corrected to...". A person's name appears only in the `decision-makers` field of an ADR's frontmatter and inside URLs.
+Impersonal. A document never says who thought, decided, wanted, asked or noticed something: it says "at the time X was considered...", "this was corrected to...", "the check shows...". A decision is recorded in the decision record that holds it, without saying whose it was.
+
+The following are not used in any versioned text (documents, decision records, code comments and docstrings, commit messages, pull-request text, test names and messages):
+
+* A personal name, including the repository owner's, and any attribution of a thought, decision, preference, request or discovery to a person, to a role ("the author", "the owner", "the user", "the developer", "the professor", "the reviewer") or to a working tool ("Code", "the chat", "the assistant"). A result is cited by its evidence (command, file, line, commit), not by who produced it.
+* The first and second person ("I", "we", "my", "our", "you") and instructions addressed to a reader.
+
+Allowed: the `decision-makers` field of a decision record's frontmatter; URLs and account or repository identifiers (clone paths, links, the license line); verbatim quotations from a source, in quotation marks and attributed to that source; commit trailers that record co-authorship by a tool (`Co-Authored-By`), which state who produced a change and attribute no thought, decision or request. The portfolio README may use the first person in its narrative sections; it still attributes nothing to others, and every claim that needs evidence links to the record that carries it.
 
 ## 3. Spanish inside English documents
 

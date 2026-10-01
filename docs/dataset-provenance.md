@@ -16,13 +16,13 @@ The Data Card documents 7 of the 17 columns. The report column shows where the l
 
 | Column | Source description | Legacy report reads it as |
 |--------|--------------------|---------------------------|
-| `Timestamp` | Time the survey was submitted | Survey date |
-| `Gender` | Respondent gender | Same |
-| `Country` | Respondent country | Same |
+| `Timestamp` | "Time the survey was submitted" | Survey date |
+| `Gender` | "Respondent gender" | Same |
+| `Country` | "Respondent country" | Same |
 | `Occupation` | none | Occupation or sector |
-| `self_employed` | Are you self-employed? | Same |
-| `family_history` | Do you have a family history of mental illness? | Same |
-| `treatment` | Have you sought treatment for a mental health condition? | Currently in treatment |
+| `self_employed` | "Are you self-employed?" | Same |
+| `family_history` | "Do you have a family history of mental illness?" | Same |
+| `treatment` | "Have you sought treatment for a mental health condition?" | Currently in treatment |
 | `Days_Indoors` | none | Days spent indoors (isolation) |
 | `Growing_Stress` | none | Growing stress reported |
 | `Changes_Habits` | none | Not used |
@@ -31,7 +31,7 @@ The Data Card documents 7 of the 17 columns. The report column shows where the l
 | `Coping_Struggles` | none | Difficulty coping |
 | `Work_Interest` | none | Not used |
 | `Social_Weakness` | none | Social weakness |
-| `mental_health_interview` | Would you bring up a mental health issue with a potential employer in an interview? | Participated in a mental-health interview |
+| `mental_health_interview` | "Would you bring up a mental health issue with a potential employer in an interview?" | Participated in a mental-health interview |
 | `care_options` | none | Mental-health care options available |
 
 ## Evidence
