@@ -34,6 +34,21 @@ All sources were retrieved on 2026-09-19. Captures are stored in `docs/audit/evi
 
 * All three tests belong to the legacy audit (`docs/audit/legacy-audit.md`), not to this ADR.
 
+---
+
+### Addendum (2026-10-01)
+
+P7 is qualified by captures of two third-party pages taken on 2026-10-01 and listed in the [Evidence section of `dataset-provenance.md`](../dataset-provenance.md#evidence). They close the debts that [ADR-0012](0012-cite-only-frozen-and-versioned-sources-as-evidence.md) records for P7's links to OpenML and figshare. P7's text is unchanged; the points below correct it and replace part of its support.
+
+* **Question texts.** The OpenML deposit of the 2014 *Mental Health in Tech* survey, captured at `openml.org/search?type=data&status=active&id=43664`, gives a question text for most columns in its Description. Four of the seven columns the Data Card documents match those texts: `self_employed`, `family_history`, `treatment` and `mental_health_interview`. P7 names three; it omits `mental_health_interview`, whose Data Card description, "Would you bring up a mental health issue with a potential employer in an interview?", is the text OpenML shows for that column (written `mentalhealthinterview` in the Description and `mental_health_interview` in the feature list). For `Timestamp`, `Gender` and `Country`, the Description lists the column name without a question text, so no text comparison is possible.
+* **Size of the 2014 survey.** The survey size P7 states is carried by the number of instances in the capture of the deposit's properties, which replaces the published analysis P7 cites; the number of features is in the same capture. Both describe the OpenML deposit, which a third party uploaded; its relation to the files OSMI itself publishes is not verified.
+* **The OpenML link.** P7 links a host different from the one captured, `k8sapi.openml.org`. The capture is the citable record of the page.
+* **figshare.** The deposit `10.6084/m9.figshare.5579458` reads "posted on 2017-11-07, 17:44 authored by Open Sourcing Mental Illness Ltd". Its file panel reads "2 files" and shows two dataset files of 296.57 kB and 1.05 MB, whose names are truncated in the capture; its description reads: "One survey was performed in 2014 and the other in 2016."
+* **License.** The pages state no single license for the OSMI surveys. The figshare description, first paragraph of the main column, reads: "These data sets are survey results collected by OSMI and are made available by the CC-BY-SA 4.0 license." The figshare Licence field, right column under "LICENCE", reads "CC BY 4.0". The OpenML deposit states "CC BY-SA 4.0" in its header line. P7's statement that OSMI publishes its 2014 and 2016 surveys under CC BY-SA 4.0 rests on the figshare description alone, and the same deposit's Licence field states CC BY 4.0. Which license governs the surveys is unresolved.
+* **Scope.** This addendum compares column names and question texts only. It is not evidence about H1 or H3, which remain with checks A5, A6 and A10 of the [legacy audit](../audit/legacy-audit.md), and it does not change this record's position: the file's provenance is undocumented by its source and unresolved.
+
+---
+
 ## Decision Drivers
 
 * No claim about a population, a period or an instrument can be supported by the source's documentation (P1 to P3, P6).
