@@ -11,7 +11,7 @@ Work in progress. A dimensional data warehouse (star schema, [DuckDB](docs/decis
 
 ## Status
 
-Specification and audit in progress. There is no runnable pipeline yet. Decisions are recorded in [`docs/decisions`](docs/decisions); audit evidence and checks are in [`docs/audit`](docs/audit).
+Data integration is closed for this rebuild as of commit `9f31ab0`; the closure record is in [`phase4-closure.md`](docs/audit/phase4-closure.md#1-status). Documentation review is in progress. Decisions are recorded in [`docs/decisions`](docs/decisions); audit evidence and checks are in [`docs/audit`](docs/audit).
 
 ## Development
 
