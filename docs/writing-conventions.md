@@ -23,7 +23,7 @@ Any Spanish term or quotation carries its translation next to it, marked. A shor
 
 ## 4. Introduce before use; one home per concept
 
-A concept is a defined term, rule, condition, or caveat that a reader must understand to read a document correctly.
+A concept is a defined term, rule, condition, or caveat that a reader must understand to read a document correctly. The concepts that have a home, and their homes, are listed in [`concept-homes.md`](concept-homes.md).
 
 * **Introduce before use.** A concept is introduced and explained before it is used. Where it is introduced elsewhere, its first use in the document links to that introduction.
 * **One home.** A concept used in more than one place has exactly one home: a section, or a file of its own when it is used across files. Its definition, its rules, and its caveats are written there and nowhere else.

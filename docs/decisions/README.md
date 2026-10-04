@@ -2,6 +2,8 @@
 
 Decisions are recorded in [MADR](https://adr.github.io/madr/) format, one file per decision, named `NNNN-title-with-dashes.md`. To add one, copy `adr-template.md` and fill it in.
 
+Decisions that are not, or not only, recorded in a decision record are kept in the [decision log](log/README.md); its entries are not MADR records.
+
 | ADR                                                               | Title | Status   |
 |-------------------------------------------------------------------|-------|----------|
 | [0000](0000-rebuild-from-scratch-instead-of-continuing-legacy.md) | Rebuild the pipeline from scratch instead of continuing on the legacy codebase | accepted |
