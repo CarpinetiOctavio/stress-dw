@@ -50,4 +50,4 @@ The legacy report writes `1-14 days` in one place and `1 - 14 days` (spaces arou
 
 ## Load rule
 
-A NULL, or a value outside its documented domain, in any modeled column aborts the load. No row is dropped, defaulted, or recoded to fit. The rule sustains [invariant I1](fact-table.md#invariants). It belongs to the data-integration phase, "Fase 4" (English: "Phase 4"; see [`methodology.md`](../methodology.md)), which is not yet specified for this rebuild; it moves there when that phase is specified.
+A NULL, or a value outside its documented domain, in any modeled column aborts the load. No row is dropped, defaulted, or recoded to fit. The rule sustains [invariant I1](fact-table.md#invariants). It is part of the data-integration phase, "Fase 4" (English: "Phase 4"; see [`methodology.md`](../methodology.md)), specified in [`staging.md`](staging.md), whose [load rule section](staging.md#load-rule) applies it by link to this section.
