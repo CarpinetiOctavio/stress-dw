@@ -91,4 +91,4 @@ Uses [`explicit_recognition`](definitions.md#explicit_recognition) and [`symptom
 |---|------|---------|------------|---------|------|
 | 16 | Treatment non-uptake rate under full context | C | same as indicator 15 | V = `treatment`; both levels, the `No` level (non-uptake) being the quantity of interest | `growing_stress` (3 levels), `symptom_cluster`, `care_options` (`Yes`, `Not sure`), `mental_health_interview` (3 levels) |
 
-Uses [`symptom_cluster`](definitions.md#symptom_cluster); see its validity caveat. Up to 4 × 2 × 3 = 24 cells. Headline cell: `growing_stress = 'Yes'`, `symptom_cluster` true, `care_options = 'Yes'`, `mental_health_interview = 'Yes'`.
+Uses [`explicit_recognition`](definitions.md#explicit_recognition) and [`symptom_cluster`](definitions.md#symptom_cluster); see its validity caveat. Up to 4 × 2 × 3 = 24 cells. Headline cell: `growing_stress = 'Yes'`, `symptom_cluster` true, `care_options = 'Yes'`, `mental_health_interview = 'Yes'`.

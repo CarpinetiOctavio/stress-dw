@@ -1,7 +1,7 @@
 ---
 status: "{proposed | rejected | accepted | deprecated | superseded by ADR-000X}"
 date: {YYYY-MM-DD}
-decision-makers: Octavio Carpineti
+decision-makers: {list everyone involved in the decision}
 ---
 
 # {Short title, stating the problem and the chosen solution}

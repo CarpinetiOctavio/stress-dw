@@ -27,12 +27,26 @@ Decisions that are not, or not only, recorded in a decision record are kept in t
 * **Findings section**, between Context and Problem Statement and Decision Drivers. Not part of base MADR. Use it only when the decision rests on evidence gathered against the repository, the dataset, or an external source; omit it otherwise. Each row cites where the evidence lives and marks a status of `Established`, a hypothesis still to test, or `Pending` a check.
 * **Considered Options as a bullet list**, not numbered — this matches the MADR spec; it's noted here only because ADR-0000 and ADR-0001, written before this convention was fixed, use numbers. New ADRs use bullets.
 
+## Addenda to accepted decision records
+
+An accepted decision record is not rewritten. When a finding that grounded the decision is corrected or qualified, the record receives a dated addendum and its original text stays as written. Operational descriptions, such as a path, a command or a link, may be corrected in place.
+
 ## Finding and hypothesis IDs
 
-Used consistently across ADR-0000, ADR-0001, and `docs/audit/legacy-audit.md`:
+Used across the decision records, the specification, the audit and the decision log:
 
 * **`Fn`** — findings from the audit of the legacy codebase (ADR-0000): schema, ETL, fact-table design.
 * **`Pn`** — findings from the audit of the dataset's provenance (ADR-0001): the source, its documentation, its license.
 * **`Hn`** — hypotheses raised by an `F` or `P` finding but not yet resolved. Each `H` is tested by one or more checks (`A1`, `A2`, ...) in `docs/audit/legacy-audit.md`; a hypothesis is never cited as a finding until its check's result is in.
+* **`An`** — checks of the [legacy audit](../audit/legacy-audit.md#checks); each records its method and result.
+* **`Gn`** — findings on the deduplication grain ([ADR-0008](0008-staging-deduplication-grain.md)).
+* **`En`** — findings on the database engine ([ADR-0009](0009-use-duckdb-as-database-engine.md)).
+* **`Kn`** — categories of prior knowledge ([ADR-0011](0011-preregister-correspondence-criteria-before-exposing-indicator-values.md)).
+* **`Sn`** — sources of evidence ([ADR-0012](0012-cite-only-frozen-and-versioned-sources-as-evidence.md)).
+* **`Mn`** — findings on the form of the schema ([ADR-0013](0013-keep-star-schema-add-flat-consumption-view.md)).
+* **`Cn`** — acceptance checks ([`acceptance.md`](../specification/acceptance.md)).
+* **`In`** — invariants of the fact table ([`fact-table.md`](../specification/fact-table.md#invariants)).
+* **`LOG-NNN`** — entries of the [decision log](log/README.md).
+* **`LSN-NNN`** — [method lessons](../audit/lessons/README.md).
 
 A new ADR that introduces its own evidence-backed findings continues the `F`/`P` sequence appropriate to what it audits, or starts a new letter if it audits something neither ADR-0000 nor ADR-0001 covers — state the choice in the ADR itself.

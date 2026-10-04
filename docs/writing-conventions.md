@@ -1,10 +1,10 @@
 # Writing conventions
 
-These rules apply to every document in this repository: `docs/`, the ADRs, and the README. Each rule has one home. A rule that originates in a decision record points to it instead of restating it (rule 4). None of them modifies the legacy repository ([ADR-0000](decisions/0000-rebuild-from-scratch-instead-of-continuing-legacy.md)).
+These rules apply to every versioned text in this repository, as listed in [rule 2](#2-voice). Each rule has one home. A rule that originates in a decision record points to it instead of restating it (rule 4). None of them modifies the legacy repository ([ADR-0000](decisions/0000-rebuild-from-scratch-instead-of-continuing-legacy.md)).
 
 ## 1. Language
 
-The repository is written in English, code and documents alike, with no exception. The legacy repository stays in Spanish, unmodified.
+The repository is written in English, code and documents alike, with no exception. The legacy repository stays in Spanish and unmodified at the tag `legacy-original`; its superseded notice is the one later addition ([ADR-0000](decisions/0000-rebuild-from-scratch-instead-of-continuing-legacy.md)).
 
 ## 2. Voice
 
@@ -19,7 +19,7 @@ Allowed: the `decision-makers` field of a decision record's frontmatter; URLs an
 
 ## 3. Spanish inside English documents
 
-Any Spanish term or quotation carries its translation next to it, marked. A short fragment is written `"..." (English: "...")`; a long quotation is followed by `→ English: "..."`. "Fase N" (English: "Phase N") is glossed once per document, at its first appearance, with a pointer to [`methodology.md`](methodology.md).
+Any Spanish term or quotation carries its translation next to it, marked. A short fragment is written `"..." (English: "...")`; a long quotation is followed by `→ English: "..."`. "Fase N" (English: "Phase N") is glossed once per document, at its first appearance, with a pointer to [`methodology.md`](methodology.md). Identifiers and file paths written in code format are names, not Spanish terms, and carry no gloss.
 
 ## 4. Introduce before use; one home per concept
 

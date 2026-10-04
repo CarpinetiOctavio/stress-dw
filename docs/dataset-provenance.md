@@ -74,11 +74,11 @@ To compute a hash: `shasum -a 256 <file>`.
 
 ## How to obtain the file
 
-The dataset is not versioned in this repository. Download it from the Kaggle page above and verify its SHA-256 against the table. Place it in `data/raw/`, which is ignored by git.
+The dataset is not versioned in this repository. Download it from the Kaggle page above and verify its SHA-256 against the table. Place it at `data/raw/mental_health.csv`, the path [extraction](specification/staging.md#extraction) expects; `data/raw/` is ignored by git.
 
 This is a deliberate choice, not only a size consideration. The uploader declares the file CC BY 4.0 (P1), but H1 — not yet resolved — hypothesizes that the symptom columns come from a second source. The pages consulted for the OSMI surveys state no single license: the figshare deposit authored by OSMI gives CC-BY-SA 4.0 in its description and CC BY 4.0 in its Licence field, and a third-party OpenML deposit gives CC BY-SA 4.0 (captures under [Evidence](#evidence); quotations in the [2026-10-01 addendum to ADR-0001](decisions/0001-position-as-portfolio-project.md#addendum-2026-10-01)). If H1 is confirmed, the portion of the file derived from the OSMI 2014 survey may therefore carry a license other than the one declared for the whole file. Redistributing the raw file from this repository while either question is open would mean redistributing it under a license this project cannot yet confirm is correct. See [ADR-0001](decisions/0001-position-as-portfolio-project.md).
 
-The legacy repository (`stress-dw-legacy`, archived, unmodified) already carries a committed copy of the file at the `legacy-original` tag, for anyone auditing this project who wants to inspect the data directly.
+The legacy repository (`stress-dw-legacy`, archived, unmodified at the tag `legacy-original`) already carries a committed copy of the file at that tag, for anyone auditing this project who wants to inspect the data directly.
 
 ## Known unknowns
 

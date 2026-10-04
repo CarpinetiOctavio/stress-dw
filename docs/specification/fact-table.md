@@ -19,7 +19,7 @@ Foreign keys are enforced by the database ([ADR-0009](../decisions/0009-use-duck
 
 ## Grain
 
-One row per staged record, that is, one row per survey response. `treatment` is the single measure; it is stored as the raw categorical value, and every count or rate over it is computed at query time ([nothing derived is stored](definitions.md#model-conventions)).
+One row per staged record, that is, one row per survey response. `treatment` is the single measure; it is stored as the raw categorical value, and every count or rate over it is computed at query time ([nothing derived is stored](definitions.md#model-conventions)). None of the 17 source columns ([`sources.md`](sources.md)) identifies a respondent.
 
 ## Invariants
 
