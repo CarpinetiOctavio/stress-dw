@@ -13,10 +13,13 @@ From the repository root:
 ```
 uv sync
 uv run python -m stress_dw.pipeline   # full reload into data/stress_dw.duckdb; prints the counts of section 3
-uv run pytest                         # 195 passed with the source file present
+uv run pytest -k "not (test_c8_ or test_c9_ or test_c10_)"
+uv run pytest tests/test_acceptance.py -k "test_c8_ or test_c9_ or test_c10_" --tb=no -rN -v
 ```
 
-Without the source file, `uv run pytest` reports 101 passed and 94 skipped. The skipped tests are the acceptance checks, which need the real file; a skip is not a pass.
+The two test commands together run every test exactly once. The first runs every test except C8, C9 and C10, normally. The second runs C8, C9 and C10 and reports pass or fail per test, with no assertion message. The pair applies until [ADR-0011](../decisions/0011-preregister-correspondence-criteria-before-exposing-indicator-values.md) allows exposure: after the criteria commit, after A5 has been run, and after A6 and A10 have been run or recorded as not obtainable (rule 4). A failure in C1–C7 or C11 may display counts or values derived from the source file and is reported as a failure only, as for C8–C10.
+
+At commit `9f31ab0`, an unrestricted `uv run pytest` reported 195 passed with the source file present, and 101 passed and 94 skipped without it; these counts were not produced by the two commands above. The skipped tests are the acceptance checks, which need the real file; a skip is not a pass.
 
 Verified against commit `9f31ab0`, from an empty database file.
 
