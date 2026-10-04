@@ -21,8 +21,9 @@ Requires [uv](https://docs.astral.sh/uv/), which installs the Python version pin
 uv sync
 uv run ruff check && uv run ruff format --check
 uv run mypy
-uv run pytest
 ```
+
+Tests are run with the two commands of [Phase 4 closure, section 2](docs/audit/phase4-closure.md#2-reproducing-this) while [ADR-0011](docs/decisions/0011-preregister-correspondence-criteria-before-exposing-indicator-values.md) does not allow indicator values to be exposed.
 
 The source file is obtained separately and verified before any load; see [`staging.md`](docs/specification/staging.md#extraction). Code style is in [`docs/code-conventions.md`](docs/code-conventions.md).
 
