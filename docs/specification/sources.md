@@ -33,7 +33,7 @@ Domains as documented in the legacy report (correspondence and granularity table
 | Column | Documented domain |
 |--------|-------------------|
 | `Gender` | `Male`, `Female` |
-| `Country` | the 35 countries of the [country-to-region mapping](country-region-mapping.md), confirmed against the raw file by check A8; the legacy report's "36" was inaccurate |
+| `Country` | the countries of the [country-to-region mapping](country-region-mapping.md), confirmed against the raw file by check A8 ([audit table](../audit/legacy-audit.md#checks)) |
 | `Occupation` | `Business`, `Corporate`, `Housewife`, `Others`, `Student` |
 | `family_history` | `Yes`, `No` |
 | `treatment` | `Yes`, `No` |

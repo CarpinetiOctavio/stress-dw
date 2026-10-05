@@ -6,7 +6,7 @@ Fase 4 (English: "Phase 4"; see [`methodology.md`](../methodology.md)), Data Int
 
 ## 2. Reproducing this
 
-The source file is not versioned. How to obtain it, and why it is not in the repository, is in [`staging.md`](../specification/staging.md#extraction). It is expected at `data/raw/mental_health.csv`, with SHA-256 `083f44e9cdf84f56abf08b9fa1862d80b87237afa74e2cacc9328a63d9291686`. The pipeline aborts on any other file.
+The source file is not versioned. How to obtain it, and why it is not in the repository, is in [`staging.md`](../specification/staging.md#extraction). It is expected at `data/raw/mental_health.csv`, with the SHA-256 recorded in [`dataset-provenance.md`, Identity of the file](../dataset-provenance.md#identity-of-the-file); the pipeline aborts on any other file.
 
 From the repository root:
 

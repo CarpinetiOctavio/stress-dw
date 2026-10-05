@@ -41,7 +41,7 @@ The four unmodeled columns are not cleaned or validated. They are read at extrac
 
 ## Load rule
 
-[`sources.md`](sources.md#load-rule)'s load rule governs the thirteen modeled columns: a NULL, or a value outside its documented domain, aborts the load; no row is dropped, defaulted, or recoded to fit. Check A12 found no violation in the audited source file, so the rule currently never fires; it is enforced on every load, not only the first.
+The [load rule](sources.md#load-rule) is enforced on every load, not only the first. Check A12 found no violation in the audited source file, so the rule currently never fires.
 
 ## Deduplication
 
