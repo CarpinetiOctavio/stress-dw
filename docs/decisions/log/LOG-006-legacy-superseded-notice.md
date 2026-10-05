@@ -16,7 +16,7 @@ formalization: addendum to ADR-0000 (planned)
 
 ## Linked findings
 
-DC-44 and DC-92 of the documentation-currency register.
+DC-44 and DC-92 of the [documentation-currency register](../../audit/documentation-currency.md#5-findings).
 
 ## Options considered
 

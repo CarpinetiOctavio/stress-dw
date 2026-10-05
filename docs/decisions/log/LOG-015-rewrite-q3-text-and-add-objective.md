@@ -14,7 +14,7 @@ Q3's text becomes "Among respondents, what proportion report both growing stress
 
 ## Linked findings
 
-Decision d of the documentation-currency register's decision list; finding DC-38.
+Decision d of the [documentation-currency register](../../audit/documentation-currency.md#8-decide-items)'s decision list; finding DC-38.
 
 ## Options considered
 

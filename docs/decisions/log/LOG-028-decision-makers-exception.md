@@ -14,7 +14,7 @@ The exception for the `decision-makers` field in [writing conventions, rule 2](.
 
 ## Linked findings
 
-Item N11 of the documentation-currency register; finding DC-72.
+Item N11 of the [documentation-currency register](../../audit/documentation-currency.md#8-decide-items); finding DC-72.
 
 ## Options considered
 

@@ -14,7 +14,7 @@ Dated addenda to ADR-0010 (`:19`, E1 "judged not to apply to an insert-only load
 
 ## Linked findings
 
-Item N5 of the documentation-currency register; finding DC-45.
+Item N5 of the [documentation-currency register](../../audit/documentation-currency.md#8-decide-items); finding DC-45.
 
 ## Options considered
 

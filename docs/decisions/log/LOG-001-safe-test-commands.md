@@ -19,7 +19,7 @@ The section states that the pair applies until [ADR-0011](../0011-preregister-co
 
 ## Linked findings
 
-DC-86 and DC-16 of the documentation-currency register.
+DC-86 and DC-16 of the [documentation-currency register](../../audit/documentation-currency.md#5-findings).
 
 ## Options considered
 

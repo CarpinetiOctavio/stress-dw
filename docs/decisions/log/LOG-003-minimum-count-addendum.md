@@ -14,7 +14,7 @@ A dated addendum to [ADR-0003](../0003-redefine-indicators-14-to-16.md) records 
 
 ## Linked findings
 
-DC-42 of the documentation-currency register.
+DC-42 of the [documentation-currency register](../../audit/documentation-currency.md#5-findings).
 
 ## Options considered
 

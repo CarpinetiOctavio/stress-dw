@@ -14,7 +14,7 @@ The definition of [`explicit_recognition`](../../specification/definitions.md#ex
 
 ## Linked findings
 
-Decision a of the documentation-currency register's decision list; no finding of the register carries that letter.
+Decision a of the [documentation-currency register](../../audit/documentation-currency.md#8-decide-items)'s decision list; no finding of the register carries that letter.
 
 ## Options considered
 

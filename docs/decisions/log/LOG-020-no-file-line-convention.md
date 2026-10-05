@@ -14,7 +14,7 @@ No convention for `file:line` citations in living documents is added.
 
 ## Linked findings
 
-Decision k of the documentation-currency register's decision list; no finding (register, section 8).
+Decision k of the [documentation-currency register](../../audit/documentation-currency.md#8-decide-items)'s decision list; no finding (register, section 8).
 
 ## Options considered
 

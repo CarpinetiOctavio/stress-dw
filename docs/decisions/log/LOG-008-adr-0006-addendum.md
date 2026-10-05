@@ -14,7 +14,7 @@ A dated addendum to [ADR-0006](../0006-final-questions-and-indicators.md) states
 
 ## Linked findings
 
-DC-40 of the documentation-currency register.
+DC-40 of the [documentation-currency register](../../audit/documentation-currency.md#5-findings).
 
 ## Options considered
 

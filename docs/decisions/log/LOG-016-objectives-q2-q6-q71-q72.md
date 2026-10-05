@@ -19,7 +19,7 @@ formalization: none
 
 ## Linked findings
 
-Decision e of the documentation-currency register's decision list; findings DC-39, DC-60 and DC-76.
+Decision e of the [documentation-currency register](../../audit/documentation-currency.md#8-decide-items)'s decision list; findings DC-39, DC-60 and DC-76.
 
 ## Options considered
 

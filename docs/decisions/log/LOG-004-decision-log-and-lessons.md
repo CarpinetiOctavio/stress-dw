@@ -19,7 +19,7 @@ formalization: none
 
 ## Linked findings
 
-Item N16 of the documentation-currency register (whether its decision records and method lessons enter the versioned register in full); findings DC-23 and DC-24.
+Item N16 of the [documentation-currency register](../../audit/documentation-currency.md#8-decide-items) (whether its decision records and method lessons enter the versioned register in full); findings DC-23 and DC-24.
 
 ## Options considered
 

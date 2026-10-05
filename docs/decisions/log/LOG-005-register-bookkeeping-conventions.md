@@ -21,7 +21,7 @@ The documentation-currency register keeps its findings by these conventions:
 
 ## Linked findings
 
-The register's findings section (legend) and its reconciliation section; findings DC-22 and DC-23.
+The [register](../../audit/documentation-currency.md#5-findings)'s findings section (legend) and its reconciliation section; findings DC-22 and DC-23.
 
 ## Options considered
 

@@ -16,7 +16,7 @@ formalization: none
 
 ## Linked findings
 
-Item N7 of the documentation-currency register; findings DC-46, DC-53 and DC-64.
+Item N7 of the [documentation-currency register](../../audit/documentation-currency.md#8-decide-items); findings DC-46, DC-53 and DC-64.
 
 ## Options considered
 

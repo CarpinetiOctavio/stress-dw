@@ -14,7 +14,7 @@ Check A6 compares the distributions of `Timestamp`, `Gender`, `Country`, `family
 
 ## Linked findings
 
-Decision i of the documentation-currency register's decision list; finding DC-12.
+Decision i of the [documentation-currency register](../../audit/documentation-currency.md#8-decide-items)'s decision list; finding DC-12.
 
 ## Options considered
 

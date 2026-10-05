@@ -14,7 +14,7 @@ A sentence that begins "See …" is a cross-reference convention, not an instruc
 
 ## Linked findings
 
-Item N10 of the documentation-currency register; finding DC-69.
+Item N10 of the [documentation-currency register](../../audit/documentation-currency.md#8-decide-items); finding DC-69.
 
 ## Options considered
 

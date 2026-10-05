@@ -23,7 +23,7 @@ The mention of "SCU" in ADR-0002 (`:15`) stays as written.
 
 ## Linked findings
 
-Item N8 of the documentation-currency register; findings DC-63, DC-74, DC-87, DC-88 and DC-94.
+Item N8 of the [documentation-currency register](../../audit/documentation-currency.md#8-decide-items); findings DC-63, DC-74, DC-87, DC-88 and DC-94.
 
 ## Options considered
 
