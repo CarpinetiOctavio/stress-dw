@@ -10,18 +10,15 @@ What is checked is set by LOG-004 and LOG-010 of the decision log
 * Every LOG- identifier cited by a lesson resolves to a log entry.
 * Every home cited in docs/concept-homes.md resolves, file and anchor; a row
   whose home reads "open" is a declared gap.
-* Once the documentation-currency register is versioned, every finding
-  identifier cited by a log entry resolves to a finding row of the register,
-  and every LSN- identifier cited by the register resolves to a lesson. Until
-  then these two checks are skipped.
+* Every finding identifier cited by a log entry resolves to a finding row of
+  the documentation-currency register, and every LSN- identifier cited by the
+  register resolves to a lesson.
 
 Every check takes the repository root as a parameter.
 """
 
 import re
 from pathlib import Path
-
-import pytest
 
 REPOSITORY_ROOT = Path(__file__).resolve().parent.parent
 
@@ -310,14 +307,10 @@ def test_every_concept_home_resolves_or_is_declared_open() -> None:
 
 
 def test_every_finding_cited_by_a_log_entry_resolves_to_a_register_row() -> None:
-    if not (REPOSITORY_ROOT / REGISTER).is_file():
-        pytest.skip("the documentation-currency register is not versioned yet")
     assert log_finding_citation_problems(REPOSITORY_ROOT) == []
 
 
 def test_every_lesson_cited_by_the_register_resolves_to_a_lesson() -> None:
-    if not (REPOSITORY_ROOT / REGISTER).is_file():
-        pytest.skip("the documentation-currency register is not versioned yet")
     assert register_lesson_citation_problems(REPOSITORY_ROOT) == []
 
 
