@@ -30,6 +30,13 @@ F2, as cited in this record's Context and Findings, is qualified by the [2026-09
 
 ---
 
+### Addendum (2026-10-04)
+This record calls the fact table's grain "person grain", in its title and its body. A row of `fact_response` is one staged survey response, and no source column identifies a respondent ([`fact-table.md`, Grain](../specification/fact-table.md#grain); [ADR-0008](0008-staging-deduplication-grain.md)). The grain is response grain, and living documents use that name. The title and the file name stay, as accepted text.
+
+Its Consequences state that "the cluster's threshold is written in one definition". The code does not match: the three literals of `symptom_cluster` are repeated in the queries of indicators 14, 15 and 16, and the acceptance tests repeat them, by design, as a check written independently of the indicator queries (`tests/test_acceptance.py`). Changing the threshold is a change to each query that writes the literals and to those tests, not a reload. No refactor is made.
+
+---
+
 ## Decision Drivers
 
 * F1's mechanism: when a dimension's stored columns do not determine one of its own columns, one combination of stored values can require different derived values. Whatever rule prevents this must be checkable on the dimension alone, without looking at the fact table.

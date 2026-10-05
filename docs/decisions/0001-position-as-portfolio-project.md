@@ -49,6 +49,11 @@ P7 is qualified by captures of two third-party pages taken on 2026-10-01 and lis
 
 ---
 
+### Addendum (2026-10-04)
+P9's byte-level identity, pending when P9 was written, is established by check A1: the SHA-256 of the legacy raw file equals that of a fresh download of the Kaggle file ([legacy audit](../audit/legacy-audit.md#checks), A1; the hash is in [`dataset-provenance.md`](../dataset-provenance.md)). The legacy input and the Kaggle file are the same file.
+
+---
+
 ## Decision Drivers
 
 * No claim about a population, a period or an instrument can be supported by the source's documentation (P1 to P3, P6).

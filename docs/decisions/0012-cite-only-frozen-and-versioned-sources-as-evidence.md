@@ -34,6 +34,11 @@ Rule 2 governs evidence about objects whose state can change: a web page, the st
 
 ---
 
+### Addendum (2026-10-04)
+The constraint that values readable in a capture "are not restated in any other document" (Consequences) covers values about the data, such as counts, ranges and distributions, which are prior knowledge under [ADR-0011](0011-preregister-correspondence-criteria-before-exposing-indicator-values.md), rule 2. A description of what a capture shows stays in its evidence row, and a result that a check computes from the source file has its own provenance, even when it equals a value in a capture. This clarifies the scope of the constraint; it is not an exception.
+
+---
+
 ## Decision Drivers
 
 * A claim has to be checkable by someone who has only the repository and the frozen source.
