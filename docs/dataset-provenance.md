@@ -61,7 +61,7 @@ Captures of third-party pages about the OSMI *Mental Health in Tech* surveys, ta
 
 ## Identity of the file
 
-The legacy raw input (`data/raw/mental_health.csv` at tag `legacy-original`) has 292,364 records and 17 columns, and 5,202 nulls in `self_employed` according to the legacy ETL log. The Data Card reports about 292k rows, 17 columns and 5,202 missing values in `self_employed`. The two files are byte-identical: their SHA-256 hashes match exactly (below).
+The legacy raw input (`data/raw/mental_health.csv` at tag `legacy-original`) has 292,364 records and 17 columns, and 5,202 nulls in `self_employed` according to the legacy ETL log. The Data Card's figures, which are rounded, agree with them ([Data Card captures](#evidence)). The two files are byte-identical: their SHA-256 hashes match exactly (below).
 
 | File | SHA-256 |
 |------|---------|

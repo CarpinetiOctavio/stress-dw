@@ -90,4 +90,4 @@ Every decision record is indexed in [`decisions/README.md`](../decisions/README.
 
 ## 7. Verification
 
-Fase 4's pipeline and full test suite were executed against the SHA-256-verified dataset, producing the results in section 3 and the C1–C11 statuses in section 4. Separately, a read-only review of the public repository re-ran the lint, type, and test tooling without the dataset, reproduced the merge conflicts noted during PR sequencing, and cross-checked the query-layer SQL against [`indicators.md`](../specification/indicators.md), [`patterns.md`](../specification/patterns.md), and [`definitions.md`](../specification/definitions.md).
+Fase 4's pipeline and full test suite were executed against the SHA-256-verified dataset, producing the results in section 3 and the C1–C11 statuses in section 4.
