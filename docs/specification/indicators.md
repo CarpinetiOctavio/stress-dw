@@ -24,7 +24,7 @@ The **Pattern** column refers to [`patterns.md`](patterns.md): [A](patterns.md#p
 
 ## Q3 — indicators 5, 6
 
-> What occupations show a higher proportion of people with growing stress (Growing_Stress = Yes) and coping difficulties (Coping_Struggles = Yes), differentiated by country (Country), and how do these patterns vary when grouping countries by region or continent?
+> Among respondents, what proportion report both growing stress (Growing_Stress = 'Yes') and coping difficulties (Coping_Struggles = 'Yes'), broken down by occupation and country, and how does that proportion differ when countries are grouped by region?
 
 | # | Name | Pattern | Population | Measure | Cuts |
 |---|------|---------|------------|---------|------|
@@ -54,7 +54,7 @@ The denominator is every row in the cell. `growing_stress` is part of the counte
 
 ## Q6 — indicators 12, 13
 
-> How does resource availability (`care_options`, "Yes" and "Not sure" reported separately) differ by explicit stress recognition (`Growing_Stress`, all three levels), country, occupation, and gender?
+> How do responses to the care-options item (`care_options`, "Yes" and "Not sure" reported separately) differ by explicit stress recognition (`Growing_Stress`, all three levels), country, occupation, and gender?
 
 | # | Name | Pattern | Population | Measure | Cuts |
 |---|------|---------|------------|---------|------|
@@ -75,7 +75,7 @@ Uses [`symptom_cluster`](definitions.md#symptom_cluster); see its validity cavea
 
 ## Q7.1 — indicator 15
 
-> Among respondents with explicit stress recognition, a convergent symptom profile, or both, what proportion report having ever sought treatment (`treatment`, lifetime), broken down by resource availability (`care_options`, "Yes" and "Not sure" reported separately; respondents reporting "No" are outside this question's scope), by explicit stress recognition (`Growing_Stress`, all three levels), and by whether a convergent symptom profile is present?
+> Among respondents with explicit stress recognition, a convergent symptom profile, or both, what proportion report having ever sought treatment (`treatment`, lifetime), broken down by care-options response (`care_options`, "Yes" and "Not sure" reported separately; respondents reporting "No" are outside this question's scope), by explicit stress recognition (`Growing_Stress`, all three levels), and by whether a convergent symptom profile is present?
 
 | # | Name | Pattern | Population | Measure | Cuts |
 |---|------|---------|------------|---------|------|
@@ -85,7 +85,7 @@ Uses [`explicit_recognition`](definitions.md#explicit_recognition) and [`symptom
 
 ## Q7.2 — indicator 16
 
-> Among respondents with explicit stress recognition, a convergent symptom profile, or both, and who report having care options available, what proportion does not report lifetime treatment-seeking, broken down by their stated willingness to disclose a mental health issue to a potential employer?
+> Among respondents with explicit stress recognition, a convergent symptom profile, or both, and who report "Yes" or "Not sure" for care options, what proportion does not report lifetime treatment-seeking, broken down by their stated willingness to disclose a mental health issue to a potential employer?
 
 | # | Name | Pattern | Population | Measure | Cuts |
 |---|------|---------|------------|---------|------|

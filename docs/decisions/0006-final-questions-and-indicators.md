@@ -73,6 +73,10 @@ Chosen option: "A dedicated ADR listing the final questions and indicators, each
 
 Every question and indicator listed here traces to a specific ADR (0003, 0004, or 0005); a discrepancy between this document and one of those three is a documentation bug in whichever was updated without updating the other.
 
+### Addendum (2026-10-04)
+
+[`indicators.md`](../specification/indicators.md) is the current definition of every indicator; this record is a snapshot (Consequences). Rows 5 and 6 of its indicator table differ from it: this record gives the population as the condition and the cut as occupation × country × region; the specification gives the population as all rows and two grouping sets, {occupation, country} and {occupation, region}. The table is not changed.
+
 ## Pros and Cons of the Options
 
 ### No consolidation
