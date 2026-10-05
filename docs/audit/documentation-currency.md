@@ -658,3 +658,16 @@ Run on 2026-10-04 at commit `e8751b9`, after the pull requests of section 13, re
 Still open, each with its recorded reason: report only on accepted text (DC-04, DC-20, DC-27, DC-28, DC-29, DC-41, DC-65, DC-76, DC-83, and the decision-record parts of DC-74 and DC-80); the correspondence phase (DC-13, DC-89, DC-91, and decision g); stage 5 (DC-59's remaining restatements and the stage-5 rows of section 7.2); open obligations recorded as NONE (DC-19, DC-21).
 
 **Closure.** With the corrections of stage 3 and of DC-95, probes 1 to 3 re-run clean at commit `e8751b9`, except for the items above, each of which has a recorded reason. Stage 4 is closed; stage 5 follows.
+
+## 15. Stage 6 re-run and closure of the sweep
+
+Run on 2026-10-04 at commit `7759d0f`, after the stage-5 pull request (#60), read-only, with the method and scope of section 14: 111 files and the header comments of 20 SQL files. The gates were clean.
+
+* **Probe 1.** 332 hits. Living documents: 68, of which 35 still true, 29 NORM and 4 HIST; none now false. Since section 14, seven hits left (the four of DC-95 and three restatements replaced in stage 5) and one entered (the condensed load-rule sentence of `staging.md`, still true).
+* **Probe 2.** Every count stated in a living document matches the files.
+* **Probe 3.** No broken link or anchor, no unknown decision-record number, no unresolved section reference to this register, and no `file:line` citation in a living document; the script's other flags are of the kinds named in section 14.
+* **Stage 5.** Pull request #60 replaced the restatements left for it in section 7.2 (rows 1, 14, 17, 21, 25 and 26), each with its claim-preservation table. A re-run of the duplicate scan found no other redundancy, and no restatement of the validity caveat of `symptom_cluster` remains outside its home, so DC-59 needs no further change.
+
+Still open, with the reasons of section 14: report only on accepted text (DC-04, DC-20, DC-27, DC-28, DC-29, DC-41, DC-65, DC-76, DC-83, and the decision-record parts of DC-74 and DC-80); the correspondence phase (DC-13, DC-89, DC-91, and decision g); open obligations recorded as NONE (DC-19, DC-21).
+
+**Closure.** The documentation-currency sweep is closed at commit `7759d0f`. Its open items belong to the correspondence phase or are report only on accepted decision records. Later changes are recorded in the decision log and, where a finding is concerned, in this register.
