@@ -76,3 +76,4 @@ An entry is reduced to a pointer only when its target carries every section of t
 | [LOG-030](LOG-030-rhmcd-20-published-work.md) | Cite the RHMCD-20 deposit as a published work | recorded |
 | [LOG-031](LOG-031-cluster-caveat-by-link.md) | State that symptom-cluster outputs carry a link to the caveat | recorded |
 | [LOG-032](LOG-032-citing-unversioned-records.md) | Cite log and register identifiers with a notice until those records are versioned | recorded |
+| [LOG-033](LOG-033-portfolio-destination-without-scu.md) | Name the portfolio's destination as academic and professional review, without SCU | recorded |
