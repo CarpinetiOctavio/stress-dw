@@ -36,7 +36,7 @@ The Data Card documents 7 of the 17 columns. The report column shows where the l
 
 ## Evidence
 
-Captures taken on 2026-09-19. They are immutable: do not replace or edit them.
+Captures taken on 2026-09-19. They are immutable ([ADR-0012](decisions/0012-cite-only-frozen-and-versioned-sources-as-evidence.md), rule 1).
 
 | File | Shows |
 |------|-------|
@@ -74,7 +74,7 @@ To compute a hash: `shasum -a 256 <file>`.
 
 ## How to obtain the file
 
-The dataset is not versioned in this repository. Download it from the Kaggle page above and verify its SHA-256 against the table. Place it at `data/raw/mental_health.csv`, the path [extraction](specification/staging.md#extraction) expects; `data/raw/` is ignored by git.
+The dataset is not versioned in this repository. It is downloaded from the Kaggle page above, its SHA-256 is checked against the table, and it is placed at `data/raw/mental_health.csv`, the path [extraction](specification/staging.md#extraction) expects; `data/raw/` is ignored by git.
 
 This is a deliberate choice, not only a size consideration. The uploader declares the file CC BY 4.0 (P1), but H1 — not yet resolved — hypothesizes that the symptom columns come from a second source. The pages consulted for the OSMI surveys state no single license: the figshare deposit authored by OSMI gives CC-BY-SA 4.0 in its description and CC BY 4.0 in its Licence field, and a third-party OpenML deposit gives CC BY-SA 4.0 (captures under [Evidence](#evidence); quotations in the [2026-10-01 addendum to ADR-0001](decisions/0001-position-as-portfolio-project.md#addendum-2026-10-01)). If H1 is confirmed, the portion of the file derived from the OSMI 2014 survey may therefore carry a license other than the one declared for the whole file. Redistributing the raw file from this repository while either question is open would mean redistributing it under a license this project cannot yet confirm is correct. See [ADR-0001](decisions/0001-position-as-portfolio-project.md).
 
