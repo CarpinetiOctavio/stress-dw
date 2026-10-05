@@ -38,6 +38,13 @@ F4 gains one inconsistency. The report's results table (page 68 of the PDF at `l
 
 ---
 
+### Addendum (2026-10-04)
+The one addition the Decision Outcome permits to the legacy repository, a superseded notice, was made: commit `3cf77ce` on `main` of `stress-dw-legacy`, dated 2026-09-20, "docs: add superseded notice (README only; no other files changed)", which adds `README.md` and changes no other file. The exception is exhausted: no further change to the legacy repository is permitted. The notice reflects the state of the project on 2026-09-20; this repository is the current record. Citations of the legacy keep pointing to the tag `legacy-original`, which the notice does not change.
+
+The addendum of 2026-09-23 describes the legacy reading of `mental_health_interview` as "an interview that determined they were mentally unwell — a diagnostic or assessment event". The frozen report does not carry that qualifier. It reads the field as participation in a mental-health interview and as exposure or contact with the mental-health system (pages 41–42, 79, 100 and 113 of the report at `legacy-original`), and no passage describes an interview that determined a person was unwell, or a diagnostic or assessment event. F3 stands: both the legacy's reading and the corrected reading differ from the source's description.
+
+---
+
 ## Decision Drivers
 
 * F1 and F2 are defects in the specification of grain and measures; they propagate through schema, ETL and reporting.
