@@ -43,7 +43,7 @@ A coarser cut is computed by summing the [numerators and the denominators](#quer
 dim_symptoms.growing_stress = 'Yes'
 ```
 
-`'Maybe'` and `'No'` are outside this condition. An indicator that reports `growing_stress` by level uses the three levels directly, not this condition. The condition is derived at query time and stored nowhere.
+`'Maybe'` and `'No'` are outside this condition. An indicator that reports `growing_stress` by level uses the three levels directly, not this condition. The condition is derived at query time and stored nowhere. Reading `growing_stress = 'Yes'` as explicit recognition is a premise, not a fact the source states: the column has no source description, and the premise is recorded in the row of `Growing_Stress` in the [conceptual framework, section 4](../conceptual-framework.md#4-variable-mapping-to-andersens-behavioral-model).
 
 ## `symptom_cluster`
 

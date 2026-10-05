@@ -1,6 +1,6 @@
 # Decision Records
 
-Decisions are recorded in [MADR](https://adr.github.io/madr/) format, one file per decision, named `NNNN-title-with-dashes.md`. To add one, copy `adr-template.md` and fill it in.
+Decisions are recorded in [MADR](https://adr.github.io/madr/) format, one file per decision, named `NNNN-title-with-dashes.md`. A new record starts from [`adr-template.md`](adr-template.md).
 
 Decisions that are not, or not only, recorded in a decision record are kept in the [decision log](log/README.md); its entries are not MADR records.
 
@@ -24,7 +24,7 @@ Decisions that are not, or not only, recorded in a decision record are kept in t
 
 ## Deviations from base MADR
 
-* **Findings section**, between Context and Problem Statement and Decision Drivers. Not part of base MADR. Use it only when the decision rests on evidence gathered against the repository, the dataset, or an external source; omit it otherwise. Each row cites where the evidence lives and marks a status of `Established`, a hypothesis still to test, or `Pending` a check.
+* **Findings section**, between Context and Problem Statement and Decision Drivers. Not part of base MADR. It is used only when the decision rests on evidence gathered against the repository, the dataset, or an external source, and is omitted otherwise. Each row cites where the evidence lives and marks a status of `Established`, a hypothesis still to test, or `Pending` a check.
 * **Considered Options as a bullet list**, not numbered — this matches the MADR spec; it's noted here only because ADR-0000 and ADR-0001, written before this convention was fixed, use numbers. New ADRs use bullets.
 
 ## Addenda to accepted decision records
