@@ -1,4 +1,4 @@
--- Indicator 12: Stress/resource-access rate.
+-- Indicator 12: Care-options response rate.
 -- indicators.md, Q6; pattern A (patterns.md).
 -- The single parameter is low_n_threshold.
 WITH population AS (

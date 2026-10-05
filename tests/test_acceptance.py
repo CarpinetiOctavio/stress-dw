@@ -172,7 +172,7 @@ def test_c6_dim_country_has_one_row_per_staged_country_at_most_35(
     assert dimension_rows <= 35
 
 
-FACT_JOINED_TO_DIMENSIONS = """
+STAGING_JOINED_TO_DIMENSIONS = """
     FROM staging_response
     JOIN dim_time
         ON dim_time.year = year(staging_response.response_timestamp)
@@ -194,7 +194,7 @@ def test_c2_joining_staging_to_the_eight_dimensions_multiplies_no_rows(
     counts = warehouse.execute(
         f"""
         SELECT
-            (SELECT COUNT(*) {FACT_JOINED_TO_DIMENSIONS}),
+            (SELECT COUNT(*) {STAGING_JOINED_TO_DIMENSIONS}),
             (SELECT COUNT(*) FROM staging_response)
         """
     ).fetchone()

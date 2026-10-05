@@ -1,4 +1,4 @@
--- Indicator 15: Care-options-to-treatment conversion rate.
+-- Indicator 15: Lifetime treatment-seeking rate by care-options response.
 -- indicators.md, Q7.1; pattern C (patterns.md).
 -- The single parameter is low_n_threshold.
 -- Uses symptom_cluster: see its validity caveat in definitions.md.

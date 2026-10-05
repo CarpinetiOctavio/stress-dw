@@ -66,19 +66,24 @@ INDICATORS: dict[int, Indicator] = {
             8, "Lifetime treatment-seeking (count)", "C", ("gender", "growing_stress")
         ),
         Indicator(
-            9, "Explicit stress-recognition rate by isolation", "A", ("days_indoors",)
+            9,
+            "Explicit stress-recognition rate by time indoors",
+            "A",
+            ("days_indoors",),
         ),
-        Indicator(10, "Elevated mood-swings rate by isolation", "A", ("days_indoors",)),
-        Indicator(11, "Social-weakness rate by isolation", "A", ("days_indoors",)),
+        Indicator(
+            10, "Elevated mood-swings rate by time indoors", "A", ("days_indoors",)
+        ),
+        Indicator(11, "Social-weakness rate by time indoors", "A", ("days_indoors",)),
         Indicator(
             12,
-            "Stress/resource-access rate",
+            "Care-options response rate",
             "A",
             ("growing_stress", "country", "occupation", "gender"),
         ),
         Indicator(
             13,
-            "Stress/resource-access (count)",
+            "Care-options response (count)",
             "A",
             ("growing_stress", "country", "occupation", "gender"),
         ),
@@ -92,14 +97,14 @@ INDICATORS: dict[int, Indicator] = {
         ),
         Indicator(
             15,
-            "Care-options-to-treatment conversion rate",
+            "Lifetime treatment-seeking rate by care-options response",
             "C",
             ("growing_stress", "symptom_cluster", "care_options"),
             uses_symptom_cluster=True,
         ),
         Indicator(
             16,
-            "Treatment non-uptake rate under full context",
+            "Lifetime no-treatment rate by stated disclosure willingness",
             "C",
             (
                 "growing_stress",

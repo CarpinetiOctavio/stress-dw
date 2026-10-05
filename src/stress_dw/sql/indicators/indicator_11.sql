@@ -1,4 +1,4 @@
--- Indicator 11: Social-weakness rate by isolation.
+-- Indicator 11: Social-weakness rate by time indoors.
 -- indicators.md, Q5; pattern A (patterns.md).
 -- The single parameter is low_n_threshold.
 WITH population AS (

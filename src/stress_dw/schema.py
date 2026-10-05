@@ -13,7 +13,8 @@ keys and `treatment`. The remaining columns rest on two grounds, by kind:
   in any modeled column, which sustains invariant I1
   (docs/specification/fact-table.md#invariants). NOT NULL is not a new
   requirement; it is the same rule enforced a second time, by the engine,
-  beneath the load rule the Python load step will enforce. The second layer
+  beneath the load rule that the Python load step enforces
+  (`staging.enforce_load_rule`). The second layer
   matters because DuckDB's UNIQUE does not reject NULL: a UNIQUE column
   accepted two NULL rows without error, checked against DuckDB 1.5.5. Without
   NOT NULL, a natural key such as `dim_gender.gender` could hold a NULL

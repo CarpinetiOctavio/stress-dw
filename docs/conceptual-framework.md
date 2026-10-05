@@ -81,9 +81,9 @@ This section settles what construct each indicator's variables can honestly supp
 
 **Problems (F3):** counts "Not sure" as available; filters on a derived flag that already includes explicit self-reporters, blurring the line it's meant to draw.
 
-**What the variables can support:** a resource-availability-to-treatment conversion rate, with "Yes" and "Not sure" reported and analyzed separately rather than merged.
+**What the variables can support:** a lifetime treatment-seeking rate by care-options response, with "Yes" and "Not sure" reported and analyzed separately rather than merged.
 
-**Direction:** "care-options-to-treatment conversion rate," split by definite vs. uncertain availability.
+**Direction:** "care-options-to-treatment conversion rate" (renamed "Lifetime treatment-seeking rate by care-options response", [LOG-014](decisions/log/LOG-014-indicator-renames-and-residual-identifiers.md)), split by "Yes" and "Not sure" responses.
 
 ### Indicator 16 (legacy name "% postponing treatment despite having resources")
 

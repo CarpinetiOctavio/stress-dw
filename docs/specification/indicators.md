@@ -48,9 +48,9 @@ The denominator is every row in the cell. `growing_stress` is part of the counte
 
 | # | Name | Pattern | Population | Measure | Cuts |
 |---|------|---------|------------|---------|------|
-| 9 | Explicit stress-recognition rate by isolation | A | all rows | V = `growing_stress`; rate | `days_indoors` (5 levels, ordered by `sort_order`) |
-| 10 | Elevated mood-swings rate by isolation | A | all rows | V = `mood_swings`, three levels reported; headline rate = (numerator of `Medium` + numerator of `High`) / denominator | `days_indoors` |
-| 11 | Social-weakness rate by isolation | A | all rows | V = `social_weakness`; rate | `days_indoors` |
+| 9 | Explicit stress-recognition rate by time indoors | A | all rows | V = `growing_stress`; rate | `days_indoors` (5 levels, ordered by `sort_order`) |
+| 10 | Elevated mood-swings rate by time indoors | A | all rows | V = `mood_swings`, three levels reported; [headline](patterns.md#output-columns) rate = (numerator of `Medium` + numerator of `High`) / denominator | `days_indoors` |
+| 11 | Social-weakness rate by time indoors | A | all rows | V = `social_weakness`; rate | `days_indoors` |
 
 ## Q6 — indicators 12, 13
 
@@ -58,8 +58,8 @@ The denominator is every row in the cell. `growing_stress` is part of the counte
 
 | # | Name | Pattern | Population | Measure | Cuts |
 |---|------|---------|------------|---------|------|
-| 12 | Stress/resource-access rate | A | all rows | V = `care_options`, three levels (`Yes`, `Not sure`, `No`); rate | `growing_stress` (3 levels), `country`, `occupation`, `gender` |
-| 13 | Stress/resource-access (count) | A | all rows | V = `care_options`; numerator | same as 12 |
+| 12 | Care-options response rate | A | all rows | V = `care_options`, three levels (`Yes`, `Not sure`, `No`); rate | `growing_stress` (3 levels), `country`, `occupation`, `gender` |
+| 13 | Care-options response (count) | A | all rows | V = `care_options`; numerator | same as 12 |
 
 The denominator is the cell's full respondent count, so the three levels add to the denominator; `Yes` and `Not sure` stay separate ([multi-level self-report rule](definitions.md#multi-level-self-report-rule)).
 
@@ -79,7 +79,7 @@ Uses [`symptom_cluster`](definitions.md#symptom_cluster); see its validity cavea
 
 | # | Name | Pattern | Population | Measure | Cuts |
 |---|------|---------|------------|---------|------|
-| 15 | Care-options-to-treatment conversion rate | C | `(explicit_recognition OR symptom_cluster) AND care_options IN ('Yes','Not sure')` | V = `treatment`; rate, both levels | `growing_stress` (3 levels), `symptom_cluster`, `care_options` (`Yes`, `Not sure`) |
+| 15 | Lifetime treatment-seeking rate by care-options response | C | `(explicit_recognition OR symptom_cluster) AND care_options IN ('Yes','Not sure')` | V = `treatment`; rate, both levels | `growing_stress` (3 levels), `symptom_cluster`, `care_options` (`Yes`, `Not sure`) |
 
 Uses [`explicit_recognition`](definitions.md#explicit_recognition) and [`symptom_cluster`](definitions.md#symptom_cluster); see its validity caveat. The `care_options` restriction is a declared population filter ([multi-level self-report rule](definitions.md#multi-level-self-report-rule)). The union excludes every row that meets neither condition, so four (`growing_stress`, `symptom_cluster`) combinations occur in the population: (`Yes`, true), (`Yes`, false), (`Maybe`, true), (`No`, true). With two `care_options` levels the indicator has up to 8 cells.
 
@@ -89,6 +89,8 @@ Uses [`explicit_recognition`](definitions.md#explicit_recognition) and [`symptom
 
 | # | Name | Pattern | Population | Measure | Cuts |
 |---|------|---------|------------|---------|------|
-| 16 | Treatment non-uptake rate under full context | C | same as indicator 15 | V = `treatment`; both levels, the `No` level (non-uptake) being the quantity of interest | `growing_stress` (3 levels), `symptom_cluster`, `care_options` (`Yes`, `Not sure`), `mental_health_interview` (3 levels) |
+| 16 | Lifetime no-treatment rate by stated disclosure willingness | C | same as indicator 15 | V = `treatment`; both levels, the `No` level (no lifetime treatment-seeking reported) being the quantity of interest | `growing_stress` (3 levels), `symptom_cluster`, `care_options` (`Yes`, `Not sure`), `mental_health_interview` (3 levels) |
 
-Uses [`explicit_recognition`](definitions.md#explicit_recognition) and [`symptom_cluster`](definitions.md#symptom_cluster); see its validity caveat. Up to 4 × 2 × 3 = 24 cells. Headline cell: `growing_stress = 'Yes'`, `symptom_cluster` true, `care_options = 'Yes'`, `mental_health_interview = 'Yes'`.
+Uses [`explicit_recognition`](definitions.md#explicit_recognition) and [`symptom_cluster`](definitions.md#symptom_cluster); see its validity caveat. Up to 4 × 2 × 3 = 24 cells. [Headline](patterns.md#output-columns) cell: `growing_stress = 'Yes'`, `symptom_cluster` true, `care_options = 'Yes'`, `mental_health_interview = 'Yes'`.
+
+In the name, "no-treatment" denotes the `No` level of `treatment`: no lifetime treatment-seeking reported, not whether any treatment was received.

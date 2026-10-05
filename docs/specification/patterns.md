@@ -4,7 +4,9 @@ Sixteen indicators are parameter sets of three patterns. The terms used here (po
 
 ## Output columns
 
-Every output row carries the cut values; `level` (patterns A and C only); `numerator`; `denominator`; `rate`; and `low_n`. The rules for `rate` and `low_n` are under [Reporting rules](#reporting-rules).
+Every output row carries the cut values; `level` (patterns A and C only); `numerator`; `denominator`; `rate`; and `low_n`. The rules for `rate` and `low_n` are under [Reporting rules](#reporting-rules). Indicators 5 and 6 add `grouping_set`, naming which of their two grouping sets a row belongs to; indicator 10 adds `headline_rate`.
+
+**Headline.** Indicators 10 and 16 designate a headline, the value read first. For indicator 10 it is the share of `Medium` plus `High`, carried in `headline_rate`; for indicator 16 it is one cell, named in [`indicators.md`](indicators.md) and not marked in the output.
 
 ## Pattern A — level distribution
 
@@ -40,6 +42,6 @@ Indicators 14, 15 and 16 use [`symptom_cluster`](definitions.md#symptom_cluster)
 * **Rate.** `rate` = `numerator` / `denominator`. It is NULL, never 0, when `denominator` is 0. A zero denominator arises only when cells are materialized by a cross join over cut domains, since cells are otherwise formed from rows present in the population.
 * **Low-count flag.** `low_n` is true when `denominator` is below `low_n_threshold`, a parameter of the query layer whose default is 30. The default is a rule-of-thumb convention with no validated source in this project: it flags instability and is not a validity threshold. No row is suppressed in SQL; whether to show or hide flagged cells is decided by the reporting layer. Numerators are not flagged.
 * **Names.** Outputs carry the indicator names of [`indicators.md`](indicators.md). They are not relabeled with words that [writing conventions, rule 5](../writing-conventions.md#5-names-claim-only-what-the-data-supports) excludes.
-* **`symptom_cluster`.** Any output that uses [`symptom_cluster`](definitions.md#symptom_cluster) is accompanied by the caveat written in its definition.
+* **`symptom_cluster`.** Any output that uses [`symptom_cluster`](definitions.md#symptom_cluster) carries a link to the validity caveat in its definition.
 * **Cross-column-group results.** Results that cross a column the source describes with a symptom column are subject to the pending checks on the source's provenance ([conceptual framework, section 7](../conceptual-framework.md#7-threats-to-validity); checks A5, A6 and A10 of the [legacy audit](../audit/legacy-audit.md)).
 * **Status of results.** Every output is an output of a methodological test bench ([ADR-0001](../decisions/0001-position-as-portfolio-project.md)); none is stated as prevalence or as a treatment gap in any population.

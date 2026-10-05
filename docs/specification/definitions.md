@@ -8,6 +8,8 @@ Concepts used in more than one part of the specification are defined here, once.
 
 **Stored values.** A dimension attribute that holds a source value holds the source literal, unrecoded and untranslated. Any normalization (trimming, case) is declared in the data-integration phase, "Fase 4" (English: "Phase 4"; see [`methodology.md`](../methodology.md)), and applied before the dimensions are loaded.
 
+**Types.** `VARCHAR(n)` and `CHAR(n)` declare a length that DuckDB does not enforce: it stores both as `VARCHAR` and accepts longer values. Value domains are enforced by the [load rule](sources.md#load-rule), not by the declared length.
+
 **Nothing derived is stored beyond dimension attributes.** No table stores a ratio, a percentage, a pre-aggregated count, or a derived condition ([`explicit_recognition`](#explicit_recognition), [`symptom_cluster`](#symptom_cluster)). Every indicator is computed at query time from `fact_response` and the dimensions. A dimension may store a derived column, such as `region` in `dim_country`, because it is a pure function of that dimension's natural key ([dimension grain rule](#dimension-grain-rule)).
 
 ## Dimension grain rule
