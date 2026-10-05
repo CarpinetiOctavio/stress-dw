@@ -24,5 +24,5 @@ The specification is split into parts so that each can be read for one task. A c
 
 ## Open items and dependencies
 
-* **Checks that may amend this specification.** A8 and A12 have run and confirmed the specification needs no amendment: the `dim_time` and `dim_country` row sets and the [value domains](specification/sources.md#value-domains) all matched. Still open: A11 (the [country-to-region mapping](specification/country-region-mapping.md), for the 33 countries not yet checked against UNSD M49) and A5, A6, A10 (the validity of results that cross the two groups of source columns).
+* **Checks that may amend this specification.** A8, A11 and A12 (the `dim_time` and `dim_country` row sets, the [country-to-region mapping](specification/country-region-mapping.md), the [value domains](specification/sources.md#value-domains)) and A5, A6, A10 (the validity of results that cross the two groups of source columns). The status and result of each are in the [audit table](audit/legacy-audit.md#checks).
 * **Code conventions.** Style, linting, naming beyond the [model conventions](specification/definitions.md#model-conventions), docstrings and test structure are set in [`code-conventions.md`](code-conventions.md).

@@ -33,5 +33,5 @@ Extends the [model conventions](specification/definitions.md#model-conventions) 
 
 ## 6. Error handling
 
-- Extends the [load rule](specification/sources.md#load-rule): a value outside its documented domain aborts the load; it is never coerced or defaulted silently.
+- Extends the [load rule](specification/sources.md#load-rule) to the code that enforces it.
 - No bare `except:`. Every caught exception is a named type, and its message includes whatever identifies the row or step that failed, so a failure traces back to an [acceptance check](specification/acceptance.md) or an [invariant](specification/fact-table.md#invariants).

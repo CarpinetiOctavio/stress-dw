@@ -21,4 +21,4 @@ Two entries differ: Mexico (legacy: `América del Norte` (English: "North Americ
 
 * The mapping is a fixed table in the pipeline, not inferred from data.
 * A staged country absent from the mapping aborts the load. There is no default region.
-* Check A8 of the legacy audit confirms the number of countries present in staging: 35, an exact match with the 35 entries here — no staged country falls outside the mapping. The legacy report's "36" was inaccurate.
+* Check A8 of the [legacy audit](../audit/legacy-audit.md#checks) confirms that every staged country is in the mapping and every entry occurs in staging; its counts, and the comparison with the legacy report's figure, are in its result.
