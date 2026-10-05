@@ -559,7 +559,7 @@ Options for the N items are developed when each item opens.
 
 ## 10. Reconciliation by primary class
 
-Every finding has exactly one primary class; the secondary class, where one applies, is in parentheses. The counts sum to 94.
+Every finding has exactly one primary class; the secondary class, where one applies, is in parentheses. The counts sum to 95.
 
 | Primary class | Count | Findings |
 |---------------|-------|----------|
@@ -569,9 +569,9 @@ Every finding has exactly one primary class; the secondary class, where one appl
 | REPORT-ONLY | 9 | DC-04 (HIST), DC-20 (HIST), DC-27, DC-28, DC-29, DC-41, DC-65, DC-76, DC-83 |
 | NONE | 7 | DC-09 (still true), DC-13 (correspondence phase), DC-19 (open obligation), DC-21 (open obligation), DC-22 (clean), DC-23 (clean), DC-91 (correspondence phase) |
 | EXT | 4 | DC-78, DC-79 (DECIDE), DC-80, DC-81 |
-| CODE | 3 | DC-49, DC-52, DC-53 (DECIDE) |
+| CODE | 4 | DC-49, DC-52, DC-53 (DECIDE), DC-95 |
 | HIST | 1 | DC-16 |
-| Total | 94 | |
+| Total | 95 | |
 
 Rule applied: a finding on an accepted ADR that needs no change has REPORT-ONLY as primary class, with its nature (HIST) as secondary; one that needs a dated addendum has ADD; one whose action waits on a decision has DECIDE as primary unless the action itself is clear and only its wording is decided (then FIX or CODE, with DECIDE secondary).
 
@@ -642,3 +642,19 @@ Method lessons are kept by theme in the lesson files ([format](lessons/README.md
 | PR-c | #56 |
 | PR-d | #57 |
 | PR-e | the pull request that adds this file |
+
+## 14. Stage 4 re-check
+
+Run on 2026-10-04 at commit `e8751b9`, after the pull requests of section 13, read-only, with the scripts of section 2.9 against a scope list regenerated for that commit: 111 files and the header comments of 20 SQL files. The scope is that of section 3 plus [`docs/concept-homes.md`](../concept-homes.md), the [decision log](../decisions/log/README.md), the [method lessons](lessons/README.md) and this register. The gates (ruff, ruff format --check, mypy, pytest without the acceptance module) were clean.
+
+* **Probe 1.** 334 hits. Living documents: 74, of which 37 still true, 29 NORM, 4 HIST and 4 now false (finding DC-95). Accepted decision records, log entries and this register: HIST or NORM. Every stage-1 finding of probe 1 is resolved.
+* **Probe 2.** Every count stated in a living document matches the files: decision records and their index, dimensions, source and modeled columns, questions, indicators, acceptance checks, invariants, audit checks, and the lengths of the parts table, the log index, the lesson index and the concept-home list.
+* **Probe 3.** No broken link or anchor, no unknown decision-record number, no unresolved section reference to this register, and no `file:line` citation in a living document. The script's other flags are line locators in this register, a test node identifier, links inside a quoted Markdown block, and two file names cited by intent (a planned document and a rejected option).
+
+| ID | Location | Statement | Why | Class | Disposition | PR | Dec. | Tag |
+|----|----------|-----------|-----|-------|-------------|----|------|-----|
+| DC-95 | `tests/test_record_indexes.py` (module docstring; the two register tests) | "Once the documentation-currency register is versioned … Until then these two checks are skipped"; skip message "the documentation-currency register is not versioned yet" | the register is versioned since PR #58; the condition is met and the skip branch no longer runs | CODE | present tense; skip guard removed (corrected in the pull request that adds this section) | stage 4 | — | verified in text |
+
+Still open, each with its recorded reason: report only on accepted text (DC-04, DC-20, DC-27, DC-28, DC-29, DC-41, DC-65, DC-76, DC-83, and the decision-record parts of DC-74 and DC-80); the correspondence phase (DC-13, DC-89, DC-91, and decision g); stage 5 (DC-59's remaining restatements and the stage-5 rows of section 7.2); open obligations recorded as NONE (DC-19, DC-21).
+
+**Closure.** With the corrections of stage 3 and of DC-95, probes 1 to 3 re-run clean at commit `e8751b9`, except for the items above, each of which has a recorded reason. Stage 4 is closed; stage 5 follows.
