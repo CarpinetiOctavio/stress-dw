@@ -15,7 +15,7 @@ The mapping has 35 entries (2 + 19 + 6 + 2 + 2 + 4).
 
 ## Differences from the legacy mapping
 
-Two entries differ: Mexico (legacy: `América del Norte` (English: "North America"); here: `Latin America and the Caribbean`) and Georgia (legacy: `Europa` (English: "Europe"); here: `Asia`). Both were verified against the UNSD table; the other 33 entries are pending check A11 of the [legacy audit](../audit/legacy-audit.md).
+Two entries differ: Mexico (legacy: `América del Norte` (English: "North America"); here: `Latin America and the Caribbean`) and Georgia (legacy: `Europa` (English: "Europe"); here: `Asia`). Both were checked against the UNSD M49 table ([ADR-0005](../decisions/0005-redefine-indicators-1-to-13.md), F9), of which no capture is versioned (a debt under [ADR-0012](../decisions/0012-cite-only-frozen-and-versioned-sources-as-evidence.md), Constraint); the other 33 entries are pending check A11 of the [legacy audit](../audit/legacy-audit.md).
 
 ## Rules
 

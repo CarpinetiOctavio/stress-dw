@@ -44,7 +44,7 @@ Domains as documented in the legacy report (correspondence and granularity table
 | `Social_Weakness` | `Yes`, `No`, `Maybe` |
 | `mental_health_interview` | `Yes`, `No`, `Maybe` |
 | `care_options` | `Yes`, `No`, `Not sure` |
-| `Timestamp` | parsed to (year, month); range per the Data Card: 2014-08-27 to 2016-02-01; format confirmed as `%m/%d/%Y %H:%M` by check A12, 0 unparsable values |
+| `Timestamp` | parsed to (year, month); range in the result of [check A12](../audit/legacy-audit.md#checks); format confirmed as `%m/%d/%Y %H:%M` by check A12, 0 unparsable values |
 
 The legacy report writes `1-14 days` in one place and `1 - 14 days` (spaces around the hyphen) in an example table. The unspaced form is used throughout this specification.
 
