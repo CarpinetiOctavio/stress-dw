@@ -79,6 +79,14 @@ The inclusion-path tag defined above (`explicit_only` / `convergent_only` / `bot
 
 This addendum records the original design for traceability; it supersedes the tagged design.
 
+### Addendum (2026-10-04)
+
+The addendum of 2026-09-23 states that the minimum-count rule "is set in `docs/specification.md`". The specification implements the minimum-count consideration as a flag, `low_n`, a parameter of the query layer: no row is suppressed, and display is left to the reporting layer ([`patterns.md`, Reporting rules](../specification/patterns.md#reporting-rules)). No minimum-count rule is set, and none is decided here; the rule for reading flagged cells is set in the correspondence criteria.
+
+The same addendum calls the filter `care_options IN ('Yes','Not sure')` "the literal scope of Q7.2 ("...and who report having care options available")". That wording described availability, which a "Not sure" response does not state. The filter keeps both levels, separately, and stands; Q7.2's text now names the responses ([ADR-0004, addendum of 2026-10-04](0004-revise-business-questions.md#addendum-2026-10-04)).
+
+Context describes the legacy reading of `mental_health_interview` as an interview "that determined they were mentally unwell — a diagnostic or assessment event". The frozen report does not carry that qualifier: it reads the field as participation in a mental-health interview and as exposure or contact with the mental-health system ([ADR-0000, addendum of 2026-10-04](0000-rebuild-from-scratch-instead-of-continuing-legacy.md#addendum-2026-10-04)). The correction this record applies to indicators 14–16 stands.
+
 ## Pros and Cons of the Options
 
 ### Indicator 14 — Design A

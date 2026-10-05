@@ -22,6 +22,13 @@ This ADR continues the `F` sequence from ADR-0000 rather than starting a new let
 | F8 | Indicator names 4 and 9 describe a process or a clinical state that a single cross-sectional self-report item cannot establish. Indicator 4's original name: "proporción con historial familiar que **desarrollan** estrés" (English: "proportion with family history who **develop** stress") — "develop" implies change over time. Indicator 9's original name: "proporción con **deterioro emocional** por aislamiento" (English: "proportion with **emotional deterioration** from isolation") — "emotional deterioration" is a clinical claim. The dataset shows co-occurrence within one survey response, not development over time or clinical deterioration. | Legacy report, Fase 2 (indicator names); `conceptual-framework.md` §5 | Established |
 | F9 | The legacy's country-to-region mapping does not follow the UN geoscheme (M49) that the legacy names as its basis, for two of its 35 entries: Mexico is mapped to North America (M49: Central America, within Latin America and the Caribbean) and Georgia to Europe (M49: Western Asia). This ADR's initial text specified reproducing the mapping verbatim; the specification applies the two corrections instead. The other 33 entries are not yet checked against the UNSD table. | Legacy report, Fase 4 (English: "Phase 4" — Hefesto's data-integration phase; see `docs/methodology.md`), ETL for `Dim_Pais`, where the mapping is stated with the basis "clasificación geográfica estándar de Naciones Unidas" (English: "standard geographic classification of the United Nations"); UNSD M49 (<https://unstats.un.org/unsd/methodology/m49/>), consulted 2026-09-23 for Mexico and Georgia | Established for Mexico and Georgia; Pending (A11) for the other 33 |
 
+---
+
+### Addendum (2026-10-04)
+F7 quotes "cómo varía dicha proporción... según el género" (English: "how that proportion varies... by gender") as Q4's text. In the frozen report the phrase belongs to Q2 (page 6 of the report at `legacy-original`). Q4 reads "segmentado por género y presencia de estrés creciente (Growing_Stress)" (English: "segmented by gender and presence of growing stress (Growing_Stress)"). Q4's own text carries the same request, so F7 stands.
+
+---
+
 ## Decision Drivers
 
 * The principle behind ADR-0003 — a respondent's own answer left ambiguous should not be resolved by the pipeline's assumption — applies with no exception to every indicator built on a three-level self-report field, not only 14–16.
