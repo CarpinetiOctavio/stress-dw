@@ -103,12 +103,12 @@ Indicators 14–16 were finalized in [ADR-0003](decisions/0003-redefine-indicato
 
 ## 7. Threats to validity
 
-This section is provisional. Several items depend on checks in `docs/audit/legacy-audit.md` that have not run yet (A1–A10, all `Pending`); it will be finalized once they close.
+This section is provisional while checks it depends on are pending; the status of each check is in the [audit table](audit/legacy-audit.md#checks).
 
 - **Self-report only**, across every variable used here — common-method bias, no independent verification of any item.
 - **Cross-sectional.** No causal or temporal claim is possible from this data.
 - **Undocumented provenance.** No population can be named or assumed (ADR-0001, P1–P3, P6).
-- **H1 and H3, pending (A1, A4, A5, A6, A10).** If the file combines an OSMI-type source with a second source — plausibly RHMCD-20 (ADR-0001 addendum, H3) — any association between the source-described columns and the symptom columns would be an artifact of merging two unrelated files, not a real relationship. This would undermine any cross-tabulation the new pipeline computes across those two column groups, not just the indicators already flagged.
+- **H1 and H3** (stated in [ADR-0001, Hypotheses](decisions/0001-position-as-portfolio-project.md#hypotheses-not-findings); their checks and the status of each in the [audit table](audit/legacy-audit.md#checks)). If the file combines an OSMI-type source with a second source — plausibly RHMCD-20 (H3) — any association between the source-described columns and the symptom columns would be an artifact of merging two unrelated files, not a real relationship. This would undermine any cross-tabulation the new pipeline computes across those two column groups, not just the indicators already flagged.
 - **`Indicador_Inferido_Estrés`'s convergence threshold** has no external clinical validation — it is a declared heuristic, not a validated measure, regardless of how the specification renames it.
 - **Fan-out in `Dim_Sintomas` (F1, A2, pending).** If uncarried into the new pipeline's design, comparing any legacy indicator to a newly computed one would silently double-count.
 
