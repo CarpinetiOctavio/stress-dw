@@ -14,7 +14,7 @@ The RHMCD-20 deposit, cited by its versioned DOI (ADR-0001 `:33`), is a publishe
 
 ## Linked findings
 
-Item N13 of the documentation-currency register; finding DC-79.
+Item N13 of the [documentation-currency register](../../audit/documentation-currency.md#8-decide-items); finding DC-79.
 
 ## Options considered
 

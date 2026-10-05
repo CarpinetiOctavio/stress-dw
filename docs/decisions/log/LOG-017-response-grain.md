@@ -14,7 +14,7 @@ Living documents describe the grain of `fact_response` as response grain: one ro
 
 ## Linked findings
 
-Decision f of the documentation-currency register's decision list; finding DC-77.
+Decision f of the [documentation-currency register](../../audit/documentation-currency.md#8-decide-items)'s decision list; finding DC-77.
 
 ## Options considered
 

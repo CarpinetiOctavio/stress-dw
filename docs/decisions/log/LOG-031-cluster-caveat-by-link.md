@@ -14,7 +14,7 @@ formalization: none
 
 ## Linked findings
 
-Item N15 of the documentation-currency register; finding DC-54.
+Item N15 of the [documentation-currency register](../../audit/documentation-currency.md#8-decide-items); finding DC-54.
 
 ## Options considered
 

@@ -14,7 +14,7 @@ The concept-to-home map of the documentation-currency register is confirmed in s
 
 ## Linked findings
 
-The register's concept-to-home map (section 7) and its list of stage-3 overlaps.
+The [register](../../audit/documentation-currency.md#5-findings)'s concept-to-home map (section 7) and its list of stage-3 overlaps.
 
 ## Options considered
 

@@ -14,7 +14,7 @@ The conceptual framework's reading of `mental_health_interview` (`:38`) keeps "d
 
 ## Linked findings
 
-Item N6 of the documentation-currency register; finding DC-58.
+Item N6 of the [documentation-currency register](../../audit/documentation-currency.md#8-decide-items); finding DC-58.
 
 ## Options considered
 

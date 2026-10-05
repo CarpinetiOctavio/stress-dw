@@ -23,7 +23,7 @@ formalization: none
 
 ## Linked findings
 
-The documentation-currency register, section 7; findings DC-14, DC-85.
+The [documentation-currency register](../../audit/documentation-currency.md#5-findings), section 7; findings DC-14, DC-85.
 
 ## Options considered
 

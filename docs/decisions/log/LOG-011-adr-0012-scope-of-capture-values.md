@@ -18,7 +18,7 @@ formalization: addendum to ADR-0012 (planned)
 
 ## Linked findings
 
-DC-85 of the documentation-currency register.
+DC-85 of the [documentation-currency register](../../audit/documentation-currency.md#5-findings).
 
 ## Options considered
 

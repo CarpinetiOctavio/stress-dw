@@ -14,7 +14,7 @@ A dated addendum to ADR-0007 records that its statement "the cluster's threshold
 
 ## Linked findings
 
-Decision h of the documentation-currency register's decision list; finding DC-50.
+Decision h of the [documentation-currency register](../../audit/documentation-currency.md#8-decide-items)'s decision list; finding DC-50.
 
 ## Options considered
 

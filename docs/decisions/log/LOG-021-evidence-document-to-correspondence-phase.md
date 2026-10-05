@@ -14,7 +14,7 @@ The name, path and contents of "the correspondence evidence document" (`CLAUDE.m
 
 ## Linked findings
 
-Decision l of the documentation-currency register's decision list; finding DC-89.
+Decision l of the [documentation-currency register](../../audit/documentation-currency.md#8-decide-items)'s decision list; finding DC-89.
 
 ## Options considered
 

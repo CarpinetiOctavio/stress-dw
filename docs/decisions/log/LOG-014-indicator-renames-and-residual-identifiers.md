@@ -16,7 +16,7 @@ formalization: none
 
 ## Linked findings
 
-Decision c of the documentation-currency register's decision list; finding DC-75 (indicator names).
+Decision c of the [documentation-currency register](../../audit/documentation-currency.md#8-decide-items)'s decision list; finding DC-75 (indicator names).
 
 ## Options considered
 

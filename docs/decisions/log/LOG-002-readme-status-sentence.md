@@ -20,7 +20,7 @@ The third sentence of the section is kept. The change is made ahead of the READM
 
 ## Linked findings
 
-DC-17 of the documentation-currency register.
+DC-17 of the [documentation-currency register](../../audit/documentation-currency.md#5-findings).
 
 ## Options considered
 

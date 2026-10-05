@@ -14,7 +14,7 @@ The convention that accepted decision records are not rewritten and receive date
 
 ## Linked findings
 
-DC-90 of the documentation-currency register.
+DC-90 of the [documentation-currency register](../../audit/documentation-currency.md#5-findings).
 
 ## Options considered
 

@@ -14,7 +14,7 @@ Texts that describe `care_options` use a neutral wording, one that names the res
 
 ## Linked findings
 
-Decision b of the documentation-currency register's decision list; findings DC-43 and DC-75 (the `care_options` wording only).
+Decision b of the [documentation-currency register](../../audit/documentation-currency.md#8-decide-items)'s decision list; findings DC-43 and DC-75 (the `care_options` wording only).
 
 ## Options considered
 
