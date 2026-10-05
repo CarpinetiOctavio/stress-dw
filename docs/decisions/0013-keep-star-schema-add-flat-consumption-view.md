@@ -27,6 +27,13 @@ Finding IDs use a new letter, `M` (model): this ADR concerns the form of the sch
 | M7 | **Four of the 17 source columns are not modeled** (`self_employed`, `Changes_Habits`, `Mental_Health_History`, `Work_Interest`). Modeling one of them is an amendment to the specification. | [`sources.md`](../specification/sources.md), column map | Established |
 | M8 | **Reducing the star would touch most of the repository.** At commit `af4996e` all sixteen indicator queries reference at least one of the six dimensions a reduction would move (`gender`, `family_history`, `occupation`, `access`, `isolation`, `symptoms`); `dim_symptoms` appears in 21 files under `src/`; acceptance checks C1, C5 and C7 are parametrized over the eight dimensions; at least ten documents state the number of dimensions, foreign keys or tables; and the reload evidence of ADR-0010 (E3) was measured against the current DDL. | Searches over `src/`, `tests/` and `docs/` at commit `af4996e`; [ADR-0009](0009-use-duckdb-as-database-engine.md), E3 | Established |
 
+---
+
+### Addendum (2026-10-04)
+Decision Outcome and the option "Use a single flat table as the only model" attribute foreign-key enforcement to ADR-0009's E1. Since [ADR-0009's addendum of 2026-10-02](0009-use-duckdb-as-database-engine.md#addendum-2026-10-02), enforcement on insert rests on the captured documentation and enforcement on delete on E3 ([ADR-0009, Findings](0009-use-duckdb-as-database-engine.md#findings)); acceptance check C5 tests it. Both passages stand with those sources.
+
+---
+
 ## Decision Drivers
 
 * The project's purpose is to show dimensional modeling built with the Hefesto methodology, with traceability from the perspectives of a question to the dimensions of the model (M1).

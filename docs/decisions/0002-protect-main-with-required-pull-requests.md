@@ -40,6 +40,10 @@ Chosen option: "Protect `main`: require a pull request before merging; disallow 
 
 Settings → Rulesets → `protect-main` on `main`, visible in the repository's own settings; a direct push to `main` failing is the fitness function.
 
+### Addendum (2026-10-04)
+
+The Decision Drivers name the portfolio as one "for SCU". The portfolio is meant for academic and professional review and is not addressed to one institution ([LOG-033](log/LOG-033-portfolio-destination-without-scu.md)). The driver stands without that clause: a visible pull-request history is a signal of engineering discipline to anyone reviewing the repository.
+
 ## Pros and Cons of the Options
 
 ### No protection

@@ -20,6 +20,13 @@ Two rows cite evidence already established in [`legacy-audit.md`](../audit/legac
 | A13 | No positive duplication mechanism is established. A complete combinatorial grid and simple batch loading are both ruled out. Duplication is non-uniform: concentrated almost entirely in two countries (United States, United Kingdom), while 17 of 35 countries have no duplicate profiles at all. | [`legacy-audit.md`](../audit/legacy-audit.md) | Established |
 | G1 | Deduplicating on the 13 modeled columns (12 non-`Timestamp` plus `Timestamp`) instead of all 17 raw columns collapses 290,051 rows to 259,490 — a further 30,561 rows, distributed across countries in roughly the proportion of the file itself (United States 59.0% of the extra collapse vs. 58.6% of the file; United Kingdom 17.4% vs. 17.6%), unlike A13's country-specific structure. | Computed against the SHA-256-verified extraction used by A1, A4, A8, A12 and A13 (`083f44e9...`) | Established |
 
+---
+
+### Addendum (2026-10-04)
+Decision Drivers and Consequences attribute to check A1 the match between the legacy's own exact-duplicate count on all 17 columns and this project's extraction. A1 is the hash comparison of the legacy raw file and a fresh download; the match of the 17-column count is recorded in the result of A4 ([legacy audit](../audit/legacy-audit.md#checks)). The precedent both passages draw on stands, with A4 as its source.
+
+---
+
 ## Decision Drivers
 
 * A13 found no positive mechanism behind the duplication, and a structure concentrated in a subset of countries rather than spread evenly — nothing here supports assuming that rows sharing every stored value are the same respondent.

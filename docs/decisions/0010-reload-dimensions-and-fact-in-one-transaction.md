@@ -19,6 +19,13 @@ Both rows are [ADR-0009](0009-use-duckdb-as-database-engine.md)'s, cited here, n
 | E1 | DuckDB's documented constraint limitations were judged not to apply to an insert-only load. | [ADR-0009](0009-use-duckdb-as-database-engine.md#findings) | Established |
 | E3 | Deleting `fact_response` rows and then the dimension rows they referenced, in one transaction, fails on the foreign key, with `DELETE` and `TRUNCATE` alike. Dropping, recreating, and reloading the nine tables in one transaction succeeds, and a forced failure inside it rolls back rows, tables, and foreign keys entirely. | [ADR-0009](0009-use-duckdb-as-database-engine.md#findings) | Established |
 
+---
+
+### Addendum (2026-10-04)
+E1, as cited here ("judged not to apply to an insert-only load"), is restated in [ADR-0009's addendum of 2026-10-02](0009-use-duckdb-as-database-engine.md#addendum-2026-10-02): its premise is that the pipeline issues no `UPDATE`; enforcement on insert rests on the captured documentation and enforcement on delete on E3; acceptance check C5 tests foreign-key enforcement on the database the pipeline builds. This record rests on E3, which is unchanged.
+
+---
+
 ## Decision Drivers
 
 * The full reload must work on every run, not only the first: from the second run on, `fact_response` references every dimension row (E3).
