@@ -54,7 +54,7 @@ Each check is defined in [`acceptance.md`](../specification/acceptance.md); this
 | C1 | Each dimension is unique on its natural key and matches staging grouped by it | `test_c1_the_dimension_is_unique_on_its_natural_key` (8), `test_c1_grouping_staging_by_the_natural_key_yields_the_dimension_row_set` (8) | Pass |
 | C2 | Staging joined to the eight dimensions multiplies no rows | `test_c2_joining_staging_to_the_eight_dimensions_multiplies_no_rows` | Pass |
 | C3 | `fact_response` reconciles with staging: row count and `response_id` set | `test_c3_fact_response_reconciles_with_staging` | Pass |
-| C4 | Every table has exactly the specified columns and types | `tests/test_schema.py::test_table_has_exactly_the_specified_columns_and_types` (10), against the schema DDL; `test_c4_the_built_table_has_exactly_the_specified_columns_and_types` (10), against the database the pipeline builds | Pass |
+| C4 | `fact_response` has exactly the columns of [`fact-table.md`](../specification/fact-table.md#columns), and no column in any table stores a ratio, a percentage, a count, or a derived condition | `tests/test_schema.py::test_table_has_exactly_the_specified_columns_and_types` (10), against the schema DDL; `test_c4_the_built_table_has_exactly_the_specified_columns_and_types` (10), against the database the pipeline builds | Pass |
 | C5 | The eight foreign keys exist, are enforced, and leave no orphan | `test_c5_the_eight_foreign_keys_exist_with_the_specified_names`, `test_c5_the_foreign_keys_are_enforced`, `test_c5_no_fact_row_is_orphaned` (8) | Pass |
 | C6 | Every staged country is in the mapping; `dim_country` has one row per staged country | `test_c6_every_staged_country_is_in_the_mapping`, `test_c6_dim_country_has_one_row_per_staged_country_at_most_35` | Pass |
 | C7 | Every dimension row is referenced by a fact row | `test_c7_every_dimension_row_is_referenced_by_a_fact_row` (8) | Pass |
@@ -75,18 +75,18 @@ Every decision record is indexed in [`decisions/README.md`](../decisions/README.
 
 **Reporting layer.** Not built. Whether a cell flagged by `low_n` is shown or hidden is a decision assigned to the reporting layer, not made here ([`patterns.md`](../specification/patterns.md#reporting-rules)). The cross-column-group caveat carries the same deferral: which columns count as "described by the source" depends on [conceptual framework, section 7](../conceptual-framework.md#7-threats-to-validity) and on checks A5, A6, and A10 below, so the caveat's presentation is left to the reporting layer as well.
 
-**Legacy-audit checks still Pending.** [`legacy-audit.md`](legacy-audit.md) has the full method and result for each.
+**Legacy-audit checks still Pending.** [`legacy-audit.md`](legacy-audit.md) has the status, method and result of each.
 
-| ID | Why it is still open | Effect on this rebuild |
-|----|----------------------|------------------------|
-| A2 | The mechanism is established at the documented-schema level (F1, [ADR-0000](../decisions/0000-rebuild-from-scratch-instead-of-continuing-legacy.md)); the group counts that would quantify the `Dim_Sintomas` (English: "symptoms dimension") fan-out against the legacy database have not been computed. | None: audits why the legacy was discarded. |
-| A3 | The fact table's actual foreign-key name for occupation has not been read from the legacy DDL. | None: audits the legacy schema. |
-| A5 | Cramér's V between the dataset's documented-provenance columns and its symptom columns has not been computed; with A6, one of the two checks of hypothesis H1 ([ADR-0001](../decisions/0001-position-as-portfolio-project.md)). | No numeric effect. Conditions how cross-column-group results are interpreted; deferred to the reporting layer. |
-| A6 | The `Timestamp` distribution has not been compared against the OSMI 2014 survey's own distribution; the other of the two checks of hypothesis H1. | Same as A5. |
-| A7 | The treatment rate by gender has not been recomputed from staging with an explicit numerator and denominator, and compared with the unweighted `AVG` of the legacy chart (F2). | None: audits the legacy chart. |
-| A9 | The implementation of `indicador_inferido_estres` (English: "inferred stress indicator") in the legacy ETL has not been read and diffed against the documented Fase 2 formula. | None: audits the legacy script. |
-| A10 | The eight shared symptom columns have not been compared against RHMCD-20 for row-level or marginal-distribution matches (H3). | No numeric effect. Same deferral as A5 and A6. |
-| A11 | 2 of the 35 entries (Mexico, Georgia) were verified directly against UNSD M49 ([`country-region-mapping.md`](../specification/country-region-mapping.md)); the other 33 are pending. | Affects stored data: `dim_country.region` is assigned from this mapping. A discrepancy among the remaining 33 would change indicators 5 and 6 at the region level. |
+| Check | Effect on this rebuild |
+|-------|------------------------|
+| [A2](legacy-audit.md#checks) | None: audits why the legacy was discarded. |
+| [A3](legacy-audit.md#checks) | None: audits the legacy schema. |
+| [A5](legacy-audit.md#checks) | No numeric effect. Conditions how cross-column-group results are interpreted; deferred to the reporting layer. |
+| [A6](legacy-audit.md#checks) | Same as A5. |
+| [A7](legacy-audit.md#checks) | None: audits the legacy chart. |
+| [A9](legacy-audit.md#checks) | None: audits the legacy script. |
+| [A10](legacy-audit.md#checks) | No numeric effect. Same deferral as A5 and A6. |
+| [A11](legacy-audit.md#checks) | Affects stored data: `dim_country.region` is assigned from this mapping. A discrepancy among the remaining 33 would change indicators 5 and 6 at the region level. |
 
 ## 7. Verification
 
