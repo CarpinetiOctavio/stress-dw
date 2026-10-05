@@ -1,4 +1,4 @@
--- Indicator 9: Explicit stress-recognition rate by isolation.
+-- Indicator 9: Explicit stress-recognition rate by time indoors.
 -- indicators.md, Q5; pattern A (patterns.md).
 -- The single parameter is low_n_threshold.
 WITH population AS (

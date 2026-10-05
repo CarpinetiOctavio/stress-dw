@@ -1,4 +1,4 @@
--- Indicator 13: Stress/resource-access (count).
+-- Indicator 13: Care-options response (count).
 -- indicators.md, Q6; pattern A (patterns.md).
 -- The single parameter is low_n_threshold.
 WITH population AS (

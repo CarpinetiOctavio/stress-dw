@@ -1,4 +1,4 @@
--- Indicator 16: Treatment non-uptake rate under full context.
+-- Indicator 16: Lifetime no-treatment rate by stated disclosure willingness.
 -- indicators.md, Q7.2; pattern C (patterns.md).
 -- The single parameter is low_n_threshold.
 -- Uses symptom_cluster: see its validity caveat in definitions.md.

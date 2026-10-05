@@ -68,7 +68,7 @@ These dimensions store no column besides the key.
 | `31-60 days` | 4 | `High` |
 | `More than 2 months` | 5 | `High` |
 
-`duration_band` is a declared grouping of the five levels with no external validation. No indicator is defined on it: isolation [cuts](definitions.md#query-vocabulary) use `days_indoors`, ordered by `sort_order`, and [`symptom_cluster`](definitions.md#symptom_cluster) is defined on `days_indoors` literals, not on `duration_band`.
+`duration_band` is a declared grouping of the five levels with no external validation. No indicator is defined on it: time-indoors [cuts](definitions.md#query-vocabulary) use `days_indoors`, ordered by `sort_order`, and [`symptom_cluster`](definitions.md#symptom_cluster) is defined on `days_indoors` literals, not on `duration_band`. The identifiers `dim_isolation`, `isolation_id` and `duration_band` are kept as residual names: they appear in no indicator name and in no output column ([LOG-014](../decisions/log/LOG-014-indicator-renames-and-residual-identifiers.md)).
 
 ## `dim_access`
 

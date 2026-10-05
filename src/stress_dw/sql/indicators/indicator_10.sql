@@ -1,4 +1,4 @@
--- Indicator 10: Elevated mood-swings rate by isolation.
+-- Indicator 10: Elevated mood-swings rate by time indoors.
 -- indicators.md, Q5; pattern A (patterns.md).
 -- The single parameter is low_n_threshold.
 WITH population AS (
