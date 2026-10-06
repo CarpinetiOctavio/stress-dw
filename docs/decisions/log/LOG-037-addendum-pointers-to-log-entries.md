@@ -41,3 +41,7 @@ DC-101 and DC-100 of the [documentation-currency register](../../audit/documenta
 ## Open, and where it goes
 
 * The eight addenda and the `formalization` fields: PR-f3.
+
+**Status (2026-10-06).**
+
+* The eight addenda and the `formalization` fields: done in #64.
