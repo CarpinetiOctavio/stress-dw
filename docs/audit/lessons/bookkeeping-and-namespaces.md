@@ -22,3 +22,10 @@ Format: [lessons index](README.md#format).
 * **How it was detected.** On review.
 * **Rule.** See [LOG-005](../../decisions/log/LOG-005-register-bookkeeping-conventions.md) (`PR-` prefixes, N identifiers) and [LOG-004](../../decisions/log/LOG-004-decision-log-and-lessons.md) (`LOG-` and `LSN-` prefixes).
 * **Pointers.** Legend of the findings section of the documentation-currency register.
+
+## LSN-013 — Closure lists are built from every disposition
+
+* **What happened.** The "Still open" lists of the stage-4 re-check and of the closure of the documentation-currency sweep were built from the PR column of the register. They left out two findings decided and never placed in a pull request, whose PR column reads "—" (DC-12, DC-69), and items assigned to the correspondence phase only in a disposition or in a pull-request description (DC-81, DC-82, decision e). The sweep was declared closed with those items open. Probe 1's term list did not include state phrases such as "in progress", so a status sentence of the README made stale by the closure was not caught (DC-96).
+* **How it was detected.** By a read-only audit after the closure that checked every decision of the log, every disposition and every open item of the log against the repository.
+* **Rule.** A closure list is built from the disposition of every finding and every open item of the decision log, never from the PR column, and a probe for temporal drift includes state phrases ("in progress", "ongoing", "next step", "will be", "to be written", "planned").
+* **Pointers.** DC-12, DC-69, DC-81, DC-82, DC-96; [LOG-019](../../decisions/log/LOG-019-a6-scope.md), [LOG-027](../../decisions/log/LOG-027-see-as-cross-reference.md); documentation-currency register, sections 14 to 16.
