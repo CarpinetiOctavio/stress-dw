@@ -77,3 +77,8 @@ An entry is reduced to a pointer only when its target carries every section of t
 | [LOG-031](LOG-031-cluster-caveat-by-link.md) | State that symptom-cluster outputs carry a link to the caveat | recorded |
 | [LOG-032](LOG-032-citing-unversioned-records.md) | Cite log and register identifiers with a notice until those records are versioned | recorded |
 | [LOG-033](LOG-033-portfolio-destination-without-scu.md) | Name the portfolio's destination as academic and professional review, without SCU | recorded |
+| [LOG-034](LOG-034-readme-review-status-sentence.md) | Remove the README's review-status sentence at the closure of the sweep | recorded |
+| [LOG-035](LOG-035-claude-md-legacy-work-pointer.md) | Point CLAUDE.md's line on legacy work to its records in general | recorded |
+| [LOG-036](LOG-036-open-obligations-to-correspondence-phase.md) | Assign DC-19 and DC-21 to the correspondence phase, with A2 after the criteria commit | recorded |
+| [LOG-037](LOG-037-addendum-pointers-to-log-entries.md) | Point the 2026-10-04 addenda to their log entries by new dated addenda | recorded |
+| [LOG-038](LOG-038-status-lines-for-open-items.md) | Record the state of open items by dated status lines | recorded |
