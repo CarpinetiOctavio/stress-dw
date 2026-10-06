@@ -56,3 +56,9 @@ Procedure (b); command set (iii); home (3); the earlier counts as dated statemen
 * The wording on C10 in `CLAUDE.md` (DC-87): documentation-currency N8.
 * Updating `phase4-closure.md`, section 2, when ADR-0011 allows exposure: the correspondence phase, after its exposure step.
 * The README's Development section in full: the planned README rewrite.
+
+**Status (2026-10-06).**
+
+* The wording on C10 in `CLAUDE.md`: done in #52.
+* Updating section 2 of `phase4-closure.md`: the correspondence phase, after its exposure step.
+* The README's Development section: the planned README rewrite.

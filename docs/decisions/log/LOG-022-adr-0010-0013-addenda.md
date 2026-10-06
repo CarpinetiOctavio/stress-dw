@@ -3,7 +3,7 @@ id: LOG-022
 alias: documentation-currency N5
 date: 2026-10-04
 status: recorded
-formalization: none
+formalization: addenda of 2026-10-04 to ADR-0010 and ADR-0013
 ---
 
 # Point ADR-0010 and ADR-0013 to ADR-0009's restated findings by addenda
@@ -37,3 +37,7 @@ Item N5 of the [documentation-currency register](../../audit/documentation-curre
 ## Open, and where it goes
 
 * The wording of the two addenda: the plan of PR-b.
+
+**Status (2026-10-06).**
+
+* The wording of the two addenda: done in #54.

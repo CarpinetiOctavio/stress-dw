@@ -38,3 +38,7 @@ The README already holds the conventions of decision records: their format, the 
 ## Open, and where it goes
 
 * The wording of the section: PR-a1, with DC-24.
+
+**Status (2026-10-06).**
+
+* The wording of the section: done in #50.

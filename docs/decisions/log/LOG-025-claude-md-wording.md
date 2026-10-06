@@ -48,3 +48,7 @@ Item N8 of the [documentation-currency register](../../audit/documentation-curre
 ## Open, and where it goes
 
 * The wording of each line: the plan of PR-b.
+
+**Status (2026-10-06).**
+
+* The wording of each line: done in #52.

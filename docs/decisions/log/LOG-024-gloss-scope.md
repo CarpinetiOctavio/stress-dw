@@ -13,6 +13,7 @@ formalization: none
 * Under [writing conventions, rule 3](../../writing-conventions.md#3-spanish-inside-english-documents), identifiers and file paths written in code format are names, not Spanish terms, and need no gloss (DC-46).
 * The docstring "(Fase 4)" (English: "(Phase 4)"; see [`methodology.md`](../../methodology.md)) of `src/stress_dw/__init__.py:1` is glossed (DC-53).
 * Titles in the decision-record index reproduce the titles of accepted records and are exempt; the gloss is in the record (DC-64).
+  * Correction (2026-10-06): ADR-0006 carries no gloss of "Fase" (DC-65), so "the gloss is in the record" does not hold for it. The exemption stands on its reason: an index row reproduces the title of an accepted record, which is not rewritten.
 
 ## Linked findings
 
@@ -42,3 +43,7 @@ Item N7 of the [documentation-currency register](../../audit/documentation-curre
 ## Open, and where it goes
 
 * Whether rule 3's text states the exemption of identifiers and paths, and its wording: the plan of PR-a1.
+
+**Status (2026-10-06).**
+
+* The statement of the exemption of identifiers and paths in rule 3: done in #50; the exemption of index titles and the link to this entry were added in #63.

@@ -87,6 +87,10 @@ The same addendum calls the filter `care_options IN ('Yes','Not sure')` "the lit
 
 Context describes the legacy reading of `mental_health_interview` as an interview "that determined they were mentally unwell — a diagnostic or assessment event". The frozen report does not carry that qualifier: it reads the field as participation in a mental-health interview and as exposure or contact with the mental-health system ([ADR-0000, addendum of 2026-10-04](0000-rebuild-from-scratch-instead-of-continuing-legacy.md#addendum-2026-10-04)). The correction this record applies to indicators 14–16 stands.
 
+### Addendum (2026-10-06)
+
+The first and second paragraphs of the addendum of 2026-10-04 carry the decisions of [LOG-003](log/LOG-003-minimum-count-addendum.md) and [LOG-013](log/LOG-013-care-options-neutral-wording.md), which keep their reasoning.
+
 ## Pros and Cons of the Options
 
 ### Indicator 14 — Design A

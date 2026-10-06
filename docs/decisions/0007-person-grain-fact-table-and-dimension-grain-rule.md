@@ -37,6 +37,11 @@ Its Consequences state that "the cluster's threshold is written in one definitio
 
 ---
 
+### Addendum (2026-10-06)
+The first and second paragraphs of the addendum of 2026-10-04 carry the decisions of [LOG-017](log/LOG-017-response-grain.md) and [LOG-018](log/LOG-018-cluster-literals-addendum.md), which keep their reasoning.
+
+---
+
 ## Decision Drivers
 
 * F1's mechanism: when a dimension's stored columns do not determine one of its own columns, one combination of stored values can require different derived values. Whatever rule prevents this must be checkable on the dimension alone, without looking at the fact table.

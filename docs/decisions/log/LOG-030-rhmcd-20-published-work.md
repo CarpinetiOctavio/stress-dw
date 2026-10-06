@@ -37,3 +37,8 @@ Item N13 of the [documentation-currency register](../../audit/documentation-curr
 
 * Whether `legacy-audit.md:18` and `conceptual-framework.md:111` need any change: the plan of PR-d.
 * The match of the columns: check A10, in the correspondence phase.
+
+**Status (2026-10-06).**
+
+* `legacy-audit.md:18` and `conceptual-framework.md:111`: no change needed, as recorded in the description of #57.
+* The match of the columns: check A10, in the correspondence phase.

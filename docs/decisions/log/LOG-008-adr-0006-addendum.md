@@ -3,7 +3,7 @@ id: LOG-008
 alias: documentation-currency j
 date: 2026-10-02
 status: recorded
-formalization: addendum to ADR-0006 (planned)
+formalization: addendum of 2026-10-04 to ADR-0006
 ---
 
 # Point ADR-0006 to the indicator specification by a dated addendum
@@ -40,3 +40,8 @@ DC-40 of the [documentation-currency register](../../audit/documentation-currenc
 
 * The text of the addendum and its date: the correction pull request that carries it (PR-b).
 * Once the addendum carries every section of the recording standard, this entry is reduced to a pointer ([formalization rule](README.md#formalization-rule)).
+
+**Status (2026-10-06).**
+
+* The text of the addendum and its date: done in #53.
+* Reduction of this entry to a pointer: not done; [LOG-037](LOG-037-addendum-pointers-to-log-entries.md) rejected full formalization, so this entry keeps the reasoning and the decision record's addendum of 2026-10-06 points to it.

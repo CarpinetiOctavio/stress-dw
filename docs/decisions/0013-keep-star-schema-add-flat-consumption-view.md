@@ -34,6 +34,11 @@ Decision Outcome and the option "Use a single flat table as the only model" attr
 
 ---
 
+### Addendum (2026-10-06)
+The addendum of 2026-10-04 carries the decision of [LOG-022](log/LOG-022-adr-0010-0013-addenda.md), which keeps its reasoning.
+
+---
+
 ## Decision Drivers
 
 * The project's purpose is to show dimensional modeling built with the Hefesto methodology, with traceability from the perspectives of a question to the dimensions of the model (M1).

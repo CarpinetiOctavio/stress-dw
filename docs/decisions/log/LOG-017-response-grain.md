@@ -3,7 +3,7 @@ id: LOG-017
 alias: documentation-currency f
 date: 2026-10-04
 status: recorded
-formalization: none
+formalization: addendum of 2026-10-04 to ADR-0007
 ---
 
 # Describe the fact table at response grain and keep ADR-0007's title
@@ -37,3 +37,7 @@ Decision f of the [documentation-currency register](../../audit/documentation-cu
 ## Open, and where it goes
 
 * The wording of the addendum: the plan of stage 3.
+
+**Status (2026-10-06).**
+
+* The wording of the addendum: done in #54.

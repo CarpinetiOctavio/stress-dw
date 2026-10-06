@@ -38,3 +38,7 @@ Item N10 of the [documentation-currency register](../../audit/documentation-curr
 ## Open, and where it goes
 
 * The wording of the line in rule 2: the plan of stage 3.
+
+**Status (2026-10-06).**
+
+* The line in rule 2: done in #63.

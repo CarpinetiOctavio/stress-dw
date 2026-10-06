@@ -38,3 +38,7 @@ Item N15 of the [documentation-currency register](../../audit/documentation-curr
 ## Open, and where it goes
 
 * The wording: the plan of PR-c.
+
+**Status (2026-10-06).**
+
+* The wording: done in #56.

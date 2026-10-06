@@ -3,7 +3,7 @@ id: LOG-013
 alias: documentation-currency b
 date: 2026-10-04
 status: recorded
-formalization: none
+formalization: addenda of 2026-10-04 to ADR-0003 and ADR-0004
 ---
 
 # Word care options neutrally and state the OSMI meaning as a candidate premise
@@ -44,3 +44,10 @@ Decision b of the [documentation-currency register](../../audit/documentation-cu
 * How ADR-0003 `:77` ("the literal scope of Q7.2") is corrected under the convention for accepted decision records: the plan of PR-b.
 * The text of Q7.2 (`indicators.md:88`, ADR-0004 `:114`): decision e.
 * Indicator names that carry "conversion" or "resource-access" (indicators 12, 13 and 15): decision c.
+
+**Status (2026-10-06).**
+
+* The neutral wording, the sentence that states the premise, and its place: done in #53.
+* ADR-0003's statement on "the literal scope of Q7.2": done in #53, by its addendum of 2026-10-04.
+* The text of Q7.2: done in #53.
+* Indicator names: done in #56.

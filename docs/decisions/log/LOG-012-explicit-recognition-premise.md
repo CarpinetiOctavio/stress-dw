@@ -36,3 +36,7 @@ The gap is the unstated premise at the place where the condition is defined, not
 ## Open, and where it goes
 
 * The wording of the sentence: PR-a2.
+
+**Status (2026-10-06).**
+
+* The wording of the sentence: done in #55.

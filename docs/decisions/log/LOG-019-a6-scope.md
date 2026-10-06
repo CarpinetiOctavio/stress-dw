@@ -38,3 +38,8 @@ Decision i of the [documentation-currency register](../../audit/documentation-cu
 
 * The wording of A6's row in `legacy-audit.md`: the plan of stage 3.
 * Running A6: the correspondence phase.
+
+**Status (2026-10-06).**
+
+* The wording of A6's row: done in #63.
+* Running A6: the correspondence phase, after the criteria commit (ADR-0011, rule 4).

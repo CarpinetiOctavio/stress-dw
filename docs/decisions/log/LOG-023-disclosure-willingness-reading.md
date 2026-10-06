@@ -38,3 +38,7 @@ Item N6 of the [documentation-currency register](../../audit/documentation-curre
 ## Open, and where it goes
 
 * The wording at `conceptual-framework.md:38`: the plan of PR-a2.
+
+**Status (2026-10-06).**
+
+* The wording at `conceptual-framework.md:38`: done in #55.

@@ -3,7 +3,7 @@ id: LOG-006
 alias: documentation-currency N4
 date: 2026-10-02
 status: recorded
-formalization: addendum to ADR-0000 (planned)
+formalization: addendum of 2026-10-04 to ADR-0000
 ---
 
 # Record that the legacy's one permitted change was made, and align the working instructions
@@ -44,3 +44,9 @@ DC-44 and DC-92 of the [documentation-currency register](../../audit/documentati
 * The text of the addendum and its date: written in the correction pull request that carries it (PR-b).
 * The change to `CLAUDE.md`: in the same pull request as the addendum (PR-b), so its pointer resolves when it is merged.
 * Once the addendum carries every section of the recording standard, this entry is reduced to a pointer ([formalization rule](README.md#formalization-rule)).
+
+**Status (2026-10-06).**
+
+* The text of the addendum and its date: done in #52.
+* The change to `CLAUDE.md`: done in #52.
+* Reduction of this entry to a pointer: not done; [LOG-037](LOG-037-addendum-pointers-to-log-entries.md) rejected full formalization, so this entry keeps the reasoning and the decision record's addendum of 2026-10-06 points to it.

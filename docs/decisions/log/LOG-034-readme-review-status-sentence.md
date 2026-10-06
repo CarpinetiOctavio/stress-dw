@@ -38,3 +38,8 @@ DC-96 of the [documentation-currency register](../../audit/documentation-currenc
 
 * The removal: PR-f2.
 * The rest of the Status section and the Development section: the planned README rewrite (LOG-002).
+
+**Status (2026-10-06).**
+
+* The removal: done in #63.
+* The rest of the Status section and the Development section: the planned README rewrite.

@@ -3,7 +3,7 @@ id: LOG-033
 alias: documentation-currency N8, destination of the portfolio
 date: 2026-10-04
 status: recorded
-formalization: none
+formalization: addendum of 2026-10-04 to ADR-0002
 ---
 
 # Name the portfolio's destination as academic and professional review, without SCU
@@ -36,3 +36,7 @@ Item N8 of the [documentation-currency register](../../audit/documentation-curre
 ## Open, and where it goes
 
 * ADR-0002 (`:15`) names SCU as the portfolio's destination: an addendum, in a later pull request of the same correction group.
+
+**Status (2026-10-06).**
+
+* The addendum to ADR-0002: done in #54.

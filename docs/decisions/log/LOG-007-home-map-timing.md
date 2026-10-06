@@ -37,3 +37,8 @@ Each place is edited once, and no correction writes text that a later pull reque
 
 * The claim-preservation tables of stage-3 pointers: with the stage-3 plans.
 * Confirmation of the map itself: done in stage 2, on 2026-10-03, with its adjustments ([LOG-010](LOG-010-concept-home-map.md)).
+
+**Status (2026-10-06).**
+
+* The claim-preservation tables of stage-3 pointers are in the descriptions of #50, #51, #55 and #57.
+* Confirmation of the map: done on 2026-10-03 ([LOG-010](LOG-010-concept-home-map.md)).

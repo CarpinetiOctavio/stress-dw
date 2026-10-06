@@ -50,3 +50,10 @@ Decision c of the [documentation-currency register](../../audit/documentation-cu
 * The other wording sites that DC-75 lists (`dimensions.md:71` "isolation"; conceptual framework `:84`, `:86` "conversion"): the plan of PR-c.
 * Whether "no-treatment" in the name of 16 can be read as "no treatment received", while `treatment` records whether treatment was sought: the plan of PR-c.
 * "Fullest context" and "persists" in the objective of Q7.2 (ADR-0004 `:114`): decision e.
+
+**Status (2026-10-06).**
+
+* Where and how the identifiers are declared residual: done in #56.
+* The other wording sites of DC-75: done in #56.
+* "No-treatment" in the name of indicator 16: done in #56, by a sentence in `indicators.md`.
+* "Fullest context" and "persists" in the objective of Q7.2: done in #53.
