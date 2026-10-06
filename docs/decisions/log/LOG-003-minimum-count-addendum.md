@@ -3,7 +3,7 @@ id: LOG-003
 alias: documentation-currency N3
 date: 2026-10-02
 status: recorded
-formalization: addendum to ADR-0003 (planned)
+formalization: addendum of 2026-10-04 to ADR-0003
 ---
 
 # Record by addendum that the minimum-count consideration is a flag, not a rule
@@ -40,3 +40,9 @@ ADR-0003 states, in its Consequences and in its addendum of 2026-09-23, that a m
 * The rule for reading flagged cells: the correspondence criteria.
 * Showing or hiding flagged cells: the reporting layer ([`patterns.md`, Reporting rules](../../specification/patterns.md#reporting-rules); [`phase4-closure.md`, section 6](../../audit/phase4-closure.md#6-explicitly-out-of-scope)).
 * Once the addendum carries every section of the recording standard, this entry is reduced to a pointer ([formalization rule](README.md#formalization-rule)).
+
+**Status (2026-10-06).**
+
+* The rule for reading flagged cells: the correspondence phase, in the correspondence criteria.
+* Showing or hiding flagged cells: the reporting layer.
+* Reduction of this entry to a pointer: not done; [LOG-037](LOG-037-addendum-pointers-to-log-entries.md) rejected full formalization, so this entry keeps the reasoning and the decision record's addendum of 2026-10-06 points to it.

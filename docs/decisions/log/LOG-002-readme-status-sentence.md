@@ -51,3 +51,8 @@ The README stated something false: the pipeline exists and its acceptance checks
 
 * The rest of the Status section and the Development section: the planned README rewrite.
 * "Documentation review is in progress." goes stale when the review closes: the planned README rewrite, or the closure check of the documentation-currency sweep if the rewrite comes later.
+
+**Status (2026-10-06).**
+
+* The rest of the Status section and the Development section: the planned README rewrite.
+* "Documentation review is in progress.": removed in #63 ([LOG-034](LOG-034-readme-review-status-sentence.md)).

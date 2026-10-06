@@ -138,6 +138,10 @@ The wording below is the corrected wording for the Confirmation; `indicators.md`
 * **Q7.1.** Text: Among respondents with explicit stress recognition, a convergent symptom profile, or both, what proportion report having ever sought treatment (`treatment`, lifetime), broken down by care-options response (`care_options`, "Yes" and "Not sure" reported separately; respondents reporting "No" are outside this question's scope), by explicit stress recognition (`Growing_Stress`, all three levels), and by whether a convergent symptom profile is present? Objective: describe lifetime treatment-seeking among respondents who report 'Yes' or 'Not sure' for care options, by recognition level and inclusion condition, without implying an active decision process or a shortfall against any expected level; 'No' is outside scope.
 * **Q7.2.** Text: Among respondents with explicit stress recognition, a convergent symptom profile, or both, and who report "Yes" or "Not sure" for care options, what proportion does not report lifetime treatment-seeking, broken down by their stated willingness to disclose a mental health issue to a potential employer? Objective: describe the proportion who do not report lifetime treatment-seeking among respondents with explicit stress recognition, a convergent symptom profile, or both, who report "Yes" or "Not sure" for care options, by stated willingness to disclose a mental health issue to a potential employer, without asserting persistence over time or postponement, since no time-to-treatment variable exists in the data.
 
+### Addendum (2026-10-06)
+
+The addendum of 2026-10-04 carries the decisions of [LOG-013](log/LOG-013-care-options-neutral-wording.md), [LOG-015](log/LOG-015-rewrite-q3-text-and-add-objective.md) and [LOG-016](log/LOG-016-objectives-q2-q6-q71-q72.md), which keep their reasoning.
+
 ## Pros and Cons of the Options
 
 ### Leave original text, correct only at the indicator level

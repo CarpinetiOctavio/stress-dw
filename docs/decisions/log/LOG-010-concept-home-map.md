@@ -54,3 +54,10 @@ The [documentation-currency register](../../audit/documentation-currency.md#5-fi
 * Links that `docs/concept-homes.md` cannot carry yet: PR-a1 adds the anchor of the new section on addenda in `docs/decisions/README.md` to row 30; PR-b adds the link to ADR-0000's addendum on the superseded notice to row 23.
 * Rows that depend on pending wording (decisions b, c, f, and N6): their homes are fixed; the wording of some places waits for those decisions.
 * Homes still open: the general home of the reading rule (finding DC-91, correspondence phase) and the correspondence evidence document (decision l).
+
+**Status (2026-10-06).**
+
+* The sentence of rule 4 that links `docs/concept-homes.md`: done in #49.
+* The links of rows 30 and 23: row 30 done in #50, row 23 in #52.
+* Rows that depend on pending wording: the wording of decisions b, c, f and N6 was applied in #52 to #56.
+* Homes still open: the correspondence phase.

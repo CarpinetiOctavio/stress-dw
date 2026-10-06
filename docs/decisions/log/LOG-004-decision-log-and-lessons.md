@@ -58,3 +58,13 @@ Item N16 of the [documentation-currency register](../../audit/documentation-curr
 * The `LOG-` and `LSN-` prefixes in the identifier section of `docs/decisions/README.md`: the same change as DC-24.
 * The register's pointers to log entries and lessons: written when the register is versioned.
 * PR-e: the pull request that versions the register at `docs/audit/documentation-currency.md`, rewrites its links from draft to final paths (sections 7, 11 and 12 of the register) and adds the links from log entries to findings; it is merged before stage 4 of the documentation-currency sweep.
+
+**Status (2026-10-06).**
+
+* The test module: done in #49.
+* Links from log entries to register findings: done in #58.
+* Order of the records pull request: done; #49 was merged after #47 and #48 and before #50.
+* The check of the homes in `docs/concept-homes.md`: done in #49.
+* The `LOG-` and `LSN-` prefixes in the identifier section: done in #50.
+* The register's pointers to log entries and lessons: done in #58.
+* PR-e: done in #58.

@@ -3,7 +3,7 @@ id: LOG-011
 alias: documentation-currency N14
 date: 2026-10-03
 status: recorded
-formalization: addendum to ADR-0012 (planned)
+formalization: addendum of 2026-10-04 to ADR-0012
 ---
 
 # Read ADR-0012's constraint on capture values by its scope, and apply it to three places
@@ -48,3 +48,9 @@ DC-85 of the [documentation-currency register](../../audit/documentation-currenc
 * The three changes: PR-d, stage 3.
 * The text of the addendum and its date: PR-b, the pull request of the addenda.
 * The values remain declared prior knowledge for the correspondence phase (ADR-0011, rule 2).
+
+**Status (2026-10-06).**
+
+* The three changes: done in #57.
+* The text of the addendum and its date: done in #54.
+* The values as declared prior knowledge: the correspondence phase.

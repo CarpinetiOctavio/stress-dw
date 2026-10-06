@@ -44,3 +44,7 @@ None. Related: [LOG-001](LOG-001-safe-test-commands.md) (reasons for each reject
 ## Open, and where it goes
 
 Nothing; the sentence stops being used when PR-e is merged.
+
+**Status (2026-10-06).**
+
+* PR-e was merged as #58; the sentence is no longer used.

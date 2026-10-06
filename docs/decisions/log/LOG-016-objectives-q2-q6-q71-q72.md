@@ -3,7 +3,7 @@ id: LOG-016
 alias: documentation-currency e
 date: 2026-10-04
 status: recorded
-formalization: none
+formalization: addendum of 2026-10-04 to ADR-0004
 ---
 
 # Set the objectives of Q2 and Q7.1 and fix the conditions for those of Q6 and Q7.2
@@ -49,4 +49,10 @@ Decision e of the [documentation-currency register](../../audit/documentation-cu
 
 * The objectives of Q6 and Q7.2 and the wording of the addendum: the plan of PR-b.
 * The wording of the conceptual framework at `:92`: the plan of PR-a2.
+* The documentary verdicts on Q2 and Q7.1: the correspondence phase.
+
+**Status (2026-10-06).**
+
+* The objectives of Q6 and Q7.2 and the wording of the addendum: done in #53.
+* The wording of the conceptual framework at `:92`: done in #55.
 * The documentary verdicts on Q2 and Q7.1: the correspondence phase.

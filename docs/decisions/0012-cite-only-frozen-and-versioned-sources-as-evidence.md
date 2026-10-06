@@ -39,6 +39,11 @@ The constraint that values readable in a capture "are not restated in any other 
 
 ---
 
+### Addendum (2026-10-06)
+The addendum of 2026-10-04 carries the decision of [LOG-011](log/LOG-011-adr-0012-scope-of-capture-values.md), which keeps its reasoning.
+
+---
+
 ## Decision Drivers
 
 * A claim has to be checkable by someone who has only the repository and the frozen source.

@@ -77,6 +77,10 @@ Every question and indicator listed here traces to a specific ADR (0003, 0004, o
 
 [`indicators.md`](../specification/indicators.md) is the current definition of every indicator; this record is a snapshot (Consequences). Rows 5 and 6 of its indicator table differ from it: this record gives the population as the condition and the cut as occupation × country × region; the specification gives the population as all rows and two grouping sets, {occupation, country} and {occupation, region}. The table is not changed.
 
+### Addendum (2026-10-06)
+
+The addendum of 2026-10-04 carries the decision of [LOG-008](log/LOG-008-adr-0006-addendum.md), which keeps its reasoning.
+
 ## Pros and Cons of the Options
 
 ### No consolidation

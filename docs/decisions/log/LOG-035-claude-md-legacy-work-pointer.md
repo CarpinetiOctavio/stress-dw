@@ -40,3 +40,7 @@ DC-97 of the [documentation-currency register](../../audit/documentation-currenc
 ## Open, and where it goes
 
 * The change to `CLAUDE.md`: PR-f2.
+
+**Status (2026-10-06).**
+
+* The change to `CLAUDE.md`: done in #63.

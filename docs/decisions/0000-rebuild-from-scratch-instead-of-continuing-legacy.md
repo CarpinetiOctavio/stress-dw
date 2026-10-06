@@ -45,6 +45,11 @@ The addendum of 2026-09-23 describes the legacy reading of `mental_health_interv
 
 ---
 
+### Addendum (2026-10-06)
+The first paragraph of the addendum of 2026-10-04 carries the decision of [LOG-006](log/LOG-006-legacy-superseded-notice.md), which keeps its reasoning.
+
+---
+
 ## Decision Drivers
 
 * F1 and F2 are defects in the specification of grain and measures; they propagate through schema, ETL and reporting.

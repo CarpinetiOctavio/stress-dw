@@ -12,7 +12,7 @@ Every entry is one file, `LOG-NNN-short-title.md`, with this frontmatter:
 | `alias` | the identifier the decision had in the phase that raised it, with the phase named (for example `documentation-currency N1`) |
 | `date` | date the decision was taken, `YYYY-MM-DD` |
 | `status` | one of the status values below |
-| `formalization` | the decision record or addendum that will carry the entry, or `none` |
+| `formalization` | the decision record or addendum that carries the entry, or will carry it, or `none` |
 
 No entry carries a `decision-makers` field: a decision is recorded without saying whose it was ([writing conventions, rule 2](../../writing-conventions.md#2-voice)).
 

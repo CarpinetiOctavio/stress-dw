@@ -37,3 +37,7 @@ Decision l of the [documentation-currency register](../../audit/documentation-cu
 ## Open, and where it goes
 
 * Name, path and contents: the correspondence phase.
+
+**Status (2026-10-06).**
+
+* Name, path and contents: the correspondence phase.

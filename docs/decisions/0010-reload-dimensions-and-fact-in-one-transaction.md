@@ -26,6 +26,11 @@ E1, as cited here ("judged not to apply to an insert-only load"), is restated in
 
 ---
 
+### Addendum (2026-10-06)
+The addendum of 2026-10-04 carries the decision of [LOG-022](log/LOG-022-adr-0010-0013-addenda.md), which keeps its reasoning.
+
+---
+
 ## Decision Drivers
 
 * The full reload must work on every run, not only the first: from the second run on, `fact_response` references every dimension row (E3).
