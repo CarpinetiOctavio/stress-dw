@@ -37,3 +37,7 @@ DC-102 of the [documentation-currency register](../../audit/documentation-curren
 ## Open, and where it goes
 
 * The status lines, each with its pull request found in the repository history: PR-f3.
+
+**Status (2026-10-06).**
+
+* The status lines: done in #64, except those of LOG-037 and this entry, added with the closure of the sweep ([register, section 16](../../audit/documentation-currency.md#16-post-closure-audit-and-corrections)).
