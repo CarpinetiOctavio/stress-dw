@@ -83,3 +83,7 @@ An entry is reduced to a pointer only when its target carries every section of t
 | [LOG-037](LOG-037-addendum-pointers-to-log-entries.md) | Point the 2026-10-04 addenda to their log entries by new dated addenda | recorded |
 | [LOG-038](LOG-038-status-lines-for-open-items.md) | Record the state of open items by dated status lines | recorded |
 | [LOG-039](LOG-039-reading-rule.md) | Adopt the reading rule for figures derived from the source file, with this entry as its home | recorded |
+| [LOG-040](LOG-040-h1-column-groups.md) | Fix the two column groups of H1 by the OSMI schema, for the criteria and for check A5 | recorded |
+| [LOG-041](LOG-041-a6-osmi-group.md) | Extend check A6 to the OSMI group of LOG-040 | recorded |
+| [LOG-042](LOG-042-pilot-order.md) | Draft the criteria for Q4 first, then Q7.2, then the remaining questions | recorded |
+| [LOG-043](LOG-043-status-line-on-change.md) | Add a new dated status line when the state of an open item changes | recorded |
