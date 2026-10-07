@@ -82,3 +82,4 @@ An entry is reduced to a pointer only when its target carries every section of t
 | [LOG-036](LOG-036-open-obligations-to-correspondence-phase.md) | Assign DC-19 and DC-21 to the correspondence phase, with A2 after the criteria commit | recorded |
 | [LOG-037](LOG-037-addendum-pointers-to-log-entries.md) | Point the 2026-10-04 addenda to their log entries by new dated addenda | recorded |
 | [LOG-038](LOG-038-status-lines-for-open-items.md) | Record the state of open items by dated status lines | recorded |
+| [LOG-039](LOG-039-reading-rule.md) | Adopt the reading rule for figures derived from the source file, with this entry as its home | recorded |
