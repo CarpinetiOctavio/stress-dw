@@ -41,3 +41,7 @@ Decision l of the [documentation-currency register](../../audit/documentation-cu
 **Status (2026-10-06).**
 
 * Name, path and contents: the correspondence phase.
+
+**Status (2026-10-07).**
+
+* Name, path and structure: set in [LOG-045](LOG-045-correspondence-evidence-document.md); contents: the correspondence phase, after the criteria commit ([LOG-044](LOG-044-stage-placement.md)).

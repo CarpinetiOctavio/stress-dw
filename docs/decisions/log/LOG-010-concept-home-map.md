@@ -66,3 +66,8 @@ The [documentation-currency register](../../audit/documentation-currency.md#5-fi
 
 * Home set: the reading rule, [LOG-039](LOG-039-reading-rule.md) (#66).
 * Homes still open: the correspondence evidence document, the correspondence phase.
+
+**Status (2026-10-07).**
+
+* Home set: the correspondence evidence document, [LOG-045](LOG-045-correspondence-evidence-document.md) (definition).
+* Homes still open: none.
