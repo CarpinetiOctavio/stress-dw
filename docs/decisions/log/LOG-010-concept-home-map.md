@@ -61,3 +61,8 @@ The [documentation-currency register](../../audit/documentation-currency.md#5-fi
 * The links of rows 30 and 23: row 30 done in #50, row 23 in #52.
 * Rows that depend on pending wording: the wording of decisions b, c, f and N6 was applied in #52 to #56.
 * Homes still open: the correspondence phase.
+
+**Status (2026-10-06, after #66).**
+
+* Home set: the reading rule, [LOG-039](LOG-039-reading-rule.md) (#66).
+* Homes still open: the correspondence evidence document, the correspondence phase.
