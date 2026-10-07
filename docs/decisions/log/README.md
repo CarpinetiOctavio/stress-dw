@@ -87,3 +87,7 @@ An entry is reduced to a pointer only when its target carries every section of t
 | [LOG-041](LOG-041-a6-osmi-group.md) | Extend check A6 to the OSMI group of LOG-040 | recorded |
 | [LOG-042](LOG-042-pilot-order.md) | Draft the criteria for Q4 first, then Q7.2, then the remaining questions | recorded |
 | [LOG-043](LOG-043-status-line-on-change.md) | Add a new dated status line when the state of an open item changes | recorded |
+| [LOG-044](LOG-044-stage-placement.md) | Place the open items of the correspondence phase before or after the criteria commit | recorded |
+| [LOG-045](LOG-045-correspondence-evidence-document.md) | Name, place and structure the correspondence evidence document as the final report of ADR-0011 | recorded |
+| [LOG-046](LOG-046-user-of-the-outputs.md) | Derive what each output must allow from its question's objective, with the original purpose in the documentary layer only | recorded |
+| [LOG-047](LOG-047-a5-threshold-procedure.md) | Take the thresholds of check A5 from a verified published source, or else fix them as a declared convention | recorded |

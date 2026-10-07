@@ -45,3 +45,7 @@ DC-99, DC-19 and DC-21 of the [documentation-currency register](../../audit/docu
 **Status (2026-10-06).**
 
 * Running A2 and A3, and measuring the query-time cost: the correspondence phase, A2 after the criteria commit.
+
+**Status (2026-10-07).**
+
+* Running A2 and A3, and measuring the query-time cost: the correspondence phase, after the criteria commit ([LOG-044](LOG-044-stage-placement.md)).

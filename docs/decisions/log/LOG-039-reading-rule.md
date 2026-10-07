@@ -48,3 +48,7 @@ DC-91 of the [documentation-currency register](../../audit/documentation-currenc
 ## Open, and where it goes
 
 * How values are reported once the indicator output may be exposed: defined with the correspondence evidence document ([LOG-021](LOG-021-evidence-document-to-correspondence-phase.md); DC-89).
+
+**Status (2026-10-07).**
+
+* How values are reported once the indicator output may be exposed: set in [LOG-045](LOG-045-correspondence-evidence-document.md).
