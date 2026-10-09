@@ -8,7 +8,7 @@ Published works on which a claim of this repository rests are checked against a 
 
 ## The check
 
-`stress_dw.references` reads the register and, for each source, checks that a copy has the registered SHA-256 and that each quotation occurs on its printed page. Page text and quotation are compared after Unicode NFKC normalization with all whitespace and all hyphens (ASCII and soft) removed, so that line breaks, words broken across lines and ligatures do not decide the result. The check runs from the repository root, given a directory that holds the copies under the file names the register gives:
+`stress_dw.references` reads the register and, for each source, checks that a copy has the registered SHA-256 and that each quotation occurs on its printed page. Page text and quotation are compared after Unicode NFKC normalization with all whitespace and all hyphens (ASCII and soft) removed, so that line breaks, words broken across lines and ligatures do not decide the result. Where a PDF's font has no Unicode map, the extracted page consists of character codes; those are decoded first. The check runs from the repository root, given a directory that holds the copies under the file names the register gives:
 
 ```sh
 uv run python -m stress_dw.references <directory>
