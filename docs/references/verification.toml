@@ -6,12 +6,16 @@
 # Per source: `first_page` is the printed page number of the first PDF page
 # after `leading_pages` (pages before it, such as a provider's cover page;
 # default 0); `version` says which version of the work the copy is (default
-# "published"); `reproducible_hash` is false when the provider stamps each
-# download, so that another copy cannot match the hash (default true); `stored`
-# is true when the copy is kept in docs/references/ because its licence permits
-# redistribution. Per claim: `page` is the printed page,
-# `quote` a verbatim passage of the copy, and `cited_in` the documents that make
-# the claim, as `path#anchor` (empty until a document cites it).
+# "published"); `reproducible_hash` is false when another copy cannot match the
+# hash, because the provider stamps each download or the copy is a scan
+# (default true); `stored` is true when the copy is kept in docs/references/
+# because its licence permits redistribution; `doi` is empty for a work without
+# one, such as a book, whose ISBN is then in the citation.
+#
+# Per claim: `page` is the printed page; `pdf_page` (optional) is the PDF page
+# that holds it, for a scan whose offset between printed and PDF pages varies;
+# `quote` is a verbatim passage of the copy; `cited_in` lists the documents that
+# make the claim, as `path#anchor` (empty until a document cites it).
 
 [[source]]
 id = "kim-2017"
@@ -353,3 +357,164 @@ claim = "The clarified conclusion: campaigns promoting help-seeking by means of 
 page = 182
 quote = "Campaigns promoting help-seeking by means of fighting mental illness-related stigma should target these personal attitudes rather than broad public opinions"
 cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source]]
+id = "cohen-1988"
+citation = "Cohen, J. (1988). Statistical Power Analysis for the Behavioral Sciences (2nd ed.). Lawrence Erlbaum Associates. ISBN 0-8058-0283-5."
+doi = ""
+retrieved_from = "not recorded"
+retrieved_on = 2026-10-08
+file = "cohen-1988.pdf"
+sha256 = "774a64ff9fa446e375677c1af47567e4a83728501bdff3d45abcce21da41b959"
+first_page = 1
+version = "scan of the published book with an OCR text layer; quotations follow that layer, and each claim gives its PDF page"
+licence = "All rights reserved, as printed on the copyright page; not stored"
+stored = false
+reproducible_hash = false
+
+[[source.claim]]
+claim = "Pages 79–80, which Kim (2017) cites, give conventions for the product-moment correlation r."
+page = 79
+pdf_page = 96
+quote = "operational definitions of \"small,\" \"medium,\" and \"large\" ES as expressed in terms of"
+cited_in = []
+
+[[source.claim]]
+claim = "Chapter 7 covers contingency tables as Case 1."
+page = 215
+pdf_page = 229
+quote = "Case 1: Contingency Tests."
+cited_in = []
+
+[[source.claim]]
+claim = "In a contingency table, r denotes the smaller of the two dimensions."
+page = 221
+pdf_page = 235
+quote = "If r and k are assigned so that r is not larger than k (this will be assumed throughout)"
+cited_in = []
+
+[[source.claim]]
+claim = "The maximum of w varies with the smaller of the table's two dimensions."
+page = 221
+pdf_page = 235
+quote = "hence w varies with the size of the smaller of the table's two dimensions."
+cited_in = []
+
+[[source.claim]]
+claim = "Table 7.2.3, w = .10: C = .100; φ' = .10, .071, .058, .050, .045 for r = 2 to 6."
+page = 222
+pdf_page = 236
+quote = ".10 .100 .10 .071 .058 .050 .045"
+cited_in = []
+
+[[source.claim]]
+claim = "Table 7.2.3, w = .30: C = .287; φ' = .30, .212, .173, .150, .134 for r = 2 to 6."
+page = 222
+pdf_page = 236
+quote = ".30 .287 .30 .212 .173 .150 .134"
+cited_in = []
+
+[[source.claim]]
+claim = "Table 7.2.3, w = .50: C = .447; φ' = .50, .354, .289, .250, .224 for r = 2 to 6 (the w cell is misread by the OCR layer and left out)."
+page = 222
+pdf_page = 236
+quote = ".447 .50 .354 .289 .250 .224"
+cited_in = []
+
+[[source.claim]]
+claim = "Cramér's statistic generalizes φ to contingency tables of any dimensionality."
+page = 223
+pdf_page = 237
+quote = "for contingency tables of any dimensionality is provided by Cramer's statistic"
+cited_in = []
+
+[[source.claim]]
+claim = "In Cramér's statistic, r is not greater than k."
+page = 223
+pdf_page = 237
+quote = "where r is, as before, not greater than k."
+cited_in = []
+
+[[source.claim]]
+claim = "Values of w for small, medium and large effects are offered as conventions."
+page = 224
+pdf_page = 238
+quote = "are offered to serve as conventions for these qualitative adjectives."
+cited_in = []
+
+[[source.claim]]
+claim = "The conventions are a general frame of reference, not to be taken too literally."
+page = 224
+pdf_page = 238
+quote = "The investigator is best advised to use the conventional definitions as a general frame of reference for ES and not to take them too literally."
+cited_in = []
+
+[[source.claim]]
+claim = "A caution on using constant w values to define a level of association in Case 1 tests."
+page = 226
+pdf_page = 240
+quote = "We reiterate a word of caution about the use of constant w values to define a given level of departure"
+cited_in = []
+
+[[source.claim]]
+claim = "An investigator who thinks of association in terms of φ' cannot use definitions pegged to a constant w."
+page = 227
+pdf_page = 241
+quote = "operational definitions suggested above, or any other pegged to a constant w."
+cited_in = []
+
+[[source.claim]]
+claim = "The conventional definitions are arbitrary."
+page = 12
+pdf_page = 30
+quote = "The definitions are arbitrary"
+cited_in = []
+
+[[source]]
+id = "bergsma-2013"
+citation = "Bergsma, W. (2013). A bias-correction for Cramér's V and Tschuprow's T. Journal of the Korean Statistical Society, 42, 323–328."
+doi = "10.1016/j.jkss.2012.10.002"
+retrieved_from = "not recorded"
+retrieved_on = 2026-10-08
+file = "bergsma-2013.pdf"
+sha256 = "d66068034a22474a25146fb89fbe1dc6fc3d6def38aaf6e4a95e226f0feec1e6"
+first_page = 323
+licence = "Reproduced with permission of copyright owner; further reproduction prohibited, as printed on the last PDF page; not stored"
+stored = false
+reproducible_hash = false
+
+[[source.claim]]
+claim = "Cramér's V divides by min(r − 1, c − 1)."
+page = 323
+quote = "min(r − 1, c − 1)"
+cited_in = []
+
+[[source.claim]]
+claim = "The usual estimators of V and T are biased."
+page = 324
+quote = "However, it is well known that these are biased estimators of their population counterparts"
+cited_in = []
+
+[[source.claim]]
+claim = "The bias depends on table size and sample size."
+page = 324
+quote = "since the bias depends on the size of the table and the sample size, the estimators cannot easily be used to compare association in tables of different sizes or of different sample sizes."
+cited_in = []
+
+[[source.claim]]
+claim = "Under independence, the expected value of the empirical φ² is (r − 1)(c − 1)/(n − 1), equation (1)."
+page = 324
+quote = "was conjectured by Tschuprow (1925) and proven by Bartlett (1937) to be"
+cited_in = []
+
+[[source.claim]]
+claim = "Table 1, bias of V̂ for a 5 × 5 table under independence: 0.609, 0.196, 0.060, 0.018 for n = 10, 100, 1000, 10,000."
+page = 324
+quote = "0.609 0.196 0.060 0.018"
+cited_in = []
+
+[[source.claim]]
+claim = "n × min(r − 1, c − 1) × V̂² is the Pearson chi-square statistic."
+page = 328
+quote = "is the Pearson chi-square statistic which has an asymptotic chi-square distribution under independence"
+cited_in = []

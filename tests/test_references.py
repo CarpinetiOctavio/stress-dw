@@ -145,3 +145,21 @@ def test_character_codes_are_decoded_on_a_page_made_of_them() -> None:
 def test_a_slash_and_digits_in_ordinary_text_are_kept() -> None:
     text = "Received 10/12/2012, accepted for volume 45."
     assert page_text(text) == text
+
+
+def test_a_claim_with_its_own_pdf_page_is_read_from_that_page() -> None:
+    source = _stored_source()
+    claim = source.claims[1]
+    own_page = claim.page - source.first_page + 1
+    pinned = replace(claim, page=claim.page + 40, pdf_page=own_page)
+    altered = replace(source, claims=(pinned,))
+    assert check_source(altered, STORED / source.file).problems == []
+
+
+def test_a_wrong_pdf_page_is_reported() -> None:
+    source = _stored_source()
+    claim = source.claims[1]
+    next_page = claim.page - source.first_page + 2
+    pinned = replace(claim, pdf_page=next_page)
+    altered = replace(source, claims=(pinned,))
+    assert len(check_source(altered, STORED / source.file).problems) == 1
