@@ -37,6 +37,8 @@ STORED_COPIES = Path("docs/references")
 # Whitespace, the ASCII hyphen and the soft hyphen: a PDF may keep the hyphen of
 # a word broken across lines, so hyphens are dropped from page and quotation alike.
 IGNORED = re.compile(r"[\s\-\u00ad]+")
+# pypdf returns "/NNN" character codes for a font without a Unicode map.
+CHARACTER_CODE = re.compile(r"/(\d{1,3})")
 
 
 @dataclass(frozen=True)
@@ -142,6 +144,19 @@ def normalize(text: str) -> str:
     return IGNORED.sub("", unicodedata.normalize("NFKC", text))
 
 
+def page_text(raw: str) -> str:
+    """Return `raw` with pypdf's character codes decoded, where it consists of them.
+
+    A page whose non-whitespace text is mostly "/NNN" codes comes from a font
+    without a Unicode map; each code is the character's number. Any other page
+    is returned unchanged, so a slash followed by digits in ordinary text is kept.
+    """
+    coded = sum(len(match[0]) for match in CHARACTER_CODE.finditer(raw))
+    if coded > len("".join(raw.split())) / 2:
+        return CHARACTER_CODE.sub(lambda match: chr(int(match[1])), raw)
+    return raw
+
+
 def sha256_of(path: Path) -> str:
     """Return the hexadecimal SHA-256 of the file at `path`."""
     return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -163,7 +178,8 @@ def check_source(source: Source, copy: Path) -> CheckResult:
             return CheckResult(problems=[mismatch], notes=[])
         notes.append(f"{mismatch}; the provider stamps each download")
     try:
-        pages = [normalize(page.extract_text()) for page in PdfReader(copy).pages]
+        reader = PdfReader(copy)
+        pages = [normalize(page_text(page.extract_text())) for page in reader.pages]
     except PdfReadError as error:
         problem = f"{source.id}: {copy} could not be read as a PDF: {error}"
         return CheckResult(problems=[problem], notes=notes)

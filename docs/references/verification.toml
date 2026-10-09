@@ -194,10 +194,10 @@ quote = "whereas perceived public stigma was not associated"
 cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
 
 [[source.claim]]
-claim = "The authors conclude that campaigns should target personal attitudes rather than broad public opinion (sentence as printed in this copy; a later correction to it is not yet checked)."
+claim = "The conclusion as printed: campaigns should target these personal attitudes rather than broad public opinion. The authors later clarified it (source schnyder-2017-reply)."
 page = 261
 quote = "should target these personal attitudes rather than broad public opinion"
-cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+cited_in = []
 
 [[source]]
 id = "corrigan-2004"
@@ -322,4 +322,34 @@ cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
 claim = "The 63.8% is among respondents with a disorder who perceived a need for treatment."
 page = 2
 quote = "Desire to handle the problem on one’s own was the most common barrier among respondents with a disorder who perceived a need for treatment (63.8%)."
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source]]
+id = "schnyder-2017-reply"
+citation = "Schnyder, N., Panczak, R., Groth, N., & Schultze-Lutter, F. (2017). Authors' reply. The British Journal of Psychiatry, 211(3), 182–183."
+doi = "10.1192/bjp.211.3.182a"
+retrieved_from = "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D0CBF90E13507F8CBF1FF1BF590A55B6/S0007125000280252a.pdf/div-class-title-authors-reply-div.pdf"
+retrieved_on = 2026-10-08
+file = "schnyder-2017-reply.pdf"
+sha256 = "8103a982e94e9367ce076a4f31070f372bbba796fdbb099d146e0a1b030185cd"
+first_page = 182
+licence = "no licence statement printed; free access, not stored"
+stored = false
+
+[[source.claim]]
+claim = "The reply is published in The British Journal of Psychiatry (2017), volume 211."
+page = 182
+quote = "The British Journal of Psychiatry (2017) 211,"
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "The authors acknowledge that the conclusion of the abstract can be misread as a two-fold recommendation."
+page = 182
+quote = "might indeed be misperceived as a two-fold recommendation, for campaigns promoting help-seeking on the one hand and anti-stigma campaigns on the other."
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "The clarified conclusion: campaigns promoting help-seeking by means of fighting mental illness-related stigma should target personal attitudes rather than broad public opinion."
+page = 182
+quote = "Campaigns promoting help-seeking by means of fighting mental illness-related stigma should target these personal attitudes rather than broad public opinions"
 cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]

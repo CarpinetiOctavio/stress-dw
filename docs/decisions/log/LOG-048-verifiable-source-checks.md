@@ -48,3 +48,7 @@ None.
 **Status (2026-10-08).**
 
 * The seven statements of `conceptual-framework.md`, section 3, that differed from their sources: corrected, with their register entries.
+
+**Status (2026-10-08).**
+
+* The correction to the Conclusions of Schnyder et al. (2017): checked against the authors' reply (British Journal of Psychiatry, 211(3), 182–183), which gives the clarified sentence; `conceptual-framework.md`, section 3, now states it. A formal correction notice was not found.

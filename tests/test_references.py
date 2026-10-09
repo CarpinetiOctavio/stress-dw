@@ -10,6 +10,7 @@ from stress_dw.references import (
     find_copy,
     load_register,
     main,
+    page_text,
 )
 
 REPOSITORY_ROOT = Path(__file__).resolve().parent.parent
@@ -135,3 +136,12 @@ def test_the_command_fails_while_any_copy_is_missing(
 ) -> None:
     monkeypatch.chdir(REPOSITORY_ROOT)
     assert main([str(tmp_path)]) == 1
+
+
+def test_character_codes_are_decoded_on_a_page_made_of_them() -> None:
+    assert page_text("/80/117/98 /114/101/112/108/121") == "Pub reply"
+
+
+def test_a_slash_and_digits_in_ordinary_text_are_kept() -> None:
+    text = "Received 10/12/2012, accepted for volume 45."
+    assert page_text(text) == text
