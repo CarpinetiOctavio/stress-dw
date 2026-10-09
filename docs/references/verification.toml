@@ -48,6 +48,12 @@ quote = "where n is total number of observation, and df is degrees of freedom ca
 cited_in = []
 
 [[source.claim]]
+claim = "The result of the chi-squared test is relevant only when no more than 20% of cells have expected frequencies below 5 and no cell has an expected frequency below 1."
+page = 153
+quote = "The result is relevant only when no more than 20% of cells with expected frequencies < 5 and no cell have expected frequency < 1."
+cited_in = ["docs/decisions/log/LOG-050-a5-a6-a10-reading-thresholds.md#reasons"]
+
+[[source.claim]]
 claim = "Table 2 tabulates small, medium and large values of Cramér's V by degree of freedom."
 page = 154
 quote = "Table 2. Effect size for chi-squared test, Cramer’s V and its interpretation"
@@ -387,6 +393,13 @@ quote = "Case 1: Contingency Tests."
 cited_in = []
 
 [[source.claim]]
+claim = "Formula (7.2.1): w sums, over the cells, the squared difference between the two hypothesized proportions divided by the null proportion, and takes the square root."
+page = 216
+pdf_page = 230
+quote = "for each cell, the difference between the two hypothetical P's is squared and divided by the null-specified P0"
+cited_in = ["docs/decisions/log/LOG-050-a5-a6-a10-reading-thresholds.md#decision"]
+
+[[source.claim]]
 claim = "In a contingency table, r denotes the smaller of the two dimensions."
 page = 221
 pdf_page = 235
@@ -399,6 +412,13 @@ page = 221
 pdf_page = 235
 quote = "hence w varies with the size of the smaller of the table's two dimensions."
 cited_in = []
+
+[[source.claim]]
+claim = "Formula (7.2.2): the degrees of freedom u of the chi-square for an r × k contingency table."
+page = 221
+pdf_page = 235
+quote = "for an r x k contingency table is given by"
+cited_in = ["docs/decisions/log/LOG-050-a5-a6-a10-reading-thresholds.md#decision"]
 
 [[source.claim]]
 claim = "Table 7.2.3, w = .10: C = .100; φ' = .10, .071, .058, .050, .045 for r = 2 to 6."
@@ -470,6 +490,13 @@ pdf_page = 30
 quote = "The definitions are arbitrary"
 cited_in = []
 
+[[source.claim]]
+claim = "The .05 significance criterion serves as a convention for rejecting the null hypothesis."
+page = 12
+pdf_page = 30
+quote = "the .05 significance criterion, although unofficial, has come to serve as a convention"
+cited_in = ["docs/decisions/log/LOG-050-a5-a6-a10-reading-thresholds.md#reasons"]
+
 [[source]]
 id = "bergsma-2013"
 citation = "Bergsma, W. (2013). A bias-correction for Cramér's V and Tschuprow's T. Journal of the Korean Statistical Society, 42, 323–328."
@@ -505,7 +532,7 @@ cited_in = []
 claim = "Under independence, the expected value of the empirical φ² is (r − 1)(c − 1)/(n − 1), equation (1)."
 page = 324
 quote = "was conjectured by Tschuprow (1925) and proven by Bartlett (1937) to be"
-cited_in = []
+cited_in = ["docs/decisions/log/LOG-050-a5-a6-a10-reading-thresholds.md#decision"]
 
 [[source.claim]]
 claim = "Table 1, bias of V̂ for a 5 × 5 table under independence: 0.609, 0.196, 0.060, 0.018 for n = 10, 100, 1000, 10,000."

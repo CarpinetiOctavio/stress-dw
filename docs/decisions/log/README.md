@@ -93,3 +93,4 @@ An entry is reduced to a pointer only when its target carries every section of t
 | [LOG-047](LOG-047-a5-threshold-procedure.md) | Take the thresholds of check A5 from a verified published source, or else fix them as a declared convention | recorded |
 | [LOG-048](LOG-048-verifiable-source-checks.md) | Check every claim that rests on a published work against a copy of it, in a register a script verifies | recorded |
 | [LOG-049](LOG-049-reading-rule-by-repository-access.md) | Count the repository as known when the criteria are fixed, with this entry as the home of the reading rule | recorded |
+| [LOG-050](LOG-050-a5-a6-a10-reading-thresholds.md) | Fix the interpretability bound of A5 and A6, the harmonization of values, and the α of A10's guard, by the scheme of LOG-047 | recorded |
