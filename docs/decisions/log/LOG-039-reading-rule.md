@@ -2,7 +2,7 @@
 id: LOG-039
 alias: documentation-currency DC-91
 date: 2026-10-06
-status: recorded
+status: superseded
 formalization: none
 ---
 
@@ -52,3 +52,7 @@ DC-91 of the [documentation-currency register](../../audit/documentation-currenc
 **Status (2026-10-07).**
 
 * How values are reported once the indicator output may be exposed: set in [LOG-045](LOG-045-correspondence-evidence-document.md).
+
+**Status (2026-10-08).**
+
+* Superseded by [LOG-049](LOG-049-reading-rule-by-repository-access.md), which holds the reading rule with items 2 and 4 rewritten.
