@@ -121,6 +121,30 @@ page = 11
 quote = "Stigma was the fourth highest ranked barrier to help-seeking"
 cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
 
+[[source.claim]]
+claim = "The review is a meta-synthesis of quantitative and qualitative studies."
+page = 11
+quote = "A meta-synthesis of quantitative and qualitative studies, comprising three parallel narrative syntheses and subgroup analyses, was conducted."
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "Stigma has a small- to moderate-sized negative effect on help-seeking."
+page = 11
+quote = "Stigma has a small- to moderate-sized negative effect on help-seeking."
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "Disclosure concerns are the most commonly reported stigma barrier."
+page = 11
+quote = "with disclosure concerns the most commonly reported stigma barrier"
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "The fourth rank holds with the number of barriers standardized to 10."
+page = 17
+quote = "stigma ranks as the fourth highest barrier to help-seeking when the total number of barriers investigated is standardized to 10"
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
 [[source]]
 id = "schnyder-2017"
 citation = "Schnyder, N., Panczak, R., Groth, N., & Schultze-Lutter, F. (2017). Association between mental health-related stigma and active help-seeking: systematic review and meta-analysis. The British Journal of Psychiatry, 210, 261–268."
@@ -239,6 +263,12 @@ page = 3
 quote = "Evaluated need represents professional judgment about people's health status and their need for medical care."
 cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
 
+[[source.claim]]
+claim = "The model expects perceived need to explain care-seeking better than evaluated need, which relates to the treatment provided."
+page = 3
+quote = "Logical expectations of the model are that perceived need will better help us to understand care-seeking and adherence to a medical regimen, while evaluated need will be more closely related to the kind and amount of treatment that will be provided after a patient has presented to a medical care provider."
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
 [[source]]
 id = "andrade-2014"
 citation = "Andrade, L. H., Alonso, J., Mneimneh, Z., Wells, J. E., Al-Hamzawi, A., Borges, G., Bromet, E., Bruffaerts, R., de Girolamo, G., de Graaf, R., Florescu, S., Gureje, O., Hinkov, H. R., Hu, C., Huang, Y., Hwang, I., Jin, R., Karam, E. G., Kovess-Masfety, V., Levinson, D., Matschinger, H., O'Neill, S., Posada-Villa, J., Sagar, R., Sampson, N. A., Sasu, C., Stein, D. J., Takeshima, T., Viana, M. C., Xavier, M., & Kessler, R. C. (2014). Barriers to mental health treatment: results from the WHO World Mental Health surveys. Psychological Medicine, 44(6), 1303–1317."
@@ -262,6 +292,12 @@ cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
 claim = "The surveys were carried out in 24 countries."
 page = 2
 quote = "Representative household samples were interviewed face-to-face in 24 countries."
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "Reasons to initiate and continue treatment were examined in a subsample of 63,678 respondents (Part II)."
+page = 2
+quote = "Reasons to initiate and continue treatment were examined in a subsample (n= 63,678)"
 cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
 
 [[source.claim]]

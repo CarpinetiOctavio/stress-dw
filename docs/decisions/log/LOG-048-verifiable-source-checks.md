@@ -44,3 +44,7 @@ None.
 * Seven statements of [`conceptual-framework.md`, section 3](../../conceptual-framework.md#3-literature-basis-for-the-mechanism) differ from their sources' wording: four about Clement et al. (2015), one each about Corrigan (2004), Andersen (1995) and Andrade et al. (2014). Their correction, and their entries, go to a later pull request.
 * A correction to the Conclusions of Schnyder et al. (2017) is reported as published in 2018; its text is not yet checked, and the register's entry for that sentence says so.
 * Cohen (1988) and Bergsma (2013): the passages on which check A5's thresholds rest enter the register with the correspondence criteria; whether a later copy can match the SHA-256 of the copies consulted, a scan and a reproduction, is not established.
+
+**Status (2026-10-08).**
+
+* The seven statements of `conceptual-framework.md`, section 3, that differed from their sources: corrected, with their register entries.
