@@ -44,3 +44,4 @@ A decision record is a home only where the concept is the decision itself, or wh
 | 36 | Indicator names | [`specification/indicators.md`](specification/indicators.md) | The specification is the contract outputs and code follow. |
 | 37 | Reading of `care_options` | [`conceptual-framework.md`, section 4](conceptual-framework.md#4-variable-mapping-to-andersens-behavioral-model) | The framework maps each variable. |
 | 38 | Column groups of H1 | [LOG-040](decisions/log/LOG-040-h1-column-groups.md) | The decision that fixes the partition holds it; the audit table and the reporting rules link to it. |
+| 39 | Verification of published sources | [LOG-048](decisions/log/LOG-048-verifiable-source-checks.md) (rule); [`references/verification.toml`](references/verification.toml) (sources and claims) | The decision holds the rule; the register holds each source and claim, and the check reads it. |

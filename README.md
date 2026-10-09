@@ -13,6 +13,16 @@ Work in progress. A dimensional data warehouse (star schema, [DuckDB](docs/decis
 
 Data integration is closed for this rebuild as of commit `9f31ab0`; the closure record is in [`phase4-closure.md`](docs/audit/phase4-closure.md#1-status). Decisions are recorded in [`docs/decisions`](docs/decisions); audit evidence and checks are in [`docs/audit`](docs/audit).
 
+## Source verification
+
+Claims that rest on published work are checked against copies of the sources, not only cited. The [verification register](docs/references/README.md) records, for each claim, the printed page and a verbatim quotation, together with the SHA-256 of the copy consulted and where it was obtained; a script checks both against a copy. Given a directory holding the copies, under the file names the register gives (the one copy whose licence permits redistribution is stored in the repository):
+
+```sh
+uv run python -m stress_dw.references <directory>
+```
+
+The rule and its reasoning are in [LOG-048](docs/decisions/log/LOG-048-verifiable-source-checks.md).
+
 ## Development
 
 Requires [uv](https://docs.astral.sh/uv/), which installs the Python version pinned in `.python-version` and every dependency declared in `pyproject.toml`:
@@ -29,4 +39,4 @@ The source file is obtained separately and verified before any load; see [`stagi
 
 ## License
 
-MIT for the code and documentation in this repository. The dataset is not included and is not covered by this license.
+MIT for the code and documentation in this repository, except the copies of published works in `docs/references/`, which keep their own licences ([stored copies](docs/references/README.md#stored-copies)). The dataset is not included and is not covered by this license.

@@ -44,6 +44,11 @@ The addendum of 2026-10-04 carries the decision of [LOG-011](log/LOG-011-adr-001
 
 ---
 
+### Addendum (2026-10-08)
+A claim that rests on a published work is, besides being cited by the work's bibliographic data, recorded in a verification register and checked against a copy of the work, under [LOG-048](log/LOG-048-verifiable-source-checks.md), which holds the rule and its reasoning. This adds an obligation to the treatment of published works set by the addendum of 2026-09-30, which otherwise stands.
+
+---
+
 ## Decision Drivers
 
 * A claim has to be checkable by someone who has only the repository and the frozen source.
