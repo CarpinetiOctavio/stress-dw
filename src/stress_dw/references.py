@@ -49,6 +49,7 @@ class Claim:
     page: int
     quote: str
     cited_in: tuple[str, ...]
+    pdf_page: int | None = None
 
 
 @dataclass(frozen=True)
@@ -102,6 +103,7 @@ def _claim(entry: dict[str, Any], where: str) -> Claim:
         page=_field(entry, "page", int, where),
         quote=_field(entry, "quote", str, where),
         cited_in=tuple(cited_in),
+        pdf_page=_optional(entry, "pdf_page", int, None, where),
     )
 
 
@@ -168,7 +170,8 @@ def check_source(source: Source, copy: Path) -> CheckResult:
     A differing hash is a problem, and the quotations are not read, since they
     would be checked against a different document; for a source whose hash is
     not reproducible it is a note, and the quotations are read. The PDF page of
-    a printed page skips the source's `leading_pages`.
+    a printed page skips the source's `leading_pages`, unless the claim gives
+    its own `pdf_page`, as a scan whose page offset varies requires.
     """
     actual = sha256_of(copy)
     notes = []
@@ -185,8 +188,12 @@ def check_source(source: Source, copy: Path) -> CheckResult:
         return CheckResult(problems=[problem], notes=notes)
     problems = []
     for claim in source.claims:
-        index = claim.page - source.first_page + source.leading_pages
-        if not source.leading_pages <= index < len(pages):
+        if claim.pdf_page is not None:
+            index, lowest = claim.pdf_page - 1, 0
+        else:
+            index = claim.page - source.first_page + source.leading_pages
+            lowest = source.leading_pages
+        if not lowest <= index < len(pages):
             problems.append(f"{source.id}: p. {claim.page} is not in {copy}")
         elif normalize(claim.quote) not in pages[index]:
             problems.append(

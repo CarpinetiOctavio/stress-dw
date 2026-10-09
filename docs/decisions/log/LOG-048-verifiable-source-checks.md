@@ -52,3 +52,7 @@ None.
 **Status (2026-10-08).**
 
 * The correction to the Conclusions of Schnyder et al. (2017): checked against the authors' reply (British Journal of Psychiatry, 211(3), 182–183), which gives the clarified sentence; `conceptual-framework.md`, section 3, now states it. A formal correction notice was not found.
+
+**Status (2026-10-08).**
+
+* Cohen (1988) and Bergsma (2013): entered the register, each hash marked as not reproducible (a scan; a copy with a reproduction notice); their `cited_in` is set when the correspondence criteria cite them.
