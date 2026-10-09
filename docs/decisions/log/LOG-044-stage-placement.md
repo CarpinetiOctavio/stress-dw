@@ -15,7 +15,7 @@ Each open item of the correspondence phase is placed by one criterion: an item t
 * DC-89, the correspondence evidence document: its name, path and structure are fixed before the criteria commit ([LOG-045](LOG-045-correspondence-evidence-document.md)); its contents are written after it. This refines [LOG-021](LOG-021-evidence-document-to-correspondence-phase.md), which assigns the definition to the correspondence phase as a whole.
 * DC-19: checks A2 and A3 run after the criteria commit; A2 is already placed there by [LOG-036](LOG-036-open-obligations-to-correspondence-phase.md), and A3, for which LOG-036 sets no order, is placed there by this entry.
 * DC-21: the query-time cost is measured after the criteria commit; LOG-036 sets no order for it.
-* DC-13: check A7 runs after the criteria commit ([LOG-039](LOG-039-reading-rule.md)).
+* DC-13: check A7 runs after the criteria commit ([LOG-049](LOG-049-reading-rule-by-repository-access.md)).
 * The rationale of `dim_access` ([register, section 5.8](../../audit/documentation-currency.md#58-items-of-the-starting-list-not-listed-above), second item): read after the criteria commit, as an item of design coherence, not as a criterion; a design finding may reopen the model ([ADR-0013, Consequences](../0013-keep-star-schema-add-flat-consumption-view.md#consequences)).
 * The "design and sufficiency items" of the starting list (register, section 5.8, third item): not carried. The register says "carried forward"; their detail is not versioned, and an item enters only once it is versioned. The register is not edited.
 

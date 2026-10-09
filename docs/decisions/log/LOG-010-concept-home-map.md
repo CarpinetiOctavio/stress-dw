@@ -71,3 +71,8 @@ The [documentation-currency register](../../audit/documentation-currency.md#5-fi
 
 * Home set: the correspondence evidence document, [LOG-045](LOG-045-correspondence-evidence-document.md) (definition).
 * Homes still open: none.
+
+**Status (2026-10-08).**
+
+* Home moved: the reading rule, [LOG-049](LOG-049-reading-rule-by-repository-access.md), which replaces LOG-039.
+* Homes still open: none.
