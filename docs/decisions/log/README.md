@@ -91,3 +91,4 @@ An entry is reduced to a pointer only when its target carries every section of t
 | [LOG-045](LOG-045-correspondence-evidence-document.md) | Name, place and structure the correspondence evidence document as the final report of ADR-0011 | recorded |
 | [LOG-046](LOG-046-user-of-the-outputs.md) | Derive what each output must allow from its question's objective, with the original purpose in the documentary layer only | recorded |
 | [LOG-047](LOG-047-a5-threshold-procedure.md) | Take the thresholds of check A5 from a verified published source, or else fix them as a declared convention | recorded |
+| [LOG-048](LOG-048-verifiable-source-checks.md) | Check every claim that rests on a published work against a copy of it, in a register a script verifies | recorded |

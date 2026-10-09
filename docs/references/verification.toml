@@ -1,0 +1,289 @@
+# Verification register of published sources: the home of every source entry
+# and its claims. The rule it implements, and its reasoning, are in LOG-048
+# (docs/decisions/log/LOG-048-verifiable-source-checks.md); how it is checked is
+# in docs/references/README.md.
+#
+# Per source: `first_page` is the printed page number of the first PDF page
+# after `leading_pages` (pages before it, such as a provider's cover page;
+# default 0); `version` says which version of the work the copy is (default
+# "published"); `reproducible_hash` is false when the provider stamps each
+# download, so that another copy cannot match the hash (default true); `stored`
+# is true when the copy is kept in docs/references/ because its licence permits
+# redistribution. Per claim: `page` is the printed page,
+# `quote` a verbatim passage of the copy, and `cited_in` the documents that make
+# the claim, as `path#anchor` (empty until a document cites it).
+
+[[source]]
+id = "kim-2017"
+citation = "Kim, H.-Y. (2017). Statistical notes for clinical researchers: Chi-squared test and Fisher's exact test. Restorative Dentistry & Endodontics, 42(2), 152–155."
+doi = "10.5395/rde.2017.42.2.152"
+retrieved_from = "https://rde.ac/upload/pdf/rde-42-152.pdf"
+retrieved_on = 2026-10-07
+file = "kim-2017-chi-squared-test-and-fishers-exact-test.pdf"
+sha256 = "72a7a5738f3135e87a2863bbedef8b2b12613669c45a829084a68aa30c297075"
+first_page = 152
+licence = "CC BY-NC 3.0, as printed on p. 152"
+stored = true
+
+[[source.claim]]
+claim = "The article is distributed under the Creative Commons Attribution Non-Commercial License."
+page = 152
+quote = "This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License"
+cited_in = []
+
+[[source.claim]]
+claim = "The chi-squared statistic is stated with (r − 1)(c − 1) degrees of freedom."
+page = 153
+quote = "with degrees of freedom (r - 1)(c - 1)"
+cited_in = []
+
+[[source.claim]]
+claim = "The df in the definition of V is (r − 1)(c − 1), with r and c the numbers of rows and columns."
+page = 153
+quote = "where n is total number of observation, and df is degrees of freedom calculated by (r - 1) * (c - 1). Here, r and c are the numbers of rows and columns of the contingency table."
+cited_in = []
+
+[[source.claim]]
+claim = "Table 2 tabulates small, medium and large values of Cramér's V by degree of freedom."
+page = 154
+quote = "Table 2. Effect size for chi-squared test, Cramer’s V and its interpretation"
+cited_in = []
+
+[[source.claim]]
+claim = "Table 2, degree of freedom 1: small 0.10, medium 0.30, large 0.50."
+page = 154
+quote = "1 0.10 0.30 0.50"
+cited_in = []
+
+[[source.claim]]
+claim = "Table 2, degree of freedom 2: small 0.07, medium 0.21, large 0.35."
+page = 154
+quote = "2 0.07 0.21 0.35"
+cited_in = []
+
+[[source.claim]]
+claim = "Table 2, degree of freedom 3: small 0.06, medium 0.17, large 0.29."
+page = 154
+quote = "3 0.06 0.17 0.29"
+cited_in = []
+
+[[source.claim]]
+claim = "Table 2, degree of freedom 4: small 0.05, medium 0.15, large 0.25."
+page = 154
+quote = "4 0.05 0.15 0.25"
+cited_in = []
+
+[[source.claim]]
+claim = "Table 2, degree of freedom 5: small 0.04, medium 0.13, large 0.22."
+page = 154
+quote = "5 0.04 0.13 0.22"
+cited_in = []
+
+[[source.claim]]
+claim = "Table 2 refers to reference 2, Cohen (1988), pp. 79–80."
+page = 155
+quote = "Cohen J. Statistical power and analysis for the behavioral sciences. 2nd ed. Hisdale, NJ: Lawrence Erlbaum Associates; 1988. p79-80."
+cited_in = []
+
+[[source]]
+id = "clement-2015"
+citation = "Clement, S., Schauman, O., Graham, T., Maggioni, F., Evans-Lacko, S., Bezborodovs, N., Morgan, C., Rüsch, N., Brown, J. S. L., & Thornicroft, G. (2015). What is the impact of mental health-related stigma on help-seeking? A systematic review of quantitative and qualitative studies. Psychological Medicine, 45, 11–27."
+doi = "10.1017/S0033291714000129"
+retrieved_from = "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E3FD6B42EE9815C4E26A6B84ED7BD3AE/S0033291714000129a.pdf/what-is-the-impact-of-mental-health-related-stigma-on-help-seeking-a-systematic-review-of-quantitative-and-qualitative-studies.pdf"
+retrieved_on = 2026-10-08
+file = "clement-2015.pdf"
+sha256 = "d4332a877f2319aafec37bd375982d086c4a8b4a3848a381b6eeeaa11a68af51"
+first_page = 11
+licence = "© Cambridge University Press 2014, as printed on p. 11; free access, not stored"
+stored = false
+
+[[source.claim]]
+claim = "Venue and pages: Psychological Medicine, 45, 11–27."
+page = 11
+quote = "Psychological Medicine (2015), 45, 11–27."
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "The review included 144 studies."
+page = 11
+quote = "The review identified 144 studies with 90 189 participants meeting inclusion criteria."
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "The median association between stigma and help-seeking is d = −0.27."
+page = 11
+quote = "The median association between stigma and help-seeking was d = − 0.27"
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "Stigma ranked fourth among barriers to help-seeking."
+page = 11
+quote = "Stigma was the fourth highest ranked barrier to help-seeking"
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source]]
+id = "schnyder-2017"
+citation = "Schnyder, N., Panczak, R., Groth, N., & Schultze-Lutter, F. (2017). Association between mental health-related stigma and active help-seeking: systematic review and meta-analysis. The British Journal of Psychiatry, 210, 261–268."
+doi = "10.1192/bjp.bp.116.189464"
+retrieved_from = "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/013AE32C41016EA531E6CA2B3F3D58FE/S0007125000281105a.pdf/div-class-title-association-between-mental-health-related-stigma-and-active-help-seeking-systematic-review-and-meta-analysis-div.pdf"
+retrieved_on = 2026-10-08
+file = "schnyder-2017.pdf"
+sha256 = "c870f96b6051adb859731ae84c6091e5706437ee088aeb0ad3037a074fe02868"
+first_page = 261
+licence = "© The Royal College of Psychiatrists 2017, as printed on p. 261; free access, not stored"
+stored = false
+
+[[source.claim]]
+claim = "Venue and pages: The British Journal of Psychiatry, 210, 261–268."
+page = 261
+quote = "The British Journal of Psychiatry (2017) 210, 261–268."
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "The study is a meta-analysis by stigma type."
+page = 261
+quote = "random effect meta-analyses according to the stigma types"
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "Twenty-seven studies were included."
+page = 261
+quote = "Twenty-seven studies fulfilled eligibility criteria."
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "Negative attitudes towards help-seeking (OR = 0.80, 95% CI 0.73–0.88) and personal stigma (OR = 0.82, 95% CI 0.69–0.98) are associated with less active help-seeking."
+page = 263
+quote = "Negative HelpA (OR = 0.80, 95% CI 0.73–0.88) and higher PersonS (OR = 0.82, 95% CI 0.69–0.98) were associated with less active help-seeking for mental health problems."
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "Self-stigma (OR = 0.88, 95% CI 0.76–1.03) is not statistically significant."
+page = 263
+quote = "Higher SelfS (OR = 0.88, 95% CI 0.76–1.03) showed an indication of less active help-seeking, but the results were not statistically significant."
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "Perceived public stigma is not associated with active help-seeking."
+page = 261
+quote = "whereas perceived public stigma was not associated"
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "The authors conclude that campaigns should target personal attitudes rather than broad public opinion (sentence as printed in this copy; a later correction to it is not yet checked)."
+page = 261
+quote = "should target these personal attitudes rather than broad public opinion"
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source]]
+id = "corrigan-2004"
+citation = "Corrigan, P. (2004). How stigma interferes with mental health care. American Psychologist, 59(7), 614–625."
+doi = "10.1037/0003-066X.59.7.614"
+retrieved_from = "https://doi.org/10.1037/0003-066X.59.7.614"
+retrieved_on = 2026-10-08
+file = "corrigan-2004.pdf"
+sha256 = "80ff5f38999b3950ce2b771dd7dce33e11596693df257f78f1cc374b37fcad23"
+first_page = 614
+licence = "Copyright 2004 by the American Psychological Association; personal use only, text and data mining reserved, as printed on p. 614; not stored"
+stored = false
+reproducible_hash = false
+
+[[source.claim]]
+claim = "Venue and pages: American Psychologist, 59(7), 614–625."
+page = 614
+quote = "Vol. 59, No. 7, 614 – 625"
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "People avoid the label of mental illness by not seeking or not fully participating in care."
+page = 614
+quote = "to avoid the label of mental illness and the harm it brings, people decide not to seek or fully participate in care."
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "Label avoidance is presented as perhaps the most significant way in which stigma impedes care seeking."
+page = 616
+quote = "This kind of label avoidance is perhaps the most significant way in which stigma impedes care seeking."
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source]]
+id = "andersen-1995"
+citation = "Andersen, R. M. (1995). Revisiting the behavioral model and access to medical care: Does it matter? Journal of Health and Social Behavior, 36(1), 1–10."
+doi = "10.2307/2137284"
+retrieved_from = "https://www.jstor.org/stable/2137284"
+retrieved_on = 2026-10-08
+file = "andersen-1995.pdf"
+sha256 = "725bcc6e17650d09f648980cd3189b55fe759dd05a699f346d4e0afc6eb28f5e"
+first_page = 1
+version = "published version, as distributed by JSTOR with a cover page"
+leading_pages = 1
+licence = "JSTOR Terms and Conditions of Use, as printed on the cover page; not stored"
+stored = false
+reproducible_hash = false
+
+[[source.claim]]
+claim = "Venue and pages: Journal of Health and Social Behavior, 36, 1–10."
+page = 1
+quote = "Journal of Health and Social Behavior 1995, Vol. 36 (March): 1-10"
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "The model's components: predisposition, factors that enable or impede use, and need."
+page = 1
+quote = "It suggests that people's use of health services is a function of their predisposition to use services, factors which enable or impede use, and their need for care."
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "Need has an evaluated component, professional judgment, distinct from perceived need."
+page = 3
+quote = "Evaluated need represents professional judgment about people's health status and their need for medical care."
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source]]
+id = "andrade-2014"
+citation = "Andrade, L. H., Alonso, J., Mneimneh, Z., Wells, J. E., Al-Hamzawi, A., Borges, G., Bromet, E., Bruffaerts, R., de Girolamo, G., de Graaf, R., Florescu, S., Gureje, O., Hinkov, H. R., Hu, C., Huang, Y., Hwang, I., Jin, R., Karam, E. G., Kovess-Masfety, V., Levinson, D., Matschinger, H., O'Neill, S., Posada-Villa, J., Sagar, R., Sampson, N. A., Sasu, C., Stein, D. J., Takeshima, T., Viana, M. C., Xavier, M., & Kessler, R. C. (2014). Barriers to mental health treatment: results from the WHO World Mental Health surveys. Psychological Medicine, 44(6), 1303–1317."
+doi = "10.1017/S0033291713001943"
+retrieved_from = "https://pmc.ncbi.nlm.nih.gov/articles/PMC4100460/pdf/nihms588338.pdf"
+retrieved_on = 2026-10-08
+file = "andrade-2014-author-manuscript.pdf"
+sha256 = "39f02820e4840b3ee144d1edf824aa7bacc0db3adc4527060c778d8f6ce971ae"
+first_page = 1
+version = "author manuscript (NIH Public Access, PMC4100460); pages are the manuscript's"
+licence = "no licence statement printed; NIH author manuscript in PMC; not stored"
+stored = false
+
+[[source.claim]]
+claim = "Venue and pages of the published version: Psychological Medicine, 44(6), 1303–1317."
+page = 1
+quote = "Published in final edited form as: Psychol Med. 2014 April ; 44(6): 1303–1317."
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "The surveys were carried out in 24 countries."
+page = 2
+quote = "Representative household samples were interviewed face-to-face in 24 countries."
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "Low perceived need is the most common reason for not initiating treatment."
+page = 2
+quote = "Among those with a DSM-IV disorder in the past twelve months, low perceived need was the most common reason for not initiating treatment"
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "Attitudinal barriers outweigh structural barriers, except that structural barriers dominate for severe cases."
+page = 2
+quote = "Attitudinal barriers were much more important than structural barriers both to initiating and continuing treatment. However, attitudinal barriers dominated for mild-moderate cases and structural barriers for severe cases."
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "Wanting to handle the problem on one's own is the most common attitudinal barrier, 63.8%."
+page = 7
+quote = "By far the most common attitudinal barrier was wanting to handle the problem on their own (63.8% overall"
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "The 63.8% is among respondents with a disorder who perceived a need for treatment."
+page = 2
+quote = "Desire to handle the problem on one’s own was the most common barrier among respondents with a disorder who perceived a need for treatment (63.8%)."
+cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
