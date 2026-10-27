@@ -48,3 +48,5 @@ DC-89 of the [documentation-currency register](../../audit/documentation-currenc
 
 * The contents: the correspondence phase, after the criteria commit.
 * Whether the full outputs sit inside the document or in a generated file beside it: the correspondence phase.
+
+**Addendum (2026-10-25).** Item 4: for Q2 and Q7.1, the evidence document carries the documentary layer of the [correspondence criteria](../../audit/correspondence-criteria.md), which gives no documentary verdict ([LOG-051](LOG-051-stopping-rule-documentary-audit-readings.md)), in place of "the documentary verdict, for Q2 and Q7.1".
