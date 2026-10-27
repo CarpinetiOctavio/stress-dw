@@ -142,6 +142,10 @@ The wording below is the corrected wording for the Confirmation; `indicators.md`
 
 The addendum of 2026-10-04 carries the decisions of [LOG-013](log/LOG-013-care-options-neutral-wording.md), [LOG-015](log/LOG-015-rewrite-q3-text-and-add-objective.md) and [LOG-016](log/LOG-016-objectives-q2-q6-q71-q72.md), which keep their reasoning.
 
+### Addendum (2026-10-25)
+
+The documentary verdict on Q2 and Q7.1 that [LOG-016](log/LOG-016-objectives-q2-q6-q71-q72.md) assigned to the correspondence phase is replaced by a documentary layer that gives no verdict, under the stopping rule of [LOG-051](log/LOG-051-stopping-rule-documentary-audit-readings.md), which keeps its reasoning. The objectives set by the addendum of 2026-10-04 stand.
+
 ## Pros and Cons of the Options
 
 ### Leave original text, correct only at the indicator level

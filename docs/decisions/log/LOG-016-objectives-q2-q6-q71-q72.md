@@ -56,3 +56,5 @@ Decision e of the [documentation-currency register](../../audit/documentation-cu
 * The objectives of Q6 and Q7.2 and the wording of the addendum: done in #53.
 * The wording of the conceptual framework at `:92`: done in #55.
 * The documentary verdicts on Q2 and Q7.1: the correspondence phase.
+
+**Addendum (2026-10-25).** The documentary verdict on Q2 and Q7.1 assigned here is replaced, under [LOG-051](LOG-051-stopping-rule-documentary-audit-readings.md), which holds the reasoning, by a documentary layer that gives no verdict ([correspondence criteria](../../audit/correspondence-criteria.md), section 6). The objectives this entry sets stand.

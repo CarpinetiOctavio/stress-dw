@@ -45,7 +45,7 @@ cited_in = []
 claim = "The df in the definition of V is (r − 1)(c − 1), with r and c the numbers of rows and columns."
 page = 153
 quote = "where n is total number of observation, and df is degrees of freedom calculated by (r - 1) * (c - 1). Here, r and c are the numbers of rows and columns of the contingency table."
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "The result of the chi-squared test is relevant only when no more than 20% of cells have expected frequencies below 5 and no cell has an expected frequency below 1."
@@ -57,43 +57,43 @@ cited_in = ["docs/decisions/log/LOG-050-a5-a6-a10-reading-thresholds.md#reasons"
 claim = "Table 2 tabulates small, medium and large values of Cramér's V by degree of freedom."
 page = 154
 quote = "Table 2. Effect size for chi-squared test, Cramer’s V and its interpretation"
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "Table 2, degree of freedom 1: small 0.10, medium 0.30, large 0.50."
 page = 154
 quote = "1 0.10 0.30 0.50"
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "Table 2, degree of freedom 2: small 0.07, medium 0.21, large 0.35."
 page = 154
 quote = "2 0.07 0.21 0.35"
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "Table 2, degree of freedom 3: small 0.06, medium 0.17, large 0.29."
 page = 154
 quote = "3 0.06 0.17 0.29"
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "Table 2, degree of freedom 4: small 0.05, medium 0.15, large 0.25."
 page = 154
 quote = "4 0.05 0.15 0.25"
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "Table 2, degree of freedom 5: small 0.04, medium 0.13, large 0.22."
 page = 154
 quote = "5 0.04 0.13 0.22"
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "Table 2 refers to reference 2, Cohen (1988), pp. 79–80."
 page = 155
 quote = "Cohen J. Statistical power and analysis for the behavioral sciences. 2nd ed. Hisdale, NJ: Lawrence Erlbaum Associates; 1988. p79-80."
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source]]
 id = "clement-2015"
@@ -154,6 +154,18 @@ claim = "The fourth rank holds with the number of barriers standardized to 10."
 page = 17
 quote = "stigma ranks as the fourth highest barrier to help-seeking when the total number of barriers investigated is standardized to 10"
 cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
+
+[[source.claim]]
+claim = "Men are among the groups disproportionately deterred from help-seeking by stigma."
+page = 11
+quote = "Ethnic minorities, youth, men and those in military and health professions were disproportionately deterred by stigma."
+cited_in = ["docs/audit/correspondence-criteria.md#11-positionality-statement"]
+
+[[source.claim]]
+claim = "Stigma ranked lower as a barrier among studies that included only women."
+page = 17
+quote = "When comparing gender groups, stigma was ranked lower among studies that only included women."
+cited_in = ["docs/audit/correspondence-criteria.md#11-positionality-statement"]
 
 [[source]]
 id = "schnyder-2017"
@@ -334,6 +346,18 @@ page = 2
 quote = "Desire to handle the problem on one’s own was the most common barrier among respondents with a disorder who perceived a need for treatment (63.8%)."
 cited_in = ["docs/conceptual-framework.md#3-literature-basis-for-the-mechanism"]
 
+[[source.claim]]
+claim = "Women with disorders were more likely to recognize a need for treatment."
+page = 2
+quote = "Women and younger people with disorders were more likely to recognize a need for treatment."
+cited_in = ["docs/audit/correspondence-criteria.md#11-positionality-statement"]
+
+[[source.claim]]
+claim = "Low perceived need for treatment was more common among men."
+page = 7
+quote = "Low perceived need for treatment was more common at older ages, among men, and among milder cases (Table 4)."
+cited_in = ["docs/audit/correspondence-criteria.md#11-positionality-statement"]
+
 [[source]]
 id = "schnyder-2017-reply"
 citation = "Schnyder, N., Panczak, R., Groth, N., & Schultze-Lutter, F. (2017). Authors' reply. The British Journal of Psychiatry, 211(3), 182–183."
@@ -383,7 +407,7 @@ claim = "Pages 79–80, which Kim (2017) cites, give conventions for the product
 page = 79
 pdf_page = 96
 quote = "operational definitions of \"small,\" \"medium,\" and \"large\" ES as expressed in terms of"
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "Chapter 7 covers contingency tables as Case 1."
@@ -397,105 +421,140 @@ claim = "Formula (7.2.1): w sums, over the cells, the squared difference between
 page = 216
 pdf_page = 230
 quote = "for each cell, the difference between the two hypothetical P's is squared and divided by the null-specified P0"
-cited_in = ["docs/decisions/log/LOG-050-a5-a6-a10-reading-thresholds.md#decision"]
+cited_in = ["docs/decisions/log/LOG-050-a5-a6-a10-reading-thresholds.md#decision", "docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "In a contingency table, r denotes the smaller of the two dimensions."
 page = 221
 pdf_page = 235
 quote = "If r and k are assigned so that r is not larger than k (this will be assumed throughout)"
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "The maximum of w varies with the smaller of the table's two dimensions."
 page = 221
 pdf_page = 235
 quote = "hence w varies with the size of the smaller of the table's two dimensions."
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "Formula (7.2.2): the degrees of freedom u of the chi-square for an r × k contingency table."
 page = 221
 pdf_page = 235
 quote = "for an r x k contingency table is given by"
-cited_in = ["docs/decisions/log/LOG-050-a5-a6-a10-reading-thresholds.md#decision"]
+cited_in = ["docs/decisions/log/LOG-050-a5-a6-a10-reading-thresholds.md#decision", "docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "Table 7.2.3, w = .10: C = .100; φ' = .10, .071, .058, .050, .045 for r = 2 to 6."
 page = 222
 pdf_page = 236
 quote = ".10 .100 .10 .071 .058 .050 .045"
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "Table 7.2.3, w = .30: C = .287; φ' = .30, .212, .173, .150, .134 for r = 2 to 6."
 page = 222
 pdf_page = 236
 quote = ".30 .287 .30 .212 .173 .150 .134"
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "Table 7.2.3, w = .50: C = .447; φ' = .50, .354, .289, .250, .224 for r = 2 to 6 (the w cell is misread by the OCR layer and left out)."
 page = 222
 pdf_page = 236
 quote = ".447 .50 .354 .289 .250 .224"
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "Cramér's statistic generalizes φ to contingency tables of any dimensionality."
 page = 223
 pdf_page = 237
 quote = "for contingency tables of any dimensionality is provided by Cramer's statistic"
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "In Cramér's statistic, r is not greater than k."
 page = 223
 pdf_page = 237
 quote = "where r is, as before, not greater than k."
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
+
+[[source.claim]]
+claim = "Formula (7.2.6), read from the page image: φ' = √(χ²/(N(r − 1))) = w/√(r − 1). The text layer garbles the formula and holds only its label."
+page = 223
+pdf_page = 237
+quote = "Blalock, 1972, p. 297); (7.2.6)"
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "Values of w for small, medium and large effects are offered as conventions."
 page = 224
 pdf_page = 238
 quote = "are offered to serve as conventions for these qualitative adjectives."
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "The conventions are a general frame of reference, not to be taken too literally."
 page = 224
 pdf_page = 238
 quote = "The investigator is best advised to use the conventional definitions as a general frame of reference for ES and not to take them too literally."
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
+
+[[source.claim]]
+claim = "The convention for a small effect size is w = .10."
+page = 224
+pdf_page = 238
+quote = "SMALL EFFECT SIZE: w = .10."
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
+
+[[source.claim]]
+claim = "The convention for a medium effect size is w = .30 (the text layer reads 'W' for 'w')."
+page = 225
+pdf_page = 239
+quote = "MEDIUM EFFECT SIZE: W = .30."
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
+
+[[source.claim]]
+claim = "The convention for a large effect size is w = .50."
+page = 225
+pdf_page = 239
+quote = "LARGE EFFECT SIZE: w = .50."
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "A caution on using constant w values to define a level of association in Case 1 tests."
 page = 226
 pdf_page = 240
 quote = "We reiterate a word of caution about the use of constant w values to define a given level of departure"
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
+
+[[source.claim]]
+claim = "The quotation on definitions pegged to a constant w begins on p. 226."
+page = 226
+pdf_page = 240
+quote = "then clearly he cannot use the"
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "An investigator who thinks of association in terms of φ' cannot use definitions pegged to a constant w."
 page = 227
 pdf_page = 241
 quote = "operational definitions suggested above, or any other pegged to a constant w."
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "The conventional definitions are arbitrary."
 page = 12
 pdf_page = 30
 quote = "The definitions are arbitrary"
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "The .05 significance criterion serves as a convention for rejecting the null hypothesis."
 page = 12
 pdf_page = 30
 quote = "the .05 significance criterion, although unofficial, has come to serve as a convention"
-cited_in = ["docs/decisions/log/LOG-050-a5-a6-a10-reading-thresholds.md#reasons"]
+cited_in = ["docs/decisions/log/LOG-050-a5-a6-a10-reading-thresholds.md#reasons", "docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source]]
 id = "bergsma-2013"
@@ -514,7 +573,7 @@ reproducible_hash = false
 claim = "Cramér's V divides by min(r − 1, c − 1)."
 page = 323
 quote = "min(r − 1, c − 1)"
-cited_in = []
+cited_in = ["docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "The usual estimators of V and T are biased."
@@ -532,7 +591,7 @@ cited_in = []
 claim = "Under independence, the expected value of the empirical φ² is (r − 1)(c − 1)/(n − 1), equation (1)."
 page = 324
 quote = "was conjectured by Tschuprow (1925) and proven by Bartlett (1937) to be"
-cited_in = ["docs/decisions/log/LOG-050-a5-a6-a10-reading-thresholds.md#decision"]
+cited_in = ["docs/decisions/log/LOG-050-a5-a6-a10-reading-thresholds.md#decision", "docs/audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch"]
 
 [[source.claim]]
 claim = "Table 1, bias of V̂ for a 5 × 5 table under independence: 0.609, 0.196, 0.060, 0.018 for n = 10, 100, 1000, 10,000."

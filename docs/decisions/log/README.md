@@ -40,6 +40,10 @@ Context is given by pointer to the document that holds it, not restated ([writin
 
 An entry is reduced to a pointer only when its target carries every section of the recording standard. Otherwise the entry keeps the reasoning and the target points to the entry. Pointers run one way: the reasoning has exactly one home.
 
+## Addenda
+
+A recorded entry is not rewritten: a later change to it, or a pointer to the entry that makes the change, is appended at its end as **Addendum (YYYY-MM-DD).**, and the original text stays.
+
 ## Index
 
 | ID | Title | Status |
@@ -94,3 +98,4 @@ An entry is reduced to a pointer only when its target carries every section of t
 | [LOG-048](LOG-048-verifiable-source-checks.md) | Check every claim that rests on a published work against a copy of it, in a register a script verifies | recorded |
 | [LOG-049](LOG-049-reading-rule-by-repository-access.md) | Count the repository as known when the criteria are fixed, with this entry as the home of the reading rule | recorded |
 | [LOG-050](LOG-050-a5-a6-a10-reading-thresholds.md) | Fix the interpretability bound of A5 and A6, the harmonization of values, and the α of A10's guard, by the scheme of LOG-047 | recorded |
+| [LOG-051](LOG-051-stopping-rule-documentary-audit-readings.md) | Stop the fixes to the documentary rule by a rule set before the third audit reading | recorded |
