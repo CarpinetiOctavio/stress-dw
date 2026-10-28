@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 566" width="680" height="566" role="img" aria-labelledby="t d">
+<title id="t">A gap between two readings, and where to look for it</title>
+<desc id="d">Top: two overlapping sets, reading A and reading B. Both and neither are agreement; only A and only B are gaps. Bottom: ages 9 to 14 under two readings of 'under 12': A lets 9 to 11 in free, B lets 9 to 12. The difference is age 12, at the border.</desc>
+<style>
+  svg { --ink: #0b0b0b; --ink2: #52514e; --grid: #e4e3df; --band: #f1efe9; --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; }
+  @media (prefers-color-scheme: dark) {
+    svg { --ink: #f0efec; --ink2: #c3c2b7; --grid: #3a3936; --band: #2a2927; --s1: #3987e5; --s2: #d95926; --s3: #199e70; }
+  }
+  text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; fill: var(--ink2); }
+  .ink { fill: var(--ink); } .h { fill: var(--ink); font-weight: 600; font-size: 14px; }
+  .grid { stroke: var(--grid); stroke-width: 1; fill: none; }
+  .axis { stroke: var(--ink2); stroke-width: 1; fill: none; }
+  .band { fill: var(--band); }
+  .l1 { stroke: var(--s1); stroke-width: 2; fill: none; stroke-linecap: round; }
+  .l2 { stroke: var(--s2); stroke-width: 2; fill: none; stroke-linecap: round; }
+  .f1 { fill: var(--s1); } .f2 { fill: var(--s2); } .f3 { fill: var(--s3); }
+  .o1 { fill: none; stroke: var(--s1); stroke-width: 2; }
+  .o0 { fill: none; stroke: var(--ink2); stroke-width: 1.5; }
+  .dot { fill: var(--ink); }
+  .va { fill: var(--s1); fill-opacity: .14; stroke: var(--s1); stroke-width: 2; }
+  .vb { fill: var(--s2); fill-opacity: .14; stroke: var(--s2); stroke-width: 2; }
+  .sep { stroke: var(--grid); stroke-width: 1; }
+  .diff { fill: var(--band); stroke: var(--s2); stroke-width: 1.5; }
+  .box { fill: none; stroke: var(--ink2); stroke-width: 1.5; }
+  .arrow { stroke: var(--ink2); stroke-width: 1.5; fill: none; marker-end: url(#ah); }
+</style>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--ink2)"/></marker></defs>
+<text class="h" x="20" y="30" text-anchor="start">What a gap is: a case only one reading lets in</text>
+<rect class="box" x="150" y="46" width="380" height="200" rx="8"/>
+<circle class="va" cx="290" cy="146" r="90"/>
+<circle class="vb" cx="390" cy="146" r="90"/>
+<text class="ink" x="170" y="70" text-anchor="start">Reading A</text>
+<text class="ink" x="510" y="70" text-anchor="end">Reading B</text>
+<text class="ink" x="245" y="140" text-anchor="middle">only A</text>
+<text x="245" y="160" text-anchor="middle">gap</text>
+<text class="ink" x="340" y="140" text-anchor="middle">both</text>
+<text x="340" y="160" text-anchor="middle">agree</text>
+<text class="ink" x="435" y="140" text-anchor="middle">only B</text>
+<text x="435" y="160" text-anchor="middle">gap</text>
+<text class="ink" x="515" y="218" text-anchor="end">neither</text>
+<text x="515" y="236" text-anchor="end">agree</text>
+<line class="sep" x1="20" y1="266" x2="660" y2="266"/>
+<text class="h" x="20" y="296" text-anchor="start">Where to look: at the border</text>
+<text x="20" y="318" text-anchor="start">The sign: “free entry for children under 12”</text>
+<rect class="diff" x="390" y="330" width="60" height="140" rx="6"/>
+<text class="ink" x="20" y="361" text-anchor="start">A: age &lt; 12</text>
+<circle class="f1" cx="150" cy="356" r="9"/>
+<circle class="f1" cx="240" cy="356" r="9"/>
+<circle class="f1" cx="330" cy="356" r="9"/>
+<circle class="o0" cx="420" cy="356" r="9"/>
+<circle class="o0" cx="510" cy="356" r="9"/>
+<circle class="o0" cx="600" cy="356" r="9"/>
+<text class="ink" x="20" y="417" text-anchor="start">B: age ≤ 12</text>
+<circle class="f1" cx="150" cy="412" r="9"/>
+<circle class="f1" cx="240" cy="412" r="9"/>
+<circle class="f1" cx="330" cy="412" r="9"/>
+<circle class="f1" cx="420" cy="412" r="9"/>
+<circle class="o0" cx="510" cy="412" r="9"/>
+<circle class="o0" cx="600" cy="412" r="9"/>
+<text x="150" y="452" text-anchor="middle">9</text>
+<text x="240" y="452" text-anchor="middle">10</text>
+<text x="330" y="452" text-anchor="middle">11</text>
+<text x="420" y="452" text-anchor="middle">12</text>
+<text x="510" y="452" text-anchor="middle">13</text>
+<text x="600" y="452" text-anchor="middle">14</text>
+<text x="130" y="452" text-anchor="end">age</text>
+<text class="ink" x="420" y="490" text-anchor="middle">the difference: only B lets 12 in free</text>
+<circle class="f1" cx="30" cy="516" r="6"/>
+<text x="42" y="520" text-anchor="start">free</text>
+<circle class="o0" cx="96" cy="516" r="6"/>
+<text x="108" y="520" text-anchor="start">pays</text>
+<text x="660" y="520" text-anchor="end">Ages 5 or 40 do not separate the readings; 11, 12 and 13 do.</text>
+<text x="20" y="550" text-anchor="start">On the sign: both = 9 to 11, neither = 13 and up, only B = {12}, only A is empty.</text>
+</svg>

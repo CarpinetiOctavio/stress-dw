@@ -18,3 +18,4 @@ Each lesson is a section of its theme file, headed `LSN-NNN — short title` (th
 | Evidence and the limits of search | [`evidence-and-search-limits.md`](evidence-and-search-limits.md) | LSN-001, LSN-002, LSN-003, LSN-004 |
 | Verification of commands, counts and locators | [`verification-of-commands-counts-and-locators.md`](verification-of-commands-counts-and-locators.md) | LSN-005, LSN-006, LSN-007, LSN-011, LSN-012 |
 | Bookkeeping and namespaces | [`bookkeeping-and-namespaces.md`](bookkeeping-and-namespaces.md) | LSN-008, LSN-009, LSN-010, LSN-013 |
+| Scope and proportion | [`scope-and-proportion.md`](scope-and-proportion.md) | LSN-014, LSN-015 |

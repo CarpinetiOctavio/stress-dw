@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 270" width="680" height="270" role="img" aria-labelledby="t d">
+<title id="t">Target painted before or after the shots</title>
+<desc id="d">Left: a target painted first, with shots scattered around it, some missing. Right: the shots fired first, with the target painted around them afterwards, so every shot hits.</desc>
+<style>
+  svg { --ink: #0b0b0b; --ink2: #52514e; --grid: #e4e3df; --band: #f1efe9; --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; }
+  @media (prefers-color-scheme: dark) {
+    svg { --ink: #f0efec; --ink2: #c3c2b7; --grid: #3a3936; --band: #2a2927; --s1: #3987e5; --s2: #d95926; --s3: #199e70; }
+  }
+  text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; fill: var(--ink2); }
+  .ink { fill: var(--ink); } .h { fill: var(--ink); font-weight: 600; font-size: 14px; }
+  .grid { stroke: var(--grid); stroke-width: 1; fill: none; }
+  .axis { stroke: var(--ink2); stroke-width: 1; fill: none; }
+  .band { fill: var(--band); }
+  .l1 { stroke: var(--s1); stroke-width: 2; fill: none; stroke-linecap: round; }
+  .l2 { stroke: var(--s2); stroke-width: 2; fill: none; stroke-linecap: round; }
+  .f1 { fill: var(--s1); } .f2 { fill: var(--s2); } .f3 { fill: var(--s3); }
+  .o1 { fill: none; stroke: var(--s1); stroke-width: 2; }
+  .o0 { fill: none; stroke: var(--ink2); stroke-width: 1.5; }
+  .dot { fill: var(--ink); }
+  .box { fill: none; stroke: var(--ink2); stroke-width: 1.5; }
+  .arrow { stroke: var(--ink2); stroke-width: 1.5; fill: none; marker-end: url(#ah); }
+</style>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--ink2)"/></marker></defs>
+<text class="h" x="170.0" y="26.0" text-anchor="middle">Target painted before the shots</text>
+<text class="h" x="510.0" y="26.0" text-anchor="middle">Target painted after the shots</text>
+<rect class="band" x="40" y="40" width="260" height="190" rx="6"/>
+<rect class="band" x="380" y="40" width="260" height="190" rx="6"/>
+<circle class="o1" cx="170" cy="135" r="60"/>
+<circle class="o1" cx="170" cy="135" r="40"/>
+<circle class="o1" cx="170" cy="135" r="20"/>
+<circle class="f1" cx="170" cy="135" r="5"/>
+<circle class="dot" cx="222.4" cy="123.0" r="4"/>
+<circle class="dot" cx="213.0" cy="87.3" r="4"/>
+<circle class="dot" cx="206.9" cy="84.2" r="4"/>
+<circle class="dot" cx="224.4" cy="154.2" r="4"/>
+<circle class="dot" cx="205.6" cy="95.4" r="4"/>
+<circle class="dot" cx="239.0" cy="124.7" r="4"/>
+<circle class="dot" cx="225.9" cy="86.1" r="4"/>
+<circle class="dot" cx="221.3" cy="134.9" r="4"/>
+<circle class="dot" cx="176.6" cy="100.3" r="4"/>
+<circle class="dot" cx="511.9" cy="138.5" r="4"/>
+<circle class="dot" cx="509.5" cy="128.9" r="4"/>
+<circle class="dot" cx="507.8" cy="128.1" r="4"/>
+<circle class="dot" cx="512.5" cy="146.8" r="4"/>
+<circle class="dot" cx="507.5" cy="131.1" r="4"/>
+<circle class="dot" cx="516.3" cy="138.9" r="4"/>
+<circle class="dot" cx="512.9" cy="128.6" r="4"/>
+<circle class="dot" cx="511.7" cy="141.6" r="4"/>
+<circle class="dot" cx="499.8" cy="132.4" r="4"/>
+<circle class="o1" cx="510" cy="135" r="60"/>
+<circle class="o1" cx="510" cy="135" r="40"/>
+<circle class="o1" cx="510" cy="135" r="20"/>
+<circle class="f1" cx="510" cy="135" r="5"/>
+<text x="170.0" y="252.0" text-anchor="middle">Some shots miss: the result could fail.</text>
+<text x="510.0" y="252.0" text-anchor="middle">Every shot hits: the result could not fail.</text>
+</svg>

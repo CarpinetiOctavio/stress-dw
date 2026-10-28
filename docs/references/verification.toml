@@ -604,3 +604,52 @@ claim = "n × min(r − 1, c − 1) × V̂² is the Pearson chi-square statistic
 page = 328
 quote = "is the Pearson chi-square statistic which has an asymptotic chi-square distribution under independence"
 cited_in = []
+
+[[source]]
+id = "ganancias-martinez-2010"
+citation = "Ganancias Martínez, F. M. (2010). Evaluación de metodologías de regionalización hidrológica: aplicación a los caudales máximos de cuencas representativas de la región sur-oeste de la provincia de Córdoba [Master's thesis, Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales]."
+doi = ""
+retrieved_from = "copy supplied by the author; not found in an online repository on 2026-10-27"
+retrieved_on = 2026-10-27
+file = "ganancias-martinez-2010.pdf"
+sha256 = "bc926b009772b846a590eb8d01705c557d33b84ea0889fd8f30ea940e4169b98"
+first_page = 1
+version = "PDF of the thesis report (370 pages); printed page numbers equal PDF page numbers; the text layer garbles the letters c and j in some fonts, so quotations avoid them"
+licence = "No licence stated; not stored"
+stored = false
+reproducible_hash = false
+
+[[source.claim]]
+claim = "The standard error of fit is preferred among the goodness-of-fit methods because it includes the number of parameters of the distribution in its value."
+page = 83
+pdf_page = 83
+quote = "número de parámetros que emplea la distribu"
+cited_in = ["docs/concept-transfers/parsimony.md#the-concept"]
+
+[[source.claim]]
+claim = "Equation IV-263 divides the sum of squared differences by n − mp, where mp is the number of parameters of the fitted distribution."
+page = 85
+pdf_page = 85
+quote = "Número de parámetros de la distribu"
+cited_in = ["docs/concept-transfers/parsimony.md#the-concept"]
+
+[[source.claim]]
+claim = "When two or more distributions give similar values of the standard error of fit, the one with fewer parameters is chosen."
+page = 85
+pdf_page = 85
+quote = "que tenga el menor número de parámetros"
+cited_in = ["docs/concept-transfers/parsimony.md#the-concept"]
+
+[[source.claim]]
+claim = "Applied: the exponential distribution (1 parameter) is chosen over the 3-parameter log-normal on similar values."
+page = 167
+pdf_page = 167
+quote = "por ser la de menor número de parámetros"
+cited_in = ["docs/concept-transfers/parsimony.md#the-concept"]
+
+[[source.claim]]
+claim = "Applied: the Gumbel distribution (2 parameters) is adopted over the 3-parameter gamma on close values."
+page = 302
+pdf_page = 302
+quote = "de Gumbel menor número de parámetros"
+cited_in = ["docs/concept-transfers/parsimony.md#the-concept"]
