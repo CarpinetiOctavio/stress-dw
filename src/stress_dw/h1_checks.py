@@ -11,7 +11,8 @@ indicator's numerators (ADR-0011, rule 1). The values of V, w and w_d, and
 A10's marginal comparisons, are written only with `--with-values`, once
 exposure is allowed (section 7, amendment of 2026-10-29).
 
-Run: `uv run python -m stress_dw.h1_checks --osmi PATH --rhmcd PATH`.
+Run: `uv run python -m stress_dw.h1_checks`, with the two external copies at
+`OSMI_PATH` and `RHMCD_PATH`; each is verified by its SHA-256 before it is read.
 """
 
 import argparse
@@ -85,6 +86,19 @@ NULL = "<null>"
 # Category of A6's identity list for an external value that matches no label.
 UNMATCHED = "<unmatched>"
 
+# The external copies, by fixed path and SHA-256, as recorded in rows A6 and
+# A10 of docs/audit/legacy-audit.md; outputs go to `CHECKS_DIR`.
+OSMI_PATH = Path("data/external/osmi-2014/openml-43664.arff")
+OSMI_SHA256 = "abd6cad25bcfa4293d7bbdb038eec0c64d54305878aad0ed24e0e377cc07b45d"
+RHMCD_PATH = Path("data/external/rhmcd-20/mental_health_finaldata_1.csv")
+RHMCD_SHA256 = "bb6be8f14e8a6718f9974942b3120e75b3959a3f425b1b2309ebd67d0d5c39a0"
+CHECKS_DIR = Path("docs/audit/checks")
+
+# Branches of the mapping rule (section 3.4).
+H1_HOLDS = "H1 holds"
+H1_DOES_NOT_HOLD = "H1 does not hold"
+BOTH_BRANCHES = "both, without resolving"
+
 # Format of OSMI 2014's `Timestamp`, and the year-and-month grain of both.
 OSMI_TIMESTAMP_FORMAT = "%Y-%m-%d %H:%M:%S"
 YEAR_MONTH_FORMAT = "%Y-%m"
@@ -99,7 +113,7 @@ class Unit(StrEnum):
 
 
 class ExternalDataError(ValueError):
-    """An external file lacks a column the checks compare."""
+    """An external copy is not the recorded file, or lacks a compared column."""
 
 
 @dataclass(frozen=True)
@@ -192,6 +206,19 @@ class ContainmentResult:
 def sha256_of(path: Path) -> str:
     """Return the SHA-256 of a file's bytes."""
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def verify_external(path: Path, expected: str) -> None:
+    """Abort unless `path` is byte-identical to the recorded external copy.
+
+    Raises:
+        ExternalDataError: The file's SHA-256 differs from `expected`.
+    """
+    digest = sha256_of(path)
+    if digest != expected:
+        raise ExternalDataError(
+            f"{path}: SHA-256 {digest} does not match the recorded copy's {expected}"
+        )
 
 
 def harmonize_unmodeled(frame: pd.DataFrame) -> pd.DataFrame:
@@ -597,16 +624,16 @@ def mapping_rule(a5: str, a6: str, a10: str) -> tuple[str, str]:
     A6's "indeterminate" is read as "discordant" (section 3.4, A6).
     """
     if "not obtainable" in (a6, a10):
-        return "R0", "both, without resolving"
+        return "R0", BOTH_BRANCHES
     if a10 == "confirms":
-        return "R1", "H1 holds"
+        return "R1", H1_HOLDS
     if a5 == "contradicts":
-        return "R2", "H1 does not hold"
+        return "R2", H1_DOES_NOT_HOLD
     if a5 == "supports":
         if a6 == "concordant":
-            return "R3", "H1 holds"
-        return "R4", "both, without resolving"
-    return "R5", "both, without resolving"
+            return "R3", H1_HOLDS
+        return "R4", BOTH_BRANCHES
+    return "R5", BOTH_BRANCHES
 
 
 def write_csv(
@@ -665,16 +692,15 @@ def write_column_results(
 def main() -> None:
     """Run A5, A6 and A10, write their CSVs, and print the outcomes and branch."""
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    parser.add_argument("--osmi", type=Path, required=True)
-    parser.add_argument("--rhmcd", type=Path, required=True)
-    parser.add_argument("--out", type=Path, default=Path("docs/audit/checks"))
     parser.add_argument("--with-values", action="store_true")
     arguments = parser.parse_args()
 
+    verify_external(OSMI_PATH, OSMI_SHA256)
+    verify_external(RHMCD_PATH, RHMCD_SHA256)
     records = records_unit(SOURCE_PATH)
     profiles = profile_unit(records)
-    osmi = read_osmi(arguments.osmi)
-    rhmcd = read_rhmcd(arguments.rhmcd)
+    osmi = read_osmi(OSMI_PATH)
+    rhmcd = read_rhmcd(RHMCD_PATH)
 
     columns = a6_columns(records, profiles, osmi)
     premise = care_options_premise_holds(columns)
@@ -689,7 +715,7 @@ def main() -> None:
     a6 = a6_outcome_by_unit(columns)
     rule, branch = mapping_rule(a5["combined"], a6["combined"], containment.outcome)
 
-    out = arguments.out
+    out = CHECKS_DIR
     with_values: bool = arguments.with_values
     out.mkdir(parents=True, exist_ok=True)
     write_csv(
@@ -730,8 +756,8 @@ def main() -> None:
     )
     summary: list[tuple[str, object]] = [
         ("source_sha256", sha256_of(SOURCE_PATH)),
-        ("osmi_sha256", sha256_of(arguments.osmi)),
-        ("rhmcd_sha256", sha256_of(arguments.rhmcd)),
+        ("osmi_sha256", OSMI_SHA256),
+        ("rhmcd_sha256", RHMCD_SHA256),
         ("f_size", containment.f_size),
         ("f_null_excluded", containment.f_null_excluded),
         ("r_size", containment.r_size),
