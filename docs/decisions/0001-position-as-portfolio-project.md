@@ -57,6 +57,9 @@ P9's byte-level identity, pending when P9 was written, is established by check A
 ### Addendum (2026-10-06)
 P7 is qualified by a reading of the column list in the Description of the capture `openml-osmi-2014-description-2026-10-01.png` ([evidence](../dataset-provenance.md#evidence)). Eight of the 17 columns of the file occur in it: `Timestamp`, `Gender`, `Country`, `self_employed`, `family_history`, `treatment` and `care_options` by the same name, and `mental_health_interview` written `mentalhealthinterview`. `Occupation` and the eight symptom columns do not occur; the deposit lists `work_interfere`, a name different from `Work_Interest`. For `care_options` the Description gives the question text "Do you know the options for mental health care your employer provides?"; the Data Card has no text to compare it with. As in the addendum of 2026-10-01, the reading compares the column names and question texts of a third-party deposit and is not evidence about H1 or H3. [LOG-040](log/LOG-040-h1-column-groups.md) uses it to fix the column groups of H1.
 
+### Addendum (2026-10-29)
+H1 holds under rule R1 of the [correspondence criteria](../audit/correspondence-criteria.md#34-mapping-of-a5-a6-and-a10-to-a-branch), which rests on A10; A5 supports it and A6 is discordant. H3 is confirmed by A10. Results: rows A5, A6 and A10 of [`legacy-audit.md`](../audit/legacy-audit.md#checks). These results bear on the hypotheses only; this record's decision is unchanged: the source still does not document the file's provenance.
+
 ---
 
 ## Decision Drivers

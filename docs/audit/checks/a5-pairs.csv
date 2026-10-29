@@ -1,0 +1,257 @@
+unit,column_1,column_2,pair_class,r,c,n,b,interpretable,at_or_above_small
+records,Timestamp,Gender,within-OSMI,13,2,290051,0.006432,True,True
+records,Timestamp,Country,within-OSMI,13,35,290051,0.037505,True,True
+records,Timestamp,Occupation,excluded: Occupation,13,5,290051,0.012864,True,False
+records,Timestamp,self_employed,within-OSMI,13,3,290051,0.009096,True,True
+records,Timestamp,family_history,within-OSMI,13,2,290051,0.006432,True,True
+records,Timestamp,treatment,within-OSMI,13,2,290051,0.006432,True,True
+records,Timestamp,Days_Indoors,cross,13,5,290051,0.012864,True,False
+records,Timestamp,Growing_Stress,cross,13,3,290051,0.009096,True,False
+records,Timestamp,Changes_Habits,cross,13,3,290051,0.009096,True,False
+records,Timestamp,Mental_Health_History,cross,13,3,290051,0.009096,True,False
+records,Timestamp,Mood_Swings,cross,13,3,290051,0.009096,True,False
+records,Timestamp,Coping_Struggles,cross,13,2,290051,0.006432,True,False
+records,Timestamp,Work_Interest,cross,13,3,290051,0.009096,True,False
+records,Timestamp,Social_Weakness,cross,13,3,290051,0.009096,True,False
+records,Timestamp,mental_health_interview,within-OSMI,13,3,290051,0.009096,True,True
+records,Timestamp,care_options,within-OSMI,13,3,290051,0.009096,True,True
+records,Gender,Country,within-OSMI,2,35,290051,0.010827,True,True
+records,Gender,Occupation,excluded: Occupation,2,5,290051,0.003714,True,False
+records,Gender,self_employed,within-OSMI,2,3,290051,0.002626,True,False
+records,Gender,family_history,within-OSMI,2,2,290051,0.001857,True,True
+records,Gender,treatment,within-OSMI,2,2,290051,0.001857,True,True
+records,Gender,Days_Indoors,cross,2,5,290051,0.003714,True,False
+records,Gender,Growing_Stress,cross,2,3,290051,0.002626,True,False
+records,Gender,Changes_Habits,cross,2,3,290051,0.002626,True,False
+records,Gender,Mental_Health_History,cross,2,3,290051,0.002626,True,False
+records,Gender,Mood_Swings,cross,2,3,290051,0.002626,True,False
+records,Gender,Coping_Struggles,cross,2,2,290051,0.001857,True,False
+records,Gender,Work_Interest,cross,2,3,290051,0.002626,True,False
+records,Gender,Social_Weakness,cross,2,3,290051,0.002626,True,False
+records,Gender,mental_health_interview,within-OSMI,2,3,290051,0.002626,True,True
+records,Gender,care_options,within-OSMI,2,3,290051,0.002626,True,True
+records,Country,Occupation,excluded: Occupation,35,5,290051,0.021654,True,False
+records,Country,self_employed,within-OSMI,35,3,290051,0.015312,True,True
+records,Country,family_history,within-OSMI,35,2,290051,0.010827,True,True
+records,Country,treatment,within-OSMI,35,2,290051,0.010827,True,True
+records,Country,Days_Indoors,cross,35,5,290051,0.021654,True,False
+records,Country,Growing_Stress,cross,35,3,290051,0.015312,True,False
+records,Country,Changes_Habits,cross,35,3,290051,0.015312,True,False
+records,Country,Mental_Health_History,cross,35,3,290051,0.015312,True,False
+records,Country,Mood_Swings,cross,35,3,290051,0.015312,True,False
+records,Country,Coping_Struggles,cross,35,2,290051,0.010827,True,False
+records,Country,Work_Interest,cross,35,3,290051,0.015312,True,False
+records,Country,Social_Weakness,cross,35,3,290051,0.015312,True,False
+records,Country,mental_health_interview,within-OSMI,35,3,290051,0.015312,True,True
+records,Country,care_options,within-OSMI,35,3,290051,0.015312,True,True
+records,Occupation,self_employed,excluded: Occupation,5,3,290051,0.005252,True,False
+records,Occupation,family_history,excluded: Occupation,5,2,290051,0.003714,True,False
+records,Occupation,treatment,excluded: Occupation,5,2,290051,0.003714,True,False
+records,Occupation,Days_Indoors,excluded: Occupation,5,5,290051,0.007427,True,True
+records,Occupation,Growing_Stress,excluded: Occupation,5,3,290051,0.005252,True,True
+records,Occupation,Changes_Habits,excluded: Occupation,5,3,290051,0.005252,True,False
+records,Occupation,Mental_Health_History,excluded: Occupation,5,3,290051,0.005252,True,True
+records,Occupation,Mood_Swings,excluded: Occupation,5,3,290051,0.005252,True,True
+records,Occupation,Coping_Struggles,excluded: Occupation,5,2,290051,0.003714,True,False
+records,Occupation,Work_Interest,excluded: Occupation,5,3,290051,0.005252,True,False
+records,Occupation,Social_Weakness,excluded: Occupation,5,3,290051,0.005252,True,True
+records,Occupation,mental_health_interview,excluded: Occupation,5,3,290051,0.005252,True,False
+records,Occupation,care_options,excluded: Occupation,5,3,290051,0.005252,True,False
+records,self_employed,family_history,within-OSMI,3,2,290051,0.002626,True,False
+records,self_employed,treatment,within-OSMI,3,2,290051,0.002626,True,False
+records,self_employed,Days_Indoors,cross,3,5,290051,0.005252,True,False
+records,self_employed,Growing_Stress,cross,3,3,290051,0.003714,True,False
+records,self_employed,Changes_Habits,cross,3,3,290051,0.003714,True,False
+records,self_employed,Mental_Health_History,cross,3,3,290051,0.003714,True,False
+records,self_employed,Mood_Swings,cross,3,3,290051,0.003714,True,False
+records,self_employed,Coping_Struggles,cross,3,2,290051,0.002626,True,False
+records,self_employed,Work_Interest,cross,3,3,290051,0.003714,True,False
+records,self_employed,Social_Weakness,cross,3,3,290051,0.003714,True,False
+records,self_employed,mental_health_interview,within-OSMI,3,3,290051,0.003714,True,True
+records,self_employed,care_options,within-OSMI,3,3,290051,0.003714,True,False
+records,family_history,treatment,within-OSMI,2,2,290051,0.001857,True,True
+records,family_history,Days_Indoors,cross,2,5,290051,0.003714,True,False
+records,family_history,Growing_Stress,cross,2,3,290051,0.002626,True,False
+records,family_history,Changes_Habits,cross,2,3,290051,0.002626,True,False
+records,family_history,Mental_Health_History,cross,2,3,290051,0.002626,True,False
+records,family_history,Mood_Swings,cross,2,3,290051,0.002626,True,False
+records,family_history,Coping_Struggles,cross,2,2,290051,0.001857,True,False
+records,family_history,Work_Interest,cross,2,3,290051,0.002626,True,False
+records,family_history,Social_Weakness,cross,2,3,290051,0.002626,True,False
+records,family_history,mental_health_interview,within-OSMI,2,3,290051,0.002626,True,False
+records,family_history,care_options,within-OSMI,2,3,290051,0.002626,True,True
+records,treatment,Days_Indoors,cross,2,5,290051,0.003714,True,False
+records,treatment,Growing_Stress,cross,2,3,290051,0.002626,True,False
+records,treatment,Changes_Habits,cross,2,3,290051,0.002626,True,False
+records,treatment,Mental_Health_History,cross,2,3,290051,0.002626,True,False
+records,treatment,Mood_Swings,cross,2,3,290051,0.002626,True,False
+records,treatment,Coping_Struggles,cross,2,2,290051,0.001857,True,False
+records,treatment,Work_Interest,cross,2,3,290051,0.002626,True,False
+records,treatment,Social_Weakness,cross,2,3,290051,0.002626,True,False
+records,treatment,mental_health_interview,within-OSMI,2,3,290051,0.002626,True,False
+records,treatment,care_options,within-OSMI,2,3,290051,0.002626,True,True
+records,Days_Indoors,Growing_Stress,within other group,5,3,290051,0.005252,True,False
+records,Days_Indoors,Changes_Habits,within other group,5,3,290051,0.005252,True,True
+records,Days_Indoors,Mental_Health_History,within other group,5,3,290051,0.005252,True,True
+records,Days_Indoors,Mood_Swings,within other group,5,3,290051,0.005252,True,True
+records,Days_Indoors,Coping_Struggles,within other group,5,2,290051,0.003714,True,False
+records,Days_Indoors,Work_Interest,within other group,5,3,290051,0.005252,True,False
+records,Days_Indoors,Social_Weakness,within other group,5,3,290051,0.005252,True,True
+records,Days_Indoors,mental_health_interview,cross,5,3,290051,0.005252,True,False
+records,Days_Indoors,care_options,cross,5,3,290051,0.005252,True,False
+records,Growing_Stress,Changes_Habits,within other group,3,3,290051,0.003714,True,False
+records,Growing_Stress,Mental_Health_History,within other group,3,3,290051,0.003714,True,False
+records,Growing_Stress,Mood_Swings,within other group,3,3,290051,0.003714,True,False
+records,Growing_Stress,Coping_Struggles,within other group,3,2,290051,0.002626,True,False
+records,Growing_Stress,Work_Interest,within other group,3,3,290051,0.003714,True,True
+records,Growing_Stress,Social_Weakness,within other group,3,3,290051,0.003714,True,False
+records,Growing_Stress,mental_health_interview,cross,3,3,290051,0.003714,True,False
+records,Growing_Stress,care_options,cross,3,3,290051,0.003714,True,False
+records,Changes_Habits,Mental_Health_History,within other group,3,3,290051,0.003714,True,False
+records,Changes_Habits,Mood_Swings,within other group,3,3,290051,0.003714,True,False
+records,Changes_Habits,Coping_Struggles,within other group,3,2,290051,0.002626,True,False
+records,Changes_Habits,Work_Interest,within other group,3,3,290051,0.003714,True,False
+records,Changes_Habits,Social_Weakness,within other group,3,3,290051,0.003714,True,False
+records,Changes_Habits,mental_health_interview,cross,3,3,290051,0.003714,True,False
+records,Changes_Habits,care_options,cross,3,3,290051,0.003714,True,False
+records,Mental_Health_History,Mood_Swings,within other group,3,3,290051,0.003714,True,False
+records,Mental_Health_History,Coping_Struggles,within other group,3,2,290051,0.002626,True,False
+records,Mental_Health_History,Work_Interest,within other group,3,3,290051,0.003714,True,True
+records,Mental_Health_History,Social_Weakness,within other group,3,3,290051,0.003714,True,False
+records,Mental_Health_History,mental_health_interview,cross,3,3,290051,0.003714,True,False
+records,Mental_Health_History,care_options,cross,3,3,290051,0.003714,True,False
+records,Mood_Swings,Coping_Struggles,within other group,3,2,290051,0.002626,True,False
+records,Mood_Swings,Work_Interest,within other group,3,3,290051,0.003714,True,False
+records,Mood_Swings,Social_Weakness,within other group,3,3,290051,0.003714,True,False
+records,Mood_Swings,mental_health_interview,cross,3,3,290051,0.003714,True,False
+records,Mood_Swings,care_options,cross,3,3,290051,0.003714,True,False
+records,Coping_Struggles,Work_Interest,within other group,2,3,290051,0.002626,True,False
+records,Coping_Struggles,Social_Weakness,within other group,2,3,290051,0.002626,True,False
+records,Coping_Struggles,mental_health_interview,cross,2,3,290051,0.002626,True,False
+records,Coping_Struggles,care_options,cross,2,3,290051,0.002626,True,False
+records,Work_Interest,Social_Weakness,within other group,3,3,290051,0.003714,True,False
+records,Work_Interest,mental_health_interview,cross,3,3,290051,0.003714,True,False
+records,Work_Interest,care_options,cross,3,3,290051,0.003714,True,False
+records,Social_Weakness,mental_health_interview,cross,3,3,290051,0.003714,True,False
+records,Social_Weakness,care_options,cross,3,3,290051,0.003714,True,False
+records,mental_health_interview,care_options,within-OSMI,3,3,290051,0.003714,True,False
+profiles,Gender,Country,within-OSMI,2,35,97723,0.018653,True,True
+profiles,Gender,Occupation,excluded: Occupation,2,5,97723,0.006398,True,False
+profiles,Gender,self_employed,within-OSMI,2,3,97723,0.004524,True,True
+profiles,Gender,family_history,within-OSMI,2,2,97723,0.003199,True,True
+profiles,Gender,treatment,within-OSMI,2,2,97723,0.003199,True,True
+profiles,Gender,Days_Indoors,cross,2,5,97723,0.006398,True,False
+profiles,Gender,Growing_Stress,cross,2,3,97723,0.004524,True,False
+profiles,Gender,Changes_Habits,cross,2,3,97723,0.004524,True,False
+profiles,Gender,Mental_Health_History,cross,2,3,97723,0.004524,True,False
+profiles,Gender,Mood_Swings,cross,2,3,97723,0.004524,True,False
+profiles,Gender,Coping_Struggles,cross,2,2,97723,0.003199,True,False
+profiles,Gender,Work_Interest,cross,2,3,97723,0.004524,True,False
+profiles,Gender,Social_Weakness,cross,2,3,97723,0.004524,True,False
+profiles,Gender,mental_health_interview,within-OSMI,2,3,97723,0.004524,True,True
+profiles,Gender,care_options,within-OSMI,2,3,97723,0.004524,True,True
+profiles,Country,Occupation,excluded: Occupation,35,5,97723,0.037306,True,False
+profiles,Country,self_employed,within-OSMI,35,3,97723,0.026379,True,True
+profiles,Country,family_history,within-OSMI,35,2,97723,0.018653,True,True
+profiles,Country,treatment,within-OSMI,35,2,97723,0.018653,True,True
+profiles,Country,Days_Indoors,cross,35,5,97723,0.037306,True,False
+profiles,Country,Growing_Stress,cross,35,3,97723,0.026379,True,False
+profiles,Country,Changes_Habits,cross,35,3,97723,0.026379,True,False
+profiles,Country,Mental_Health_History,cross,35,3,97723,0.026379,True,False
+profiles,Country,Mood_Swings,cross,35,3,97723,0.026379,True,False
+profiles,Country,Coping_Struggles,cross,35,2,97723,0.018653,True,False
+profiles,Country,Work_Interest,cross,35,3,97723,0.026379,True,False
+profiles,Country,Social_Weakness,cross,35,3,97723,0.026379,True,False
+profiles,Country,mental_health_interview,within-OSMI,35,3,97723,0.026379,True,True
+profiles,Country,care_options,within-OSMI,35,3,97723,0.026379,True,True
+profiles,Occupation,self_employed,excluded: Occupation,5,3,97723,0.009048,True,False
+profiles,Occupation,family_history,excluded: Occupation,5,2,97723,0.006398,True,False
+profiles,Occupation,treatment,excluded: Occupation,5,2,97723,0.006398,True,False
+profiles,Occupation,Days_Indoors,excluded: Occupation,5,5,97723,0.012796,True,True
+profiles,Occupation,Growing_Stress,excluded: Occupation,5,3,97723,0.009048,True,False
+profiles,Occupation,Changes_Habits,excluded: Occupation,5,3,97723,0.009048,True,False
+profiles,Occupation,Mental_Health_History,excluded: Occupation,5,3,97723,0.009048,True,True
+profiles,Occupation,Mood_Swings,excluded: Occupation,5,3,97723,0.009048,True,True
+profiles,Occupation,Coping_Struggles,excluded: Occupation,5,2,97723,0.006398,True,False
+profiles,Occupation,Work_Interest,excluded: Occupation,5,3,97723,0.009048,True,False
+profiles,Occupation,Social_Weakness,excluded: Occupation,5,3,97723,0.009048,True,False
+profiles,Occupation,mental_health_interview,excluded: Occupation,5,3,97723,0.009048,True,False
+profiles,Occupation,care_options,excluded: Occupation,5,3,97723,0.009048,True,False
+profiles,self_employed,family_history,within-OSMI,3,2,97723,0.004524,True,False
+profiles,self_employed,treatment,within-OSMI,3,2,97723,0.004524,True,False
+profiles,self_employed,Days_Indoors,cross,3,5,97723,0.009048,True,False
+profiles,self_employed,Growing_Stress,cross,3,3,97723,0.006398,True,False
+profiles,self_employed,Changes_Habits,cross,3,3,97723,0.006398,True,False
+profiles,self_employed,Mental_Health_History,cross,3,3,97723,0.006398,True,False
+profiles,self_employed,Mood_Swings,cross,3,3,97723,0.006398,True,False
+profiles,self_employed,Coping_Struggles,cross,3,2,97723,0.004524,True,False
+profiles,self_employed,Work_Interest,cross,3,3,97723,0.006398,True,False
+profiles,self_employed,Social_Weakness,cross,3,3,97723,0.006398,True,False
+profiles,self_employed,mental_health_interview,within-OSMI,3,3,97723,0.006398,True,False
+profiles,self_employed,care_options,within-OSMI,3,3,97723,0.006398,True,False
+profiles,family_history,treatment,within-OSMI,2,2,97723,0.003199,True,True
+profiles,family_history,Days_Indoors,cross,2,5,97723,0.006398,True,False
+profiles,family_history,Growing_Stress,cross,2,3,97723,0.004524,True,False
+profiles,family_history,Changes_Habits,cross,2,3,97723,0.004524,True,False
+profiles,family_history,Mental_Health_History,cross,2,3,97723,0.004524,True,False
+profiles,family_history,Mood_Swings,cross,2,3,97723,0.004524,True,False
+profiles,family_history,Coping_Struggles,cross,2,2,97723,0.003199,True,False
+profiles,family_history,Work_Interest,cross,2,3,97723,0.004524,True,False
+profiles,family_history,Social_Weakness,cross,2,3,97723,0.004524,True,False
+profiles,family_history,mental_health_interview,within-OSMI,2,3,97723,0.004524,True,False
+profiles,family_history,care_options,within-OSMI,2,3,97723,0.004524,True,True
+profiles,treatment,Days_Indoors,cross,2,5,97723,0.006398,True,False
+profiles,treatment,Growing_Stress,cross,2,3,97723,0.004524,True,False
+profiles,treatment,Changes_Habits,cross,2,3,97723,0.004524,True,False
+profiles,treatment,Mental_Health_History,cross,2,3,97723,0.004524,True,False
+profiles,treatment,Mood_Swings,cross,2,3,97723,0.004524,True,False
+profiles,treatment,Coping_Struggles,cross,2,2,97723,0.003199,True,False
+profiles,treatment,Work_Interest,cross,2,3,97723,0.004524,True,False
+profiles,treatment,Social_Weakness,cross,2,3,97723,0.004524,True,False
+profiles,treatment,mental_health_interview,within-OSMI,2,3,97723,0.004524,True,False
+profiles,treatment,care_options,within-OSMI,2,3,97723,0.004524,True,True
+profiles,Days_Indoors,Growing_Stress,within other group,5,3,97723,0.009048,True,False
+profiles,Days_Indoors,Changes_Habits,within other group,5,3,97723,0.009048,True,True
+profiles,Days_Indoors,Mental_Health_History,within other group,5,3,97723,0.009048,True,True
+profiles,Days_Indoors,Mood_Swings,within other group,5,3,97723,0.009048,True,True
+profiles,Days_Indoors,Coping_Struggles,within other group,5,2,97723,0.006398,True,False
+profiles,Days_Indoors,Work_Interest,within other group,5,3,97723,0.009048,True,False
+profiles,Days_Indoors,Social_Weakness,within other group,5,3,97723,0.009048,True,True
+profiles,Days_Indoors,mental_health_interview,cross,5,3,97723,0.009048,True,False
+profiles,Days_Indoors,care_options,cross,5,3,97723,0.009048,True,False
+profiles,Growing_Stress,Changes_Habits,within other group,3,3,97723,0.006398,True,False
+profiles,Growing_Stress,Mental_Health_History,within other group,3,3,97723,0.006398,True,False
+profiles,Growing_Stress,Mood_Swings,within other group,3,3,97723,0.006398,True,False
+profiles,Growing_Stress,Coping_Struggles,within other group,3,2,97723,0.004524,True,False
+profiles,Growing_Stress,Work_Interest,within other group,3,3,97723,0.006398,True,True
+profiles,Growing_Stress,Social_Weakness,within other group,3,3,97723,0.006398,True,False
+profiles,Growing_Stress,mental_health_interview,cross,3,3,97723,0.006398,True,False
+profiles,Growing_Stress,care_options,cross,3,3,97723,0.006398,True,False
+profiles,Changes_Habits,Mental_Health_History,within other group,3,3,97723,0.006398,True,False
+profiles,Changes_Habits,Mood_Swings,within other group,3,3,97723,0.006398,True,False
+profiles,Changes_Habits,Coping_Struggles,within other group,3,2,97723,0.004524,True,False
+profiles,Changes_Habits,Work_Interest,within other group,3,3,97723,0.006398,True,False
+profiles,Changes_Habits,Social_Weakness,within other group,3,3,97723,0.006398,True,False
+profiles,Changes_Habits,mental_health_interview,cross,3,3,97723,0.006398,True,False
+profiles,Changes_Habits,care_options,cross,3,3,97723,0.006398,True,False
+profiles,Mental_Health_History,Mood_Swings,within other group,3,3,97723,0.006398,True,False
+profiles,Mental_Health_History,Coping_Struggles,within other group,3,2,97723,0.004524,True,False
+profiles,Mental_Health_History,Work_Interest,within other group,3,3,97723,0.006398,True,False
+profiles,Mental_Health_History,Social_Weakness,within other group,3,3,97723,0.006398,True,False
+profiles,Mental_Health_History,mental_health_interview,cross,3,3,97723,0.006398,True,False
+profiles,Mental_Health_History,care_options,cross,3,3,97723,0.006398,True,False
+profiles,Mood_Swings,Coping_Struggles,within other group,3,2,97723,0.004524,True,False
+profiles,Mood_Swings,Work_Interest,within other group,3,3,97723,0.006398,True,False
+profiles,Mood_Swings,Social_Weakness,within other group,3,3,97723,0.006398,True,False
+profiles,Mood_Swings,mental_health_interview,cross,3,3,97723,0.006398,True,False
+profiles,Mood_Swings,care_options,cross,3,3,97723,0.006398,True,False
+profiles,Coping_Struggles,Work_Interest,within other group,2,3,97723,0.004524,True,False
+profiles,Coping_Struggles,Social_Weakness,within other group,2,3,97723,0.004524,True,False
+profiles,Coping_Struggles,mental_health_interview,cross,2,3,97723,0.004524,True,False
+profiles,Coping_Struggles,care_options,cross,2,3,97723,0.004524,True,False
+profiles,Work_Interest,Social_Weakness,within other group,3,3,97723,0.006398,True,False
+profiles,Work_Interest,mental_health_interview,cross,3,3,97723,0.006398,True,False
+profiles,Work_Interest,care_options,cross,3,3,97723,0.006398,True,False
+profiles,Social_Weakness,mental_health_interview,cross,3,3,97723,0.006398,True,False
+profiles,Social_Weakness,care_options,cross,3,3,97723,0.006398,True,False
+profiles,mental_health_interview,care_options,within-OSMI,3,3,97723,0.006398,True,False

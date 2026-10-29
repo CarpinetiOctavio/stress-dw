@@ -1,0 +1,57 @@
+column,osmi_value,count
+Country,Austria,3
+Country,"Bahamas, The",1
+Country,Bulgaria,4
+Country,China,1
+Country,Hungary,1
+Country,Japan,1
+Country,Latvia,1
+Country,Norway,1
+Country,Romania,1
+Country,Slovenia,1
+Country,Spain,1
+Country,Uruguay,1
+Country,Zimbabwe,1
+Gender,A little about you,1
+Gender,Agender,1
+Gender,All,1
+Gender,Androgyne,1
+Gender,Cis Female,1
+Gender,Cis Male,2
+Gender,Cis Man,1
+Gender,Enby,1
+Gender,F,38
+Gender,Femake,1
+Gender,Female (cis),1
+Gender,Female (trans),2
+Gender,Genderqueer,1
+Gender,Guy (-ish) _,1
+Gender,M,116
+Gender,Mail,1
+Gender,Make,4
+Gender,Mal,1
+Gender,Male (CIS),1
+Gender,Male-ish,1
+Gender,Malr,1
+Gender,Man,2
+Gender,Nah,1
+Gender,Neuter,1
+Gender,Trans woman,1
+Gender,Trans-female,1
+Gender,Woman,3
+Gender,cis male,1
+Gender,cis-female/femme,1
+Gender,f,15
+Gender,femail,1
+Gender,fluid,1
+Gender,m,34
+Gender,maile,1
+Gender,male leaning androgynous,1
+Gender,msle,1
+Gender,non-binary,1
+Gender,"ostensibly male, unsure what that really means",1
+Gender,p,1
+Gender,queer,1
+Gender,queer/she/they,1
+Gender,something kinda male?,1
+Gender,woman,1

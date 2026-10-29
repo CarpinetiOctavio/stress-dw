@@ -229,3 +229,6 @@ __marimo__/
 data/raw/
 data/processed/
 logs/
+
+# External datasets of checks A6 and A10 (obtained from their source, not versioned)
+data/external/
