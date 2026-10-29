@@ -1,0 +1,12 @@
+check,scope,outcome
+A5,records,supports
+A5,profiles,supports
+A5,combined,supports
+A6,records,discordant
+A6,profiles,discordant
+A6,combined,discordant
+A6,care_options premise holds,True
+A10,combined,confirms
+A10,with Occupation,confirms
+mapping,rule,R1
+mapping,branch,H1 holds

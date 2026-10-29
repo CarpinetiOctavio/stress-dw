@@ -1,0 +1,16 @@
+unit,column,k,n_file,n_external,b,interpretable,result
+records,Timestamp,15,290051,1259,0.105680,False,indeterminate
+records,Gender,3,290051,1259,0.039943,True,discordant
+records,Country,36,290051,1259,0.167094,False,indeterminate
+records,self_employed,3,290051,1259,0.039943,True,concordant
+records,family_history,2,290051,1259,0.028244,True,concordant
+records,treatment,2,290051,1259,0.028244,True,concordant
+records,mental_health_interview,3,290051,1259,0.039943,True,concordant
+records,care_options,3,290051,1259,0.039943,True,concordant
+profiles,Gender,3,97723,1259,0.040113,True,discordant
+profiles,Country,36,97723,1259,0.167803,False,indeterminate
+profiles,self_employed,3,97723,1259,0.040113,True,discordant
+profiles,family_history,2,97723,1259,0.028364,True,concordant
+profiles,treatment,2,97723,1259,0.028364,True,concordant
+profiles,mental_health_interview,3,97723,1259,0.040113,True,discordant
+profiles,care_options,3,97723,1259,0.040113,True,concordant
