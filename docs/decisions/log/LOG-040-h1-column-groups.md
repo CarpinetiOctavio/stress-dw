@@ -47,3 +47,5 @@ Decision g of the [documentation-currency register](../../audit/documentation-cu
 
 * The rule that maps outcomes of A5, A6 and A10 to "H1 holds" or "H1 does not hold": the criteria document, with the branches, before any of those checks runs.
 * `Occupation` stays untested unless a versioned capture of RHMCD-20's schema shows it; not pursued.
+
+**Addendum (2026-10-29).** Open, second item: the RHMCD-20 file obtained from its versioned DOI has an `Occupation` column. The test of `Occupation` that follows is fixed in the [correspondence criteria](../../audit/correspondence-criteria.md), section 7, second amendment of 2026-10-29, before any result of A5, A6 or A10.
