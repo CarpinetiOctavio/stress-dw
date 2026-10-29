@@ -659,4 +659,7 @@ With the source file fixed, the cell structure is known (section 1, item 3). The
 
 ## 7. Amendments
 
-[PENDING: empty until any change after this document's commit; a change after exposure is marked as post-exposure (ADR-0011, Constraint)]
+### Amendment of 2026-10-29 (before any result of A5, A6 or A10)
+
+* Section 3.4, A10, Chance model. The unit of the marginals fⱼ was not named. Q and G are computed under three sets of marginals, each over the rows with no null in the eight columns: the records unit, the profile unit (distinct profiles on the 16 columns other than `Timestamp`), and the set F (each distinct 8-column profile counted once). The outcome is "confirms" only if c = 1 and G < α under all three; every other case in which RHMCD-20 is obtained is "does not confirm".
+* Section 3.4, Units. A10's marginal comparisons are computed with A10 and reported only once exposure is allowed (ADR-0011, rule 4): a marginal of the records unit can equal the numerators of an indicator (indicator 1, `growing_stress`).
