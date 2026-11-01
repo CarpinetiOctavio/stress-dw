@@ -33,6 +33,7 @@ from collections.abc import Iterable, Iterator, Mapping
 from dataclasses import dataclass
 from decimal import ROUND_HALF_UP, Decimal
 from functools import cache
+from math import isnan
 from pathlib import Path
 
 import duckdb
@@ -93,7 +94,7 @@ def serialize_cell(column: str, value: object) -> str:
         TypeError: a float outside `RATE_COLUMNS`, or a type the indicator
             queries do not produce.
     """
-    if value is None or value is pd.NA or (isinstance(value, float) and value != value):
+    if value is None or value is pd.NA or (isinstance(value, float) and isnan(value)):
         return ""
     if isinstance(value, bool):
         return "true" if value else "false"
@@ -141,28 +142,34 @@ def indicator_file(number: int) -> str:
     return f"indicator-{number:02d}.csv"
 
 
-def search_terms(outputs: Mapping[int, bytes]) -> dict[tuple[str, bool], set[int]]:
-    """List the written forms of each indicator value, and their indicators.
+def written_forms(column: str, text: str) -> list[tuple[str, bool]]:
+    """List the written forms of one serialized cell that the scan searches.
 
-    A key is a form and whether it must be followed by a percent sign. Counts
+    A form comes with whether it must be followed by a percent sign. Counts
     (`COUNT_COLUMNS`) of `COUNT_FLOOR` or more: plain and with thousands
     commas. Rates: as fractions at `FRACTION_DECIMALS` places, as percentages at
     `PERCENT_DECIMALS` places, and as whole percentages, the last only with
-    the percent sign.
+    the percent sign. Any other cell has no form.
     """
+    if column in RATE_COLUMNS and text:
+        rate = Decimal(text)
+        return [
+            *((rounded(rate, d), False) for d in FRACTION_DECIMALS),
+            *((rounded(rate * 100, d), False) for d in PERCENT_DECIMALS),
+            (rounded(rate * 100, 0), True),
+        ]
+    if column in COUNT_COLUMNS and int(text) >= COUNT_FLOOR:
+        return [(text, False), (f"{int(text):,}", False)]
+    return []
+
+
+def search_terms(outputs: Mapping[int, bytes]) -> dict[tuple[str, bool], set[int]]:
+    """Map each written form of an indicator value to its indicators."""
     terms: dict[tuple[str, bool], set[int]] = {}
     for number, data in outputs.items():
         for row in csv.DictReader(io.StringIO(data.decode("utf-8"))):
             for column, text in row.items():
-                forms: list[tuple[str, bool]] = []
-                if column in RATE_COLUMNS and text:
-                    rate = Decimal(text)
-                    forms += [(rounded(rate, d), False) for d in FRACTION_DECIMALS]
-                    forms += [(rounded(rate * 100, d), False) for d in PERCENT_DECIMALS]
-                    forms.append((rounded(rate * 100, 0), True))
-                elif column in COUNT_COLUMNS and int(text) >= COUNT_FLOOR:
-                    forms += [(text, False), (f"{int(text):,}", False)]
-                for form in forms:
+                for form in written_forms(column, text):
                     terms.setdefault(form, set()).add(number)
     return terms
 

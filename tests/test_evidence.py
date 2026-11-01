@@ -27,7 +27,8 @@ def test_serialization_keeps_column_order_and_ends_with_a_newline() -> None:
     text = serialize(frame()).decode("utf-8")
     lines = text.split("\n")
     assert lines[0] == "country,numerator,denominator,rate,low_n"
-    assert text.endswith("\n") and not text.endswith("\n\n")
+    assert text.endswith("\n")
+    assert not text.endswith("\n\n")
     assert "\r" not in text
 
 
