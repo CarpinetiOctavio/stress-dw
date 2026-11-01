@@ -1,0 +1,1364 @@
+question,indicator,stratum,cell,present,denominator,low_n
+Q1,2,period=2014-08,period=2014-08; gender=Male,true,215280,false
+Q1,2,period=2014-08,period=2014-08; gender=Female,true,46979,false
+Q1,2,period=2014-09,period=2014-09; gender=Male,true,9360,false
+Q1,2,period=2014-09,period=2014-09; gender=Female,true,1724,false
+Q1,2,period=2014-10,period=2014-10; gender=Male,false,,
+Q1,2,period=2014-10,period=2014-10; gender=Female,true,431,false
+Q1,2,period=2014-11,period=2014-11; gender=Male,true,390,false
+Q1,2,period=2014-11,period=2014-11; gender=Female,false,,
+Q1,2,period=2014-12,period=2014-12; gender=Male,true,390,false
+Q1,2,period=2014-12,period=2014-12; gender=Female,true,431,false
+Q1,2,period=2015-02,period=2015-02; gender=Male,true,8580,false
+Q1,2,period=2015-02,period=2015-02; gender=Female,true,2155,false
+Q1,2,period=2015-04,period=2015-04; gender=Male,true,1170,false
+Q1,2,period=2015-04,period=2015-04; gender=Female,false,,
+Q1,2,period=2015-05,period=2015-05; gender=Male,true,780,false
+Q1,2,period=2015-05,period=2015-05; gender=Female,false,,
+Q1,2,period=2015-06,period=2015-06; gender=Male,false,,
+Q1,2,period=2015-06,period=2015-06; gender=Female,true,431,false
+Q1,2,period=2015-07,period=2015-07; gender=Male,true,390,false
+Q1,2,period=2015-07,period=2015-07; gender=Female,false,,
+Q1,2,period=2015-08,period=2015-08; gender=Male,true,780,false
+Q1,2,period=2015-08,period=2015-08; gender=Female,false,,
+Q1,2,period=2015-09,period=2015-09; gender=Male,true,390,false
+Q1,2,period=2015-09,period=2015-09; gender=Female,false,,
+Q1,2,period=2016-02,period=2016-02; gender=Male,true,390,false
+Q1,2,period=2016-02,period=2016-02; gender=Female,false,,
+Q2,4,period=2014-08,period=2014-08; gender=Male,true,73710,false
+Q2,4,period=2014-08,period=2014-08; gender=Female,true,28877,false
+Q2,4,period=2014-09,period=2014-09; gender=Male,true,3120,false
+Q2,4,period=2014-09,period=2014-09; gender=Female,true,862,false
+Q2,4,period=2014-10,period=2014-10; gender=Male,false,,
+Q2,4,period=2014-10,period=2014-10; gender=Female,true,431,false
+Q2,4,period=2014-11,period=2014-11; gender=Male,true,390,false
+Q2,4,period=2014-11,period=2014-11; gender=Female,false,,
+Q2,4,period=2014-12,period=2014-12; gender=Male,true,390,false
+Q2,4,period=2014-12,period=2014-12; gender=Female,false,,
+Q2,4,period=2015-02,period=2015-02; gender=Male,true,2730,false
+Q2,4,period=2015-02,period=2015-02; gender=Female,true,862,false
+Q2,4,period=2015-04,period=2015-04; gender=Male,true,390,false
+Q2,4,period=2015-04,period=2015-04; gender=Female,false,,
+Q2,4,period=2015-05,period=2015-05; gender=Male,true,390,false
+Q2,4,period=2015-05,period=2015-05; gender=Female,false,,
+Q2,4,period=2015-06,period=2015-06; gender=Male,false,,
+Q2,4,period=2015-06,period=2015-06; gender=Female,true,431,false
+Q2,4,period=2015-07,period=2015-07; gender=Male,true,390,false
+Q2,4,period=2015-07,period=2015-07; gender=Female,false,,
+Q2,4,period=2015-08,period=2015-08; gender=Male,true,780,false
+Q2,4,period=2015-08,period=2015-08; gender=Female,false,,
+Q2,4,period=2015-09,period=2015-09; gender=Male,true,390,false
+Q2,4,period=2015-09,period=2015-09; gender=Female,false,,
+Q2,4,period=2016-02,period=2016-02; gender=Male,true,390,false
+Q2,4,period=2016-02,period=2016-02; gender=Female,false,,
+Q3,6,country=Australia,country=Australia; occupation=Business,true,1042,false
+Q3,6,country=Australia,country=Australia; occupation=Corporate,true,1227,false
+Q3,6,country=Australia,country=Australia; occupation=Housewife,true,1363,false
+Q3,6,country=Australia,country=Australia; occupation=Others,true,1099,false
+Q3,6,country=Australia,country=Australia; occupation=Student,true,1283,false
+Q3,6,country=Belgium,country=Belgium; occupation=Business,true,145,false
+Q3,6,country=Belgium,country=Belgium; occupation=Corporate,true,158,false
+Q3,6,country=Belgium,country=Belgium; occupation=Housewife,true,185,false
+Q3,6,country=Belgium,country=Belgium; occupation=Others,true,154,false
+Q3,6,country=Belgium,country=Belgium; occupation=Student,true,179,false
+Q3,6,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; occupation=Business,true,66,false
+Q3,6,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; occupation=Corporate,true,85,false
+Q3,6,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; occupation=Housewife,true,89,false
+Q3,6,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; occupation=Others,true,69,false
+Q3,6,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; occupation=Student,true,81,false
+Q3,6,country=Brazil,country=Brazil; occupation=Business,true,396,false
+Q3,6,country=Brazil,country=Brazil; occupation=Corporate,true,510,false
+Q3,6,country=Brazil,country=Brazil; occupation=Housewife,true,534,false
+Q3,6,country=Brazil,country=Brazil; occupation=Others,true,414,false
+Q3,6,country=Brazil,country=Brazil; occupation=Student,true,486,false
+Q3,6,country=Canada,country=Canada; occupation=Business,true,3219,false
+Q3,6,country=Canada,country=Canada; occupation=Corporate,true,3887,false
+Q3,6,country=Canada,country=Canada; occupation=Housewife,true,4246,false
+Q3,6,country=Canada,country=Canada; occupation=Others,true,3387,false
+Q3,6,country=Canada,country=Canada; occupation=Student,true,3960,false
+Q3,6,country=Colombia,country=Colombia; occupation=Business,true,66,false
+Q3,6,country=Colombia,country=Colombia; occupation=Corporate,true,85,false
+Q3,6,country=Colombia,country=Colombia; occupation=Housewife,true,89,false
+Q3,6,country=Colombia,country=Colombia; occupation=Others,true,69,false
+Q3,6,country=Colombia,country=Colombia; occupation=Student,true,81,false
+Q3,6,country=Costa Rica,country=Costa Rica; occupation=Business,true,66,false
+Q3,6,country=Costa Rica,country=Costa Rica; occupation=Corporate,true,85,false
+Q3,6,country=Costa Rica,country=Costa Rica; occupation=Housewife,true,89,false
+Q3,6,country=Costa Rica,country=Costa Rica; occupation=Others,true,69,false
+Q3,6,country=Costa Rica,country=Costa Rica; occupation=Student,true,81,false
+Q3,6,country=Croatia,country=Croatia; occupation=Business,true,66,false
+Q3,6,country=Croatia,country=Croatia; occupation=Corporate,true,85,false
+Q3,6,country=Croatia,country=Croatia; occupation=Housewife,true,89,false
+Q3,6,country=Croatia,country=Croatia; occupation=Others,true,69,false
+Q3,6,country=Croatia,country=Croatia; occupation=Student,true,81,false
+Q3,6,country=Czech Republic,country=Czech Republic; occupation=Business,true,66,false
+Q3,6,country=Czech Republic,country=Czech Republic; occupation=Corporate,true,85,false
+Q3,6,country=Czech Republic,country=Czech Republic; occupation=Housewife,true,89,false
+Q3,6,country=Czech Republic,country=Czech Republic; occupation=Others,true,69,false
+Q3,6,country=Czech Republic,country=Czech Republic; occupation=Student,true,81,false
+Q3,6,country=Denmark,country=Denmark; occupation=Business,true,132,false
+Q3,6,country=Denmark,country=Denmark; occupation=Corporate,true,170,false
+Q3,6,country=Denmark,country=Denmark; occupation=Housewife,true,178,false
+Q3,6,country=Denmark,country=Denmark; occupation=Others,true,138,false
+Q3,6,country=Denmark,country=Denmark; occupation=Student,true,162,false
+Q3,6,country=Finland,country=Finland; occupation=Business,true,66,false
+Q3,6,country=Finland,country=Finland; occupation=Corporate,true,85,false
+Q3,6,country=Finland,country=Finland; occupation=Housewife,true,89,false
+Q3,6,country=Finland,country=Finland; occupation=Others,true,69,false
+Q3,6,country=Finland,country=Finland; occupation=Student,true,81,false
+Q3,6,country=France,country=France; occupation=Business,true,396,false
+Q3,6,country=France,country=France; occupation=Corporate,true,510,false
+Q3,6,country=France,country=France; occupation=Housewife,true,534,false
+Q3,6,country=France,country=France; occupation=Others,true,414,false
+Q3,6,country=France,country=France; occupation=Student,true,486,false
+Q3,6,country=Georgia,country=Georgia; occupation=Business,true,66,false
+Q3,6,country=Georgia,country=Georgia; occupation=Corporate,true,85,false
+Q3,6,country=Georgia,country=Georgia; occupation=Housewife,true,89,false
+Q3,6,country=Georgia,country=Georgia; occupation=Others,true,69,false
+Q3,6,country=Georgia,country=Georgia; occupation=Student,true,81,false
+Q3,6,country=Germany,country=Germany; occupation=Business,true,792,false
+Q3,6,country=Germany,country=Germany; occupation=Corporate,true,1020,false
+Q3,6,country=Germany,country=Germany; occupation=Housewife,true,1068,false
+Q3,6,country=Germany,country=Germany; occupation=Others,true,828,false
+Q3,6,country=Germany,country=Germany; occupation=Student,true,972,false
+Q3,6,country=Greece,country=Greece; occupation=Business,true,132,false
+Q3,6,country=Greece,country=Greece; occupation=Corporate,true,170,false
+Q3,6,country=Greece,country=Greece; occupation=Housewife,true,178,false
+Q3,6,country=Greece,country=Greece; occupation=Others,true,138,false
+Q3,6,country=Greece,country=Greece; occupation=Student,true,162,false
+Q3,6,country=India,country=India; occupation=Business,true,475,false
+Q3,6,country=India,country=India; occupation=Corporate,true,583,false
+Q3,6,country=India,country=India; occupation=Housewife,true,630,false
+Q3,6,country=India,country=India; occupation=Others,true,499,false
+Q3,6,country=India,country=India; occupation=Student,true,584,false
+Q3,6,country=Ireland,country=Ireland; occupation=Business,true,950,false
+Q3,6,country=Ireland,country=Ireland; occupation=Corporate,true,1166,false
+Q3,6,country=Ireland,country=Ireland; occupation=Housewife,true,1260,false
+Q3,6,country=Ireland,country=Ireland; occupation=Others,true,998,false
+Q3,6,country=Ireland,country=Ireland; occupation=Student,true,1168,false
+Q3,6,country=Israel,country=Israel; occupation=Business,true,264,false
+Q3,6,country=Israel,country=Israel; occupation=Corporate,true,340,false
+Q3,6,country=Israel,country=Israel; occupation=Housewife,true,356,false
+Q3,6,country=Israel,country=Israel; occupation=Others,true,276,false
+Q3,6,country=Israel,country=Israel; occupation=Student,true,324,false
+Q3,6,country=Italy,country=Italy; occupation=Business,true,264,false
+Q3,6,country=Italy,country=Italy; occupation=Corporate,true,340,false
+Q3,6,country=Italy,country=Italy; occupation=Housewife,true,356,false
+Q3,6,country=Italy,country=Italy; occupation=Others,true,276,false
+Q3,6,country=Italy,country=Italy; occupation=Student,true,324,false
+Q3,6,country=Mexico,country=Mexico; occupation=Business,true,66,false
+Q3,6,country=Mexico,country=Mexico; occupation=Corporate,true,85,false
+Q3,6,country=Mexico,country=Mexico; occupation=Housewife,true,89,false
+Q3,6,country=Mexico,country=Mexico; occupation=Others,true,69,false
+Q3,6,country=Mexico,country=Mexico; occupation=Student,true,81,false
+Q3,6,country=Moldova,country=Moldova; occupation=Business,true,66,false
+Q3,6,country=Moldova,country=Moldova; occupation=Corporate,true,85,false
+Q3,6,country=Moldova,country=Moldova; occupation=Housewife,true,89,false
+Q3,6,country=Moldova,country=Moldova; occupation=Others,true,69,false
+Q3,6,country=Moldova,country=Moldova; occupation=Student,true,81,false
+Q3,6,country=Netherlands,country=Netherlands; occupation=Business,true,1003,false
+Q3,6,country=Netherlands,country=Netherlands; occupation=Corporate,true,1263,false
+Q3,6,country=Netherlands,country=Netherlands; occupation=Housewife,true,1342,false
+Q3,6,country=Netherlands,country=Netherlands; occupation=Others,true,1051,false
+Q3,6,country=Netherlands,country=Netherlands; occupation=Student,true,1232,false
+Q3,6,country=New Zealand,country=New Zealand; occupation=Business,true,343,false
+Q3,6,country=New Zealand,country=New Zealand; occupation=Corporate,true,413,false
+Q3,6,country=New Zealand,country=New Zealand; occupation=Housewife,true,452,false
+Q3,6,country=New Zealand,country=New Zealand; occupation=Others,true,361,false
+Q3,6,country=New Zealand,country=New Zealand; occupation=Student,true,422,false
+Q3,6,country=Nigeria,country=Nigeria; occupation=Business,true,66,false
+Q3,6,country=Nigeria,country=Nigeria; occupation=Corporate,true,85,false
+Q3,6,country=Nigeria,country=Nigeria; occupation=Housewife,true,89,false
+Q3,6,country=Nigeria,country=Nigeria; occupation=Others,true,69,false
+Q3,6,country=Nigeria,country=Nigeria; occupation=Student,true,81,false
+Q3,6,country=Philippines,country=Philippines; occupation=Business,true,66,false
+Q3,6,country=Philippines,country=Philippines; occupation=Corporate,true,85,false
+Q3,6,country=Philippines,country=Philippines; occupation=Housewife,true,89,false
+Q3,6,country=Philippines,country=Philippines; occupation=Others,true,69,false
+Q3,6,country=Philippines,country=Philippines; occupation=Student,true,81,false
+Q3,6,country=Poland,country=Poland; occupation=Business,true,145,false
+Q3,6,country=Poland,country=Poland; occupation=Corporate,true,158,false
+Q3,6,country=Poland,country=Poland; occupation=Housewife,true,185,false
+Q3,6,country=Poland,country=Poland; occupation=Others,true,154,false
+Q3,6,country=Poland,country=Poland; occupation=Student,true,179,false
+Q3,6,country=Portugal,country=Portugal; occupation=Business,true,66,false
+Q3,6,country=Portugal,country=Portugal; occupation=Corporate,true,85,false
+Q3,6,country=Portugal,country=Portugal; occupation=Housewife,true,89,false
+Q3,6,country=Portugal,country=Portugal; occupation=Others,true,69,false
+Q3,6,country=Portugal,country=Portugal; occupation=Student,true,81,false
+Q3,6,country=Russia,country=Russia; occupation=Business,true,132,false
+Q3,6,country=Russia,country=Russia; occupation=Corporate,true,170,false
+Q3,6,country=Russia,country=Russia; occupation=Housewife,true,178,false
+Q3,6,country=Russia,country=Russia; occupation=Others,true,138,false
+Q3,6,country=Russia,country=Russia; occupation=Student,true,162,false
+Q3,6,country=Singapore,country=Singapore; occupation=Business,true,132,false
+Q3,6,country=Singapore,country=Singapore; occupation=Corporate,true,170,false
+Q3,6,country=Singapore,country=Singapore; occupation=Housewife,true,178,false
+Q3,6,country=Singapore,country=Singapore; occupation=Others,true,138,false
+Q3,6,country=Singapore,country=Singapore; occupation=Student,true,162,false
+Q3,6,country=South Africa,country=South Africa; occupation=Business,true,343,false
+Q3,6,country=South Africa,country=South Africa; occupation=Corporate,true,413,false
+Q3,6,country=South Africa,country=South Africa; occupation=Housewife,true,452,false
+Q3,6,country=South Africa,country=South Africa; occupation=Others,true,361,false
+Q3,6,country=South Africa,country=South Africa; occupation=Student,true,422,false
+Q3,6,country=Sweden,country=Sweden; occupation=Business,true,488,false
+Q3,6,country=Sweden,country=Sweden; occupation=Corporate,true,571,false
+Q3,6,country=Sweden,country=Sweden; occupation=Housewife,true,637,false
+Q3,6,country=Sweden,country=Sweden; occupation=Others,true,515,false
+Q3,6,country=Sweden,country=Sweden; occupation=Student,true,601,false
+Q3,6,country=Switzerland,country=Switzerland; occupation=Business,true,264,false
+Q3,6,country=Switzerland,country=Switzerland; occupation=Corporate,true,340,false
+Q3,6,country=Switzerland,country=Switzerland; occupation=Housewife,true,356,false
+Q3,6,country=Switzerland,country=Switzerland; occupation=Others,true,276,false
+Q3,6,country=Switzerland,country=Switzerland; occupation=Student,true,324,false
+Q3,6,country=Thailand,country=Thailand; occupation=Business,true,66,false
+Q3,6,country=Thailand,country=Thailand; occupation=Corporate,true,85,false
+Q3,6,country=Thailand,country=Thailand; occupation=Housewife,true,89,false
+Q3,6,country=Thailand,country=Thailand; occupation=Others,true,69,false
+Q3,6,country=Thailand,country=Thailand; occupation=Student,true,81,false
+Q3,6,country=United Kingdom,country=United Kingdom; occupation=Business,true,8788,false
+Q3,6,country=United Kingdom,country=United Kingdom; occupation=Corporate,true,10858,false
+Q3,6,country=United Kingdom,country=United Kingdom; occupation=Housewife,true,11682,false
+Q3,6,country=United Kingdom,country=United Kingdom; occupation=Others,true,9226,false
+Q3,6,country=United Kingdom,country=United Kingdom; occupation=Student,true,10802,false
+Q3,6,country=United States,country=United States; occupation=Business,true,29116,false
+Q3,6,country=United States,country=United States; occupation=Corporate,true,35141,false
+Q3,6,country=United States,country=United States; occupation=Housewife,true,38399,false
+Q3,6,country=United States,country=United States; occupation=Others,true,30637,false
+Q3,6,country=United States,country=United States; occupation=Student,true,35819,false
+Q3,6,region=Africa,region=Africa; occupation=Business,true,409,false
+Q3,6,region=Africa,region=Africa; occupation=Corporate,true,498,false
+Q3,6,region=Africa,region=Africa; occupation=Housewife,true,541,false
+Q3,6,region=Africa,region=Africa; occupation=Others,true,430,false
+Q3,6,region=Africa,region=Africa; occupation=Student,true,503,false
+Q3,6,region=Asia,region=Asia; occupation=Business,true,1069,false
+Q3,6,region=Asia,region=Asia; occupation=Corporate,true,1348,false
+Q3,6,region=Asia,region=Asia; occupation=Housewife,true,1431,false
+Q3,6,region=Asia,region=Asia; occupation=Others,true,1120,false
+Q3,6,region=Asia,region=Asia; occupation=Student,true,1313,false
+Q3,6,region=Europe,region=Europe; occupation=Business,true,14027,false
+Q3,6,region=Europe,region=Europe; occupation=Corporate,true,17404,false
+Q3,6,region=Europe,region=Europe; occupation=Housewife,true,18673,false
+Q3,6,region=Europe,region=Europe; occupation=Others,true,14720,false
+Q3,6,region=Europe,region=Europe; occupation=Student,true,17239,false
+Q3,6,region=Latin America and the Caribbean,region=Latin America and the Caribbean; occupation=Business,true,594,false
+Q3,6,region=Latin America and the Caribbean,region=Latin America and the Caribbean; occupation=Corporate,true,765,false
+Q3,6,region=Latin America and the Caribbean,region=Latin America and the Caribbean; occupation=Housewife,true,801,false
+Q3,6,region=Latin America and the Caribbean,region=Latin America and the Caribbean; occupation=Others,true,621,false
+Q3,6,region=Latin America and the Caribbean,region=Latin America and the Caribbean; occupation=Student,true,729,false
+Q3,6,region=Northern America,region=Northern America; occupation=Business,true,32335,false
+Q3,6,region=Northern America,region=Northern America; occupation=Corporate,true,39028,false
+Q3,6,region=Northern America,region=Northern America; occupation=Housewife,true,42645,false
+Q3,6,region=Northern America,region=Northern America; occupation=Others,true,34024,false
+Q3,6,region=Northern America,region=Northern America; occupation=Student,true,39779,false
+Q3,6,region=Oceania,region=Oceania; occupation=Business,true,1385,false
+Q3,6,region=Oceania,region=Oceania; occupation=Corporate,true,1640,false
+Q3,6,region=Oceania,region=Oceania; occupation=Housewife,true,1815,false
+Q3,6,region=Oceania,region=Oceania; occupation=Others,true,1460,false
+Q3,6,region=Oceania,region=Oceania; occupation=Student,true,1705,false
+Q4,7,,gender=Male; growing_stress=Yes,true,78080,false
+Q4,7,,gender=Male; growing_stress=No,true,76250,false
+Q4,7,,gender=Male; growing_stress=Maybe,true,83570,false
+Q4,7,,gender=Female; growing_stress=Yes,true,20691,false
+Q4,7,,gender=Female; growing_stress=No,true,15730,false
+Q4,7,,gender=Female; growing_stress=Maybe,true,15730,false
+Q5,9,,days_indoors=Go out Every day,true,57981,false
+Q5,9,,days_indoors=1-14 days,true,63113,false
+Q5,9,,days_indoors=15-30 days,true,53474,false
+Q5,9,,days_indoors=31-60 days,true,60058,false
+Q5,9,,days_indoors=More than 2 months,true,55425,false
+Q5,10,,days_indoors=Go out Every day,true,57981,false
+Q5,10,,days_indoors=1-14 days,true,63113,false
+Q5,10,,days_indoors=15-30 days,true,53474,false
+Q5,10,,days_indoors=31-60 days,true,60058,false
+Q5,10,,days_indoors=More than 2 months,true,55425,false
+Q5,11,,days_indoors=Go out Every day,true,57981,false
+Q5,11,,days_indoors=1-14 days,true,63113,false
+Q5,11,,days_indoors=15-30 days,true,53474,false
+Q5,11,,days_indoors=31-60 days,true,60058,false
+Q5,11,,days_indoors=More than 2 months,true,55425,false
+Q6,12,country=Australia,country=Australia; growing_stress=Yes; occupation=Business; gender=Male,true,275,false
+Q6,12,country=Australia,country=Australia; growing_stress=Yes; occupation=Business; gender=Female,true,116,false
+Q6,12,country=Australia,country=Australia; growing_stress=Yes; occupation=Corporate; gender=Male,true,363,false
+Q6,12,country=Australia,country=Australia; growing_stress=Yes; occupation=Corporate; gender=Female,true,120,false
+Q6,12,country=Australia,country=Australia; growing_stress=Yes; occupation=Housewife; gender=Male,true,264,false
+Q6,12,country=Australia,country=Australia; growing_stress=Yes; occupation=Housewife; gender=Female,true,160,false
+Q6,12,country=Australia,country=Australia; growing_stress=Yes; occupation=Others; gender=Male,true,198,false
+Q6,12,country=Australia,country=Australia; growing_stress=Yes; occupation=Others; gender=Female,true,140,false
+Q6,12,country=Australia,country=Australia; growing_stress=Yes; occupation=Student; gender=Male,true,308,false
+Q6,12,country=Australia,country=Australia; growing_stress=Yes; occupation=Student; gender=Female,true,148,false
+Q6,12,country=Australia,country=Australia; growing_stress=No; occupation=Business; gender=Male,true,198,false
+Q6,12,country=Australia,country=Australia; growing_stress=No; occupation=Business; gender=Female,true,104,false
+Q6,12,country=Australia,country=Australia; growing_stress=No; occupation=Corporate; gender=Male,true,319,false
+Q6,12,country=Australia,country=Australia; growing_stress=No; occupation=Corporate; gender=Female,true,76,false
+Q6,12,country=Australia,country=Australia; growing_stress=No; occupation=Housewife; gender=Male,true,352,false
+Q6,12,country=Australia,country=Australia; growing_stress=No; occupation=Housewife; gender=Female,true,96,false
+Q6,12,country=Australia,country=Australia; growing_stress=No; occupation=Others; gender=Male,true,286,false
+Q6,12,country=Australia,country=Australia; growing_stress=No; occupation=Others; gender=Female,true,100,false
+Q6,12,country=Australia,country=Australia; growing_stress=No; occupation=Student; gender=Male,true,220,false
+Q6,12,country=Australia,country=Australia; growing_stress=No; occupation=Student; gender=Female,true,144,false
+Q6,12,country=Australia,country=Australia; growing_stress=Maybe; occupation=Business; gender=Male,true,253,false
+Q6,12,country=Australia,country=Australia; growing_stress=Maybe; occupation=Business; gender=Female,true,96,false
+Q6,12,country=Australia,country=Australia; growing_stress=Maybe; occupation=Corporate; gender=Male,true,253,false
+Q6,12,country=Australia,country=Australia; growing_stress=Maybe; occupation=Corporate; gender=Female,true,96,false
+Q6,12,country=Australia,country=Australia; growing_stress=Maybe; occupation=Housewife; gender=Male,true,363,false
+Q6,12,country=Australia,country=Australia; growing_stress=Maybe; occupation=Housewife; gender=Female,true,128,false
+Q6,12,country=Australia,country=Australia; growing_stress=Maybe; occupation=Others; gender=Male,true,275,false
+Q6,12,country=Australia,country=Australia; growing_stress=Maybe; occupation=Others; gender=Female,true,100,false
+Q6,12,country=Australia,country=Australia; growing_stress=Maybe; occupation=Student; gender=Male,true,363,false
+Q6,12,country=Australia,country=Australia; growing_stress=Maybe; occupation=Student; gender=Female,true,100,false
+Q6,12,country=Belgium,country=Belgium; growing_stress=Yes; occupation=Business; gender=Male,true,25,true
+Q6,12,country=Belgium,country=Belgium; growing_stress=Yes; occupation=Business; gender=Female,true,29,true
+Q6,12,country=Belgium,country=Belgium; growing_stress=Yes; occupation=Corporate; gender=Male,true,33,false
+Q6,12,country=Belgium,country=Belgium; growing_stress=Yes; occupation=Corporate; gender=Female,true,30,false
+Q6,12,country=Belgium,country=Belgium; growing_stress=Yes; occupation=Housewife; gender=Male,true,24,true
+Q6,12,country=Belgium,country=Belgium; growing_stress=Yes; occupation=Housewife; gender=Female,true,40,false
+Q6,12,country=Belgium,country=Belgium; growing_stress=Yes; occupation=Others; gender=Male,true,18,true
+Q6,12,country=Belgium,country=Belgium; growing_stress=Yes; occupation=Others; gender=Female,true,35,false
+Q6,12,country=Belgium,country=Belgium; growing_stress=Yes; occupation=Student; gender=Male,true,28,true
+Q6,12,country=Belgium,country=Belgium; growing_stress=Yes; occupation=Student; gender=Female,true,37,false
+Q6,12,country=Belgium,country=Belgium; growing_stress=No; occupation=Business; gender=Male,true,18,true
+Q6,12,country=Belgium,country=Belgium; growing_stress=No; occupation=Business; gender=Female,true,26,true
+Q6,12,country=Belgium,country=Belgium; growing_stress=No; occupation=Corporate; gender=Male,true,29,true
+Q6,12,country=Belgium,country=Belgium; growing_stress=No; occupation=Corporate; gender=Female,true,19,true
+Q6,12,country=Belgium,country=Belgium; growing_stress=No; occupation=Housewife; gender=Male,true,32,false
+Q6,12,country=Belgium,country=Belgium; growing_stress=No; occupation=Housewife; gender=Female,true,24,true
+Q6,12,country=Belgium,country=Belgium; growing_stress=No; occupation=Others; gender=Male,true,26,true
+Q6,12,country=Belgium,country=Belgium; growing_stress=No; occupation=Others; gender=Female,true,25,true
+Q6,12,country=Belgium,country=Belgium; growing_stress=No; occupation=Student; gender=Male,true,20,true
+Q6,12,country=Belgium,country=Belgium; growing_stress=No; occupation=Student; gender=Female,true,36,false
+Q6,12,country=Belgium,country=Belgium; growing_stress=Maybe; occupation=Business; gender=Male,true,23,true
+Q6,12,country=Belgium,country=Belgium; growing_stress=Maybe; occupation=Business; gender=Female,true,24,true
+Q6,12,country=Belgium,country=Belgium; growing_stress=Maybe; occupation=Corporate; gender=Male,true,23,true
+Q6,12,country=Belgium,country=Belgium; growing_stress=Maybe; occupation=Corporate; gender=Female,true,24,true
+Q6,12,country=Belgium,country=Belgium; growing_stress=Maybe; occupation=Housewife; gender=Male,true,33,false
+Q6,12,country=Belgium,country=Belgium; growing_stress=Maybe; occupation=Housewife; gender=Female,true,32,false
+Q6,12,country=Belgium,country=Belgium; growing_stress=Maybe; occupation=Others; gender=Male,true,25,true
+Q6,12,country=Belgium,country=Belgium; growing_stress=Maybe; occupation=Others; gender=Female,true,25,true
+Q6,12,country=Belgium,country=Belgium; growing_stress=Maybe; occupation=Student; gender=Male,true,33,false
+Q6,12,country=Belgium,country=Belgium; growing_stress=Maybe; occupation=Student; gender=Female,true,25,true
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=Yes; occupation=Business; gender=Male,true,25,true
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=Yes; occupation=Corporate; gender=Male,true,33,false
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=Yes; occupation=Housewife; gender=Male,true,24,true
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=Yes; occupation=Others; gender=Male,true,18,true
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=Yes; occupation=Student; gender=Male,true,28,true
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=No; occupation=Business; gender=Male,true,18,true
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=No; occupation=Corporate; gender=Male,true,29,true
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=No; occupation=Housewife; gender=Male,true,32,false
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=No; occupation=Others; gender=Male,true,26,true
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=No; occupation=Student; gender=Male,true,20,true
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=Maybe; occupation=Business; gender=Male,true,23,true
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=Maybe; occupation=Corporate; gender=Male,true,23,true
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=Maybe; occupation=Housewife; gender=Male,true,33,false
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=Maybe; occupation=Others; gender=Male,true,25,true
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=Maybe; occupation=Student; gender=Male,true,33,false
+Q6,12,country=Bosnia and Herzegovina,country=Bosnia and Herzegovina; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=Brazil,country=Brazil; growing_stress=Yes; occupation=Business; gender=Male,true,150,false
+Q6,12,country=Brazil,country=Brazil; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Brazil,country=Brazil; growing_stress=Yes; occupation=Corporate; gender=Male,true,198,false
+Q6,12,country=Brazil,country=Brazil; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Brazil,country=Brazil; growing_stress=Yes; occupation=Housewife; gender=Male,true,144,false
+Q6,12,country=Brazil,country=Brazil; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Brazil,country=Brazil; growing_stress=Yes; occupation=Others; gender=Male,true,108,false
+Q6,12,country=Brazil,country=Brazil; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Brazil,country=Brazil; growing_stress=Yes; occupation=Student; gender=Male,true,168,false
+Q6,12,country=Brazil,country=Brazil; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Brazil,country=Brazil; growing_stress=No; occupation=Business; gender=Male,true,108,false
+Q6,12,country=Brazil,country=Brazil; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Brazil,country=Brazil; growing_stress=No; occupation=Corporate; gender=Male,true,174,false
+Q6,12,country=Brazil,country=Brazil; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Brazil,country=Brazil; growing_stress=No; occupation=Housewife; gender=Male,true,192,false
+Q6,12,country=Brazil,country=Brazil; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Brazil,country=Brazil; growing_stress=No; occupation=Others; gender=Male,true,156,false
+Q6,12,country=Brazil,country=Brazil; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Brazil,country=Brazil; growing_stress=No; occupation=Student; gender=Male,true,120,false
+Q6,12,country=Brazil,country=Brazil; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Brazil,country=Brazil; growing_stress=Maybe; occupation=Business; gender=Male,true,138,false
+Q6,12,country=Brazil,country=Brazil; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Brazil,country=Brazil; growing_stress=Maybe; occupation=Corporate; gender=Male,true,138,false
+Q6,12,country=Brazil,country=Brazil; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Brazil,country=Brazil; growing_stress=Maybe; occupation=Housewife; gender=Male,true,198,false
+Q6,12,country=Brazil,country=Brazil; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Brazil,country=Brazil; growing_stress=Maybe; occupation=Others; gender=Male,true,150,false
+Q6,12,country=Brazil,country=Brazil; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Brazil,country=Brazil; growing_stress=Maybe; occupation=Student; gender=Male,true,198,false
+Q6,12,country=Brazil,country=Brazil; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=Canada,country=Canada; growing_stress=Yes; occupation=Business; gender=Male,true,950,false
+Q6,12,country=Canada,country=Canada; growing_stress=Yes; occupation=Business; gender=Female,true,261,false
+Q6,12,country=Canada,country=Canada; growing_stress=Yes; occupation=Corporate; gender=Male,true,1254,false
+Q6,12,country=Canada,country=Canada; growing_stress=Yes; occupation=Corporate; gender=Female,true,270,false
+Q6,12,country=Canada,country=Canada; growing_stress=Yes; occupation=Housewife; gender=Male,true,912,false
+Q6,12,country=Canada,country=Canada; growing_stress=Yes; occupation=Housewife; gender=Female,true,360,false
+Q6,12,country=Canada,country=Canada; growing_stress=Yes; occupation=Others; gender=Male,true,684,false
+Q6,12,country=Canada,country=Canada; growing_stress=Yes; occupation=Others; gender=Female,true,315,false
+Q6,12,country=Canada,country=Canada; growing_stress=Yes; occupation=Student; gender=Male,true,1064,false
+Q6,12,country=Canada,country=Canada; growing_stress=Yes; occupation=Student; gender=Female,true,333,false
+Q6,12,country=Canada,country=Canada; growing_stress=No; occupation=Business; gender=Male,true,684,false
+Q6,12,country=Canada,country=Canada; growing_stress=No; occupation=Business; gender=Female,true,234,false
+Q6,12,country=Canada,country=Canada; growing_stress=No; occupation=Corporate; gender=Male,true,1102,false
+Q6,12,country=Canada,country=Canada; growing_stress=No; occupation=Corporate; gender=Female,true,171,false
+Q6,12,country=Canada,country=Canada; growing_stress=No; occupation=Housewife; gender=Male,true,1216,false
+Q6,12,country=Canada,country=Canada; growing_stress=No; occupation=Housewife; gender=Female,true,216,false
+Q6,12,country=Canada,country=Canada; growing_stress=No; occupation=Others; gender=Male,true,988,false
+Q6,12,country=Canada,country=Canada; growing_stress=No; occupation=Others; gender=Female,true,225,false
+Q6,12,country=Canada,country=Canada; growing_stress=No; occupation=Student; gender=Male,true,760,false
+Q6,12,country=Canada,country=Canada; growing_stress=No; occupation=Student; gender=Female,true,324,false
+Q6,12,country=Canada,country=Canada; growing_stress=Maybe; occupation=Business; gender=Male,true,874,false
+Q6,12,country=Canada,country=Canada; growing_stress=Maybe; occupation=Business; gender=Female,true,216,false
+Q6,12,country=Canada,country=Canada; growing_stress=Maybe; occupation=Corporate; gender=Male,true,874,false
+Q6,12,country=Canada,country=Canada; growing_stress=Maybe; occupation=Corporate; gender=Female,true,216,false
+Q6,12,country=Canada,country=Canada; growing_stress=Maybe; occupation=Housewife; gender=Male,true,1254,false
+Q6,12,country=Canada,country=Canada; growing_stress=Maybe; occupation=Housewife; gender=Female,true,288,false
+Q6,12,country=Canada,country=Canada; growing_stress=Maybe; occupation=Others; gender=Male,true,950,false
+Q6,12,country=Canada,country=Canada; growing_stress=Maybe; occupation=Others; gender=Female,true,225,false
+Q6,12,country=Canada,country=Canada; growing_stress=Maybe; occupation=Student; gender=Male,true,1254,false
+Q6,12,country=Canada,country=Canada; growing_stress=Maybe; occupation=Student; gender=Female,true,225,false
+Q6,12,country=Colombia,country=Colombia; growing_stress=Yes; occupation=Business; gender=Male,true,25,true
+Q6,12,country=Colombia,country=Colombia; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Colombia,country=Colombia; growing_stress=Yes; occupation=Corporate; gender=Male,true,33,false
+Q6,12,country=Colombia,country=Colombia; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Colombia,country=Colombia; growing_stress=Yes; occupation=Housewife; gender=Male,true,24,true
+Q6,12,country=Colombia,country=Colombia; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Colombia,country=Colombia; growing_stress=Yes; occupation=Others; gender=Male,true,18,true
+Q6,12,country=Colombia,country=Colombia; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Colombia,country=Colombia; growing_stress=Yes; occupation=Student; gender=Male,true,28,true
+Q6,12,country=Colombia,country=Colombia; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Colombia,country=Colombia; growing_stress=No; occupation=Business; gender=Male,true,18,true
+Q6,12,country=Colombia,country=Colombia; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Colombia,country=Colombia; growing_stress=No; occupation=Corporate; gender=Male,true,29,true
+Q6,12,country=Colombia,country=Colombia; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Colombia,country=Colombia; growing_stress=No; occupation=Housewife; gender=Male,true,32,false
+Q6,12,country=Colombia,country=Colombia; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Colombia,country=Colombia; growing_stress=No; occupation=Others; gender=Male,true,26,true
+Q6,12,country=Colombia,country=Colombia; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Colombia,country=Colombia; growing_stress=No; occupation=Student; gender=Male,true,20,true
+Q6,12,country=Colombia,country=Colombia; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Colombia,country=Colombia; growing_stress=Maybe; occupation=Business; gender=Male,true,23,true
+Q6,12,country=Colombia,country=Colombia; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Colombia,country=Colombia; growing_stress=Maybe; occupation=Corporate; gender=Male,true,23,true
+Q6,12,country=Colombia,country=Colombia; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Colombia,country=Colombia; growing_stress=Maybe; occupation=Housewife; gender=Male,true,33,false
+Q6,12,country=Colombia,country=Colombia; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Colombia,country=Colombia; growing_stress=Maybe; occupation=Others; gender=Male,true,25,true
+Q6,12,country=Colombia,country=Colombia; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Colombia,country=Colombia; growing_stress=Maybe; occupation=Student; gender=Male,true,33,false
+Q6,12,country=Colombia,country=Colombia; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=Yes; occupation=Business; gender=Male,true,25,true
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=Yes; occupation=Corporate; gender=Male,true,33,false
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=Yes; occupation=Housewife; gender=Male,true,24,true
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=Yes; occupation=Others; gender=Male,true,18,true
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=Yes; occupation=Student; gender=Male,true,28,true
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=No; occupation=Business; gender=Male,true,18,true
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=No; occupation=Corporate; gender=Male,true,29,true
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=No; occupation=Housewife; gender=Male,true,32,false
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=No; occupation=Others; gender=Male,true,26,true
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=No; occupation=Student; gender=Male,true,20,true
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=Maybe; occupation=Business; gender=Male,true,23,true
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=Maybe; occupation=Corporate; gender=Male,true,23,true
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=Maybe; occupation=Housewife; gender=Male,true,33,false
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=Maybe; occupation=Others; gender=Male,true,25,true
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=Maybe; occupation=Student; gender=Male,true,33,false
+Q6,12,country=Costa Rica,country=Costa Rica; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=Croatia,country=Croatia; growing_stress=Yes; occupation=Business; gender=Male,true,25,true
+Q6,12,country=Croatia,country=Croatia; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Croatia,country=Croatia; growing_stress=Yes; occupation=Corporate; gender=Male,true,33,false
+Q6,12,country=Croatia,country=Croatia; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Croatia,country=Croatia; growing_stress=Yes; occupation=Housewife; gender=Male,true,24,true
+Q6,12,country=Croatia,country=Croatia; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Croatia,country=Croatia; growing_stress=Yes; occupation=Others; gender=Male,true,18,true
+Q6,12,country=Croatia,country=Croatia; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Croatia,country=Croatia; growing_stress=Yes; occupation=Student; gender=Male,true,28,true
+Q6,12,country=Croatia,country=Croatia; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Croatia,country=Croatia; growing_stress=No; occupation=Business; gender=Male,true,18,true
+Q6,12,country=Croatia,country=Croatia; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Croatia,country=Croatia; growing_stress=No; occupation=Corporate; gender=Male,true,29,true
+Q6,12,country=Croatia,country=Croatia; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Croatia,country=Croatia; growing_stress=No; occupation=Housewife; gender=Male,true,32,false
+Q6,12,country=Croatia,country=Croatia; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Croatia,country=Croatia; growing_stress=No; occupation=Others; gender=Male,true,26,true
+Q6,12,country=Croatia,country=Croatia; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Croatia,country=Croatia; growing_stress=No; occupation=Student; gender=Male,true,20,true
+Q6,12,country=Croatia,country=Croatia; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Croatia,country=Croatia; growing_stress=Maybe; occupation=Business; gender=Male,true,23,true
+Q6,12,country=Croatia,country=Croatia; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Croatia,country=Croatia; growing_stress=Maybe; occupation=Corporate; gender=Male,true,23,true
+Q6,12,country=Croatia,country=Croatia; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Croatia,country=Croatia; growing_stress=Maybe; occupation=Housewife; gender=Male,true,33,false
+Q6,12,country=Croatia,country=Croatia; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Croatia,country=Croatia; growing_stress=Maybe; occupation=Others; gender=Male,true,25,true
+Q6,12,country=Croatia,country=Croatia; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Croatia,country=Croatia; growing_stress=Maybe; occupation=Student; gender=Male,true,33,false
+Q6,12,country=Croatia,country=Croatia; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=Yes; occupation=Business; gender=Male,true,25,true
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=Yes; occupation=Corporate; gender=Male,true,33,false
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=Yes; occupation=Housewife; gender=Male,true,24,true
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=Yes; occupation=Others; gender=Male,true,18,true
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=Yes; occupation=Student; gender=Male,true,28,true
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=No; occupation=Business; gender=Male,true,18,true
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=No; occupation=Corporate; gender=Male,true,29,true
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=No; occupation=Housewife; gender=Male,true,32,false
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=No; occupation=Others; gender=Male,true,26,true
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=No; occupation=Student; gender=Male,true,20,true
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=Maybe; occupation=Business; gender=Male,true,23,true
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=Maybe; occupation=Corporate; gender=Male,true,23,true
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=Maybe; occupation=Housewife; gender=Male,true,33,false
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=Maybe; occupation=Others; gender=Male,true,25,true
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=Maybe; occupation=Student; gender=Male,true,33,false
+Q6,12,country=Czech Republic,country=Czech Republic; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=Denmark,country=Denmark; growing_stress=Yes; occupation=Business; gender=Male,true,50,false
+Q6,12,country=Denmark,country=Denmark; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Denmark,country=Denmark; growing_stress=Yes; occupation=Corporate; gender=Male,true,66,false
+Q6,12,country=Denmark,country=Denmark; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Denmark,country=Denmark; growing_stress=Yes; occupation=Housewife; gender=Male,true,48,false
+Q6,12,country=Denmark,country=Denmark; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Denmark,country=Denmark; growing_stress=Yes; occupation=Others; gender=Male,true,36,false
+Q6,12,country=Denmark,country=Denmark; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Denmark,country=Denmark; growing_stress=Yes; occupation=Student; gender=Male,true,56,false
+Q6,12,country=Denmark,country=Denmark; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Denmark,country=Denmark; growing_stress=No; occupation=Business; gender=Male,true,36,false
+Q6,12,country=Denmark,country=Denmark; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Denmark,country=Denmark; growing_stress=No; occupation=Corporate; gender=Male,true,58,false
+Q6,12,country=Denmark,country=Denmark; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Denmark,country=Denmark; growing_stress=No; occupation=Housewife; gender=Male,true,64,false
+Q6,12,country=Denmark,country=Denmark; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Denmark,country=Denmark; growing_stress=No; occupation=Others; gender=Male,true,52,false
+Q6,12,country=Denmark,country=Denmark; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Denmark,country=Denmark; growing_stress=No; occupation=Student; gender=Male,true,40,false
+Q6,12,country=Denmark,country=Denmark; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Denmark,country=Denmark; growing_stress=Maybe; occupation=Business; gender=Male,true,46,false
+Q6,12,country=Denmark,country=Denmark; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Denmark,country=Denmark; growing_stress=Maybe; occupation=Corporate; gender=Male,true,46,false
+Q6,12,country=Denmark,country=Denmark; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Denmark,country=Denmark; growing_stress=Maybe; occupation=Housewife; gender=Male,true,66,false
+Q6,12,country=Denmark,country=Denmark; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Denmark,country=Denmark; growing_stress=Maybe; occupation=Others; gender=Male,true,50,false
+Q6,12,country=Denmark,country=Denmark; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Denmark,country=Denmark; growing_stress=Maybe; occupation=Student; gender=Male,true,66,false
+Q6,12,country=Denmark,country=Denmark; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=Finland,country=Finland; growing_stress=Yes; occupation=Business; gender=Male,true,25,true
+Q6,12,country=Finland,country=Finland; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Finland,country=Finland; growing_stress=Yes; occupation=Corporate; gender=Male,true,33,false
+Q6,12,country=Finland,country=Finland; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Finland,country=Finland; growing_stress=Yes; occupation=Housewife; gender=Male,true,24,true
+Q6,12,country=Finland,country=Finland; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Finland,country=Finland; growing_stress=Yes; occupation=Others; gender=Male,true,18,true
+Q6,12,country=Finland,country=Finland; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Finland,country=Finland; growing_stress=Yes; occupation=Student; gender=Male,true,28,true
+Q6,12,country=Finland,country=Finland; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Finland,country=Finland; growing_stress=No; occupation=Business; gender=Male,true,18,true
+Q6,12,country=Finland,country=Finland; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Finland,country=Finland; growing_stress=No; occupation=Corporate; gender=Male,true,29,true
+Q6,12,country=Finland,country=Finland; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Finland,country=Finland; growing_stress=No; occupation=Housewife; gender=Male,true,32,false
+Q6,12,country=Finland,country=Finland; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Finland,country=Finland; growing_stress=No; occupation=Others; gender=Male,true,26,true
+Q6,12,country=Finland,country=Finland; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Finland,country=Finland; growing_stress=No; occupation=Student; gender=Male,true,20,true
+Q6,12,country=Finland,country=Finland; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Finland,country=Finland; growing_stress=Maybe; occupation=Business; gender=Male,true,23,true
+Q6,12,country=Finland,country=Finland; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Finland,country=Finland; growing_stress=Maybe; occupation=Corporate; gender=Male,true,23,true
+Q6,12,country=Finland,country=Finland; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Finland,country=Finland; growing_stress=Maybe; occupation=Housewife; gender=Male,true,33,false
+Q6,12,country=Finland,country=Finland; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Finland,country=Finland; growing_stress=Maybe; occupation=Others; gender=Male,true,25,true
+Q6,12,country=Finland,country=Finland; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Finland,country=Finland; growing_stress=Maybe; occupation=Student; gender=Male,true,33,false
+Q6,12,country=Finland,country=Finland; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=France,country=France; growing_stress=Yes; occupation=Business; gender=Male,true,150,false
+Q6,12,country=France,country=France; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=France,country=France; growing_stress=Yes; occupation=Corporate; gender=Male,true,198,false
+Q6,12,country=France,country=France; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=France,country=France; growing_stress=Yes; occupation=Housewife; gender=Male,true,144,false
+Q6,12,country=France,country=France; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=France,country=France; growing_stress=Yes; occupation=Others; gender=Male,true,108,false
+Q6,12,country=France,country=France; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=France,country=France; growing_stress=Yes; occupation=Student; gender=Male,true,168,false
+Q6,12,country=France,country=France; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=France,country=France; growing_stress=No; occupation=Business; gender=Male,true,108,false
+Q6,12,country=France,country=France; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=France,country=France; growing_stress=No; occupation=Corporate; gender=Male,true,174,false
+Q6,12,country=France,country=France; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=France,country=France; growing_stress=No; occupation=Housewife; gender=Male,true,192,false
+Q6,12,country=France,country=France; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=France,country=France; growing_stress=No; occupation=Others; gender=Male,true,156,false
+Q6,12,country=France,country=France; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=France,country=France; growing_stress=No; occupation=Student; gender=Male,true,120,false
+Q6,12,country=France,country=France; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=France,country=France; growing_stress=Maybe; occupation=Business; gender=Male,true,138,false
+Q6,12,country=France,country=France; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=France,country=France; growing_stress=Maybe; occupation=Corporate; gender=Male,true,138,false
+Q6,12,country=France,country=France; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=France,country=France; growing_stress=Maybe; occupation=Housewife; gender=Male,true,198,false
+Q6,12,country=France,country=France; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=France,country=France; growing_stress=Maybe; occupation=Others; gender=Male,true,150,false
+Q6,12,country=France,country=France; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=France,country=France; growing_stress=Maybe; occupation=Student; gender=Male,true,198,false
+Q6,12,country=France,country=France; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=Georgia,country=Georgia; growing_stress=Yes; occupation=Business; gender=Male,true,25,true
+Q6,12,country=Georgia,country=Georgia; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Georgia,country=Georgia; growing_stress=Yes; occupation=Corporate; gender=Male,true,33,false
+Q6,12,country=Georgia,country=Georgia; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Georgia,country=Georgia; growing_stress=Yes; occupation=Housewife; gender=Male,true,24,true
+Q6,12,country=Georgia,country=Georgia; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Georgia,country=Georgia; growing_stress=Yes; occupation=Others; gender=Male,true,18,true
+Q6,12,country=Georgia,country=Georgia; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Georgia,country=Georgia; growing_stress=Yes; occupation=Student; gender=Male,true,28,true
+Q6,12,country=Georgia,country=Georgia; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Georgia,country=Georgia; growing_stress=No; occupation=Business; gender=Male,true,18,true
+Q6,12,country=Georgia,country=Georgia; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Georgia,country=Georgia; growing_stress=No; occupation=Corporate; gender=Male,true,29,true
+Q6,12,country=Georgia,country=Georgia; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Georgia,country=Georgia; growing_stress=No; occupation=Housewife; gender=Male,true,32,false
+Q6,12,country=Georgia,country=Georgia; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Georgia,country=Georgia; growing_stress=No; occupation=Others; gender=Male,true,26,true
+Q6,12,country=Georgia,country=Georgia; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Georgia,country=Georgia; growing_stress=No; occupation=Student; gender=Male,true,20,true
+Q6,12,country=Georgia,country=Georgia; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Georgia,country=Georgia; growing_stress=Maybe; occupation=Business; gender=Male,true,23,true
+Q6,12,country=Georgia,country=Georgia; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Georgia,country=Georgia; growing_stress=Maybe; occupation=Corporate; gender=Male,true,23,true
+Q6,12,country=Georgia,country=Georgia; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Georgia,country=Georgia; growing_stress=Maybe; occupation=Housewife; gender=Male,true,33,false
+Q6,12,country=Georgia,country=Georgia; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Georgia,country=Georgia; growing_stress=Maybe; occupation=Others; gender=Male,true,25,true
+Q6,12,country=Georgia,country=Georgia; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Georgia,country=Georgia; growing_stress=Maybe; occupation=Student; gender=Male,true,33,false
+Q6,12,country=Georgia,country=Georgia; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=Germany,country=Germany; growing_stress=Yes; occupation=Business; gender=Male,true,300,false
+Q6,12,country=Germany,country=Germany; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Germany,country=Germany; growing_stress=Yes; occupation=Corporate; gender=Male,true,396,false
+Q6,12,country=Germany,country=Germany; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Germany,country=Germany; growing_stress=Yes; occupation=Housewife; gender=Male,true,288,false
+Q6,12,country=Germany,country=Germany; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Germany,country=Germany; growing_stress=Yes; occupation=Others; gender=Male,true,216,false
+Q6,12,country=Germany,country=Germany; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Germany,country=Germany; growing_stress=Yes; occupation=Student; gender=Male,true,336,false
+Q6,12,country=Germany,country=Germany; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Germany,country=Germany; growing_stress=No; occupation=Business; gender=Male,true,216,false
+Q6,12,country=Germany,country=Germany; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Germany,country=Germany; growing_stress=No; occupation=Corporate; gender=Male,true,348,false
+Q6,12,country=Germany,country=Germany; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Germany,country=Germany; growing_stress=No; occupation=Housewife; gender=Male,true,384,false
+Q6,12,country=Germany,country=Germany; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Germany,country=Germany; growing_stress=No; occupation=Others; gender=Male,true,312,false
+Q6,12,country=Germany,country=Germany; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Germany,country=Germany; growing_stress=No; occupation=Student; gender=Male,true,240,false
+Q6,12,country=Germany,country=Germany; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Germany,country=Germany; growing_stress=Maybe; occupation=Business; gender=Male,true,276,false
+Q6,12,country=Germany,country=Germany; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Germany,country=Germany; growing_stress=Maybe; occupation=Corporate; gender=Male,true,276,false
+Q6,12,country=Germany,country=Germany; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Germany,country=Germany; growing_stress=Maybe; occupation=Housewife; gender=Male,true,396,false
+Q6,12,country=Germany,country=Germany; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Germany,country=Germany; growing_stress=Maybe; occupation=Others; gender=Male,true,300,false
+Q6,12,country=Germany,country=Germany; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Germany,country=Germany; growing_stress=Maybe; occupation=Student; gender=Male,true,396,false
+Q6,12,country=Germany,country=Germany; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=Greece,country=Greece; growing_stress=Yes; occupation=Business; gender=Male,true,50,false
+Q6,12,country=Greece,country=Greece; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Greece,country=Greece; growing_stress=Yes; occupation=Corporate; gender=Male,true,66,false
+Q6,12,country=Greece,country=Greece; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Greece,country=Greece; growing_stress=Yes; occupation=Housewife; gender=Male,true,48,false
+Q6,12,country=Greece,country=Greece; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Greece,country=Greece; growing_stress=Yes; occupation=Others; gender=Male,true,36,false
+Q6,12,country=Greece,country=Greece; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Greece,country=Greece; growing_stress=Yes; occupation=Student; gender=Male,true,56,false
+Q6,12,country=Greece,country=Greece; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Greece,country=Greece; growing_stress=No; occupation=Business; gender=Male,true,36,false
+Q6,12,country=Greece,country=Greece; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Greece,country=Greece; growing_stress=No; occupation=Corporate; gender=Male,true,58,false
+Q6,12,country=Greece,country=Greece; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Greece,country=Greece; growing_stress=No; occupation=Housewife; gender=Male,true,64,false
+Q6,12,country=Greece,country=Greece; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Greece,country=Greece; growing_stress=No; occupation=Others; gender=Male,true,52,false
+Q6,12,country=Greece,country=Greece; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Greece,country=Greece; growing_stress=No; occupation=Student; gender=Male,true,40,false
+Q6,12,country=Greece,country=Greece; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Greece,country=Greece; growing_stress=Maybe; occupation=Business; gender=Male,true,46,false
+Q6,12,country=Greece,country=Greece; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Greece,country=Greece; growing_stress=Maybe; occupation=Corporate; gender=Male,true,46,false
+Q6,12,country=Greece,country=Greece; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Greece,country=Greece; growing_stress=Maybe; occupation=Housewife; gender=Male,true,66,false
+Q6,12,country=Greece,country=Greece; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Greece,country=Greece; growing_stress=Maybe; occupation=Others; gender=Male,true,50,false
+Q6,12,country=Greece,country=Greece; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Greece,country=Greece; growing_stress=Maybe; occupation=Student; gender=Male,true,66,false
+Q6,12,country=Greece,country=Greece; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=India,country=India; growing_stress=Yes; occupation=Business; gender=Male,true,150,false
+Q6,12,country=India,country=India; growing_stress=Yes; occupation=Business; gender=Female,true,29,true
+Q6,12,country=India,country=India; growing_stress=Yes; occupation=Corporate; gender=Male,true,198,false
+Q6,12,country=India,country=India; growing_stress=Yes; occupation=Corporate; gender=Female,true,30,false
+Q6,12,country=India,country=India; growing_stress=Yes; occupation=Housewife; gender=Male,true,144,false
+Q6,12,country=India,country=India; growing_stress=Yes; occupation=Housewife; gender=Female,true,40,false
+Q6,12,country=India,country=India; growing_stress=Yes; occupation=Others; gender=Male,true,108,false
+Q6,12,country=India,country=India; growing_stress=Yes; occupation=Others; gender=Female,true,35,false
+Q6,12,country=India,country=India; growing_stress=Yes; occupation=Student; gender=Male,true,168,false
+Q6,12,country=India,country=India; growing_stress=Yes; occupation=Student; gender=Female,true,37,false
+Q6,12,country=India,country=India; growing_stress=No; occupation=Business; gender=Male,true,108,false
+Q6,12,country=India,country=India; growing_stress=No; occupation=Business; gender=Female,true,26,true
+Q6,12,country=India,country=India; growing_stress=No; occupation=Corporate; gender=Male,true,174,false
+Q6,12,country=India,country=India; growing_stress=No; occupation=Corporate; gender=Female,true,19,true
+Q6,12,country=India,country=India; growing_stress=No; occupation=Housewife; gender=Male,true,192,false
+Q6,12,country=India,country=India; growing_stress=No; occupation=Housewife; gender=Female,true,24,true
+Q6,12,country=India,country=India; growing_stress=No; occupation=Others; gender=Male,true,156,false
+Q6,12,country=India,country=India; growing_stress=No; occupation=Others; gender=Female,true,25,true
+Q6,12,country=India,country=India; growing_stress=No; occupation=Student; gender=Male,true,120,false
+Q6,12,country=India,country=India; growing_stress=No; occupation=Student; gender=Female,true,36,false
+Q6,12,country=India,country=India; growing_stress=Maybe; occupation=Business; gender=Male,true,138,false
+Q6,12,country=India,country=India; growing_stress=Maybe; occupation=Business; gender=Female,true,24,true
+Q6,12,country=India,country=India; growing_stress=Maybe; occupation=Corporate; gender=Male,true,138,false
+Q6,12,country=India,country=India; growing_stress=Maybe; occupation=Corporate; gender=Female,true,24,true
+Q6,12,country=India,country=India; growing_stress=Maybe; occupation=Housewife; gender=Male,true,198,false
+Q6,12,country=India,country=India; growing_stress=Maybe; occupation=Housewife; gender=Female,true,32,false
+Q6,12,country=India,country=India; growing_stress=Maybe; occupation=Others; gender=Male,true,150,false
+Q6,12,country=India,country=India; growing_stress=Maybe; occupation=Others; gender=Female,true,25,true
+Q6,12,country=India,country=India; growing_stress=Maybe; occupation=Student; gender=Male,true,198,false
+Q6,12,country=India,country=India; growing_stress=Maybe; occupation=Student; gender=Female,true,25,true
+Q6,12,country=Ireland,country=Ireland; growing_stress=Yes; occupation=Business; gender=Male,true,300,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=Yes; occupation=Business; gender=Female,true,58,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=Yes; occupation=Corporate; gender=Male,true,396,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=Yes; occupation=Corporate; gender=Female,true,60,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=Yes; occupation=Housewife; gender=Male,true,288,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=Yes; occupation=Housewife; gender=Female,true,80,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=Yes; occupation=Others; gender=Male,true,216,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=Yes; occupation=Others; gender=Female,true,70,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=Yes; occupation=Student; gender=Male,true,336,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=Yes; occupation=Student; gender=Female,true,74,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=No; occupation=Business; gender=Male,true,216,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=No; occupation=Business; gender=Female,true,52,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=No; occupation=Corporate; gender=Male,true,348,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=No; occupation=Corporate; gender=Female,true,38,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=No; occupation=Housewife; gender=Male,true,384,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=No; occupation=Housewife; gender=Female,true,48,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=No; occupation=Others; gender=Male,true,312,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=No; occupation=Others; gender=Female,true,50,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=No; occupation=Student; gender=Male,true,240,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=No; occupation=Student; gender=Female,true,72,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=Maybe; occupation=Business; gender=Male,true,276,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=Maybe; occupation=Business; gender=Female,true,48,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=Maybe; occupation=Corporate; gender=Male,true,276,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=Maybe; occupation=Corporate; gender=Female,true,48,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=Maybe; occupation=Housewife; gender=Male,true,396,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=Maybe; occupation=Housewife; gender=Female,true,64,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=Maybe; occupation=Others; gender=Male,true,300,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=Maybe; occupation=Others; gender=Female,true,50,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=Maybe; occupation=Student; gender=Male,true,396,false
+Q6,12,country=Ireland,country=Ireland; growing_stress=Maybe; occupation=Student; gender=Female,true,50,false
+Q6,12,country=Israel,country=Israel; growing_stress=Yes; occupation=Business; gender=Male,true,100,false
+Q6,12,country=Israel,country=Israel; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Israel,country=Israel; growing_stress=Yes; occupation=Corporate; gender=Male,true,132,false
+Q6,12,country=Israel,country=Israel; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Israel,country=Israel; growing_stress=Yes; occupation=Housewife; gender=Male,true,96,false
+Q6,12,country=Israel,country=Israel; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Israel,country=Israel; growing_stress=Yes; occupation=Others; gender=Male,true,72,false
+Q6,12,country=Israel,country=Israel; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Israel,country=Israel; growing_stress=Yes; occupation=Student; gender=Male,true,112,false
+Q6,12,country=Israel,country=Israel; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Israel,country=Israel; growing_stress=No; occupation=Business; gender=Male,true,72,false
+Q6,12,country=Israel,country=Israel; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Israel,country=Israel; growing_stress=No; occupation=Corporate; gender=Male,true,116,false
+Q6,12,country=Israel,country=Israel; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Israel,country=Israel; growing_stress=No; occupation=Housewife; gender=Male,true,128,false
+Q6,12,country=Israel,country=Israel; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Israel,country=Israel; growing_stress=No; occupation=Others; gender=Male,true,104,false
+Q6,12,country=Israel,country=Israel; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Israel,country=Israel; growing_stress=No; occupation=Student; gender=Male,true,80,false
+Q6,12,country=Israel,country=Israel; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Israel,country=Israel; growing_stress=Maybe; occupation=Business; gender=Male,true,92,false
+Q6,12,country=Israel,country=Israel; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Israel,country=Israel; growing_stress=Maybe; occupation=Corporate; gender=Male,true,92,false
+Q6,12,country=Israel,country=Israel; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Israel,country=Israel; growing_stress=Maybe; occupation=Housewife; gender=Male,true,132,false
+Q6,12,country=Israel,country=Israel; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Israel,country=Israel; growing_stress=Maybe; occupation=Others; gender=Male,true,100,false
+Q6,12,country=Israel,country=Israel; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Israel,country=Israel; growing_stress=Maybe; occupation=Student; gender=Male,true,132,false
+Q6,12,country=Israel,country=Israel; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=Italy,country=Italy; growing_stress=Yes; occupation=Business; gender=Male,true,100,false
+Q6,12,country=Italy,country=Italy; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Italy,country=Italy; growing_stress=Yes; occupation=Corporate; gender=Male,true,132,false
+Q6,12,country=Italy,country=Italy; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Italy,country=Italy; growing_stress=Yes; occupation=Housewife; gender=Male,true,96,false
+Q6,12,country=Italy,country=Italy; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Italy,country=Italy; growing_stress=Yes; occupation=Others; gender=Male,true,72,false
+Q6,12,country=Italy,country=Italy; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Italy,country=Italy; growing_stress=Yes; occupation=Student; gender=Male,true,112,false
+Q6,12,country=Italy,country=Italy; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Italy,country=Italy; growing_stress=No; occupation=Business; gender=Male,true,72,false
+Q6,12,country=Italy,country=Italy; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Italy,country=Italy; growing_stress=No; occupation=Corporate; gender=Male,true,116,false
+Q6,12,country=Italy,country=Italy; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Italy,country=Italy; growing_stress=No; occupation=Housewife; gender=Male,true,128,false
+Q6,12,country=Italy,country=Italy; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Italy,country=Italy; growing_stress=No; occupation=Others; gender=Male,true,104,false
+Q6,12,country=Italy,country=Italy; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Italy,country=Italy; growing_stress=No; occupation=Student; gender=Male,true,80,false
+Q6,12,country=Italy,country=Italy; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Italy,country=Italy; growing_stress=Maybe; occupation=Business; gender=Male,true,92,false
+Q6,12,country=Italy,country=Italy; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Italy,country=Italy; growing_stress=Maybe; occupation=Corporate; gender=Male,true,92,false
+Q6,12,country=Italy,country=Italy; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Italy,country=Italy; growing_stress=Maybe; occupation=Housewife; gender=Male,true,132,false
+Q6,12,country=Italy,country=Italy; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Italy,country=Italy; growing_stress=Maybe; occupation=Others; gender=Male,true,100,false
+Q6,12,country=Italy,country=Italy; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Italy,country=Italy; growing_stress=Maybe; occupation=Student; gender=Male,true,132,false
+Q6,12,country=Italy,country=Italy; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=Mexico,country=Mexico; growing_stress=Yes; occupation=Business; gender=Male,true,25,true
+Q6,12,country=Mexico,country=Mexico; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Mexico,country=Mexico; growing_stress=Yes; occupation=Corporate; gender=Male,true,33,false
+Q6,12,country=Mexico,country=Mexico; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Mexico,country=Mexico; growing_stress=Yes; occupation=Housewife; gender=Male,true,24,true
+Q6,12,country=Mexico,country=Mexico; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Mexico,country=Mexico; growing_stress=Yes; occupation=Others; gender=Male,true,18,true
+Q6,12,country=Mexico,country=Mexico; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Mexico,country=Mexico; growing_stress=Yes; occupation=Student; gender=Male,true,28,true
+Q6,12,country=Mexico,country=Mexico; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Mexico,country=Mexico; growing_stress=No; occupation=Business; gender=Male,true,18,true
+Q6,12,country=Mexico,country=Mexico; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Mexico,country=Mexico; growing_stress=No; occupation=Corporate; gender=Male,true,29,true
+Q6,12,country=Mexico,country=Mexico; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Mexico,country=Mexico; growing_stress=No; occupation=Housewife; gender=Male,true,32,false
+Q6,12,country=Mexico,country=Mexico; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Mexico,country=Mexico; growing_stress=No; occupation=Others; gender=Male,true,26,true
+Q6,12,country=Mexico,country=Mexico; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Mexico,country=Mexico; growing_stress=No; occupation=Student; gender=Male,true,20,true
+Q6,12,country=Mexico,country=Mexico; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Mexico,country=Mexico; growing_stress=Maybe; occupation=Business; gender=Male,true,23,true
+Q6,12,country=Mexico,country=Mexico; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Mexico,country=Mexico; growing_stress=Maybe; occupation=Corporate; gender=Male,true,23,true
+Q6,12,country=Mexico,country=Mexico; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Mexico,country=Mexico; growing_stress=Maybe; occupation=Housewife; gender=Male,true,33,false
+Q6,12,country=Mexico,country=Mexico; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Mexico,country=Mexico; growing_stress=Maybe; occupation=Others; gender=Male,true,25,true
+Q6,12,country=Mexico,country=Mexico; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Mexico,country=Mexico; growing_stress=Maybe; occupation=Student; gender=Male,true,33,false
+Q6,12,country=Mexico,country=Mexico; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=Moldova,country=Moldova; growing_stress=Yes; occupation=Business; gender=Male,true,25,true
+Q6,12,country=Moldova,country=Moldova; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Moldova,country=Moldova; growing_stress=Yes; occupation=Corporate; gender=Male,true,33,false
+Q6,12,country=Moldova,country=Moldova; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Moldova,country=Moldova; growing_stress=Yes; occupation=Housewife; gender=Male,true,24,true
+Q6,12,country=Moldova,country=Moldova; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Moldova,country=Moldova; growing_stress=Yes; occupation=Others; gender=Male,true,18,true
+Q6,12,country=Moldova,country=Moldova; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Moldova,country=Moldova; growing_stress=Yes; occupation=Student; gender=Male,true,28,true
+Q6,12,country=Moldova,country=Moldova; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Moldova,country=Moldova; growing_stress=No; occupation=Business; gender=Male,true,18,true
+Q6,12,country=Moldova,country=Moldova; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Moldova,country=Moldova; growing_stress=No; occupation=Corporate; gender=Male,true,29,true
+Q6,12,country=Moldova,country=Moldova; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Moldova,country=Moldova; growing_stress=No; occupation=Housewife; gender=Male,true,32,false
+Q6,12,country=Moldova,country=Moldova; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Moldova,country=Moldova; growing_stress=No; occupation=Others; gender=Male,true,26,true
+Q6,12,country=Moldova,country=Moldova; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Moldova,country=Moldova; growing_stress=No; occupation=Student; gender=Male,true,20,true
+Q6,12,country=Moldova,country=Moldova; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Moldova,country=Moldova; growing_stress=Maybe; occupation=Business; gender=Male,true,23,true
+Q6,12,country=Moldova,country=Moldova; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Moldova,country=Moldova; growing_stress=Maybe; occupation=Corporate; gender=Male,true,23,true
+Q6,12,country=Moldova,country=Moldova; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Moldova,country=Moldova; growing_stress=Maybe; occupation=Housewife; gender=Male,true,33,false
+Q6,12,country=Moldova,country=Moldova; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Moldova,country=Moldova; growing_stress=Maybe; occupation=Others; gender=Male,true,25,true
+Q6,12,country=Moldova,country=Moldova; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Moldova,country=Moldova; growing_stress=Maybe; occupation=Student; gender=Male,true,33,false
+Q6,12,country=Moldova,country=Moldova; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=Yes; occupation=Business; gender=Male,true,350,false
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=Yes; occupation=Business; gender=Female,true,29,true
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=Yes; occupation=Corporate; gender=Male,true,462,false
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=Yes; occupation=Corporate; gender=Female,true,30,false
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=Yes; occupation=Housewife; gender=Male,true,336,false
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=Yes; occupation=Housewife; gender=Female,true,40,false
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=Yes; occupation=Others; gender=Male,true,252,false
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=Yes; occupation=Others; gender=Female,true,35,false
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=Yes; occupation=Student; gender=Male,true,392,false
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=Yes; occupation=Student; gender=Female,true,37,false
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=No; occupation=Business; gender=Male,true,252,false
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=No; occupation=Business; gender=Female,true,26,true
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=No; occupation=Corporate; gender=Male,true,406,false
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=No; occupation=Corporate; gender=Female,true,19,true
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=No; occupation=Housewife; gender=Male,true,448,false
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=No; occupation=Housewife; gender=Female,true,24,true
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=No; occupation=Others; gender=Male,true,364,false
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=No; occupation=Others; gender=Female,true,25,true
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=No; occupation=Student; gender=Male,true,280,false
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=No; occupation=Student; gender=Female,true,36,false
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=Maybe; occupation=Business; gender=Male,true,322,false
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=Maybe; occupation=Business; gender=Female,true,24,true
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=Maybe; occupation=Corporate; gender=Male,true,322,false
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=Maybe; occupation=Corporate; gender=Female,true,24,true
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=Maybe; occupation=Housewife; gender=Male,true,462,false
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=Maybe; occupation=Housewife; gender=Female,true,32,false
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=Maybe; occupation=Others; gender=Male,true,350,false
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=Maybe; occupation=Others; gender=Female,true,25,true
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=Maybe; occupation=Student; gender=Male,true,462,false
+Q6,12,country=Netherlands,country=Netherlands; growing_stress=Maybe; occupation=Student; gender=Female,true,25,true
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=Yes; occupation=Business; gender=Male,true,100,false
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=Yes; occupation=Business; gender=Female,true,29,true
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=Yes; occupation=Corporate; gender=Male,true,132,false
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=Yes; occupation=Corporate; gender=Female,true,30,false
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=Yes; occupation=Housewife; gender=Male,true,96,false
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=Yes; occupation=Housewife; gender=Female,true,40,false
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=Yes; occupation=Others; gender=Male,true,72,false
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=Yes; occupation=Others; gender=Female,true,35,false
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=Yes; occupation=Student; gender=Male,true,112,false
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=Yes; occupation=Student; gender=Female,true,37,false
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=No; occupation=Business; gender=Male,true,72,false
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=No; occupation=Business; gender=Female,true,26,true
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=No; occupation=Corporate; gender=Male,true,116,false
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=No; occupation=Corporate; gender=Female,true,19,true
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=No; occupation=Housewife; gender=Male,true,128,false
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=No; occupation=Housewife; gender=Female,true,24,true
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=No; occupation=Others; gender=Male,true,104,false
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=No; occupation=Others; gender=Female,true,25,true
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=No; occupation=Student; gender=Male,true,80,false
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=No; occupation=Student; gender=Female,true,36,false
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=Maybe; occupation=Business; gender=Male,true,92,false
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=Maybe; occupation=Business; gender=Female,true,24,true
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=Maybe; occupation=Corporate; gender=Male,true,92,false
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=Maybe; occupation=Corporate; gender=Female,true,24,true
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=Maybe; occupation=Housewife; gender=Male,true,132,false
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=Maybe; occupation=Housewife; gender=Female,true,32,false
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=Maybe; occupation=Others; gender=Male,true,100,false
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=Maybe; occupation=Others; gender=Female,true,25,true
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=Maybe; occupation=Student; gender=Male,true,132,false
+Q6,12,country=New Zealand,country=New Zealand; growing_stress=Maybe; occupation=Student; gender=Female,true,25,true
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=Yes; occupation=Business; gender=Male,true,25,true
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=Yes; occupation=Corporate; gender=Male,true,33,false
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=Yes; occupation=Housewife; gender=Male,true,24,true
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=Yes; occupation=Others; gender=Male,true,18,true
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=Yes; occupation=Student; gender=Male,true,28,true
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=No; occupation=Business; gender=Male,true,18,true
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=No; occupation=Corporate; gender=Male,true,29,true
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=No; occupation=Housewife; gender=Male,true,32,false
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=No; occupation=Others; gender=Male,true,26,true
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=No; occupation=Student; gender=Male,true,20,true
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=Maybe; occupation=Business; gender=Male,true,23,true
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=Maybe; occupation=Corporate; gender=Male,true,23,true
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=Maybe; occupation=Housewife; gender=Male,true,33,false
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=Maybe; occupation=Others; gender=Male,true,25,true
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=Maybe; occupation=Student; gender=Male,true,33,false
+Q6,12,country=Nigeria,country=Nigeria; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=Philippines,country=Philippines; growing_stress=Yes; occupation=Business; gender=Male,true,25,true
+Q6,12,country=Philippines,country=Philippines; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Philippines,country=Philippines; growing_stress=Yes; occupation=Corporate; gender=Male,true,33,false
+Q6,12,country=Philippines,country=Philippines; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Philippines,country=Philippines; growing_stress=Yes; occupation=Housewife; gender=Male,true,24,true
+Q6,12,country=Philippines,country=Philippines; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Philippines,country=Philippines; growing_stress=Yes; occupation=Others; gender=Male,true,18,true
+Q6,12,country=Philippines,country=Philippines; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Philippines,country=Philippines; growing_stress=Yes; occupation=Student; gender=Male,true,28,true
+Q6,12,country=Philippines,country=Philippines; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Philippines,country=Philippines; growing_stress=No; occupation=Business; gender=Male,true,18,true
+Q6,12,country=Philippines,country=Philippines; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Philippines,country=Philippines; growing_stress=No; occupation=Corporate; gender=Male,true,29,true
+Q6,12,country=Philippines,country=Philippines; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Philippines,country=Philippines; growing_stress=No; occupation=Housewife; gender=Male,true,32,false
+Q6,12,country=Philippines,country=Philippines; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Philippines,country=Philippines; growing_stress=No; occupation=Others; gender=Male,true,26,true
+Q6,12,country=Philippines,country=Philippines; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Philippines,country=Philippines; growing_stress=No; occupation=Student; gender=Male,true,20,true
+Q6,12,country=Philippines,country=Philippines; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Philippines,country=Philippines; growing_stress=Maybe; occupation=Business; gender=Male,true,23,true
+Q6,12,country=Philippines,country=Philippines; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Philippines,country=Philippines; growing_stress=Maybe; occupation=Corporate; gender=Male,true,23,true
+Q6,12,country=Philippines,country=Philippines; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Philippines,country=Philippines; growing_stress=Maybe; occupation=Housewife; gender=Male,true,33,false
+Q6,12,country=Philippines,country=Philippines; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Philippines,country=Philippines; growing_stress=Maybe; occupation=Others; gender=Male,true,25,true
+Q6,12,country=Philippines,country=Philippines; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Philippines,country=Philippines; growing_stress=Maybe; occupation=Student; gender=Male,true,33,false
+Q6,12,country=Philippines,country=Philippines; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=Poland,country=Poland; growing_stress=Yes; occupation=Business; gender=Male,true,25,true
+Q6,12,country=Poland,country=Poland; growing_stress=Yes; occupation=Business; gender=Female,true,29,true
+Q6,12,country=Poland,country=Poland; growing_stress=Yes; occupation=Corporate; gender=Male,true,33,false
+Q6,12,country=Poland,country=Poland; growing_stress=Yes; occupation=Corporate; gender=Female,true,30,false
+Q6,12,country=Poland,country=Poland; growing_stress=Yes; occupation=Housewife; gender=Male,true,24,true
+Q6,12,country=Poland,country=Poland; growing_stress=Yes; occupation=Housewife; gender=Female,true,40,false
+Q6,12,country=Poland,country=Poland; growing_stress=Yes; occupation=Others; gender=Male,true,18,true
+Q6,12,country=Poland,country=Poland; growing_stress=Yes; occupation=Others; gender=Female,true,35,false
+Q6,12,country=Poland,country=Poland; growing_stress=Yes; occupation=Student; gender=Male,true,28,true
+Q6,12,country=Poland,country=Poland; growing_stress=Yes; occupation=Student; gender=Female,true,37,false
+Q6,12,country=Poland,country=Poland; growing_stress=No; occupation=Business; gender=Male,true,18,true
+Q6,12,country=Poland,country=Poland; growing_stress=No; occupation=Business; gender=Female,true,26,true
+Q6,12,country=Poland,country=Poland; growing_stress=No; occupation=Corporate; gender=Male,true,29,true
+Q6,12,country=Poland,country=Poland; growing_stress=No; occupation=Corporate; gender=Female,true,19,true
+Q6,12,country=Poland,country=Poland; growing_stress=No; occupation=Housewife; gender=Male,true,32,false
+Q6,12,country=Poland,country=Poland; growing_stress=No; occupation=Housewife; gender=Female,true,24,true
+Q6,12,country=Poland,country=Poland; growing_stress=No; occupation=Others; gender=Male,true,26,true
+Q6,12,country=Poland,country=Poland; growing_stress=No; occupation=Others; gender=Female,true,25,true
+Q6,12,country=Poland,country=Poland; growing_stress=No; occupation=Student; gender=Male,true,20,true
+Q6,12,country=Poland,country=Poland; growing_stress=No; occupation=Student; gender=Female,true,36,false
+Q6,12,country=Poland,country=Poland; growing_stress=Maybe; occupation=Business; gender=Male,true,23,true
+Q6,12,country=Poland,country=Poland; growing_stress=Maybe; occupation=Business; gender=Female,true,24,true
+Q6,12,country=Poland,country=Poland; growing_stress=Maybe; occupation=Corporate; gender=Male,true,23,true
+Q6,12,country=Poland,country=Poland; growing_stress=Maybe; occupation=Corporate; gender=Female,true,24,true
+Q6,12,country=Poland,country=Poland; growing_stress=Maybe; occupation=Housewife; gender=Male,true,33,false
+Q6,12,country=Poland,country=Poland; growing_stress=Maybe; occupation=Housewife; gender=Female,true,32,false
+Q6,12,country=Poland,country=Poland; growing_stress=Maybe; occupation=Others; gender=Male,true,25,true
+Q6,12,country=Poland,country=Poland; growing_stress=Maybe; occupation=Others; gender=Female,true,25,true
+Q6,12,country=Poland,country=Poland; growing_stress=Maybe; occupation=Student; gender=Male,true,33,false
+Q6,12,country=Poland,country=Poland; growing_stress=Maybe; occupation=Student; gender=Female,true,25,true
+Q6,12,country=Portugal,country=Portugal; growing_stress=Yes; occupation=Business; gender=Male,true,25,true
+Q6,12,country=Portugal,country=Portugal; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Portugal,country=Portugal; growing_stress=Yes; occupation=Corporate; gender=Male,true,33,false
+Q6,12,country=Portugal,country=Portugal; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Portugal,country=Portugal; growing_stress=Yes; occupation=Housewife; gender=Male,true,24,true
+Q6,12,country=Portugal,country=Portugal; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Portugal,country=Portugal; growing_stress=Yes; occupation=Others; gender=Male,true,18,true
+Q6,12,country=Portugal,country=Portugal; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Portugal,country=Portugal; growing_stress=Yes; occupation=Student; gender=Male,true,28,true
+Q6,12,country=Portugal,country=Portugal; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Portugal,country=Portugal; growing_stress=No; occupation=Business; gender=Male,true,18,true
+Q6,12,country=Portugal,country=Portugal; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Portugal,country=Portugal; growing_stress=No; occupation=Corporate; gender=Male,true,29,true
+Q6,12,country=Portugal,country=Portugal; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Portugal,country=Portugal; growing_stress=No; occupation=Housewife; gender=Male,true,32,false
+Q6,12,country=Portugal,country=Portugal; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Portugal,country=Portugal; growing_stress=No; occupation=Others; gender=Male,true,26,true
+Q6,12,country=Portugal,country=Portugal; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Portugal,country=Portugal; growing_stress=No; occupation=Student; gender=Male,true,20,true
+Q6,12,country=Portugal,country=Portugal; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Portugal,country=Portugal; growing_stress=Maybe; occupation=Business; gender=Male,true,23,true
+Q6,12,country=Portugal,country=Portugal; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Portugal,country=Portugal; growing_stress=Maybe; occupation=Corporate; gender=Male,true,23,true
+Q6,12,country=Portugal,country=Portugal; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Portugal,country=Portugal; growing_stress=Maybe; occupation=Housewife; gender=Male,true,33,false
+Q6,12,country=Portugal,country=Portugal; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Portugal,country=Portugal; growing_stress=Maybe; occupation=Others; gender=Male,true,25,true
+Q6,12,country=Portugal,country=Portugal; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Portugal,country=Portugal; growing_stress=Maybe; occupation=Student; gender=Male,true,33,false
+Q6,12,country=Portugal,country=Portugal; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=Russia,country=Russia; growing_stress=Yes; occupation=Business; gender=Male,true,50,false
+Q6,12,country=Russia,country=Russia; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Russia,country=Russia; growing_stress=Yes; occupation=Corporate; gender=Male,true,66,false
+Q6,12,country=Russia,country=Russia; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Russia,country=Russia; growing_stress=Yes; occupation=Housewife; gender=Male,true,48,false
+Q6,12,country=Russia,country=Russia; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Russia,country=Russia; growing_stress=Yes; occupation=Others; gender=Male,true,36,false
+Q6,12,country=Russia,country=Russia; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Russia,country=Russia; growing_stress=Yes; occupation=Student; gender=Male,true,56,false
+Q6,12,country=Russia,country=Russia; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Russia,country=Russia; growing_stress=No; occupation=Business; gender=Male,true,36,false
+Q6,12,country=Russia,country=Russia; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Russia,country=Russia; growing_stress=No; occupation=Corporate; gender=Male,true,58,false
+Q6,12,country=Russia,country=Russia; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Russia,country=Russia; growing_stress=No; occupation=Housewife; gender=Male,true,64,false
+Q6,12,country=Russia,country=Russia; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Russia,country=Russia; growing_stress=No; occupation=Others; gender=Male,true,52,false
+Q6,12,country=Russia,country=Russia; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Russia,country=Russia; growing_stress=No; occupation=Student; gender=Male,true,40,false
+Q6,12,country=Russia,country=Russia; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Russia,country=Russia; growing_stress=Maybe; occupation=Business; gender=Male,true,46,false
+Q6,12,country=Russia,country=Russia; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Russia,country=Russia; growing_stress=Maybe; occupation=Corporate; gender=Male,true,46,false
+Q6,12,country=Russia,country=Russia; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Russia,country=Russia; growing_stress=Maybe; occupation=Housewife; gender=Male,true,66,false
+Q6,12,country=Russia,country=Russia; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Russia,country=Russia; growing_stress=Maybe; occupation=Others; gender=Male,true,50,false
+Q6,12,country=Russia,country=Russia; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Russia,country=Russia; growing_stress=Maybe; occupation=Student; gender=Male,true,66,false
+Q6,12,country=Russia,country=Russia; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=Singapore,country=Singapore; growing_stress=Yes; occupation=Business; gender=Male,true,50,false
+Q6,12,country=Singapore,country=Singapore; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Singapore,country=Singapore; growing_stress=Yes; occupation=Corporate; gender=Male,true,66,false
+Q6,12,country=Singapore,country=Singapore; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Singapore,country=Singapore; growing_stress=Yes; occupation=Housewife; gender=Male,true,48,false
+Q6,12,country=Singapore,country=Singapore; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Singapore,country=Singapore; growing_stress=Yes; occupation=Others; gender=Male,true,36,false
+Q6,12,country=Singapore,country=Singapore; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Singapore,country=Singapore; growing_stress=Yes; occupation=Student; gender=Male,true,56,false
+Q6,12,country=Singapore,country=Singapore; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Singapore,country=Singapore; growing_stress=No; occupation=Business; gender=Male,true,36,false
+Q6,12,country=Singapore,country=Singapore; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Singapore,country=Singapore; growing_stress=No; occupation=Corporate; gender=Male,true,58,false
+Q6,12,country=Singapore,country=Singapore; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Singapore,country=Singapore; growing_stress=No; occupation=Housewife; gender=Male,true,64,false
+Q6,12,country=Singapore,country=Singapore; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Singapore,country=Singapore; growing_stress=No; occupation=Others; gender=Male,true,52,false
+Q6,12,country=Singapore,country=Singapore; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Singapore,country=Singapore; growing_stress=No; occupation=Student; gender=Male,true,40,false
+Q6,12,country=Singapore,country=Singapore; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Singapore,country=Singapore; growing_stress=Maybe; occupation=Business; gender=Male,true,46,false
+Q6,12,country=Singapore,country=Singapore; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Singapore,country=Singapore; growing_stress=Maybe; occupation=Corporate; gender=Male,true,46,false
+Q6,12,country=Singapore,country=Singapore; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Singapore,country=Singapore; growing_stress=Maybe; occupation=Housewife; gender=Male,true,66,false
+Q6,12,country=Singapore,country=Singapore; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Singapore,country=Singapore; growing_stress=Maybe; occupation=Others; gender=Male,true,50,false
+Q6,12,country=Singapore,country=Singapore; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Singapore,country=Singapore; growing_stress=Maybe; occupation=Student; gender=Male,true,66,false
+Q6,12,country=Singapore,country=Singapore; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=South Africa,country=South Africa; growing_stress=Yes; occupation=Business; gender=Male,true,100,false
+Q6,12,country=South Africa,country=South Africa; growing_stress=Yes; occupation=Business; gender=Female,true,29,true
+Q6,12,country=South Africa,country=South Africa; growing_stress=Yes; occupation=Corporate; gender=Male,true,132,false
+Q6,12,country=South Africa,country=South Africa; growing_stress=Yes; occupation=Corporate; gender=Female,true,30,false
+Q6,12,country=South Africa,country=South Africa; growing_stress=Yes; occupation=Housewife; gender=Male,true,96,false
+Q6,12,country=South Africa,country=South Africa; growing_stress=Yes; occupation=Housewife; gender=Female,true,40,false
+Q6,12,country=South Africa,country=South Africa; growing_stress=Yes; occupation=Others; gender=Male,true,72,false
+Q6,12,country=South Africa,country=South Africa; growing_stress=Yes; occupation=Others; gender=Female,true,35,false
+Q6,12,country=South Africa,country=South Africa; growing_stress=Yes; occupation=Student; gender=Male,true,112,false
+Q6,12,country=South Africa,country=South Africa; growing_stress=Yes; occupation=Student; gender=Female,true,37,false
+Q6,12,country=South Africa,country=South Africa; growing_stress=No; occupation=Business; gender=Male,true,72,false
+Q6,12,country=South Africa,country=South Africa; growing_stress=No; occupation=Business; gender=Female,true,26,true
+Q6,12,country=South Africa,country=South Africa; growing_stress=No; occupation=Corporate; gender=Male,true,116,false
+Q6,12,country=South Africa,country=South Africa; growing_stress=No; occupation=Corporate; gender=Female,true,19,true
+Q6,12,country=South Africa,country=South Africa; growing_stress=No; occupation=Housewife; gender=Male,true,128,false
+Q6,12,country=South Africa,country=South Africa; growing_stress=No; occupation=Housewife; gender=Female,true,24,true
+Q6,12,country=South Africa,country=South Africa; growing_stress=No; occupation=Others; gender=Male,true,104,false
+Q6,12,country=South Africa,country=South Africa; growing_stress=No; occupation=Others; gender=Female,true,25,true
+Q6,12,country=South Africa,country=South Africa; growing_stress=No; occupation=Student; gender=Male,true,80,false
+Q6,12,country=South Africa,country=South Africa; growing_stress=No; occupation=Student; gender=Female,true,36,false
+Q6,12,country=South Africa,country=South Africa; growing_stress=Maybe; occupation=Business; gender=Male,true,92,false
+Q6,12,country=South Africa,country=South Africa; growing_stress=Maybe; occupation=Business; gender=Female,true,24,true
+Q6,12,country=South Africa,country=South Africa; growing_stress=Maybe; occupation=Corporate; gender=Male,true,92,false
+Q6,12,country=South Africa,country=South Africa; growing_stress=Maybe; occupation=Corporate; gender=Female,true,24,true
+Q6,12,country=South Africa,country=South Africa; growing_stress=Maybe; occupation=Housewife; gender=Male,true,132,false
+Q6,12,country=South Africa,country=South Africa; growing_stress=Maybe; occupation=Housewife; gender=Female,true,32,false
+Q6,12,country=South Africa,country=South Africa; growing_stress=Maybe; occupation=Others; gender=Male,true,100,false
+Q6,12,country=South Africa,country=South Africa; growing_stress=Maybe; occupation=Others; gender=Female,true,25,true
+Q6,12,country=South Africa,country=South Africa; growing_stress=Maybe; occupation=Student; gender=Male,true,132,false
+Q6,12,country=South Africa,country=South Africa; growing_stress=Maybe; occupation=Student; gender=Female,true,25,true
+Q6,12,country=Sweden,country=Sweden; growing_stress=Yes; occupation=Business; gender=Male,true,125,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=Yes; occupation=Business; gender=Female,true,58,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=Yes; occupation=Corporate; gender=Male,true,165,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=Yes; occupation=Corporate; gender=Female,true,60,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=Yes; occupation=Housewife; gender=Male,true,120,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=Yes; occupation=Housewife; gender=Female,true,80,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=Yes; occupation=Others; gender=Male,true,90,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=Yes; occupation=Others; gender=Female,true,70,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=Yes; occupation=Student; gender=Male,true,140,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=Yes; occupation=Student; gender=Female,true,74,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=No; occupation=Business; gender=Male,true,90,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=No; occupation=Business; gender=Female,true,52,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=No; occupation=Corporate; gender=Male,true,145,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=No; occupation=Corporate; gender=Female,true,38,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=No; occupation=Housewife; gender=Male,true,160,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=No; occupation=Housewife; gender=Female,true,48,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=No; occupation=Others; gender=Male,true,130,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=No; occupation=Others; gender=Female,true,50,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=No; occupation=Student; gender=Male,true,100,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=No; occupation=Student; gender=Female,true,72,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=Maybe; occupation=Business; gender=Male,true,115,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=Maybe; occupation=Business; gender=Female,true,48,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=Maybe; occupation=Corporate; gender=Male,true,115,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=Maybe; occupation=Corporate; gender=Female,true,48,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=Maybe; occupation=Housewife; gender=Male,true,165,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=Maybe; occupation=Housewife; gender=Female,true,64,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=Maybe; occupation=Others; gender=Male,true,125,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=Maybe; occupation=Others; gender=Female,true,50,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=Maybe; occupation=Student; gender=Male,true,165,false
+Q6,12,country=Sweden,country=Sweden; growing_stress=Maybe; occupation=Student; gender=Female,true,50,false
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=Yes; occupation=Business; gender=Male,true,100,false
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=Yes; occupation=Corporate; gender=Male,true,132,false
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=Yes; occupation=Housewife; gender=Male,true,96,false
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=Yes; occupation=Others; gender=Male,true,72,false
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=Yes; occupation=Student; gender=Male,true,112,false
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=No; occupation=Business; gender=Male,true,72,false
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=No; occupation=Corporate; gender=Male,true,116,false
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=No; occupation=Housewife; gender=Male,true,128,false
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=No; occupation=Others; gender=Male,true,104,false
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=No; occupation=Student; gender=Male,true,80,false
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=Maybe; occupation=Business; gender=Male,true,92,false
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=Maybe; occupation=Corporate; gender=Male,true,92,false
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=Maybe; occupation=Housewife; gender=Male,true,132,false
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=Maybe; occupation=Others; gender=Male,true,100,false
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=Maybe; occupation=Student; gender=Male,true,132,false
+Q6,12,country=Switzerland,country=Switzerland; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=Thailand,country=Thailand; growing_stress=Yes; occupation=Business; gender=Male,true,25,true
+Q6,12,country=Thailand,country=Thailand; growing_stress=Yes; occupation=Business; gender=Female,false,,
+Q6,12,country=Thailand,country=Thailand; growing_stress=Yes; occupation=Corporate; gender=Male,true,33,false
+Q6,12,country=Thailand,country=Thailand; growing_stress=Yes; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Thailand,country=Thailand; growing_stress=Yes; occupation=Housewife; gender=Male,true,24,true
+Q6,12,country=Thailand,country=Thailand; growing_stress=Yes; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Thailand,country=Thailand; growing_stress=Yes; occupation=Others; gender=Male,true,18,true
+Q6,12,country=Thailand,country=Thailand; growing_stress=Yes; occupation=Others; gender=Female,false,,
+Q6,12,country=Thailand,country=Thailand; growing_stress=Yes; occupation=Student; gender=Male,true,28,true
+Q6,12,country=Thailand,country=Thailand; growing_stress=Yes; occupation=Student; gender=Female,false,,
+Q6,12,country=Thailand,country=Thailand; growing_stress=No; occupation=Business; gender=Male,true,18,true
+Q6,12,country=Thailand,country=Thailand; growing_stress=No; occupation=Business; gender=Female,false,,
+Q6,12,country=Thailand,country=Thailand; growing_stress=No; occupation=Corporate; gender=Male,true,29,true
+Q6,12,country=Thailand,country=Thailand; growing_stress=No; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Thailand,country=Thailand; growing_stress=No; occupation=Housewife; gender=Male,true,32,false
+Q6,12,country=Thailand,country=Thailand; growing_stress=No; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Thailand,country=Thailand; growing_stress=No; occupation=Others; gender=Male,true,26,true
+Q6,12,country=Thailand,country=Thailand; growing_stress=No; occupation=Others; gender=Female,false,,
+Q6,12,country=Thailand,country=Thailand; growing_stress=No; occupation=Student; gender=Male,true,20,true
+Q6,12,country=Thailand,country=Thailand; growing_stress=No; occupation=Student; gender=Female,false,,
+Q6,12,country=Thailand,country=Thailand; growing_stress=Maybe; occupation=Business; gender=Male,true,23,true
+Q6,12,country=Thailand,country=Thailand; growing_stress=Maybe; occupation=Business; gender=Female,false,,
+Q6,12,country=Thailand,country=Thailand; growing_stress=Maybe; occupation=Corporate; gender=Male,true,23,true
+Q6,12,country=Thailand,country=Thailand; growing_stress=Maybe; occupation=Corporate; gender=Female,false,,
+Q6,12,country=Thailand,country=Thailand; growing_stress=Maybe; occupation=Housewife; gender=Male,true,33,false
+Q6,12,country=Thailand,country=Thailand; growing_stress=Maybe; occupation=Housewife; gender=Female,false,,
+Q6,12,country=Thailand,country=Thailand; growing_stress=Maybe; occupation=Others; gender=Male,true,25,true
+Q6,12,country=Thailand,country=Thailand; growing_stress=Maybe; occupation=Others; gender=Female,false,,
+Q6,12,country=Thailand,country=Thailand; growing_stress=Maybe; occupation=Student; gender=Male,true,33,false
+Q6,12,country=Thailand,country=Thailand; growing_stress=Maybe; occupation=Student; gender=Female,false,,
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=Yes; occupation=Business; gender=Male,true,2850,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=Yes; occupation=Business; gender=Female,true,464,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=Yes; occupation=Corporate; gender=Male,true,3762,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=Yes; occupation=Corporate; gender=Female,true,480,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=Yes; occupation=Housewife; gender=Male,true,2736,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=Yes; occupation=Housewife; gender=Female,true,640,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=Yes; occupation=Others; gender=Male,true,2052,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=Yes; occupation=Others; gender=Female,true,560,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=Yes; occupation=Student; gender=Male,true,3192,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=Yes; occupation=Student; gender=Female,true,592,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=No; occupation=Business; gender=Male,true,2052,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=No; occupation=Business; gender=Female,true,416,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=No; occupation=Corporate; gender=Male,true,3306,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=No; occupation=Corporate; gender=Female,true,304,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=No; occupation=Housewife; gender=Male,true,3648,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=No; occupation=Housewife; gender=Female,true,384,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=No; occupation=Others; gender=Male,true,2964,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=No; occupation=Others; gender=Female,true,400,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=No; occupation=Student; gender=Male,true,2280,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=No; occupation=Student; gender=Female,true,576,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=Maybe; occupation=Business; gender=Male,true,2622,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=Maybe; occupation=Business; gender=Female,true,384,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=Maybe; occupation=Corporate; gender=Male,true,2622,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=Maybe; occupation=Corporate; gender=Female,true,384,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=Maybe; occupation=Housewife; gender=Male,true,3762,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=Maybe; occupation=Housewife; gender=Female,true,512,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=Maybe; occupation=Others; gender=Male,true,2850,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=Maybe; occupation=Others; gender=Female,true,400,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=Maybe; occupation=Student; gender=Male,true,3762,false
+Q6,12,country=United Kingdom,country=United Kingdom; growing_stress=Maybe; occupation=Student; gender=Female,true,400,false
+Q6,12,country=United States,country=United States; growing_stress=Yes; occupation=Business; gender=Male,true,8575,false
+Q6,12,country=United States,country=United States; growing_stress=Yes; occupation=Business; gender=Female,true,2378,false
+Q6,12,country=United States,country=United States; growing_stress=Yes; occupation=Corporate; gender=Male,true,11319,false
+Q6,12,country=United States,country=United States; growing_stress=Yes; occupation=Corporate; gender=Female,true,2460,false
+Q6,12,country=United States,country=United States; growing_stress=Yes; occupation=Housewife; gender=Male,true,8232,false
+Q6,12,country=United States,country=United States; growing_stress=Yes; occupation=Housewife; gender=Female,true,3280,false
+Q6,12,country=United States,country=United States; growing_stress=Yes; occupation=Others; gender=Male,true,6174,false
+Q6,12,country=United States,country=United States; growing_stress=Yes; occupation=Others; gender=Female,true,2870,false
+Q6,12,country=United States,country=United States; growing_stress=Yes; occupation=Student; gender=Male,true,9604,false
+Q6,12,country=United States,country=United States; growing_stress=Yes; occupation=Student; gender=Female,true,3034,false
+Q6,12,country=United States,country=United States; growing_stress=No; occupation=Business; gender=Male,true,6174,false
+Q6,12,country=United States,country=United States; growing_stress=No; occupation=Business; gender=Female,true,2132,false
+Q6,12,country=United States,country=United States; growing_stress=No; occupation=Corporate; gender=Male,true,9947,false
+Q6,12,country=United States,country=United States; growing_stress=No; occupation=Corporate; gender=Female,true,1558,false
+Q6,12,country=United States,country=United States; growing_stress=No; occupation=Housewife; gender=Male,true,10976,false
+Q6,12,country=United States,country=United States; growing_stress=No; occupation=Housewife; gender=Female,true,1968,false
+Q6,12,country=United States,country=United States; growing_stress=No; occupation=Others; gender=Male,true,8918,false
+Q6,12,country=United States,country=United States; growing_stress=No; occupation=Others; gender=Female,true,2050,false
+Q6,12,country=United States,country=United States; growing_stress=No; occupation=Student; gender=Male,true,6860,false
+Q6,12,country=United States,country=United States; growing_stress=No; occupation=Student; gender=Female,true,2952,false
+Q6,12,country=United States,country=United States; growing_stress=Maybe; occupation=Business; gender=Male,true,7889,false
+Q6,12,country=United States,country=United States; growing_stress=Maybe; occupation=Business; gender=Female,true,1968,false
+Q6,12,country=United States,country=United States; growing_stress=Maybe; occupation=Corporate; gender=Male,true,7889,false
+Q6,12,country=United States,country=United States; growing_stress=Maybe; occupation=Corporate; gender=Female,true,1968,false
+Q6,12,country=United States,country=United States; growing_stress=Maybe; occupation=Housewife; gender=Male,true,11319,false
+Q6,12,country=United States,country=United States; growing_stress=Maybe; occupation=Housewife; gender=Female,true,2624,false
+Q6,12,country=United States,country=United States; growing_stress=Maybe; occupation=Others; gender=Male,true,8575,false
+Q6,12,country=United States,country=United States; growing_stress=Maybe; occupation=Others; gender=Female,true,2050,false
+Q6,12,country=United States,country=United States; growing_stress=Maybe; occupation=Student; gender=Male,true,11319,false
+Q6,12,country=United States,country=United States; growing_stress=Maybe; occupation=Student; gender=Female,true,2050,false
+Q7,14,,growing_stress=Yes,true,18265,false
+Q7,14,,growing_stress=No,true,17907,false
+Q7,14,,growing_stress=Maybe,true,17176,false
+Q7.1,15,,growing_stress=Yes; symptom_cluster=true; care_options=Yes,true,6050,false
+Q7.1,15,,growing_stress=Yes; symptom_cluster=true; care_options=Not sure,true,4953,false
+Q7.1,15,,growing_stress=Yes; symptom_cluster=false; care_options=Yes,true,26478,false
+Q7.1,15,,growing_stress=Yes; symptom_cluster=false; care_options=Not sure,true,21684,false
+Q7.1,15,,growing_stress=Maybe; symptom_cluster=true; care_options=Yes,true,5618,false
+Q7.1,15,,growing_stress=Maybe; symptom_cluster=true; care_options=Not sure,true,4602,false
+Q7.1,15,,growing_stress=No; symptom_cluster=true; care_options=Yes,true,5856,false
+Q7.1,15,,growing_stress=No; symptom_cluster=true; care_options=Not sure,true,4797,false
+Q7.2,16,growing_stress=Yes; symptom_cluster=true; care_options=Yes,growing_stress=Yes; symptom_cluster=true; care_options=Yes; mental_health_interview=Yes,true,219,false
+Q7.2,16,growing_stress=Yes; symptom_cluster=true; care_options=Yes,growing_stress=Yes; symptom_cluster=true; care_options=Yes; mental_health_interview=No,true,4782,false
+Q7.2,16,growing_stress=Yes; symptom_cluster=true; care_options=Yes,growing_stress=Yes; symptom_cluster=true; care_options=Yes; mental_health_interview=Maybe,true,1049,false
+Q7.2,16,growing_stress=Yes; symptom_cluster=true; care_options=Not sure,growing_stress=Yes; symptom_cluster=true; care_options=Not sure; mental_health_interview=Yes,true,115,false
+Q7.2,16,growing_stress=Yes; symptom_cluster=true; care_options=Not sure,growing_stress=Yes; symptom_cluster=true; care_options=Not sure; mental_health_interview=No,true,3928,false
+Q7.2,16,growing_stress=Yes; symptom_cluster=true; care_options=Not sure,growing_stress=Yes; symptom_cluster=true; care_options=Not sure; mental_health_interview=Maybe,true,910,false
+Q7.2,16,growing_stress=Yes; symptom_cluster=false; care_options=Yes,growing_stress=Yes; symptom_cluster=false; care_options=Yes; mental_health_interview=Yes,true,976,false
+Q7.2,16,growing_stress=Yes; symptom_cluster=false; care_options=Yes,growing_stress=Yes; symptom_cluster=false; care_options=Yes; mental_health_interview=No,true,20832,false
+Q7.2,16,growing_stress=Yes; symptom_cluster=false; care_options=Yes,growing_stress=Yes; symptom_cluster=false; care_options=Yes; mental_health_interview=Maybe,true,4670,false
+Q7.2,16,growing_stress=Yes; symptom_cluster=false; care_options=Not sure,growing_stress=Yes; symptom_cluster=false; care_options=Not sure; mental_health_interview=Yes,true,525,false
+Q7.2,16,growing_stress=Yes; symptom_cluster=false; care_options=Not sure,growing_stress=Yes; symptom_cluster=false; care_options=Not sure; mental_health_interview=No,true,17076,false
+Q7.2,16,growing_stress=Yes; symptom_cluster=false; care_options=Not sure,growing_stress=Yes; symptom_cluster=false; care_options=Not sure; mental_health_interview=Maybe,true,4083,false
+Q7.2,16,growing_stress=Maybe; symptom_cluster=true; care_options=Yes,growing_stress=Maybe; symptom_cluster=true; care_options=Yes; mental_health_interview=Yes,true,210,false
+Q7.2,16,growing_stress=Maybe; symptom_cluster=true; care_options=Yes,growing_stress=Maybe; symptom_cluster=true; care_options=Yes; mental_health_interview=No,true,4404,false
+Q7.2,16,growing_stress=Maybe; symptom_cluster=true; care_options=Yes,growing_stress=Maybe; symptom_cluster=true; care_options=Yes; mental_health_interview=Maybe,true,1004,false
+Q7.2,16,growing_stress=Maybe; symptom_cluster=true; care_options=Not sure,growing_stress=Maybe; symptom_cluster=true; care_options=Not sure; mental_health_interview=Yes,true,115,false
+Q7.2,16,growing_stress=Maybe; symptom_cluster=true; care_options=Not sure,growing_stress=Maybe; symptom_cluster=true; care_options=Not sure; mental_health_interview=No,true,3604,false
+Q7.2,16,growing_stress=Maybe; symptom_cluster=true; care_options=Not sure,growing_stress=Maybe; symptom_cluster=true; care_options=Not sure; mental_health_interview=Maybe,true,883,false
+Q7.2,16,growing_stress=No; symptom_cluster=true; care_options=Yes,growing_stress=No; symptom_cluster=true; care_options=Yes; mental_health_interview=Yes,true,219,false
+Q7.2,16,growing_stress=No; symptom_cluster=true; care_options=Yes,growing_stress=No; symptom_cluster=true; care_options=Yes; mental_health_interview=No,true,4590,false
+Q7.2,16,growing_stress=No; symptom_cluster=true; care_options=Yes,growing_stress=No; symptom_cluster=true; care_options=Yes; mental_health_interview=Maybe,true,1047,false
+Q7.2,16,growing_stress=No; symptom_cluster=true; care_options=Not sure,growing_stress=No; symptom_cluster=true; care_options=Not sure; mental_health_interview=Yes,true,120,false
+Q7.2,16,growing_stress=No; symptom_cluster=true; care_options=Not sure,growing_stress=No; symptom_cluster=true; care_options=Not sure; mental_health_interview=No,true,3756,false
+Q7.2,16,growing_stress=No; symptom_cluster=true; care_options=Not sure,growing_stress=No; symptom_cluster=true; care_options=Not sure; mental_health_interview=Maybe,true,921,false
