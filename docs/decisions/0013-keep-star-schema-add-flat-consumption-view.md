@@ -39,6 +39,11 @@ The addendum of 2026-10-04 carries the decision of [LOG-022](log/LOG-022-adr-001
 
 ---
 
+### Addendum (2026-11-01)
+Revisited under Confirmation once the correspondence evidence document was merged (#83): the model is kept as built and the reduced star is not adopted ([LOG-052](log/LOG-052-keep-the-model-as-built.md)).
+
+---
+
 ## Decision Drivers
 
 * The project's purpose is to show dimensional modeling built with the Hefesto methodology, with traceability from the perspectives of a question to the dimensions of the model (M1).

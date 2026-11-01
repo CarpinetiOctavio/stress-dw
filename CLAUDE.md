@@ -27,7 +27,7 @@ Dimensional data warehouse (Hefesto methodology), rebuilt from an audited univer
 ## Already decided, not reopened
 
 - Star schema, one fact table `fact_response` at response grain (one row per survey response), eight dimensions. [ADR-0007]
-  Reasoning in [ADR-0013](docs/decisions/0013-keep-star-schema-add-flat-consumption-view.md). A reduced star is deferred until the correspondence evidence document is merged and is not started before then.
+  Reasoning in [ADR-0013](docs/decisions/0013-keep-star-schema-add-flat-consumption-view.md). A reduced star was weighed once the correspondence evidence document was merged and was not adopted ([LOG-052](docs/decisions/log/LOG-052-keep-the-model-as-built.md)).
 - `explicit_recognition` and `symptom_cluster` are computed at query time; neither is ever a stored column. [ADR-0007]
 - Country-to-region mapping is the fixed table in [`specification/country-region-mapping.md`](docs/specification/country-region-mapping.md), not inferred.
 - Staged records are deduplicated on all 17 source columns, not only the columns this specification models: 290,051 records reach staging. [ADR-0008]

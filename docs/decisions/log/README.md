@@ -99,3 +99,4 @@ A recorded entry is not rewritten: a later change to it, or a pointer to the ent
 | [LOG-049](LOG-049-reading-rule-by-repository-access.md) | Count the repository as known when the criteria are fixed, with this entry as the home of the reading rule | recorded |
 | [LOG-050](LOG-050-a5-a6-a10-reading-thresholds.md) | Fix the interpretability bound of A5 and A6, the harmonization of values, and the α of A10's guard, by the scheme of LOG-047 | recorded |
 | [LOG-051](LOG-051-stopping-rule-documentary-audit-readings.md) | Stop the fixes to the documentary rule by a rule set before the third audit reading | recorded |
+| [LOG-052](LOG-052-keep-the-model-as-built.md) | Keep the model as built once the correspondence evidence document is merged | recorded |
