@@ -12,7 +12,7 @@ In hydrology the difference matters: design values are read at return periods lo
 
 ## The transfer
 
-* **Applied before this repository.** The statistical engine of METIS ranks distribution fits by that standard error, with mp in the denominator ([`eea.py`](https://github.com/CarpinetiOctavio/PI_METIS/blob/cae2f4b57a37e968c030848ceee1b5c89355a838/backend/metis/core/etapa2/eea.py), at commit `cae2f4b`).
+* **Applied before this repository.** The statistical engine of METIS ranks distribution fits by that standard error, with mp in the denominator ([`eea.py`](https://github.com/CarpinetiOctavio/PI_METIS/blob/cae2f4b57a37e968c030848ceee1b5c89355a838/backend/metis/core/etapa2/eea.py), at commit `cae2f4b`). The criterion's development in the theoretical framework of the METIS thesis book is cited here at the book's `v1` tag once it is published; the book is not yet published, so this bullet shows the criterion only as applied.
 * **Applied to a rule.** The documentary rule was rewritten on one principle instead of a clause per gap: fewer parameters for the same gaps. See [overfitting](overfitting.md).
 * **Applied to a layer.** When fixing that rule stopped converging, the documentary verdict was removed rather than extended; no correspondence verdict depended on it ([LOG-051](../decisions/log/LOG-051-stopping-rule-documentary-audit-readings.md#decision)).
 * **Applied to the method.** A rule, check or document that changes no verdict or result is not added ([LSN-015](../audit/lessons/scope-and-proportion.md#lsn-015--the-process-outgrew-the-object)).

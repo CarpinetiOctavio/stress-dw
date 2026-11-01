@@ -56,3 +56,7 @@ The README stated something false: the pipeline exists and its acceptance checks
 
 * The rest of the Status section and the Development section: the planned README rewrite.
 * "Documentation review is in progress.": removed in #63 ([LOG-034](LOG-034-readme-review-status-sentence.md)).
+
+**Status (2026-11-01).**
+
+* The rest of the Status section and the Development section: the Status section rewritten, and the Development section kept as written (its test command updated in #81), in the README rewrite, #85.
