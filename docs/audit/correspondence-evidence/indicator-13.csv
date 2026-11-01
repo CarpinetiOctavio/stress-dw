@@ -1,0 +1,2116 @@
+growing_stress,country,occupation,gender,level,numerator,denominator,rate,low_n
+Maybe,Australia,Business,Female,No,24,96,0.250000,false
+Maybe,Australia,Business,Female,Not sure,24,96,0.250000,false
+Maybe,Australia,Business,Female,Yes,48,96,0.500000,false
+Maybe,Australia,Business,Male,No,69,253,0.272727,false
+Maybe,Australia,Business,Male,Not sure,92,253,0.363636,false
+Maybe,Australia,Business,Male,Yes,92,253,0.363636,false
+Maybe,Australia,Corporate,Female,No,24,96,0.250000,false
+Maybe,Australia,Corporate,Female,Not sure,24,96,0.250000,false
+Maybe,Australia,Corporate,Female,Yes,48,96,0.500000,false
+Maybe,Australia,Corporate,Male,No,69,253,0.272727,false
+Maybe,Australia,Corporate,Male,Not sure,92,253,0.363636,false
+Maybe,Australia,Corporate,Male,Yes,92,253,0.363636,false
+Maybe,Australia,Housewife,Female,No,32,128,0.250000,false
+Maybe,Australia,Housewife,Female,Not sure,32,128,0.250000,false
+Maybe,Australia,Housewife,Female,Yes,64,128,0.500000,false
+Maybe,Australia,Housewife,Male,No,99,363,0.272727,false
+Maybe,Australia,Housewife,Male,Not sure,132,363,0.363636,false
+Maybe,Australia,Housewife,Male,Yes,132,363,0.363636,false
+Maybe,Australia,Others,Female,No,25,100,0.250000,false
+Maybe,Australia,Others,Female,Not sure,25,100,0.250000,false
+Maybe,Australia,Others,Female,Yes,50,100,0.500000,false
+Maybe,Australia,Others,Male,No,75,275,0.272727,false
+Maybe,Australia,Others,Male,Not sure,100,275,0.363636,false
+Maybe,Australia,Others,Male,Yes,100,275,0.363636,false
+Maybe,Australia,Student,Female,No,25,100,0.250000,false
+Maybe,Australia,Student,Female,Not sure,25,100,0.250000,false
+Maybe,Australia,Student,Female,Yes,50,100,0.500000,false
+Maybe,Australia,Student,Male,No,99,363,0.272727,false
+Maybe,Australia,Student,Male,Not sure,132,363,0.363636,false
+Maybe,Australia,Student,Male,Yes,132,363,0.363636,false
+Maybe,Belgium,Business,Female,No,0,24,0.000000,true
+Maybe,Belgium,Business,Female,Not sure,24,24,1.000000,true
+Maybe,Belgium,Business,Female,Yes,0,24,0.000000,true
+Maybe,Belgium,Business,Male,No,23,23,1.000000,true
+Maybe,Belgium,Business,Male,Not sure,0,23,0.000000,true
+Maybe,Belgium,Business,Male,Yes,0,23,0.000000,true
+Maybe,Belgium,Corporate,Female,No,0,24,0.000000,true
+Maybe,Belgium,Corporate,Female,Not sure,24,24,1.000000,true
+Maybe,Belgium,Corporate,Female,Yes,0,24,0.000000,true
+Maybe,Belgium,Corporate,Male,No,23,23,1.000000,true
+Maybe,Belgium,Corporate,Male,Not sure,0,23,0.000000,true
+Maybe,Belgium,Corporate,Male,Yes,0,23,0.000000,true
+Maybe,Belgium,Housewife,Female,No,0,32,0.000000,false
+Maybe,Belgium,Housewife,Female,Not sure,32,32,1.000000,false
+Maybe,Belgium,Housewife,Female,Yes,0,32,0.000000,false
+Maybe,Belgium,Housewife,Male,No,33,33,1.000000,false
+Maybe,Belgium,Housewife,Male,Not sure,0,33,0.000000,false
+Maybe,Belgium,Housewife,Male,Yes,0,33,0.000000,false
+Maybe,Belgium,Others,Female,No,0,25,0.000000,true
+Maybe,Belgium,Others,Female,Not sure,25,25,1.000000,true
+Maybe,Belgium,Others,Female,Yes,0,25,0.000000,true
+Maybe,Belgium,Others,Male,No,25,25,1.000000,true
+Maybe,Belgium,Others,Male,Not sure,0,25,0.000000,true
+Maybe,Belgium,Others,Male,Yes,0,25,0.000000,true
+Maybe,Belgium,Student,Female,No,0,25,0.000000,true
+Maybe,Belgium,Student,Female,Not sure,25,25,1.000000,true
+Maybe,Belgium,Student,Female,Yes,0,25,0.000000,true
+Maybe,Belgium,Student,Male,No,33,33,1.000000,false
+Maybe,Belgium,Student,Male,Not sure,0,33,0.000000,false
+Maybe,Belgium,Student,Male,Yes,0,33,0.000000,false
+Maybe,Bosnia and Herzegovina,Business,Male,No,0,23,0.000000,true
+Maybe,Bosnia and Herzegovina,Business,Male,Not sure,23,23,1.000000,true
+Maybe,Bosnia and Herzegovina,Business,Male,Yes,0,23,0.000000,true
+Maybe,Bosnia and Herzegovina,Corporate,Male,No,0,23,0.000000,true
+Maybe,Bosnia and Herzegovina,Corporate,Male,Not sure,23,23,1.000000,true
+Maybe,Bosnia and Herzegovina,Corporate,Male,Yes,0,23,0.000000,true
+Maybe,Bosnia and Herzegovina,Housewife,Male,No,0,33,0.000000,false
+Maybe,Bosnia and Herzegovina,Housewife,Male,Not sure,33,33,1.000000,false
+Maybe,Bosnia and Herzegovina,Housewife,Male,Yes,0,33,0.000000,false
+Maybe,Bosnia and Herzegovina,Others,Male,No,0,25,0.000000,true
+Maybe,Bosnia and Herzegovina,Others,Male,Not sure,25,25,1.000000,true
+Maybe,Bosnia and Herzegovina,Others,Male,Yes,0,25,0.000000,true
+Maybe,Bosnia and Herzegovina,Student,Male,No,0,33,0.000000,false
+Maybe,Bosnia and Herzegovina,Student,Male,Not sure,33,33,1.000000,false
+Maybe,Bosnia and Herzegovina,Student,Male,Yes,0,33,0.000000,false
+Maybe,Brazil,Business,Male,No,92,138,0.666667,false
+Maybe,Brazil,Business,Male,Not sure,0,138,0.000000,false
+Maybe,Brazil,Business,Male,Yes,46,138,0.333333,false
+Maybe,Brazil,Corporate,Male,No,92,138,0.666667,false
+Maybe,Brazil,Corporate,Male,Not sure,0,138,0.000000,false
+Maybe,Brazil,Corporate,Male,Yes,46,138,0.333333,false
+Maybe,Brazil,Housewife,Male,No,132,198,0.666667,false
+Maybe,Brazil,Housewife,Male,Not sure,0,198,0.000000,false
+Maybe,Brazil,Housewife,Male,Yes,66,198,0.333333,false
+Maybe,Brazil,Others,Male,No,100,150,0.666667,false
+Maybe,Brazil,Others,Male,Not sure,0,150,0.000000,false
+Maybe,Brazil,Others,Male,Yes,50,150,0.333333,false
+Maybe,Brazil,Student,Male,No,132,198,0.666667,false
+Maybe,Brazil,Student,Male,Not sure,0,198,0.000000,false
+Maybe,Brazil,Student,Male,Yes,66,198,0.333333,false
+Maybe,Canada,Business,Female,No,0,216,0.000000,false
+Maybe,Canada,Business,Female,Not sure,96,216,0.444444,false
+Maybe,Canada,Business,Female,Yes,120,216,0.555556,false
+Maybe,Canada,Business,Male,No,299,874,0.342105,false
+Maybe,Canada,Business,Male,Not sure,299,874,0.342105,false
+Maybe,Canada,Business,Male,Yes,276,874,0.315789,false
+Maybe,Canada,Corporate,Female,No,0,216,0.000000,false
+Maybe,Canada,Corporate,Female,Not sure,96,216,0.444444,false
+Maybe,Canada,Corporate,Female,Yes,120,216,0.555556,false
+Maybe,Canada,Corporate,Male,No,299,874,0.342105,false
+Maybe,Canada,Corporate,Male,Not sure,299,874,0.342105,false
+Maybe,Canada,Corporate,Male,Yes,276,874,0.315789,false
+Maybe,Canada,Housewife,Female,No,0,288,0.000000,false
+Maybe,Canada,Housewife,Female,Not sure,128,288,0.444444,false
+Maybe,Canada,Housewife,Female,Yes,160,288,0.555556,false
+Maybe,Canada,Housewife,Male,No,429,1254,0.342105,false
+Maybe,Canada,Housewife,Male,Not sure,429,1254,0.342105,false
+Maybe,Canada,Housewife,Male,Yes,396,1254,0.315789,false
+Maybe,Canada,Others,Female,No,0,225,0.000000,false
+Maybe,Canada,Others,Female,Not sure,100,225,0.444444,false
+Maybe,Canada,Others,Female,Yes,125,225,0.555556,false
+Maybe,Canada,Others,Male,No,325,950,0.342105,false
+Maybe,Canada,Others,Male,Not sure,325,950,0.342105,false
+Maybe,Canada,Others,Male,Yes,300,950,0.315789,false
+Maybe,Canada,Student,Female,No,0,225,0.000000,false
+Maybe,Canada,Student,Female,Not sure,100,225,0.444444,false
+Maybe,Canada,Student,Female,Yes,125,225,0.555556,false
+Maybe,Canada,Student,Male,No,429,1254,0.342105,false
+Maybe,Canada,Student,Male,Not sure,429,1254,0.342105,false
+Maybe,Canada,Student,Male,Yes,396,1254,0.315789,false
+Maybe,Colombia,Business,Male,No,23,23,1.000000,true
+Maybe,Colombia,Business,Male,Not sure,0,23,0.000000,true
+Maybe,Colombia,Business,Male,Yes,0,23,0.000000,true
+Maybe,Colombia,Corporate,Male,No,23,23,1.000000,true
+Maybe,Colombia,Corporate,Male,Not sure,0,23,0.000000,true
+Maybe,Colombia,Corporate,Male,Yes,0,23,0.000000,true
+Maybe,Colombia,Housewife,Male,No,33,33,1.000000,false
+Maybe,Colombia,Housewife,Male,Not sure,0,33,0.000000,false
+Maybe,Colombia,Housewife,Male,Yes,0,33,0.000000,false
+Maybe,Colombia,Others,Male,No,25,25,1.000000,true
+Maybe,Colombia,Others,Male,Not sure,0,25,0.000000,true
+Maybe,Colombia,Others,Male,Yes,0,25,0.000000,true
+Maybe,Colombia,Student,Male,No,33,33,1.000000,false
+Maybe,Colombia,Student,Male,Not sure,0,33,0.000000,false
+Maybe,Colombia,Student,Male,Yes,0,33,0.000000,false
+Maybe,Costa Rica,Business,Male,No,0,23,0.000000,true
+Maybe,Costa Rica,Business,Male,Not sure,0,23,0.000000,true
+Maybe,Costa Rica,Business,Male,Yes,23,23,1.000000,true
+Maybe,Costa Rica,Corporate,Male,No,0,23,0.000000,true
+Maybe,Costa Rica,Corporate,Male,Not sure,0,23,0.000000,true
+Maybe,Costa Rica,Corporate,Male,Yes,23,23,1.000000,true
+Maybe,Costa Rica,Housewife,Male,No,0,33,0.000000,false
+Maybe,Costa Rica,Housewife,Male,Not sure,0,33,0.000000,false
+Maybe,Costa Rica,Housewife,Male,Yes,33,33,1.000000,false
+Maybe,Costa Rica,Others,Male,No,0,25,0.000000,true
+Maybe,Costa Rica,Others,Male,Not sure,0,25,0.000000,true
+Maybe,Costa Rica,Others,Male,Yes,25,25,1.000000,true
+Maybe,Costa Rica,Student,Male,No,0,33,0.000000,false
+Maybe,Costa Rica,Student,Male,Not sure,0,33,0.000000,false
+Maybe,Costa Rica,Student,Male,Yes,33,33,1.000000,false
+Maybe,Croatia,Business,Male,No,23,23,1.000000,true
+Maybe,Croatia,Business,Male,Not sure,0,23,0.000000,true
+Maybe,Croatia,Business,Male,Yes,0,23,0.000000,true
+Maybe,Croatia,Corporate,Male,No,23,23,1.000000,true
+Maybe,Croatia,Corporate,Male,Not sure,0,23,0.000000,true
+Maybe,Croatia,Corporate,Male,Yes,0,23,0.000000,true
+Maybe,Croatia,Housewife,Male,No,33,33,1.000000,false
+Maybe,Croatia,Housewife,Male,Not sure,0,33,0.000000,false
+Maybe,Croatia,Housewife,Male,Yes,0,33,0.000000,false
+Maybe,Croatia,Others,Male,No,25,25,1.000000,true
+Maybe,Croatia,Others,Male,Not sure,0,25,0.000000,true
+Maybe,Croatia,Others,Male,Yes,0,25,0.000000,true
+Maybe,Croatia,Student,Male,No,33,33,1.000000,false
+Maybe,Croatia,Student,Male,Not sure,0,33,0.000000,false
+Maybe,Croatia,Student,Male,Yes,0,33,0.000000,false
+Maybe,Czech Republic,Business,Male,No,0,23,0.000000,true
+Maybe,Czech Republic,Business,Male,Not sure,0,23,0.000000,true
+Maybe,Czech Republic,Business,Male,Yes,23,23,1.000000,true
+Maybe,Czech Republic,Corporate,Male,No,0,23,0.000000,true
+Maybe,Czech Republic,Corporate,Male,Not sure,0,23,0.000000,true
+Maybe,Czech Republic,Corporate,Male,Yes,23,23,1.000000,true
+Maybe,Czech Republic,Housewife,Male,No,0,33,0.000000,false
+Maybe,Czech Republic,Housewife,Male,Not sure,0,33,0.000000,false
+Maybe,Czech Republic,Housewife,Male,Yes,33,33,1.000000,false
+Maybe,Czech Republic,Others,Male,No,0,25,0.000000,true
+Maybe,Czech Republic,Others,Male,Not sure,0,25,0.000000,true
+Maybe,Czech Republic,Others,Male,Yes,25,25,1.000000,true
+Maybe,Czech Republic,Student,Male,No,0,33,0.000000,false
+Maybe,Czech Republic,Student,Male,Not sure,0,33,0.000000,false
+Maybe,Czech Republic,Student,Male,Yes,33,33,1.000000,false
+Maybe,Denmark,Business,Male,No,0,46,0.000000,false
+Maybe,Denmark,Business,Male,Not sure,0,46,0.000000,false
+Maybe,Denmark,Business,Male,Yes,46,46,1.000000,false
+Maybe,Denmark,Corporate,Male,No,0,46,0.000000,false
+Maybe,Denmark,Corporate,Male,Not sure,0,46,0.000000,false
+Maybe,Denmark,Corporate,Male,Yes,46,46,1.000000,false
+Maybe,Denmark,Housewife,Male,No,0,66,0.000000,false
+Maybe,Denmark,Housewife,Male,Not sure,0,66,0.000000,false
+Maybe,Denmark,Housewife,Male,Yes,66,66,1.000000,false
+Maybe,Denmark,Others,Male,No,0,50,0.000000,false
+Maybe,Denmark,Others,Male,Not sure,0,50,0.000000,false
+Maybe,Denmark,Others,Male,Yes,50,50,1.000000,false
+Maybe,Denmark,Student,Male,No,0,66,0.000000,false
+Maybe,Denmark,Student,Male,Not sure,0,66,0.000000,false
+Maybe,Denmark,Student,Male,Yes,66,66,1.000000,false
+Maybe,Finland,Business,Male,No,23,23,1.000000,true
+Maybe,Finland,Business,Male,Not sure,0,23,0.000000,true
+Maybe,Finland,Business,Male,Yes,0,23,0.000000,true
+Maybe,Finland,Corporate,Male,No,23,23,1.000000,true
+Maybe,Finland,Corporate,Male,Not sure,0,23,0.000000,true
+Maybe,Finland,Corporate,Male,Yes,0,23,0.000000,true
+Maybe,Finland,Housewife,Male,No,33,33,1.000000,false
+Maybe,Finland,Housewife,Male,Not sure,0,33,0.000000,false
+Maybe,Finland,Housewife,Male,Yes,0,33,0.000000,false
+Maybe,Finland,Others,Male,No,25,25,1.000000,true
+Maybe,Finland,Others,Male,Not sure,0,25,0.000000,true
+Maybe,Finland,Others,Male,Yes,0,25,0.000000,true
+Maybe,Finland,Student,Male,No,33,33,1.000000,false
+Maybe,Finland,Student,Male,Not sure,0,33,0.000000,false
+Maybe,Finland,Student,Male,Yes,0,33,0.000000,false
+Maybe,France,Business,Male,No,92,138,0.666667,false
+Maybe,France,Business,Male,Not sure,0,138,0.000000,false
+Maybe,France,Business,Male,Yes,46,138,0.333333,false
+Maybe,France,Corporate,Male,No,92,138,0.666667,false
+Maybe,France,Corporate,Male,Not sure,0,138,0.000000,false
+Maybe,France,Corporate,Male,Yes,46,138,0.333333,false
+Maybe,France,Housewife,Male,No,132,198,0.666667,false
+Maybe,France,Housewife,Male,Not sure,0,198,0.000000,false
+Maybe,France,Housewife,Male,Yes,66,198,0.333333,false
+Maybe,France,Others,Male,No,100,150,0.666667,false
+Maybe,France,Others,Male,Not sure,0,150,0.000000,false
+Maybe,France,Others,Male,Yes,50,150,0.333333,false
+Maybe,France,Student,Male,No,132,198,0.666667,false
+Maybe,France,Student,Male,Not sure,0,198,0.000000,false
+Maybe,France,Student,Male,Yes,66,198,0.333333,false
+Maybe,Georgia,Business,Male,No,23,23,1.000000,true
+Maybe,Georgia,Business,Male,Not sure,0,23,0.000000,true
+Maybe,Georgia,Business,Male,Yes,0,23,0.000000,true
+Maybe,Georgia,Corporate,Male,No,23,23,1.000000,true
+Maybe,Georgia,Corporate,Male,Not sure,0,23,0.000000,true
+Maybe,Georgia,Corporate,Male,Yes,0,23,0.000000,true
+Maybe,Georgia,Housewife,Male,No,33,33,1.000000,false
+Maybe,Georgia,Housewife,Male,Not sure,0,33,0.000000,false
+Maybe,Georgia,Housewife,Male,Yes,0,33,0.000000,false
+Maybe,Georgia,Others,Male,No,25,25,1.000000,true
+Maybe,Georgia,Others,Male,Not sure,0,25,0.000000,true
+Maybe,Georgia,Others,Male,Yes,0,25,0.000000,true
+Maybe,Georgia,Student,Male,No,33,33,1.000000,false
+Maybe,Georgia,Student,Male,Not sure,0,33,0.000000,false
+Maybe,Georgia,Student,Male,Yes,0,33,0.000000,false
+Maybe,Germany,Business,Male,No,69,276,0.250000,false
+Maybe,Germany,Business,Male,Not sure,92,276,0.333333,false
+Maybe,Germany,Business,Male,Yes,115,276,0.416667,false
+Maybe,Germany,Corporate,Male,No,69,276,0.250000,false
+Maybe,Germany,Corporate,Male,Not sure,92,276,0.333333,false
+Maybe,Germany,Corporate,Male,Yes,115,276,0.416667,false
+Maybe,Germany,Housewife,Male,No,99,396,0.250000,false
+Maybe,Germany,Housewife,Male,Not sure,132,396,0.333333,false
+Maybe,Germany,Housewife,Male,Yes,165,396,0.416667,false
+Maybe,Germany,Others,Male,No,75,300,0.250000,false
+Maybe,Germany,Others,Male,Not sure,100,300,0.333333,false
+Maybe,Germany,Others,Male,Yes,125,300,0.416667,false
+Maybe,Germany,Student,Male,No,99,396,0.250000,false
+Maybe,Germany,Student,Male,Not sure,132,396,0.333333,false
+Maybe,Germany,Student,Male,Yes,165,396,0.416667,false
+Maybe,Greece,Business,Male,No,46,46,1.000000,false
+Maybe,Greece,Business,Male,Not sure,0,46,0.000000,false
+Maybe,Greece,Business,Male,Yes,0,46,0.000000,false
+Maybe,Greece,Corporate,Male,No,46,46,1.000000,false
+Maybe,Greece,Corporate,Male,Not sure,0,46,0.000000,false
+Maybe,Greece,Corporate,Male,Yes,0,46,0.000000,false
+Maybe,Greece,Housewife,Male,No,66,66,1.000000,false
+Maybe,Greece,Housewife,Male,Not sure,0,66,0.000000,false
+Maybe,Greece,Housewife,Male,Yes,0,66,0.000000,false
+Maybe,Greece,Others,Male,No,50,50,1.000000,false
+Maybe,Greece,Others,Male,Not sure,0,50,0.000000,false
+Maybe,Greece,Others,Male,Yes,0,50,0.000000,false
+Maybe,Greece,Student,Male,No,66,66,1.000000,false
+Maybe,Greece,Student,Male,Not sure,0,66,0.000000,false
+Maybe,Greece,Student,Male,Yes,0,66,0.000000,false
+Maybe,India,Business,Female,No,0,24,0.000000,true
+Maybe,India,Business,Female,Not sure,24,24,1.000000,true
+Maybe,India,Business,Female,Yes,0,24,0.000000,true
+Maybe,India,Business,Male,No,115,138,0.833333,false
+Maybe,India,Business,Male,Not sure,23,138,0.166667,false
+Maybe,India,Business,Male,Yes,0,138,0.000000,false
+Maybe,India,Corporate,Female,No,0,24,0.000000,true
+Maybe,India,Corporate,Female,Not sure,24,24,1.000000,true
+Maybe,India,Corporate,Female,Yes,0,24,0.000000,true
+Maybe,India,Corporate,Male,No,115,138,0.833333,false
+Maybe,India,Corporate,Male,Not sure,23,138,0.166667,false
+Maybe,India,Corporate,Male,Yes,0,138,0.000000,false
+Maybe,India,Housewife,Female,No,0,32,0.000000,false
+Maybe,India,Housewife,Female,Not sure,32,32,1.000000,false
+Maybe,India,Housewife,Female,Yes,0,32,0.000000,false
+Maybe,India,Housewife,Male,No,165,198,0.833333,false
+Maybe,India,Housewife,Male,Not sure,33,198,0.166667,false
+Maybe,India,Housewife,Male,Yes,0,198,0.000000,false
+Maybe,India,Others,Female,No,0,25,0.000000,true
+Maybe,India,Others,Female,Not sure,25,25,1.000000,true
+Maybe,India,Others,Female,Yes,0,25,0.000000,true
+Maybe,India,Others,Male,No,125,150,0.833333,false
+Maybe,India,Others,Male,Not sure,25,150,0.166667,false
+Maybe,India,Others,Male,Yes,0,150,0.000000,false
+Maybe,India,Student,Female,No,0,25,0.000000,true
+Maybe,India,Student,Female,Not sure,25,25,1.000000,true
+Maybe,India,Student,Female,Yes,0,25,0.000000,true
+Maybe,India,Student,Male,No,165,198,0.833333,false
+Maybe,India,Student,Male,Not sure,33,198,0.166667,false
+Maybe,India,Student,Male,Yes,0,198,0.000000,false
+Maybe,Ireland,Business,Female,No,24,48,0.500000,false
+Maybe,Ireland,Business,Female,Not sure,0,48,0.000000,false
+Maybe,Ireland,Business,Female,Yes,24,48,0.500000,false
+Maybe,Ireland,Business,Male,No,253,276,0.916667,false
+Maybe,Ireland,Business,Male,Not sure,0,276,0.000000,false
+Maybe,Ireland,Business,Male,Yes,23,276,0.083333,false
+Maybe,Ireland,Corporate,Female,No,24,48,0.500000,false
+Maybe,Ireland,Corporate,Female,Not sure,0,48,0.000000,false
+Maybe,Ireland,Corporate,Female,Yes,24,48,0.500000,false
+Maybe,Ireland,Corporate,Male,No,253,276,0.916667,false
+Maybe,Ireland,Corporate,Male,Not sure,0,276,0.000000,false
+Maybe,Ireland,Corporate,Male,Yes,23,276,0.083333,false
+Maybe,Ireland,Housewife,Female,No,32,64,0.500000,false
+Maybe,Ireland,Housewife,Female,Not sure,0,64,0.000000,false
+Maybe,Ireland,Housewife,Female,Yes,32,64,0.500000,false
+Maybe,Ireland,Housewife,Male,No,363,396,0.916667,false
+Maybe,Ireland,Housewife,Male,Not sure,0,396,0.000000,false
+Maybe,Ireland,Housewife,Male,Yes,33,396,0.083333,false
+Maybe,Ireland,Others,Female,No,25,50,0.500000,false
+Maybe,Ireland,Others,Female,Not sure,0,50,0.000000,false
+Maybe,Ireland,Others,Female,Yes,25,50,0.500000,false
+Maybe,Ireland,Others,Male,No,275,300,0.916667,false
+Maybe,Ireland,Others,Male,Not sure,0,300,0.000000,false
+Maybe,Ireland,Others,Male,Yes,25,300,0.083333,false
+Maybe,Ireland,Student,Female,No,25,50,0.500000,false
+Maybe,Ireland,Student,Female,Not sure,0,50,0.000000,false
+Maybe,Ireland,Student,Female,Yes,25,50,0.500000,false
+Maybe,Ireland,Student,Male,No,363,396,0.916667,false
+Maybe,Ireland,Student,Male,Not sure,0,396,0.000000,false
+Maybe,Ireland,Student,Male,Yes,33,396,0.083333,false
+Maybe,Israel,Business,Male,No,46,92,0.500000,false
+Maybe,Israel,Business,Male,Not sure,23,92,0.250000,false
+Maybe,Israel,Business,Male,Yes,23,92,0.250000,false
+Maybe,Israel,Corporate,Male,No,46,92,0.500000,false
+Maybe,Israel,Corporate,Male,Not sure,23,92,0.250000,false
+Maybe,Israel,Corporate,Male,Yes,23,92,0.250000,false
+Maybe,Israel,Housewife,Male,No,66,132,0.500000,false
+Maybe,Israel,Housewife,Male,Not sure,33,132,0.250000,false
+Maybe,Israel,Housewife,Male,Yes,33,132,0.250000,false
+Maybe,Israel,Others,Male,No,50,100,0.500000,false
+Maybe,Israel,Others,Male,Not sure,25,100,0.250000,false
+Maybe,Israel,Others,Male,Yes,25,100,0.250000,false
+Maybe,Israel,Student,Male,No,66,132,0.500000,false
+Maybe,Israel,Student,Male,Not sure,33,132,0.250000,false
+Maybe,Israel,Student,Male,Yes,33,132,0.250000,false
+Maybe,Italy,Business,Male,No,69,92,0.750000,false
+Maybe,Italy,Business,Male,Not sure,23,92,0.250000,false
+Maybe,Italy,Business,Male,Yes,0,92,0.000000,false
+Maybe,Italy,Corporate,Male,No,69,92,0.750000,false
+Maybe,Italy,Corporate,Male,Not sure,23,92,0.250000,false
+Maybe,Italy,Corporate,Male,Yes,0,92,0.000000,false
+Maybe,Italy,Housewife,Male,No,99,132,0.750000,false
+Maybe,Italy,Housewife,Male,Not sure,33,132,0.250000,false
+Maybe,Italy,Housewife,Male,Yes,0,132,0.000000,false
+Maybe,Italy,Others,Male,No,75,100,0.750000,false
+Maybe,Italy,Others,Male,Not sure,25,100,0.250000,false
+Maybe,Italy,Others,Male,Yes,0,100,0.000000,false
+Maybe,Italy,Student,Male,No,99,132,0.750000,false
+Maybe,Italy,Student,Male,Not sure,33,132,0.250000,false
+Maybe,Italy,Student,Male,Yes,0,132,0.000000,false
+Maybe,Mexico,Business,Male,No,23,23,1.000000,true
+Maybe,Mexico,Business,Male,Not sure,0,23,0.000000,true
+Maybe,Mexico,Business,Male,Yes,0,23,0.000000,true
+Maybe,Mexico,Corporate,Male,No,23,23,1.000000,true
+Maybe,Mexico,Corporate,Male,Not sure,0,23,0.000000,true
+Maybe,Mexico,Corporate,Male,Yes,0,23,0.000000,true
+Maybe,Mexico,Housewife,Male,No,33,33,1.000000,false
+Maybe,Mexico,Housewife,Male,Not sure,0,33,0.000000,false
+Maybe,Mexico,Housewife,Male,Yes,0,33,0.000000,false
+Maybe,Mexico,Others,Male,No,25,25,1.000000,true
+Maybe,Mexico,Others,Male,Not sure,0,25,0.000000,true
+Maybe,Mexico,Others,Male,Yes,0,25,0.000000,true
+Maybe,Mexico,Student,Male,No,33,33,1.000000,false
+Maybe,Mexico,Student,Male,Not sure,0,33,0.000000,false
+Maybe,Mexico,Student,Male,Yes,0,33,0.000000,false
+Maybe,Moldova,Business,Male,No,0,23,0.000000,true
+Maybe,Moldova,Business,Male,Not sure,0,23,0.000000,true
+Maybe,Moldova,Business,Male,Yes,23,23,1.000000,true
+Maybe,Moldova,Corporate,Male,No,0,23,0.000000,true
+Maybe,Moldova,Corporate,Male,Not sure,0,23,0.000000,true
+Maybe,Moldova,Corporate,Male,Yes,23,23,1.000000,true
+Maybe,Moldova,Housewife,Male,No,0,33,0.000000,false
+Maybe,Moldova,Housewife,Male,Not sure,0,33,0.000000,false
+Maybe,Moldova,Housewife,Male,Yes,33,33,1.000000,false
+Maybe,Moldova,Others,Male,No,0,25,0.000000,true
+Maybe,Moldova,Others,Male,Not sure,0,25,0.000000,true
+Maybe,Moldova,Others,Male,Yes,25,25,1.000000,true
+Maybe,Moldova,Student,Male,No,0,33,0.000000,false
+Maybe,Moldova,Student,Male,Not sure,0,33,0.000000,false
+Maybe,Moldova,Student,Male,Yes,33,33,1.000000,false
+Maybe,Netherlands,Business,Female,No,24,24,1.000000,true
+Maybe,Netherlands,Business,Female,Not sure,0,24,0.000000,true
+Maybe,Netherlands,Business,Female,Yes,0,24,0.000000,true
+Maybe,Netherlands,Business,Male,No,161,322,0.500000,false
+Maybe,Netherlands,Business,Male,Not sure,138,322,0.428571,false
+Maybe,Netherlands,Business,Male,Yes,23,322,0.071429,false
+Maybe,Netherlands,Corporate,Female,No,24,24,1.000000,true
+Maybe,Netherlands,Corporate,Female,Not sure,0,24,0.000000,true
+Maybe,Netherlands,Corporate,Female,Yes,0,24,0.000000,true
+Maybe,Netherlands,Corporate,Male,No,161,322,0.500000,false
+Maybe,Netherlands,Corporate,Male,Not sure,138,322,0.428571,false
+Maybe,Netherlands,Corporate,Male,Yes,23,322,0.071429,false
+Maybe,Netherlands,Housewife,Female,No,32,32,1.000000,false
+Maybe,Netherlands,Housewife,Female,Not sure,0,32,0.000000,false
+Maybe,Netherlands,Housewife,Female,Yes,0,32,0.000000,false
+Maybe,Netherlands,Housewife,Male,No,231,462,0.500000,false
+Maybe,Netherlands,Housewife,Male,Not sure,198,462,0.428571,false
+Maybe,Netherlands,Housewife,Male,Yes,33,462,0.071429,false
+Maybe,Netherlands,Others,Female,No,25,25,1.000000,true
+Maybe,Netherlands,Others,Female,Not sure,0,25,0.000000,true
+Maybe,Netherlands,Others,Female,Yes,0,25,0.000000,true
+Maybe,Netherlands,Others,Male,No,175,350,0.500000,false
+Maybe,Netherlands,Others,Male,Not sure,150,350,0.428571,false
+Maybe,Netherlands,Others,Male,Yes,25,350,0.071429,false
+Maybe,Netherlands,Student,Female,No,25,25,1.000000,true
+Maybe,Netherlands,Student,Female,Not sure,0,25,0.000000,true
+Maybe,Netherlands,Student,Female,Yes,0,25,0.000000,true
+Maybe,Netherlands,Student,Male,No,231,462,0.500000,false
+Maybe,Netherlands,Student,Male,Not sure,198,462,0.428571,false
+Maybe,Netherlands,Student,Male,Yes,33,462,0.071429,false
+Maybe,New Zealand,Business,Female,No,24,24,1.000000,true
+Maybe,New Zealand,Business,Female,Not sure,0,24,0.000000,true
+Maybe,New Zealand,Business,Female,Yes,0,24,0.000000,true
+Maybe,New Zealand,Business,Male,No,23,92,0.250000,false
+Maybe,New Zealand,Business,Male,Not sure,23,92,0.250000,false
+Maybe,New Zealand,Business,Male,Yes,46,92,0.500000,false
+Maybe,New Zealand,Corporate,Female,No,24,24,1.000000,true
+Maybe,New Zealand,Corporate,Female,Not sure,0,24,0.000000,true
+Maybe,New Zealand,Corporate,Female,Yes,0,24,0.000000,true
+Maybe,New Zealand,Corporate,Male,No,23,92,0.250000,false
+Maybe,New Zealand,Corporate,Male,Not sure,23,92,0.250000,false
+Maybe,New Zealand,Corporate,Male,Yes,46,92,0.500000,false
+Maybe,New Zealand,Housewife,Female,No,32,32,1.000000,false
+Maybe,New Zealand,Housewife,Female,Not sure,0,32,0.000000,false
+Maybe,New Zealand,Housewife,Female,Yes,0,32,0.000000,false
+Maybe,New Zealand,Housewife,Male,No,33,132,0.250000,false
+Maybe,New Zealand,Housewife,Male,Not sure,33,132,0.250000,false
+Maybe,New Zealand,Housewife,Male,Yes,66,132,0.500000,false
+Maybe,New Zealand,Others,Female,No,25,25,1.000000,true
+Maybe,New Zealand,Others,Female,Not sure,0,25,0.000000,true
+Maybe,New Zealand,Others,Female,Yes,0,25,0.000000,true
+Maybe,New Zealand,Others,Male,No,25,100,0.250000,false
+Maybe,New Zealand,Others,Male,Not sure,25,100,0.250000,false
+Maybe,New Zealand,Others,Male,Yes,50,100,0.500000,false
+Maybe,New Zealand,Student,Female,No,25,25,1.000000,true
+Maybe,New Zealand,Student,Female,Not sure,0,25,0.000000,true
+Maybe,New Zealand,Student,Female,Yes,0,25,0.000000,true
+Maybe,New Zealand,Student,Male,No,33,132,0.250000,false
+Maybe,New Zealand,Student,Male,Not sure,33,132,0.250000,false
+Maybe,New Zealand,Student,Male,Yes,66,132,0.500000,false
+Maybe,Nigeria,Business,Male,No,23,23,1.000000,true
+Maybe,Nigeria,Business,Male,Not sure,0,23,0.000000,true
+Maybe,Nigeria,Business,Male,Yes,0,23,0.000000,true
+Maybe,Nigeria,Corporate,Male,No,23,23,1.000000,true
+Maybe,Nigeria,Corporate,Male,Not sure,0,23,0.000000,true
+Maybe,Nigeria,Corporate,Male,Yes,0,23,0.000000,true
+Maybe,Nigeria,Housewife,Male,No,33,33,1.000000,false
+Maybe,Nigeria,Housewife,Male,Not sure,0,33,0.000000,false
+Maybe,Nigeria,Housewife,Male,Yes,0,33,0.000000,false
+Maybe,Nigeria,Others,Male,No,25,25,1.000000,true
+Maybe,Nigeria,Others,Male,Not sure,0,25,0.000000,true
+Maybe,Nigeria,Others,Male,Yes,0,25,0.000000,true
+Maybe,Nigeria,Student,Male,No,33,33,1.000000,false
+Maybe,Nigeria,Student,Male,Not sure,0,33,0.000000,false
+Maybe,Nigeria,Student,Male,Yes,0,33,0.000000,false
+Maybe,Philippines,Business,Male,No,23,23,1.000000,true
+Maybe,Philippines,Business,Male,Not sure,0,23,0.000000,true
+Maybe,Philippines,Business,Male,Yes,0,23,0.000000,true
+Maybe,Philippines,Corporate,Male,No,23,23,1.000000,true
+Maybe,Philippines,Corporate,Male,Not sure,0,23,0.000000,true
+Maybe,Philippines,Corporate,Male,Yes,0,23,0.000000,true
+Maybe,Philippines,Housewife,Male,No,33,33,1.000000,false
+Maybe,Philippines,Housewife,Male,Not sure,0,33,0.000000,false
+Maybe,Philippines,Housewife,Male,Yes,0,33,0.000000,false
+Maybe,Philippines,Others,Male,No,25,25,1.000000,true
+Maybe,Philippines,Others,Male,Not sure,0,25,0.000000,true
+Maybe,Philippines,Others,Male,Yes,0,25,0.000000,true
+Maybe,Philippines,Student,Male,No,33,33,1.000000,false
+Maybe,Philippines,Student,Male,Not sure,0,33,0.000000,false
+Maybe,Philippines,Student,Male,Yes,0,33,0.000000,false
+Maybe,Poland,Business,Female,No,0,24,0.000000,true
+Maybe,Poland,Business,Female,Not sure,24,24,1.000000,true
+Maybe,Poland,Business,Female,Yes,0,24,0.000000,true
+Maybe,Poland,Business,Male,No,23,23,1.000000,true
+Maybe,Poland,Business,Male,Not sure,0,23,0.000000,true
+Maybe,Poland,Business,Male,Yes,0,23,0.000000,true
+Maybe,Poland,Corporate,Female,No,0,24,0.000000,true
+Maybe,Poland,Corporate,Female,Not sure,24,24,1.000000,true
+Maybe,Poland,Corporate,Female,Yes,0,24,0.000000,true
+Maybe,Poland,Corporate,Male,No,23,23,1.000000,true
+Maybe,Poland,Corporate,Male,Not sure,0,23,0.000000,true
+Maybe,Poland,Corporate,Male,Yes,0,23,0.000000,true
+Maybe,Poland,Housewife,Female,No,0,32,0.000000,false
+Maybe,Poland,Housewife,Female,Not sure,32,32,1.000000,false
+Maybe,Poland,Housewife,Female,Yes,0,32,0.000000,false
+Maybe,Poland,Housewife,Male,No,33,33,1.000000,false
+Maybe,Poland,Housewife,Male,Not sure,0,33,0.000000,false
+Maybe,Poland,Housewife,Male,Yes,0,33,0.000000,false
+Maybe,Poland,Others,Female,No,0,25,0.000000,true
+Maybe,Poland,Others,Female,Not sure,25,25,1.000000,true
+Maybe,Poland,Others,Female,Yes,0,25,0.000000,true
+Maybe,Poland,Others,Male,No,25,25,1.000000,true
+Maybe,Poland,Others,Male,Not sure,0,25,0.000000,true
+Maybe,Poland,Others,Male,Yes,0,25,0.000000,true
+Maybe,Poland,Student,Female,No,0,25,0.000000,true
+Maybe,Poland,Student,Female,Not sure,25,25,1.000000,true
+Maybe,Poland,Student,Female,Yes,0,25,0.000000,true
+Maybe,Poland,Student,Male,No,33,33,1.000000,false
+Maybe,Poland,Student,Male,Not sure,0,33,0.000000,false
+Maybe,Poland,Student,Male,Yes,0,33,0.000000,false
+Maybe,Portugal,Business,Male,No,0,23,0.000000,true
+Maybe,Portugal,Business,Male,Not sure,0,23,0.000000,true
+Maybe,Portugal,Business,Male,Yes,23,23,1.000000,true
+Maybe,Portugal,Corporate,Male,No,0,23,0.000000,true
+Maybe,Portugal,Corporate,Male,Not sure,0,23,0.000000,true
+Maybe,Portugal,Corporate,Male,Yes,23,23,1.000000,true
+Maybe,Portugal,Housewife,Male,No,0,33,0.000000,false
+Maybe,Portugal,Housewife,Male,Not sure,0,33,0.000000,false
+Maybe,Portugal,Housewife,Male,Yes,33,33,1.000000,false
+Maybe,Portugal,Others,Male,No,0,25,0.000000,true
+Maybe,Portugal,Others,Male,Not sure,0,25,0.000000,true
+Maybe,Portugal,Others,Male,Yes,25,25,1.000000,true
+Maybe,Portugal,Student,Male,No,0,33,0.000000,false
+Maybe,Portugal,Student,Male,Not sure,0,33,0.000000,false
+Maybe,Portugal,Student,Male,Yes,33,33,1.000000,false
+Maybe,Russia,Business,Male,No,23,46,0.500000,false
+Maybe,Russia,Business,Male,Not sure,23,46,0.500000,false
+Maybe,Russia,Business,Male,Yes,0,46,0.000000,false
+Maybe,Russia,Corporate,Male,No,23,46,0.500000,false
+Maybe,Russia,Corporate,Male,Not sure,23,46,0.500000,false
+Maybe,Russia,Corporate,Male,Yes,0,46,0.000000,false
+Maybe,Russia,Housewife,Male,No,33,66,0.500000,false
+Maybe,Russia,Housewife,Male,Not sure,33,66,0.500000,false
+Maybe,Russia,Housewife,Male,Yes,0,66,0.000000,false
+Maybe,Russia,Others,Male,No,25,50,0.500000,false
+Maybe,Russia,Others,Male,Not sure,25,50,0.500000,false
+Maybe,Russia,Others,Male,Yes,0,50,0.000000,false
+Maybe,Russia,Student,Male,No,33,66,0.500000,false
+Maybe,Russia,Student,Male,Not sure,33,66,0.500000,false
+Maybe,Russia,Student,Male,Yes,0,66,0.000000,false
+Maybe,Singapore,Business,Male,No,23,46,0.500000,false
+Maybe,Singapore,Business,Male,Not sure,23,46,0.500000,false
+Maybe,Singapore,Business,Male,Yes,0,46,0.000000,false
+Maybe,Singapore,Corporate,Male,No,23,46,0.500000,false
+Maybe,Singapore,Corporate,Male,Not sure,23,46,0.500000,false
+Maybe,Singapore,Corporate,Male,Yes,0,46,0.000000,false
+Maybe,Singapore,Housewife,Male,No,33,66,0.500000,false
+Maybe,Singapore,Housewife,Male,Not sure,33,66,0.500000,false
+Maybe,Singapore,Housewife,Male,Yes,0,66,0.000000,false
+Maybe,Singapore,Others,Male,No,25,50,0.500000,false
+Maybe,Singapore,Others,Male,Not sure,25,50,0.500000,false
+Maybe,Singapore,Others,Male,Yes,0,50,0.000000,false
+Maybe,Singapore,Student,Male,No,33,66,0.500000,false
+Maybe,Singapore,Student,Male,Not sure,33,66,0.500000,false
+Maybe,Singapore,Student,Male,Yes,0,66,0.000000,false
+Maybe,South Africa,Business,Female,No,0,24,0.000000,true
+Maybe,South Africa,Business,Female,Not sure,0,24,0.000000,true
+Maybe,South Africa,Business,Female,Yes,24,24,1.000000,true
+Maybe,South Africa,Business,Male,No,69,92,0.750000,false
+Maybe,South Africa,Business,Male,Not sure,0,92,0.000000,false
+Maybe,South Africa,Business,Male,Yes,23,92,0.250000,false
+Maybe,South Africa,Corporate,Female,No,0,24,0.000000,true
+Maybe,South Africa,Corporate,Female,Not sure,0,24,0.000000,true
+Maybe,South Africa,Corporate,Female,Yes,24,24,1.000000,true
+Maybe,South Africa,Corporate,Male,No,69,92,0.750000,false
+Maybe,South Africa,Corporate,Male,Not sure,0,92,0.000000,false
+Maybe,South Africa,Corporate,Male,Yes,23,92,0.250000,false
+Maybe,South Africa,Housewife,Female,No,0,32,0.000000,false
+Maybe,South Africa,Housewife,Female,Not sure,0,32,0.000000,false
+Maybe,South Africa,Housewife,Female,Yes,32,32,1.000000,false
+Maybe,South Africa,Housewife,Male,No,99,132,0.750000,false
+Maybe,South Africa,Housewife,Male,Not sure,0,132,0.000000,false
+Maybe,South Africa,Housewife,Male,Yes,33,132,0.250000,false
+Maybe,South Africa,Others,Female,No,0,25,0.000000,true
+Maybe,South Africa,Others,Female,Not sure,0,25,0.000000,true
+Maybe,South Africa,Others,Female,Yes,25,25,1.000000,true
+Maybe,South Africa,Others,Male,No,75,100,0.750000,false
+Maybe,South Africa,Others,Male,Not sure,0,100,0.000000,false
+Maybe,South Africa,Others,Male,Yes,25,100,0.250000,false
+Maybe,South Africa,Student,Female,No,0,25,0.000000,true
+Maybe,South Africa,Student,Female,Not sure,0,25,0.000000,true
+Maybe,South Africa,Student,Female,Yes,25,25,1.000000,true
+Maybe,South Africa,Student,Male,No,99,132,0.750000,false
+Maybe,South Africa,Student,Male,Not sure,0,132,0.000000,false
+Maybe,South Africa,Student,Male,Yes,33,132,0.250000,false
+Maybe,Sweden,Business,Female,No,0,48,0.000000,false
+Maybe,Sweden,Business,Female,Not sure,0,48,0.000000,false
+Maybe,Sweden,Business,Female,Yes,48,48,1.000000,false
+Maybe,Sweden,Business,Male,No,69,115,0.600000,false
+Maybe,Sweden,Business,Male,Not sure,23,115,0.200000,false
+Maybe,Sweden,Business,Male,Yes,23,115,0.200000,false
+Maybe,Sweden,Corporate,Female,No,0,48,0.000000,false
+Maybe,Sweden,Corporate,Female,Not sure,0,48,0.000000,false
+Maybe,Sweden,Corporate,Female,Yes,48,48,1.000000,false
+Maybe,Sweden,Corporate,Male,No,69,115,0.600000,false
+Maybe,Sweden,Corporate,Male,Not sure,23,115,0.200000,false
+Maybe,Sweden,Corporate,Male,Yes,23,115,0.200000,false
+Maybe,Sweden,Housewife,Female,No,0,64,0.000000,false
+Maybe,Sweden,Housewife,Female,Not sure,0,64,0.000000,false
+Maybe,Sweden,Housewife,Female,Yes,64,64,1.000000,false
+Maybe,Sweden,Housewife,Male,No,99,165,0.600000,false
+Maybe,Sweden,Housewife,Male,Not sure,33,165,0.200000,false
+Maybe,Sweden,Housewife,Male,Yes,33,165,0.200000,false
+Maybe,Sweden,Others,Female,No,0,50,0.000000,false
+Maybe,Sweden,Others,Female,Not sure,0,50,0.000000,false
+Maybe,Sweden,Others,Female,Yes,50,50,1.000000,false
+Maybe,Sweden,Others,Male,No,75,125,0.600000,false
+Maybe,Sweden,Others,Male,Not sure,25,125,0.200000,false
+Maybe,Sweden,Others,Male,Yes,25,125,0.200000,false
+Maybe,Sweden,Student,Female,No,0,50,0.000000,false
+Maybe,Sweden,Student,Female,Not sure,0,50,0.000000,false
+Maybe,Sweden,Student,Female,Yes,50,50,1.000000,false
+Maybe,Sweden,Student,Male,No,99,165,0.600000,false
+Maybe,Sweden,Student,Male,Not sure,33,165,0.200000,false
+Maybe,Sweden,Student,Male,Yes,33,165,0.200000,false
+Maybe,Switzerland,Business,Male,No,69,92,0.750000,false
+Maybe,Switzerland,Business,Male,Not sure,23,92,0.250000,false
+Maybe,Switzerland,Business,Male,Yes,0,92,0.000000,false
+Maybe,Switzerland,Corporate,Male,No,69,92,0.750000,false
+Maybe,Switzerland,Corporate,Male,Not sure,23,92,0.250000,false
+Maybe,Switzerland,Corporate,Male,Yes,0,92,0.000000,false
+Maybe,Switzerland,Housewife,Male,No,99,132,0.750000,false
+Maybe,Switzerland,Housewife,Male,Not sure,33,132,0.250000,false
+Maybe,Switzerland,Housewife,Male,Yes,0,132,0.000000,false
+Maybe,Switzerland,Others,Male,No,75,100,0.750000,false
+Maybe,Switzerland,Others,Male,Not sure,25,100,0.250000,false
+Maybe,Switzerland,Others,Male,Yes,0,100,0.000000,false
+Maybe,Switzerland,Student,Male,No,99,132,0.750000,false
+Maybe,Switzerland,Student,Male,Not sure,33,132,0.250000,false
+Maybe,Switzerland,Student,Male,Yes,0,132,0.000000,false
+Maybe,Thailand,Business,Male,No,23,23,1.000000,true
+Maybe,Thailand,Business,Male,Not sure,0,23,0.000000,true
+Maybe,Thailand,Business,Male,Yes,0,23,0.000000,true
+Maybe,Thailand,Corporate,Male,No,23,23,1.000000,true
+Maybe,Thailand,Corporate,Male,Not sure,0,23,0.000000,true
+Maybe,Thailand,Corporate,Male,Yes,0,23,0.000000,true
+Maybe,Thailand,Housewife,Male,No,33,33,1.000000,false
+Maybe,Thailand,Housewife,Male,Not sure,0,33,0.000000,false
+Maybe,Thailand,Housewife,Male,Yes,0,33,0.000000,false
+Maybe,Thailand,Others,Male,No,25,25,1.000000,true
+Maybe,Thailand,Others,Male,Not sure,0,25,0.000000,true
+Maybe,Thailand,Others,Male,Yes,0,25,0.000000,true
+Maybe,Thailand,Student,Male,No,33,33,1.000000,false
+Maybe,Thailand,Student,Male,Not sure,0,33,0.000000,false
+Maybe,Thailand,Student,Male,Yes,0,33,0.000000,false
+Maybe,United Kingdom,Business,Female,No,192,384,0.500000,false
+Maybe,United Kingdom,Business,Female,Not sure,96,384,0.250000,false
+Maybe,United Kingdom,Business,Female,Yes,96,384,0.250000,false
+Maybe,United Kingdom,Business,Male,No,1518,2622,0.578947,false
+Maybe,United Kingdom,Business,Male,Not sure,621,2622,0.236842,false
+Maybe,United Kingdom,Business,Male,Yes,483,2622,0.184211,false
+Maybe,United Kingdom,Corporate,Female,No,192,384,0.500000,false
+Maybe,United Kingdom,Corporate,Female,Not sure,96,384,0.250000,false
+Maybe,United Kingdom,Corporate,Female,Yes,96,384,0.250000,false
+Maybe,United Kingdom,Corporate,Male,No,1518,2622,0.578947,false
+Maybe,United Kingdom,Corporate,Male,Not sure,621,2622,0.236842,false
+Maybe,United Kingdom,Corporate,Male,Yes,483,2622,0.184211,false
+Maybe,United Kingdom,Housewife,Female,No,256,512,0.500000,false
+Maybe,United Kingdom,Housewife,Female,Not sure,128,512,0.250000,false
+Maybe,United Kingdom,Housewife,Female,Yes,128,512,0.250000,false
+Maybe,United Kingdom,Housewife,Male,No,2178,3762,0.578947,false
+Maybe,United Kingdom,Housewife,Male,Not sure,891,3762,0.236842,false
+Maybe,United Kingdom,Housewife,Male,Yes,693,3762,0.184211,false
+Maybe,United Kingdom,Others,Female,No,200,400,0.500000,false
+Maybe,United Kingdom,Others,Female,Not sure,100,400,0.250000,false
+Maybe,United Kingdom,Others,Female,Yes,100,400,0.250000,false
+Maybe,United Kingdom,Others,Male,No,1650,2850,0.578947,false
+Maybe,United Kingdom,Others,Male,Not sure,675,2850,0.236842,false
+Maybe,United Kingdom,Others,Male,Yes,525,2850,0.184211,false
+Maybe,United Kingdom,Student,Female,No,200,400,0.500000,false
+Maybe,United Kingdom,Student,Female,Not sure,100,400,0.250000,false
+Maybe,United Kingdom,Student,Female,Yes,100,400,0.250000,false
+Maybe,United Kingdom,Student,Male,No,2178,3762,0.578947,false
+Maybe,United Kingdom,Student,Male,Not sure,891,3762,0.236842,false
+Maybe,United Kingdom,Student,Male,Yes,693,3762,0.184211,false
+Maybe,United States,Business,Female,No,528,1968,0.268293,false
+Maybe,United States,Business,Female,Not sure,648,1968,0.329268,false
+Maybe,United States,Business,Female,Yes,792,1968,0.402439,false
+Maybe,United States,Business,Male,No,2737,7889,0.346939,false
+Maybe,United States,Business,Male,Not sure,2139,7889,0.271137,false
+Maybe,United States,Business,Male,Yes,3013,7889,0.381924,false
+Maybe,United States,Corporate,Female,No,528,1968,0.268293,false
+Maybe,United States,Corporate,Female,Not sure,648,1968,0.329268,false
+Maybe,United States,Corporate,Female,Yes,792,1968,0.402439,false
+Maybe,United States,Corporate,Male,No,2737,7889,0.346939,false
+Maybe,United States,Corporate,Male,Not sure,2139,7889,0.271137,false
+Maybe,United States,Corporate,Male,Yes,3013,7889,0.381924,false
+Maybe,United States,Housewife,Female,No,704,2624,0.268293,false
+Maybe,United States,Housewife,Female,Not sure,864,2624,0.329268,false
+Maybe,United States,Housewife,Female,Yes,1056,2624,0.402439,false
+Maybe,United States,Housewife,Male,No,3927,11319,0.346939,false
+Maybe,United States,Housewife,Male,Not sure,3069,11319,0.271137,false
+Maybe,United States,Housewife,Male,Yes,4323,11319,0.381924,false
+Maybe,United States,Others,Female,No,550,2050,0.268293,false
+Maybe,United States,Others,Female,Not sure,675,2050,0.329268,false
+Maybe,United States,Others,Female,Yes,825,2050,0.402439,false
+Maybe,United States,Others,Male,No,2975,8575,0.346939,false
+Maybe,United States,Others,Male,Not sure,2325,8575,0.271137,false
+Maybe,United States,Others,Male,Yes,3275,8575,0.381924,false
+Maybe,United States,Student,Female,No,550,2050,0.268293,false
+Maybe,United States,Student,Female,Not sure,675,2050,0.329268,false
+Maybe,United States,Student,Female,Yes,825,2050,0.402439,false
+Maybe,United States,Student,Male,No,3927,11319,0.346939,false
+Maybe,United States,Student,Male,Not sure,3069,11319,0.271137,false
+Maybe,United States,Student,Male,Yes,4323,11319,0.381924,false
+No,Australia,Business,Female,No,26,104,0.250000,false
+No,Australia,Business,Female,Not sure,26,104,0.250000,false
+No,Australia,Business,Female,Yes,52,104,0.500000,false
+No,Australia,Business,Male,No,54,198,0.272727,false
+No,Australia,Business,Male,Not sure,72,198,0.363636,false
+No,Australia,Business,Male,Yes,72,198,0.363636,false
+No,Australia,Corporate,Female,No,19,76,0.250000,false
+No,Australia,Corporate,Female,Not sure,19,76,0.250000,false
+No,Australia,Corporate,Female,Yes,38,76,0.500000,false
+No,Australia,Corporate,Male,No,87,319,0.272727,false
+No,Australia,Corporate,Male,Not sure,116,319,0.363636,false
+No,Australia,Corporate,Male,Yes,116,319,0.363636,false
+No,Australia,Housewife,Female,No,24,96,0.250000,false
+No,Australia,Housewife,Female,Not sure,24,96,0.250000,false
+No,Australia,Housewife,Female,Yes,48,96,0.500000,false
+No,Australia,Housewife,Male,No,96,352,0.272727,false
+No,Australia,Housewife,Male,Not sure,128,352,0.363636,false
+No,Australia,Housewife,Male,Yes,128,352,0.363636,false
+No,Australia,Others,Female,No,25,100,0.250000,false
+No,Australia,Others,Female,Not sure,25,100,0.250000,false
+No,Australia,Others,Female,Yes,50,100,0.500000,false
+No,Australia,Others,Male,No,78,286,0.272727,false
+No,Australia,Others,Male,Not sure,104,286,0.363636,false
+No,Australia,Others,Male,Yes,104,286,0.363636,false
+No,Australia,Student,Female,No,36,144,0.250000,false
+No,Australia,Student,Female,Not sure,36,144,0.250000,false
+No,Australia,Student,Female,Yes,72,144,0.500000,false
+No,Australia,Student,Male,No,60,220,0.272727,false
+No,Australia,Student,Male,Not sure,80,220,0.363636,false
+No,Australia,Student,Male,Yes,80,220,0.363636,false
+No,Belgium,Business,Female,No,0,26,0.000000,true
+No,Belgium,Business,Female,Not sure,26,26,1.000000,true
+No,Belgium,Business,Female,Yes,0,26,0.000000,true
+No,Belgium,Business,Male,No,18,18,1.000000,true
+No,Belgium,Business,Male,Not sure,0,18,0.000000,true
+No,Belgium,Business,Male,Yes,0,18,0.000000,true
+No,Belgium,Corporate,Female,No,0,19,0.000000,true
+No,Belgium,Corporate,Female,Not sure,19,19,1.000000,true
+No,Belgium,Corporate,Female,Yes,0,19,0.000000,true
+No,Belgium,Corporate,Male,No,29,29,1.000000,true
+No,Belgium,Corporate,Male,Not sure,0,29,0.000000,true
+No,Belgium,Corporate,Male,Yes,0,29,0.000000,true
+No,Belgium,Housewife,Female,No,0,24,0.000000,true
+No,Belgium,Housewife,Female,Not sure,24,24,1.000000,true
+No,Belgium,Housewife,Female,Yes,0,24,0.000000,true
+No,Belgium,Housewife,Male,No,32,32,1.000000,false
+No,Belgium,Housewife,Male,Not sure,0,32,0.000000,false
+No,Belgium,Housewife,Male,Yes,0,32,0.000000,false
+No,Belgium,Others,Female,No,0,25,0.000000,true
+No,Belgium,Others,Female,Not sure,25,25,1.000000,true
+No,Belgium,Others,Female,Yes,0,25,0.000000,true
+No,Belgium,Others,Male,No,26,26,1.000000,true
+No,Belgium,Others,Male,Not sure,0,26,0.000000,true
+No,Belgium,Others,Male,Yes,0,26,0.000000,true
+No,Belgium,Student,Female,No,0,36,0.000000,false
+No,Belgium,Student,Female,Not sure,36,36,1.000000,false
+No,Belgium,Student,Female,Yes,0,36,0.000000,false
+No,Belgium,Student,Male,No,20,20,1.000000,true
+No,Belgium,Student,Male,Not sure,0,20,0.000000,true
+No,Belgium,Student,Male,Yes,0,20,0.000000,true
+No,Bosnia and Herzegovina,Business,Male,No,0,18,0.000000,true
+No,Bosnia and Herzegovina,Business,Male,Not sure,18,18,1.000000,true
+No,Bosnia and Herzegovina,Business,Male,Yes,0,18,0.000000,true
+No,Bosnia and Herzegovina,Corporate,Male,No,0,29,0.000000,true
+No,Bosnia and Herzegovina,Corporate,Male,Not sure,29,29,1.000000,true
+No,Bosnia and Herzegovina,Corporate,Male,Yes,0,29,0.000000,true
+No,Bosnia and Herzegovina,Housewife,Male,No,0,32,0.000000,false
+No,Bosnia and Herzegovina,Housewife,Male,Not sure,32,32,1.000000,false
+No,Bosnia and Herzegovina,Housewife,Male,Yes,0,32,0.000000,false
+No,Bosnia and Herzegovina,Others,Male,No,0,26,0.000000,true
+No,Bosnia and Herzegovina,Others,Male,Not sure,26,26,1.000000,true
+No,Bosnia and Herzegovina,Others,Male,Yes,0,26,0.000000,true
+No,Bosnia and Herzegovina,Student,Male,No,0,20,0.000000,true
+No,Bosnia and Herzegovina,Student,Male,Not sure,20,20,1.000000,true
+No,Bosnia and Herzegovina,Student,Male,Yes,0,20,0.000000,true
+No,Brazil,Business,Male,No,72,108,0.666667,false
+No,Brazil,Business,Male,Not sure,0,108,0.000000,false
+No,Brazil,Business,Male,Yes,36,108,0.333333,false
+No,Brazil,Corporate,Male,No,116,174,0.666667,false
+No,Brazil,Corporate,Male,Not sure,0,174,0.000000,false
+No,Brazil,Corporate,Male,Yes,58,174,0.333333,false
+No,Brazil,Housewife,Male,No,128,192,0.666667,false
+No,Brazil,Housewife,Male,Not sure,0,192,0.000000,false
+No,Brazil,Housewife,Male,Yes,64,192,0.333333,false
+No,Brazil,Others,Male,No,104,156,0.666667,false
+No,Brazil,Others,Male,Not sure,0,156,0.000000,false
+No,Brazil,Others,Male,Yes,52,156,0.333333,false
+No,Brazil,Student,Male,No,80,120,0.666667,false
+No,Brazil,Student,Male,Not sure,0,120,0.000000,false
+No,Brazil,Student,Male,Yes,40,120,0.333333,false
+No,Canada,Business,Female,No,0,234,0.000000,false
+No,Canada,Business,Female,Not sure,104,234,0.444444,false
+No,Canada,Business,Female,Yes,130,234,0.555556,false
+No,Canada,Business,Male,No,234,684,0.342105,false
+No,Canada,Business,Male,Not sure,234,684,0.342105,false
+No,Canada,Business,Male,Yes,216,684,0.315789,false
+No,Canada,Corporate,Female,No,0,171,0.000000,false
+No,Canada,Corporate,Female,Not sure,76,171,0.444444,false
+No,Canada,Corporate,Female,Yes,95,171,0.555556,false
+No,Canada,Corporate,Male,No,377,1102,0.342105,false
+No,Canada,Corporate,Male,Not sure,377,1102,0.342105,false
+No,Canada,Corporate,Male,Yes,348,1102,0.315789,false
+No,Canada,Housewife,Female,No,0,216,0.000000,false
+No,Canada,Housewife,Female,Not sure,96,216,0.444444,false
+No,Canada,Housewife,Female,Yes,120,216,0.555556,false
+No,Canada,Housewife,Male,No,416,1216,0.342105,false
+No,Canada,Housewife,Male,Not sure,416,1216,0.342105,false
+No,Canada,Housewife,Male,Yes,384,1216,0.315789,false
+No,Canada,Others,Female,No,0,225,0.000000,false
+No,Canada,Others,Female,Not sure,100,225,0.444444,false
+No,Canada,Others,Female,Yes,125,225,0.555556,false
+No,Canada,Others,Male,No,338,988,0.342105,false
+No,Canada,Others,Male,Not sure,338,988,0.342105,false
+No,Canada,Others,Male,Yes,312,988,0.315789,false
+No,Canada,Student,Female,No,0,324,0.000000,false
+No,Canada,Student,Female,Not sure,144,324,0.444444,false
+No,Canada,Student,Female,Yes,180,324,0.555556,false
+No,Canada,Student,Male,No,260,760,0.342105,false
+No,Canada,Student,Male,Not sure,260,760,0.342105,false
+No,Canada,Student,Male,Yes,240,760,0.315789,false
+No,Colombia,Business,Male,No,18,18,1.000000,true
+No,Colombia,Business,Male,Not sure,0,18,0.000000,true
+No,Colombia,Business,Male,Yes,0,18,0.000000,true
+No,Colombia,Corporate,Male,No,29,29,1.000000,true
+No,Colombia,Corporate,Male,Not sure,0,29,0.000000,true
+No,Colombia,Corporate,Male,Yes,0,29,0.000000,true
+No,Colombia,Housewife,Male,No,32,32,1.000000,false
+No,Colombia,Housewife,Male,Not sure,0,32,0.000000,false
+No,Colombia,Housewife,Male,Yes,0,32,0.000000,false
+No,Colombia,Others,Male,No,26,26,1.000000,true
+No,Colombia,Others,Male,Not sure,0,26,0.000000,true
+No,Colombia,Others,Male,Yes,0,26,0.000000,true
+No,Colombia,Student,Male,No,20,20,1.000000,true
+No,Colombia,Student,Male,Not sure,0,20,0.000000,true
+No,Colombia,Student,Male,Yes,0,20,0.000000,true
+No,Costa Rica,Business,Male,No,0,18,0.000000,true
+No,Costa Rica,Business,Male,Not sure,0,18,0.000000,true
+No,Costa Rica,Business,Male,Yes,18,18,1.000000,true
+No,Costa Rica,Corporate,Male,No,0,29,0.000000,true
+No,Costa Rica,Corporate,Male,Not sure,0,29,0.000000,true
+No,Costa Rica,Corporate,Male,Yes,29,29,1.000000,true
+No,Costa Rica,Housewife,Male,No,0,32,0.000000,false
+No,Costa Rica,Housewife,Male,Not sure,0,32,0.000000,false
+No,Costa Rica,Housewife,Male,Yes,32,32,1.000000,false
+No,Costa Rica,Others,Male,No,0,26,0.000000,true
+No,Costa Rica,Others,Male,Not sure,0,26,0.000000,true
+No,Costa Rica,Others,Male,Yes,26,26,1.000000,true
+No,Costa Rica,Student,Male,No,0,20,0.000000,true
+No,Costa Rica,Student,Male,Not sure,0,20,0.000000,true
+No,Costa Rica,Student,Male,Yes,20,20,1.000000,true
+No,Croatia,Business,Male,No,18,18,1.000000,true
+No,Croatia,Business,Male,Not sure,0,18,0.000000,true
+No,Croatia,Business,Male,Yes,0,18,0.000000,true
+No,Croatia,Corporate,Male,No,29,29,1.000000,true
+No,Croatia,Corporate,Male,Not sure,0,29,0.000000,true
+No,Croatia,Corporate,Male,Yes,0,29,0.000000,true
+No,Croatia,Housewife,Male,No,32,32,1.000000,false
+No,Croatia,Housewife,Male,Not sure,0,32,0.000000,false
+No,Croatia,Housewife,Male,Yes,0,32,0.000000,false
+No,Croatia,Others,Male,No,26,26,1.000000,true
+No,Croatia,Others,Male,Not sure,0,26,0.000000,true
+No,Croatia,Others,Male,Yes,0,26,0.000000,true
+No,Croatia,Student,Male,No,20,20,1.000000,true
+No,Croatia,Student,Male,Not sure,0,20,0.000000,true
+No,Croatia,Student,Male,Yes,0,20,0.000000,true
+No,Czech Republic,Business,Male,No,0,18,0.000000,true
+No,Czech Republic,Business,Male,Not sure,0,18,0.000000,true
+No,Czech Republic,Business,Male,Yes,18,18,1.000000,true
+No,Czech Republic,Corporate,Male,No,0,29,0.000000,true
+No,Czech Republic,Corporate,Male,Not sure,0,29,0.000000,true
+No,Czech Republic,Corporate,Male,Yes,29,29,1.000000,true
+No,Czech Republic,Housewife,Male,No,0,32,0.000000,false
+No,Czech Republic,Housewife,Male,Not sure,0,32,0.000000,false
+No,Czech Republic,Housewife,Male,Yes,32,32,1.000000,false
+No,Czech Republic,Others,Male,No,0,26,0.000000,true
+No,Czech Republic,Others,Male,Not sure,0,26,0.000000,true
+No,Czech Republic,Others,Male,Yes,26,26,1.000000,true
+No,Czech Republic,Student,Male,No,0,20,0.000000,true
+No,Czech Republic,Student,Male,Not sure,0,20,0.000000,true
+No,Czech Republic,Student,Male,Yes,20,20,1.000000,true
+No,Denmark,Business,Male,No,0,36,0.000000,false
+No,Denmark,Business,Male,Not sure,0,36,0.000000,false
+No,Denmark,Business,Male,Yes,36,36,1.000000,false
+No,Denmark,Corporate,Male,No,0,58,0.000000,false
+No,Denmark,Corporate,Male,Not sure,0,58,0.000000,false
+No,Denmark,Corporate,Male,Yes,58,58,1.000000,false
+No,Denmark,Housewife,Male,No,0,64,0.000000,false
+No,Denmark,Housewife,Male,Not sure,0,64,0.000000,false
+No,Denmark,Housewife,Male,Yes,64,64,1.000000,false
+No,Denmark,Others,Male,No,0,52,0.000000,false
+No,Denmark,Others,Male,Not sure,0,52,0.000000,false
+No,Denmark,Others,Male,Yes,52,52,1.000000,false
+No,Denmark,Student,Male,No,0,40,0.000000,false
+No,Denmark,Student,Male,Not sure,0,40,0.000000,false
+No,Denmark,Student,Male,Yes,40,40,1.000000,false
+No,Finland,Business,Male,No,18,18,1.000000,true
+No,Finland,Business,Male,Not sure,0,18,0.000000,true
+No,Finland,Business,Male,Yes,0,18,0.000000,true
+No,Finland,Corporate,Male,No,29,29,1.000000,true
+No,Finland,Corporate,Male,Not sure,0,29,0.000000,true
+No,Finland,Corporate,Male,Yes,0,29,0.000000,true
+No,Finland,Housewife,Male,No,32,32,1.000000,false
+No,Finland,Housewife,Male,Not sure,0,32,0.000000,false
+No,Finland,Housewife,Male,Yes,0,32,0.000000,false
+No,Finland,Others,Male,No,26,26,1.000000,true
+No,Finland,Others,Male,Not sure,0,26,0.000000,true
+No,Finland,Others,Male,Yes,0,26,0.000000,true
+No,Finland,Student,Male,No,20,20,1.000000,true
+No,Finland,Student,Male,Not sure,0,20,0.000000,true
+No,Finland,Student,Male,Yes,0,20,0.000000,true
+No,France,Business,Male,No,72,108,0.666667,false
+No,France,Business,Male,Not sure,0,108,0.000000,false
+No,France,Business,Male,Yes,36,108,0.333333,false
+No,France,Corporate,Male,No,116,174,0.666667,false
+No,France,Corporate,Male,Not sure,0,174,0.000000,false
+No,France,Corporate,Male,Yes,58,174,0.333333,false
+No,France,Housewife,Male,No,128,192,0.666667,false
+No,France,Housewife,Male,Not sure,0,192,0.000000,false
+No,France,Housewife,Male,Yes,64,192,0.333333,false
+No,France,Others,Male,No,104,156,0.666667,false
+No,France,Others,Male,Not sure,0,156,0.000000,false
+No,France,Others,Male,Yes,52,156,0.333333,false
+No,France,Student,Male,No,80,120,0.666667,false
+No,France,Student,Male,Not sure,0,120,0.000000,false
+No,France,Student,Male,Yes,40,120,0.333333,false
+No,Georgia,Business,Male,No,18,18,1.000000,true
+No,Georgia,Business,Male,Not sure,0,18,0.000000,true
+No,Georgia,Business,Male,Yes,0,18,0.000000,true
+No,Georgia,Corporate,Male,No,29,29,1.000000,true
+No,Georgia,Corporate,Male,Not sure,0,29,0.000000,true
+No,Georgia,Corporate,Male,Yes,0,29,0.000000,true
+No,Georgia,Housewife,Male,No,32,32,1.000000,false
+No,Georgia,Housewife,Male,Not sure,0,32,0.000000,false
+No,Georgia,Housewife,Male,Yes,0,32,0.000000,false
+No,Georgia,Others,Male,No,26,26,1.000000,true
+No,Georgia,Others,Male,Not sure,0,26,0.000000,true
+No,Georgia,Others,Male,Yes,0,26,0.000000,true
+No,Georgia,Student,Male,No,20,20,1.000000,true
+No,Georgia,Student,Male,Not sure,0,20,0.000000,true
+No,Georgia,Student,Male,Yes,0,20,0.000000,true
+No,Germany,Business,Male,No,54,216,0.250000,false
+No,Germany,Business,Male,Not sure,72,216,0.333333,false
+No,Germany,Business,Male,Yes,90,216,0.416667,false
+No,Germany,Corporate,Male,No,87,348,0.250000,false
+No,Germany,Corporate,Male,Not sure,116,348,0.333333,false
+No,Germany,Corporate,Male,Yes,145,348,0.416667,false
+No,Germany,Housewife,Male,No,96,384,0.250000,false
+No,Germany,Housewife,Male,Not sure,128,384,0.333333,false
+No,Germany,Housewife,Male,Yes,160,384,0.416667,false
+No,Germany,Others,Male,No,78,312,0.250000,false
+No,Germany,Others,Male,Not sure,104,312,0.333333,false
+No,Germany,Others,Male,Yes,130,312,0.416667,false
+No,Germany,Student,Male,No,60,240,0.250000,false
+No,Germany,Student,Male,Not sure,80,240,0.333333,false
+No,Germany,Student,Male,Yes,100,240,0.416667,false
+No,Greece,Business,Male,No,36,36,1.000000,false
+No,Greece,Business,Male,Not sure,0,36,0.000000,false
+No,Greece,Business,Male,Yes,0,36,0.000000,false
+No,Greece,Corporate,Male,No,58,58,1.000000,false
+No,Greece,Corporate,Male,Not sure,0,58,0.000000,false
+No,Greece,Corporate,Male,Yes,0,58,0.000000,false
+No,Greece,Housewife,Male,No,64,64,1.000000,false
+No,Greece,Housewife,Male,Not sure,0,64,0.000000,false
+No,Greece,Housewife,Male,Yes,0,64,0.000000,false
+No,Greece,Others,Male,No,52,52,1.000000,false
+No,Greece,Others,Male,Not sure,0,52,0.000000,false
+No,Greece,Others,Male,Yes,0,52,0.000000,false
+No,Greece,Student,Male,No,40,40,1.000000,false
+No,Greece,Student,Male,Not sure,0,40,0.000000,false
+No,Greece,Student,Male,Yes,0,40,0.000000,false
+No,India,Business,Female,No,0,26,0.000000,true
+No,India,Business,Female,Not sure,26,26,1.000000,true
+No,India,Business,Female,Yes,0,26,0.000000,true
+No,India,Business,Male,No,90,108,0.833333,false
+No,India,Business,Male,Not sure,18,108,0.166667,false
+No,India,Business,Male,Yes,0,108,0.000000,false
+No,India,Corporate,Female,No,0,19,0.000000,true
+No,India,Corporate,Female,Not sure,19,19,1.000000,true
+No,India,Corporate,Female,Yes,0,19,0.000000,true
+No,India,Corporate,Male,No,145,174,0.833333,false
+No,India,Corporate,Male,Not sure,29,174,0.166667,false
+No,India,Corporate,Male,Yes,0,174,0.000000,false
+No,India,Housewife,Female,No,0,24,0.000000,true
+No,India,Housewife,Female,Not sure,24,24,1.000000,true
+No,India,Housewife,Female,Yes,0,24,0.000000,true
+No,India,Housewife,Male,No,160,192,0.833333,false
+No,India,Housewife,Male,Not sure,32,192,0.166667,false
+No,India,Housewife,Male,Yes,0,192,0.000000,false
+No,India,Others,Female,No,0,25,0.000000,true
+No,India,Others,Female,Not sure,25,25,1.000000,true
+No,India,Others,Female,Yes,0,25,0.000000,true
+No,India,Others,Male,No,130,156,0.833333,false
+No,India,Others,Male,Not sure,26,156,0.166667,false
+No,India,Others,Male,Yes,0,156,0.000000,false
+No,India,Student,Female,No,0,36,0.000000,false
+No,India,Student,Female,Not sure,36,36,1.000000,false
+No,India,Student,Female,Yes,0,36,0.000000,false
+No,India,Student,Male,No,100,120,0.833333,false
+No,India,Student,Male,Not sure,20,120,0.166667,false
+No,India,Student,Male,Yes,0,120,0.000000,false
+No,Ireland,Business,Female,No,26,52,0.500000,false
+No,Ireland,Business,Female,Not sure,0,52,0.000000,false
+No,Ireland,Business,Female,Yes,26,52,0.500000,false
+No,Ireland,Business,Male,No,198,216,0.916667,false
+No,Ireland,Business,Male,Not sure,0,216,0.000000,false
+No,Ireland,Business,Male,Yes,18,216,0.083333,false
+No,Ireland,Corporate,Female,No,19,38,0.500000,false
+No,Ireland,Corporate,Female,Not sure,0,38,0.000000,false
+No,Ireland,Corporate,Female,Yes,19,38,0.500000,false
+No,Ireland,Corporate,Male,No,319,348,0.916667,false
+No,Ireland,Corporate,Male,Not sure,0,348,0.000000,false
+No,Ireland,Corporate,Male,Yes,29,348,0.083333,false
+No,Ireland,Housewife,Female,No,24,48,0.500000,false
+No,Ireland,Housewife,Female,Not sure,0,48,0.000000,false
+No,Ireland,Housewife,Female,Yes,24,48,0.500000,false
+No,Ireland,Housewife,Male,No,352,384,0.916667,false
+No,Ireland,Housewife,Male,Not sure,0,384,0.000000,false
+No,Ireland,Housewife,Male,Yes,32,384,0.083333,false
+No,Ireland,Others,Female,No,25,50,0.500000,false
+No,Ireland,Others,Female,Not sure,0,50,0.000000,false
+No,Ireland,Others,Female,Yes,25,50,0.500000,false
+No,Ireland,Others,Male,No,286,312,0.916667,false
+No,Ireland,Others,Male,Not sure,0,312,0.000000,false
+No,Ireland,Others,Male,Yes,26,312,0.083333,false
+No,Ireland,Student,Female,No,36,72,0.500000,false
+No,Ireland,Student,Female,Not sure,0,72,0.000000,false
+No,Ireland,Student,Female,Yes,36,72,0.500000,false
+No,Ireland,Student,Male,No,220,240,0.916667,false
+No,Ireland,Student,Male,Not sure,0,240,0.000000,false
+No,Ireland,Student,Male,Yes,20,240,0.083333,false
+No,Israel,Business,Male,No,36,72,0.500000,false
+No,Israel,Business,Male,Not sure,18,72,0.250000,false
+No,Israel,Business,Male,Yes,18,72,0.250000,false
+No,Israel,Corporate,Male,No,58,116,0.500000,false
+No,Israel,Corporate,Male,Not sure,29,116,0.250000,false
+No,Israel,Corporate,Male,Yes,29,116,0.250000,false
+No,Israel,Housewife,Male,No,64,128,0.500000,false
+No,Israel,Housewife,Male,Not sure,32,128,0.250000,false
+No,Israel,Housewife,Male,Yes,32,128,0.250000,false
+No,Israel,Others,Male,No,52,104,0.500000,false
+No,Israel,Others,Male,Not sure,26,104,0.250000,false
+No,Israel,Others,Male,Yes,26,104,0.250000,false
+No,Israel,Student,Male,No,40,80,0.500000,false
+No,Israel,Student,Male,Not sure,20,80,0.250000,false
+No,Israel,Student,Male,Yes,20,80,0.250000,false
+No,Italy,Business,Male,No,54,72,0.750000,false
+No,Italy,Business,Male,Not sure,18,72,0.250000,false
+No,Italy,Business,Male,Yes,0,72,0.000000,false
+No,Italy,Corporate,Male,No,87,116,0.750000,false
+No,Italy,Corporate,Male,Not sure,29,116,0.250000,false
+No,Italy,Corporate,Male,Yes,0,116,0.000000,false
+No,Italy,Housewife,Male,No,96,128,0.750000,false
+No,Italy,Housewife,Male,Not sure,32,128,0.250000,false
+No,Italy,Housewife,Male,Yes,0,128,0.000000,false
+No,Italy,Others,Male,No,78,104,0.750000,false
+No,Italy,Others,Male,Not sure,26,104,0.250000,false
+No,Italy,Others,Male,Yes,0,104,0.000000,false
+No,Italy,Student,Male,No,60,80,0.750000,false
+No,Italy,Student,Male,Not sure,20,80,0.250000,false
+No,Italy,Student,Male,Yes,0,80,0.000000,false
+No,Mexico,Business,Male,No,18,18,1.000000,true
+No,Mexico,Business,Male,Not sure,0,18,0.000000,true
+No,Mexico,Business,Male,Yes,0,18,0.000000,true
+No,Mexico,Corporate,Male,No,29,29,1.000000,true
+No,Mexico,Corporate,Male,Not sure,0,29,0.000000,true
+No,Mexico,Corporate,Male,Yes,0,29,0.000000,true
+No,Mexico,Housewife,Male,No,32,32,1.000000,false
+No,Mexico,Housewife,Male,Not sure,0,32,0.000000,false
+No,Mexico,Housewife,Male,Yes,0,32,0.000000,false
+No,Mexico,Others,Male,No,26,26,1.000000,true
+No,Mexico,Others,Male,Not sure,0,26,0.000000,true
+No,Mexico,Others,Male,Yes,0,26,0.000000,true
+No,Mexico,Student,Male,No,20,20,1.000000,true
+No,Mexico,Student,Male,Not sure,0,20,0.000000,true
+No,Mexico,Student,Male,Yes,0,20,0.000000,true
+No,Moldova,Business,Male,No,0,18,0.000000,true
+No,Moldova,Business,Male,Not sure,0,18,0.000000,true
+No,Moldova,Business,Male,Yes,18,18,1.000000,true
+No,Moldova,Corporate,Male,No,0,29,0.000000,true
+No,Moldova,Corporate,Male,Not sure,0,29,0.000000,true
+No,Moldova,Corporate,Male,Yes,29,29,1.000000,true
+No,Moldova,Housewife,Male,No,0,32,0.000000,false
+No,Moldova,Housewife,Male,Not sure,0,32,0.000000,false
+No,Moldova,Housewife,Male,Yes,32,32,1.000000,false
+No,Moldova,Others,Male,No,0,26,0.000000,true
+No,Moldova,Others,Male,Not sure,0,26,0.000000,true
+No,Moldova,Others,Male,Yes,26,26,1.000000,true
+No,Moldova,Student,Male,No,0,20,0.000000,true
+No,Moldova,Student,Male,Not sure,0,20,0.000000,true
+No,Moldova,Student,Male,Yes,20,20,1.000000,true
+No,Netherlands,Business,Female,No,26,26,1.000000,true
+No,Netherlands,Business,Female,Not sure,0,26,0.000000,true
+No,Netherlands,Business,Female,Yes,0,26,0.000000,true
+No,Netherlands,Business,Male,No,126,252,0.500000,false
+No,Netherlands,Business,Male,Not sure,108,252,0.428571,false
+No,Netherlands,Business,Male,Yes,18,252,0.071429,false
+No,Netherlands,Corporate,Female,No,19,19,1.000000,true
+No,Netherlands,Corporate,Female,Not sure,0,19,0.000000,true
+No,Netherlands,Corporate,Female,Yes,0,19,0.000000,true
+No,Netherlands,Corporate,Male,No,203,406,0.500000,false
+No,Netherlands,Corporate,Male,Not sure,174,406,0.428571,false
+No,Netherlands,Corporate,Male,Yes,29,406,0.071429,false
+No,Netherlands,Housewife,Female,No,24,24,1.000000,true
+No,Netherlands,Housewife,Female,Not sure,0,24,0.000000,true
+No,Netherlands,Housewife,Female,Yes,0,24,0.000000,true
+No,Netherlands,Housewife,Male,No,224,448,0.500000,false
+No,Netherlands,Housewife,Male,Not sure,192,448,0.428571,false
+No,Netherlands,Housewife,Male,Yes,32,448,0.071429,false
+No,Netherlands,Others,Female,No,25,25,1.000000,true
+No,Netherlands,Others,Female,Not sure,0,25,0.000000,true
+No,Netherlands,Others,Female,Yes,0,25,0.000000,true
+No,Netherlands,Others,Male,No,182,364,0.500000,false
+No,Netherlands,Others,Male,Not sure,156,364,0.428571,false
+No,Netherlands,Others,Male,Yes,26,364,0.071429,false
+No,Netherlands,Student,Female,No,36,36,1.000000,false
+No,Netherlands,Student,Female,Not sure,0,36,0.000000,false
+No,Netherlands,Student,Female,Yes,0,36,0.000000,false
+No,Netherlands,Student,Male,No,140,280,0.500000,false
+No,Netherlands,Student,Male,Not sure,120,280,0.428571,false
+No,Netherlands,Student,Male,Yes,20,280,0.071429,false
+No,New Zealand,Business,Female,No,26,26,1.000000,true
+No,New Zealand,Business,Female,Not sure,0,26,0.000000,true
+No,New Zealand,Business,Female,Yes,0,26,0.000000,true
+No,New Zealand,Business,Male,No,18,72,0.250000,false
+No,New Zealand,Business,Male,Not sure,18,72,0.250000,false
+No,New Zealand,Business,Male,Yes,36,72,0.500000,false
+No,New Zealand,Corporate,Female,No,19,19,1.000000,true
+No,New Zealand,Corporate,Female,Not sure,0,19,0.000000,true
+No,New Zealand,Corporate,Female,Yes,0,19,0.000000,true
+No,New Zealand,Corporate,Male,No,29,116,0.250000,false
+No,New Zealand,Corporate,Male,Not sure,29,116,0.250000,false
+No,New Zealand,Corporate,Male,Yes,58,116,0.500000,false
+No,New Zealand,Housewife,Female,No,24,24,1.000000,true
+No,New Zealand,Housewife,Female,Not sure,0,24,0.000000,true
+No,New Zealand,Housewife,Female,Yes,0,24,0.000000,true
+No,New Zealand,Housewife,Male,No,32,128,0.250000,false
+No,New Zealand,Housewife,Male,Not sure,32,128,0.250000,false
+No,New Zealand,Housewife,Male,Yes,64,128,0.500000,false
+No,New Zealand,Others,Female,No,25,25,1.000000,true
+No,New Zealand,Others,Female,Not sure,0,25,0.000000,true
+No,New Zealand,Others,Female,Yes,0,25,0.000000,true
+No,New Zealand,Others,Male,No,26,104,0.250000,false
+No,New Zealand,Others,Male,Not sure,26,104,0.250000,false
+No,New Zealand,Others,Male,Yes,52,104,0.500000,false
+No,New Zealand,Student,Female,No,36,36,1.000000,false
+No,New Zealand,Student,Female,Not sure,0,36,0.000000,false
+No,New Zealand,Student,Female,Yes,0,36,0.000000,false
+No,New Zealand,Student,Male,No,20,80,0.250000,false
+No,New Zealand,Student,Male,Not sure,20,80,0.250000,false
+No,New Zealand,Student,Male,Yes,40,80,0.500000,false
+No,Nigeria,Business,Male,No,18,18,1.000000,true
+No,Nigeria,Business,Male,Not sure,0,18,0.000000,true
+No,Nigeria,Business,Male,Yes,0,18,0.000000,true
+No,Nigeria,Corporate,Male,No,29,29,1.000000,true
+No,Nigeria,Corporate,Male,Not sure,0,29,0.000000,true
+No,Nigeria,Corporate,Male,Yes,0,29,0.000000,true
+No,Nigeria,Housewife,Male,No,32,32,1.000000,false
+No,Nigeria,Housewife,Male,Not sure,0,32,0.000000,false
+No,Nigeria,Housewife,Male,Yes,0,32,0.000000,false
+No,Nigeria,Others,Male,No,26,26,1.000000,true
+No,Nigeria,Others,Male,Not sure,0,26,0.000000,true
+No,Nigeria,Others,Male,Yes,0,26,0.000000,true
+No,Nigeria,Student,Male,No,20,20,1.000000,true
+No,Nigeria,Student,Male,Not sure,0,20,0.000000,true
+No,Nigeria,Student,Male,Yes,0,20,0.000000,true
+No,Philippines,Business,Male,No,18,18,1.000000,true
+No,Philippines,Business,Male,Not sure,0,18,0.000000,true
+No,Philippines,Business,Male,Yes,0,18,0.000000,true
+No,Philippines,Corporate,Male,No,29,29,1.000000,true
+No,Philippines,Corporate,Male,Not sure,0,29,0.000000,true
+No,Philippines,Corporate,Male,Yes,0,29,0.000000,true
+No,Philippines,Housewife,Male,No,32,32,1.000000,false
+No,Philippines,Housewife,Male,Not sure,0,32,0.000000,false
+No,Philippines,Housewife,Male,Yes,0,32,0.000000,false
+No,Philippines,Others,Male,No,26,26,1.000000,true
+No,Philippines,Others,Male,Not sure,0,26,0.000000,true
+No,Philippines,Others,Male,Yes,0,26,0.000000,true
+No,Philippines,Student,Male,No,20,20,1.000000,true
+No,Philippines,Student,Male,Not sure,0,20,0.000000,true
+No,Philippines,Student,Male,Yes,0,20,0.000000,true
+No,Poland,Business,Female,No,0,26,0.000000,true
+No,Poland,Business,Female,Not sure,26,26,1.000000,true
+No,Poland,Business,Female,Yes,0,26,0.000000,true
+No,Poland,Business,Male,No,18,18,1.000000,true
+No,Poland,Business,Male,Not sure,0,18,0.000000,true
+No,Poland,Business,Male,Yes,0,18,0.000000,true
+No,Poland,Corporate,Female,No,0,19,0.000000,true
+No,Poland,Corporate,Female,Not sure,19,19,1.000000,true
+No,Poland,Corporate,Female,Yes,0,19,0.000000,true
+No,Poland,Corporate,Male,No,29,29,1.000000,true
+No,Poland,Corporate,Male,Not sure,0,29,0.000000,true
+No,Poland,Corporate,Male,Yes,0,29,0.000000,true
+No,Poland,Housewife,Female,No,0,24,0.000000,true
+No,Poland,Housewife,Female,Not sure,24,24,1.000000,true
+No,Poland,Housewife,Female,Yes,0,24,0.000000,true
+No,Poland,Housewife,Male,No,32,32,1.000000,false
+No,Poland,Housewife,Male,Not sure,0,32,0.000000,false
+No,Poland,Housewife,Male,Yes,0,32,0.000000,false
+No,Poland,Others,Female,No,0,25,0.000000,true
+No,Poland,Others,Female,Not sure,25,25,1.000000,true
+No,Poland,Others,Female,Yes,0,25,0.000000,true
+No,Poland,Others,Male,No,26,26,1.000000,true
+No,Poland,Others,Male,Not sure,0,26,0.000000,true
+No,Poland,Others,Male,Yes,0,26,0.000000,true
+No,Poland,Student,Female,No,0,36,0.000000,false
+No,Poland,Student,Female,Not sure,36,36,1.000000,false
+No,Poland,Student,Female,Yes,0,36,0.000000,false
+No,Poland,Student,Male,No,20,20,1.000000,true
+No,Poland,Student,Male,Not sure,0,20,0.000000,true
+No,Poland,Student,Male,Yes,0,20,0.000000,true
+No,Portugal,Business,Male,No,0,18,0.000000,true
+No,Portugal,Business,Male,Not sure,0,18,0.000000,true
+No,Portugal,Business,Male,Yes,18,18,1.000000,true
+No,Portugal,Corporate,Male,No,0,29,0.000000,true
+No,Portugal,Corporate,Male,Not sure,0,29,0.000000,true
+No,Portugal,Corporate,Male,Yes,29,29,1.000000,true
+No,Portugal,Housewife,Male,No,0,32,0.000000,false
+No,Portugal,Housewife,Male,Not sure,0,32,0.000000,false
+No,Portugal,Housewife,Male,Yes,32,32,1.000000,false
+No,Portugal,Others,Male,No,0,26,0.000000,true
+No,Portugal,Others,Male,Not sure,0,26,0.000000,true
+No,Portugal,Others,Male,Yes,26,26,1.000000,true
+No,Portugal,Student,Male,No,0,20,0.000000,true
+No,Portugal,Student,Male,Not sure,0,20,0.000000,true
+No,Portugal,Student,Male,Yes,20,20,1.000000,true
+No,Russia,Business,Male,No,18,36,0.500000,false
+No,Russia,Business,Male,Not sure,18,36,0.500000,false
+No,Russia,Business,Male,Yes,0,36,0.000000,false
+No,Russia,Corporate,Male,No,29,58,0.500000,false
+No,Russia,Corporate,Male,Not sure,29,58,0.500000,false
+No,Russia,Corporate,Male,Yes,0,58,0.000000,false
+No,Russia,Housewife,Male,No,32,64,0.500000,false
+No,Russia,Housewife,Male,Not sure,32,64,0.500000,false
+No,Russia,Housewife,Male,Yes,0,64,0.000000,false
+No,Russia,Others,Male,No,26,52,0.500000,false
+No,Russia,Others,Male,Not sure,26,52,0.500000,false
+No,Russia,Others,Male,Yes,0,52,0.000000,false
+No,Russia,Student,Male,No,20,40,0.500000,false
+No,Russia,Student,Male,Not sure,20,40,0.500000,false
+No,Russia,Student,Male,Yes,0,40,0.000000,false
+No,Singapore,Business,Male,No,18,36,0.500000,false
+No,Singapore,Business,Male,Not sure,18,36,0.500000,false
+No,Singapore,Business,Male,Yes,0,36,0.000000,false
+No,Singapore,Corporate,Male,No,29,58,0.500000,false
+No,Singapore,Corporate,Male,Not sure,29,58,0.500000,false
+No,Singapore,Corporate,Male,Yes,0,58,0.000000,false
+No,Singapore,Housewife,Male,No,32,64,0.500000,false
+No,Singapore,Housewife,Male,Not sure,32,64,0.500000,false
+No,Singapore,Housewife,Male,Yes,0,64,0.000000,false
+No,Singapore,Others,Male,No,26,52,0.500000,false
+No,Singapore,Others,Male,Not sure,26,52,0.500000,false
+No,Singapore,Others,Male,Yes,0,52,0.000000,false
+No,Singapore,Student,Male,No,20,40,0.500000,false
+No,Singapore,Student,Male,Not sure,20,40,0.500000,false
+No,Singapore,Student,Male,Yes,0,40,0.000000,false
+No,South Africa,Business,Female,No,0,26,0.000000,true
+No,South Africa,Business,Female,Not sure,0,26,0.000000,true
+No,South Africa,Business,Female,Yes,26,26,1.000000,true
+No,South Africa,Business,Male,No,54,72,0.750000,false
+No,South Africa,Business,Male,Not sure,0,72,0.000000,false
+No,South Africa,Business,Male,Yes,18,72,0.250000,false
+No,South Africa,Corporate,Female,No,0,19,0.000000,true
+No,South Africa,Corporate,Female,Not sure,0,19,0.000000,true
+No,South Africa,Corporate,Female,Yes,19,19,1.000000,true
+No,South Africa,Corporate,Male,No,87,116,0.750000,false
+No,South Africa,Corporate,Male,Not sure,0,116,0.000000,false
+No,South Africa,Corporate,Male,Yes,29,116,0.250000,false
+No,South Africa,Housewife,Female,No,0,24,0.000000,true
+No,South Africa,Housewife,Female,Not sure,0,24,0.000000,true
+No,South Africa,Housewife,Female,Yes,24,24,1.000000,true
+No,South Africa,Housewife,Male,No,96,128,0.750000,false
+No,South Africa,Housewife,Male,Not sure,0,128,0.000000,false
+No,South Africa,Housewife,Male,Yes,32,128,0.250000,false
+No,South Africa,Others,Female,No,0,25,0.000000,true
+No,South Africa,Others,Female,Not sure,0,25,0.000000,true
+No,South Africa,Others,Female,Yes,25,25,1.000000,true
+No,South Africa,Others,Male,No,78,104,0.750000,false
+No,South Africa,Others,Male,Not sure,0,104,0.000000,false
+No,South Africa,Others,Male,Yes,26,104,0.250000,false
+No,South Africa,Student,Female,No,0,36,0.000000,false
+No,South Africa,Student,Female,Not sure,0,36,0.000000,false
+No,South Africa,Student,Female,Yes,36,36,1.000000,false
+No,South Africa,Student,Male,No,60,80,0.750000,false
+No,South Africa,Student,Male,Not sure,0,80,0.000000,false
+No,South Africa,Student,Male,Yes,20,80,0.250000,false
+No,Sweden,Business,Female,No,0,52,0.000000,false
+No,Sweden,Business,Female,Not sure,0,52,0.000000,false
+No,Sweden,Business,Female,Yes,52,52,1.000000,false
+No,Sweden,Business,Male,No,54,90,0.600000,false
+No,Sweden,Business,Male,Not sure,18,90,0.200000,false
+No,Sweden,Business,Male,Yes,18,90,0.200000,false
+No,Sweden,Corporate,Female,No,0,38,0.000000,false
+No,Sweden,Corporate,Female,Not sure,0,38,0.000000,false
+No,Sweden,Corporate,Female,Yes,38,38,1.000000,false
+No,Sweden,Corporate,Male,No,87,145,0.600000,false
+No,Sweden,Corporate,Male,Not sure,29,145,0.200000,false
+No,Sweden,Corporate,Male,Yes,29,145,0.200000,false
+No,Sweden,Housewife,Female,No,0,48,0.000000,false
+No,Sweden,Housewife,Female,Not sure,0,48,0.000000,false
+No,Sweden,Housewife,Female,Yes,48,48,1.000000,false
+No,Sweden,Housewife,Male,No,96,160,0.600000,false
+No,Sweden,Housewife,Male,Not sure,32,160,0.200000,false
+No,Sweden,Housewife,Male,Yes,32,160,0.200000,false
+No,Sweden,Others,Female,No,0,50,0.000000,false
+No,Sweden,Others,Female,Not sure,0,50,0.000000,false
+No,Sweden,Others,Female,Yes,50,50,1.000000,false
+No,Sweden,Others,Male,No,78,130,0.600000,false
+No,Sweden,Others,Male,Not sure,26,130,0.200000,false
+No,Sweden,Others,Male,Yes,26,130,0.200000,false
+No,Sweden,Student,Female,No,0,72,0.000000,false
+No,Sweden,Student,Female,Not sure,0,72,0.000000,false
+No,Sweden,Student,Female,Yes,72,72,1.000000,false
+No,Sweden,Student,Male,No,60,100,0.600000,false
+No,Sweden,Student,Male,Not sure,20,100,0.200000,false
+No,Sweden,Student,Male,Yes,20,100,0.200000,false
+No,Switzerland,Business,Male,No,54,72,0.750000,false
+No,Switzerland,Business,Male,Not sure,18,72,0.250000,false
+No,Switzerland,Business,Male,Yes,0,72,0.000000,false
+No,Switzerland,Corporate,Male,No,87,116,0.750000,false
+No,Switzerland,Corporate,Male,Not sure,29,116,0.250000,false
+No,Switzerland,Corporate,Male,Yes,0,116,0.000000,false
+No,Switzerland,Housewife,Male,No,96,128,0.750000,false
+No,Switzerland,Housewife,Male,Not sure,32,128,0.250000,false
+No,Switzerland,Housewife,Male,Yes,0,128,0.000000,false
+No,Switzerland,Others,Male,No,78,104,0.750000,false
+No,Switzerland,Others,Male,Not sure,26,104,0.250000,false
+No,Switzerland,Others,Male,Yes,0,104,0.000000,false
+No,Switzerland,Student,Male,No,60,80,0.750000,false
+No,Switzerland,Student,Male,Not sure,20,80,0.250000,false
+No,Switzerland,Student,Male,Yes,0,80,0.000000,false
+No,Thailand,Business,Male,No,18,18,1.000000,true
+No,Thailand,Business,Male,Not sure,0,18,0.000000,true
+No,Thailand,Business,Male,Yes,0,18,0.000000,true
+No,Thailand,Corporate,Male,No,29,29,1.000000,true
+No,Thailand,Corporate,Male,Not sure,0,29,0.000000,true
+No,Thailand,Corporate,Male,Yes,0,29,0.000000,true
+No,Thailand,Housewife,Male,No,32,32,1.000000,false
+No,Thailand,Housewife,Male,Not sure,0,32,0.000000,false
+No,Thailand,Housewife,Male,Yes,0,32,0.000000,false
+No,Thailand,Others,Male,No,26,26,1.000000,true
+No,Thailand,Others,Male,Not sure,0,26,0.000000,true
+No,Thailand,Others,Male,Yes,0,26,0.000000,true
+No,Thailand,Student,Male,No,20,20,1.000000,true
+No,Thailand,Student,Male,Not sure,0,20,0.000000,true
+No,Thailand,Student,Male,Yes,0,20,0.000000,true
+No,United Kingdom,Business,Female,No,208,416,0.500000,false
+No,United Kingdom,Business,Female,Not sure,104,416,0.250000,false
+No,United Kingdom,Business,Female,Yes,104,416,0.250000,false
+No,United Kingdom,Business,Male,No,1188,2052,0.578947,false
+No,United Kingdom,Business,Male,Not sure,486,2052,0.236842,false
+No,United Kingdom,Business,Male,Yes,378,2052,0.184211,false
+No,United Kingdom,Corporate,Female,No,152,304,0.500000,false
+No,United Kingdom,Corporate,Female,Not sure,76,304,0.250000,false
+No,United Kingdom,Corporate,Female,Yes,76,304,0.250000,false
+No,United Kingdom,Corporate,Male,No,1914,3306,0.578947,false
+No,United Kingdom,Corporate,Male,Not sure,783,3306,0.236842,false
+No,United Kingdom,Corporate,Male,Yes,609,3306,0.184211,false
+No,United Kingdom,Housewife,Female,No,192,384,0.500000,false
+No,United Kingdom,Housewife,Female,Not sure,96,384,0.250000,false
+No,United Kingdom,Housewife,Female,Yes,96,384,0.250000,false
+No,United Kingdom,Housewife,Male,No,2112,3648,0.578947,false
+No,United Kingdom,Housewife,Male,Not sure,864,3648,0.236842,false
+No,United Kingdom,Housewife,Male,Yes,672,3648,0.184211,false
+No,United Kingdom,Others,Female,No,200,400,0.500000,false
+No,United Kingdom,Others,Female,Not sure,100,400,0.250000,false
+No,United Kingdom,Others,Female,Yes,100,400,0.250000,false
+No,United Kingdom,Others,Male,No,1716,2964,0.578947,false
+No,United Kingdom,Others,Male,Not sure,702,2964,0.236842,false
+No,United Kingdom,Others,Male,Yes,546,2964,0.184211,false
+No,United Kingdom,Student,Female,No,288,576,0.500000,false
+No,United Kingdom,Student,Female,Not sure,144,576,0.250000,false
+No,United Kingdom,Student,Female,Yes,144,576,0.250000,false
+No,United Kingdom,Student,Male,No,1320,2280,0.578947,false
+No,United Kingdom,Student,Male,Not sure,540,2280,0.236842,false
+No,United Kingdom,Student,Male,Yes,420,2280,0.184211,false
+No,United States,Business,Female,No,572,2132,0.268293,false
+No,United States,Business,Female,Not sure,702,2132,0.329268,false
+No,United States,Business,Female,Yes,858,2132,0.402439,false
+No,United States,Business,Male,No,2142,6174,0.346939,false
+No,United States,Business,Male,Not sure,1674,6174,0.271137,false
+No,United States,Business,Male,Yes,2358,6174,0.381924,false
+No,United States,Corporate,Female,No,418,1558,0.268293,false
+No,United States,Corporate,Female,Not sure,513,1558,0.329268,false
+No,United States,Corporate,Female,Yes,627,1558,0.402439,false
+No,United States,Corporate,Male,No,3451,9947,0.346939,false
+No,United States,Corporate,Male,Not sure,2697,9947,0.271137,false
+No,United States,Corporate,Male,Yes,3799,9947,0.381924,false
+No,United States,Housewife,Female,No,528,1968,0.268293,false
+No,United States,Housewife,Female,Not sure,648,1968,0.329268,false
+No,United States,Housewife,Female,Yes,792,1968,0.402439,false
+No,United States,Housewife,Male,No,3808,10976,0.346939,false
+No,United States,Housewife,Male,Not sure,2976,10976,0.271137,false
+No,United States,Housewife,Male,Yes,4192,10976,0.381924,false
+No,United States,Others,Female,No,550,2050,0.268293,false
+No,United States,Others,Female,Not sure,675,2050,0.329268,false
+No,United States,Others,Female,Yes,825,2050,0.402439,false
+No,United States,Others,Male,No,3094,8918,0.346939,false
+No,United States,Others,Male,Not sure,2418,8918,0.271137,false
+No,United States,Others,Male,Yes,3406,8918,0.381924,false
+No,United States,Student,Female,No,792,2952,0.268293,false
+No,United States,Student,Female,Not sure,972,2952,0.329268,false
+No,United States,Student,Female,Yes,1188,2952,0.402439,false
+No,United States,Student,Male,No,2380,6860,0.346939,false
+No,United States,Student,Male,Not sure,1860,6860,0.271137,false
+No,United States,Student,Male,Yes,2620,6860,0.381924,false
+Yes,Australia,Business,Female,No,29,116,0.250000,false
+Yes,Australia,Business,Female,Not sure,29,116,0.250000,false
+Yes,Australia,Business,Female,Yes,58,116,0.500000,false
+Yes,Australia,Business,Male,No,75,275,0.272727,false
+Yes,Australia,Business,Male,Not sure,100,275,0.363636,false
+Yes,Australia,Business,Male,Yes,100,275,0.363636,false
+Yes,Australia,Corporate,Female,No,30,120,0.250000,false
+Yes,Australia,Corporate,Female,Not sure,30,120,0.250000,false
+Yes,Australia,Corporate,Female,Yes,60,120,0.500000,false
+Yes,Australia,Corporate,Male,No,99,363,0.272727,false
+Yes,Australia,Corporate,Male,Not sure,132,363,0.363636,false
+Yes,Australia,Corporate,Male,Yes,132,363,0.363636,false
+Yes,Australia,Housewife,Female,No,40,160,0.250000,false
+Yes,Australia,Housewife,Female,Not sure,40,160,0.250000,false
+Yes,Australia,Housewife,Female,Yes,80,160,0.500000,false
+Yes,Australia,Housewife,Male,No,72,264,0.272727,false
+Yes,Australia,Housewife,Male,Not sure,96,264,0.363636,false
+Yes,Australia,Housewife,Male,Yes,96,264,0.363636,false
+Yes,Australia,Others,Female,No,35,140,0.250000,false
+Yes,Australia,Others,Female,Not sure,35,140,0.250000,false
+Yes,Australia,Others,Female,Yes,70,140,0.500000,false
+Yes,Australia,Others,Male,No,54,198,0.272727,false
+Yes,Australia,Others,Male,Not sure,72,198,0.363636,false
+Yes,Australia,Others,Male,Yes,72,198,0.363636,false
+Yes,Australia,Student,Female,No,37,148,0.250000,false
+Yes,Australia,Student,Female,Not sure,37,148,0.250000,false
+Yes,Australia,Student,Female,Yes,74,148,0.500000,false
+Yes,Australia,Student,Male,No,84,308,0.272727,false
+Yes,Australia,Student,Male,Not sure,112,308,0.363636,false
+Yes,Australia,Student,Male,Yes,112,308,0.363636,false
+Yes,Belgium,Business,Female,No,0,29,0.000000,true
+Yes,Belgium,Business,Female,Not sure,29,29,1.000000,true
+Yes,Belgium,Business,Female,Yes,0,29,0.000000,true
+Yes,Belgium,Business,Male,No,25,25,1.000000,true
+Yes,Belgium,Business,Male,Not sure,0,25,0.000000,true
+Yes,Belgium,Business,Male,Yes,0,25,0.000000,true
+Yes,Belgium,Corporate,Female,No,0,30,0.000000,false
+Yes,Belgium,Corporate,Female,Not sure,30,30,1.000000,false
+Yes,Belgium,Corporate,Female,Yes,0,30,0.000000,false
+Yes,Belgium,Corporate,Male,No,33,33,1.000000,false
+Yes,Belgium,Corporate,Male,Not sure,0,33,0.000000,false
+Yes,Belgium,Corporate,Male,Yes,0,33,0.000000,false
+Yes,Belgium,Housewife,Female,No,0,40,0.000000,false
+Yes,Belgium,Housewife,Female,Not sure,40,40,1.000000,false
+Yes,Belgium,Housewife,Female,Yes,0,40,0.000000,false
+Yes,Belgium,Housewife,Male,No,24,24,1.000000,true
+Yes,Belgium,Housewife,Male,Not sure,0,24,0.000000,true
+Yes,Belgium,Housewife,Male,Yes,0,24,0.000000,true
+Yes,Belgium,Others,Female,No,0,35,0.000000,false
+Yes,Belgium,Others,Female,Not sure,35,35,1.000000,false
+Yes,Belgium,Others,Female,Yes,0,35,0.000000,false
+Yes,Belgium,Others,Male,No,18,18,1.000000,true
+Yes,Belgium,Others,Male,Not sure,0,18,0.000000,true
+Yes,Belgium,Others,Male,Yes,0,18,0.000000,true
+Yes,Belgium,Student,Female,No,0,37,0.000000,false
+Yes,Belgium,Student,Female,Not sure,37,37,1.000000,false
+Yes,Belgium,Student,Female,Yes,0,37,0.000000,false
+Yes,Belgium,Student,Male,No,28,28,1.000000,true
+Yes,Belgium,Student,Male,Not sure,0,28,0.000000,true
+Yes,Belgium,Student,Male,Yes,0,28,0.000000,true
+Yes,Bosnia and Herzegovina,Business,Male,No,0,25,0.000000,true
+Yes,Bosnia and Herzegovina,Business,Male,Not sure,25,25,1.000000,true
+Yes,Bosnia and Herzegovina,Business,Male,Yes,0,25,0.000000,true
+Yes,Bosnia and Herzegovina,Corporate,Male,No,0,33,0.000000,false
+Yes,Bosnia and Herzegovina,Corporate,Male,Not sure,33,33,1.000000,false
+Yes,Bosnia and Herzegovina,Corporate,Male,Yes,0,33,0.000000,false
+Yes,Bosnia and Herzegovina,Housewife,Male,No,0,24,0.000000,true
+Yes,Bosnia and Herzegovina,Housewife,Male,Not sure,24,24,1.000000,true
+Yes,Bosnia and Herzegovina,Housewife,Male,Yes,0,24,0.000000,true
+Yes,Bosnia and Herzegovina,Others,Male,No,0,18,0.000000,true
+Yes,Bosnia and Herzegovina,Others,Male,Not sure,18,18,1.000000,true
+Yes,Bosnia and Herzegovina,Others,Male,Yes,0,18,0.000000,true
+Yes,Bosnia and Herzegovina,Student,Male,No,0,28,0.000000,true
+Yes,Bosnia and Herzegovina,Student,Male,Not sure,28,28,1.000000,true
+Yes,Bosnia and Herzegovina,Student,Male,Yes,0,28,0.000000,true
+Yes,Brazil,Business,Male,No,100,150,0.666667,false
+Yes,Brazil,Business,Male,Not sure,0,150,0.000000,false
+Yes,Brazil,Business,Male,Yes,50,150,0.333333,false
+Yes,Brazil,Corporate,Male,No,132,198,0.666667,false
+Yes,Brazil,Corporate,Male,Not sure,0,198,0.000000,false
+Yes,Brazil,Corporate,Male,Yes,66,198,0.333333,false
+Yes,Brazil,Housewife,Male,No,96,144,0.666667,false
+Yes,Brazil,Housewife,Male,Not sure,0,144,0.000000,false
+Yes,Brazil,Housewife,Male,Yes,48,144,0.333333,false
+Yes,Brazil,Others,Male,No,72,108,0.666667,false
+Yes,Brazil,Others,Male,Not sure,0,108,0.000000,false
+Yes,Brazil,Others,Male,Yes,36,108,0.333333,false
+Yes,Brazil,Student,Male,No,112,168,0.666667,false
+Yes,Brazil,Student,Male,Not sure,0,168,0.000000,false
+Yes,Brazil,Student,Male,Yes,56,168,0.333333,false
+Yes,Canada,Business,Female,No,0,261,0.000000,false
+Yes,Canada,Business,Female,Not sure,116,261,0.444444,false
+Yes,Canada,Business,Female,Yes,145,261,0.555556,false
+Yes,Canada,Business,Male,No,325,950,0.342105,false
+Yes,Canada,Business,Male,Not sure,325,950,0.342105,false
+Yes,Canada,Business,Male,Yes,300,950,0.315789,false
+Yes,Canada,Corporate,Female,No,0,270,0.000000,false
+Yes,Canada,Corporate,Female,Not sure,120,270,0.444444,false
+Yes,Canada,Corporate,Female,Yes,150,270,0.555556,false
+Yes,Canada,Corporate,Male,No,429,1254,0.342105,false
+Yes,Canada,Corporate,Male,Not sure,429,1254,0.342105,false
+Yes,Canada,Corporate,Male,Yes,396,1254,0.315789,false
+Yes,Canada,Housewife,Female,No,0,360,0.000000,false
+Yes,Canada,Housewife,Female,Not sure,160,360,0.444444,false
+Yes,Canada,Housewife,Female,Yes,200,360,0.555556,false
+Yes,Canada,Housewife,Male,No,312,912,0.342105,false
+Yes,Canada,Housewife,Male,Not sure,312,912,0.342105,false
+Yes,Canada,Housewife,Male,Yes,288,912,0.315789,false
+Yes,Canada,Others,Female,No,0,315,0.000000,false
+Yes,Canada,Others,Female,Not sure,140,315,0.444444,false
+Yes,Canada,Others,Female,Yes,175,315,0.555556,false
+Yes,Canada,Others,Male,No,234,684,0.342105,false
+Yes,Canada,Others,Male,Not sure,234,684,0.342105,false
+Yes,Canada,Others,Male,Yes,216,684,0.315789,false
+Yes,Canada,Student,Female,No,0,333,0.000000,false
+Yes,Canada,Student,Female,Not sure,148,333,0.444444,false
+Yes,Canada,Student,Female,Yes,185,333,0.555556,false
+Yes,Canada,Student,Male,No,364,1064,0.342105,false
+Yes,Canada,Student,Male,Not sure,364,1064,0.342105,false
+Yes,Canada,Student,Male,Yes,336,1064,0.315789,false
+Yes,Colombia,Business,Male,No,25,25,1.000000,true
+Yes,Colombia,Business,Male,Not sure,0,25,0.000000,true
+Yes,Colombia,Business,Male,Yes,0,25,0.000000,true
+Yes,Colombia,Corporate,Male,No,33,33,1.000000,false
+Yes,Colombia,Corporate,Male,Not sure,0,33,0.000000,false
+Yes,Colombia,Corporate,Male,Yes,0,33,0.000000,false
+Yes,Colombia,Housewife,Male,No,24,24,1.000000,true
+Yes,Colombia,Housewife,Male,Not sure,0,24,0.000000,true
+Yes,Colombia,Housewife,Male,Yes,0,24,0.000000,true
+Yes,Colombia,Others,Male,No,18,18,1.000000,true
+Yes,Colombia,Others,Male,Not sure,0,18,0.000000,true
+Yes,Colombia,Others,Male,Yes,0,18,0.000000,true
+Yes,Colombia,Student,Male,No,28,28,1.000000,true
+Yes,Colombia,Student,Male,Not sure,0,28,0.000000,true
+Yes,Colombia,Student,Male,Yes,0,28,0.000000,true
+Yes,Costa Rica,Business,Male,No,0,25,0.000000,true
+Yes,Costa Rica,Business,Male,Not sure,0,25,0.000000,true
+Yes,Costa Rica,Business,Male,Yes,25,25,1.000000,true
+Yes,Costa Rica,Corporate,Male,No,0,33,0.000000,false
+Yes,Costa Rica,Corporate,Male,Not sure,0,33,0.000000,false
+Yes,Costa Rica,Corporate,Male,Yes,33,33,1.000000,false
+Yes,Costa Rica,Housewife,Male,No,0,24,0.000000,true
+Yes,Costa Rica,Housewife,Male,Not sure,0,24,0.000000,true
+Yes,Costa Rica,Housewife,Male,Yes,24,24,1.000000,true
+Yes,Costa Rica,Others,Male,No,0,18,0.000000,true
+Yes,Costa Rica,Others,Male,Not sure,0,18,0.000000,true
+Yes,Costa Rica,Others,Male,Yes,18,18,1.000000,true
+Yes,Costa Rica,Student,Male,No,0,28,0.000000,true
+Yes,Costa Rica,Student,Male,Not sure,0,28,0.000000,true
+Yes,Costa Rica,Student,Male,Yes,28,28,1.000000,true
+Yes,Croatia,Business,Male,No,25,25,1.000000,true
+Yes,Croatia,Business,Male,Not sure,0,25,0.000000,true
+Yes,Croatia,Business,Male,Yes,0,25,0.000000,true
+Yes,Croatia,Corporate,Male,No,33,33,1.000000,false
+Yes,Croatia,Corporate,Male,Not sure,0,33,0.000000,false
+Yes,Croatia,Corporate,Male,Yes,0,33,0.000000,false
+Yes,Croatia,Housewife,Male,No,24,24,1.000000,true
+Yes,Croatia,Housewife,Male,Not sure,0,24,0.000000,true
+Yes,Croatia,Housewife,Male,Yes,0,24,0.000000,true
+Yes,Croatia,Others,Male,No,18,18,1.000000,true
+Yes,Croatia,Others,Male,Not sure,0,18,0.000000,true
+Yes,Croatia,Others,Male,Yes,0,18,0.000000,true
+Yes,Croatia,Student,Male,No,28,28,1.000000,true
+Yes,Croatia,Student,Male,Not sure,0,28,0.000000,true
+Yes,Croatia,Student,Male,Yes,0,28,0.000000,true
+Yes,Czech Republic,Business,Male,No,0,25,0.000000,true
+Yes,Czech Republic,Business,Male,Not sure,0,25,0.000000,true
+Yes,Czech Republic,Business,Male,Yes,25,25,1.000000,true
+Yes,Czech Republic,Corporate,Male,No,0,33,0.000000,false
+Yes,Czech Republic,Corporate,Male,Not sure,0,33,0.000000,false
+Yes,Czech Republic,Corporate,Male,Yes,33,33,1.000000,false
+Yes,Czech Republic,Housewife,Male,No,0,24,0.000000,true
+Yes,Czech Republic,Housewife,Male,Not sure,0,24,0.000000,true
+Yes,Czech Republic,Housewife,Male,Yes,24,24,1.000000,true
+Yes,Czech Republic,Others,Male,No,0,18,0.000000,true
+Yes,Czech Republic,Others,Male,Not sure,0,18,0.000000,true
+Yes,Czech Republic,Others,Male,Yes,18,18,1.000000,true
+Yes,Czech Republic,Student,Male,No,0,28,0.000000,true
+Yes,Czech Republic,Student,Male,Not sure,0,28,0.000000,true
+Yes,Czech Republic,Student,Male,Yes,28,28,1.000000,true
+Yes,Denmark,Business,Male,No,0,50,0.000000,false
+Yes,Denmark,Business,Male,Not sure,0,50,0.000000,false
+Yes,Denmark,Business,Male,Yes,50,50,1.000000,false
+Yes,Denmark,Corporate,Male,No,0,66,0.000000,false
+Yes,Denmark,Corporate,Male,Not sure,0,66,0.000000,false
+Yes,Denmark,Corporate,Male,Yes,66,66,1.000000,false
+Yes,Denmark,Housewife,Male,No,0,48,0.000000,false
+Yes,Denmark,Housewife,Male,Not sure,0,48,0.000000,false
+Yes,Denmark,Housewife,Male,Yes,48,48,1.000000,false
+Yes,Denmark,Others,Male,No,0,36,0.000000,false
+Yes,Denmark,Others,Male,Not sure,0,36,0.000000,false
+Yes,Denmark,Others,Male,Yes,36,36,1.000000,false
+Yes,Denmark,Student,Male,No,0,56,0.000000,false
+Yes,Denmark,Student,Male,Not sure,0,56,0.000000,false
+Yes,Denmark,Student,Male,Yes,56,56,1.000000,false
+Yes,Finland,Business,Male,No,25,25,1.000000,true
+Yes,Finland,Business,Male,Not sure,0,25,0.000000,true
+Yes,Finland,Business,Male,Yes,0,25,0.000000,true
+Yes,Finland,Corporate,Male,No,33,33,1.000000,false
+Yes,Finland,Corporate,Male,Not sure,0,33,0.000000,false
+Yes,Finland,Corporate,Male,Yes,0,33,0.000000,false
+Yes,Finland,Housewife,Male,No,24,24,1.000000,true
+Yes,Finland,Housewife,Male,Not sure,0,24,0.000000,true
+Yes,Finland,Housewife,Male,Yes,0,24,0.000000,true
+Yes,Finland,Others,Male,No,18,18,1.000000,true
+Yes,Finland,Others,Male,Not sure,0,18,0.000000,true
+Yes,Finland,Others,Male,Yes,0,18,0.000000,true
+Yes,Finland,Student,Male,No,28,28,1.000000,true
+Yes,Finland,Student,Male,Not sure,0,28,0.000000,true
+Yes,Finland,Student,Male,Yes,0,28,0.000000,true
+Yes,France,Business,Male,No,100,150,0.666667,false
+Yes,France,Business,Male,Not sure,0,150,0.000000,false
+Yes,France,Business,Male,Yes,50,150,0.333333,false
+Yes,France,Corporate,Male,No,132,198,0.666667,false
+Yes,France,Corporate,Male,Not sure,0,198,0.000000,false
+Yes,France,Corporate,Male,Yes,66,198,0.333333,false
+Yes,France,Housewife,Male,No,96,144,0.666667,false
+Yes,France,Housewife,Male,Not sure,0,144,0.000000,false
+Yes,France,Housewife,Male,Yes,48,144,0.333333,false
+Yes,France,Others,Male,No,72,108,0.666667,false
+Yes,France,Others,Male,Not sure,0,108,0.000000,false
+Yes,France,Others,Male,Yes,36,108,0.333333,false
+Yes,France,Student,Male,No,112,168,0.666667,false
+Yes,France,Student,Male,Not sure,0,168,0.000000,false
+Yes,France,Student,Male,Yes,56,168,0.333333,false
+Yes,Georgia,Business,Male,No,25,25,1.000000,true
+Yes,Georgia,Business,Male,Not sure,0,25,0.000000,true
+Yes,Georgia,Business,Male,Yes,0,25,0.000000,true
+Yes,Georgia,Corporate,Male,No,33,33,1.000000,false
+Yes,Georgia,Corporate,Male,Not sure,0,33,0.000000,false
+Yes,Georgia,Corporate,Male,Yes,0,33,0.000000,false
+Yes,Georgia,Housewife,Male,No,24,24,1.000000,true
+Yes,Georgia,Housewife,Male,Not sure,0,24,0.000000,true
+Yes,Georgia,Housewife,Male,Yes,0,24,0.000000,true
+Yes,Georgia,Others,Male,No,18,18,1.000000,true
+Yes,Georgia,Others,Male,Not sure,0,18,0.000000,true
+Yes,Georgia,Others,Male,Yes,0,18,0.000000,true
+Yes,Georgia,Student,Male,No,28,28,1.000000,true
+Yes,Georgia,Student,Male,Not sure,0,28,0.000000,true
+Yes,Georgia,Student,Male,Yes,0,28,0.000000,true
+Yes,Germany,Business,Male,No,75,300,0.250000,false
+Yes,Germany,Business,Male,Not sure,100,300,0.333333,false
+Yes,Germany,Business,Male,Yes,125,300,0.416667,false
+Yes,Germany,Corporate,Male,No,99,396,0.250000,false
+Yes,Germany,Corporate,Male,Not sure,132,396,0.333333,false
+Yes,Germany,Corporate,Male,Yes,165,396,0.416667,false
+Yes,Germany,Housewife,Male,No,72,288,0.250000,false
+Yes,Germany,Housewife,Male,Not sure,96,288,0.333333,false
+Yes,Germany,Housewife,Male,Yes,120,288,0.416667,false
+Yes,Germany,Others,Male,No,54,216,0.250000,false
+Yes,Germany,Others,Male,Not sure,72,216,0.333333,false
+Yes,Germany,Others,Male,Yes,90,216,0.416667,false
+Yes,Germany,Student,Male,No,84,336,0.250000,false
+Yes,Germany,Student,Male,Not sure,112,336,0.333333,false
+Yes,Germany,Student,Male,Yes,140,336,0.416667,false
+Yes,Greece,Business,Male,No,50,50,1.000000,false
+Yes,Greece,Business,Male,Not sure,0,50,0.000000,false
+Yes,Greece,Business,Male,Yes,0,50,0.000000,false
+Yes,Greece,Corporate,Male,No,66,66,1.000000,false
+Yes,Greece,Corporate,Male,Not sure,0,66,0.000000,false
+Yes,Greece,Corporate,Male,Yes,0,66,0.000000,false
+Yes,Greece,Housewife,Male,No,48,48,1.000000,false
+Yes,Greece,Housewife,Male,Not sure,0,48,0.000000,false
+Yes,Greece,Housewife,Male,Yes,0,48,0.000000,false
+Yes,Greece,Others,Male,No,36,36,1.000000,false
+Yes,Greece,Others,Male,Not sure,0,36,0.000000,false
+Yes,Greece,Others,Male,Yes,0,36,0.000000,false
+Yes,Greece,Student,Male,No,56,56,1.000000,false
+Yes,Greece,Student,Male,Not sure,0,56,0.000000,false
+Yes,Greece,Student,Male,Yes,0,56,0.000000,false
+Yes,India,Business,Female,No,0,29,0.000000,true
+Yes,India,Business,Female,Not sure,29,29,1.000000,true
+Yes,India,Business,Female,Yes,0,29,0.000000,true
+Yes,India,Business,Male,No,125,150,0.833333,false
+Yes,India,Business,Male,Not sure,25,150,0.166667,false
+Yes,India,Business,Male,Yes,0,150,0.000000,false
+Yes,India,Corporate,Female,No,0,30,0.000000,false
+Yes,India,Corporate,Female,Not sure,30,30,1.000000,false
+Yes,India,Corporate,Female,Yes,0,30,0.000000,false
+Yes,India,Corporate,Male,No,165,198,0.833333,false
+Yes,India,Corporate,Male,Not sure,33,198,0.166667,false
+Yes,India,Corporate,Male,Yes,0,198,0.000000,false
+Yes,India,Housewife,Female,No,0,40,0.000000,false
+Yes,India,Housewife,Female,Not sure,40,40,1.000000,false
+Yes,India,Housewife,Female,Yes,0,40,0.000000,false
+Yes,India,Housewife,Male,No,120,144,0.833333,false
+Yes,India,Housewife,Male,Not sure,24,144,0.166667,false
+Yes,India,Housewife,Male,Yes,0,144,0.000000,false
+Yes,India,Others,Female,No,0,35,0.000000,false
+Yes,India,Others,Female,Not sure,35,35,1.000000,false
+Yes,India,Others,Female,Yes,0,35,0.000000,false
+Yes,India,Others,Male,No,90,108,0.833333,false
+Yes,India,Others,Male,Not sure,18,108,0.166667,false
+Yes,India,Others,Male,Yes,0,108,0.000000,false
+Yes,India,Student,Female,No,0,37,0.000000,false
+Yes,India,Student,Female,Not sure,37,37,1.000000,false
+Yes,India,Student,Female,Yes,0,37,0.000000,false
+Yes,India,Student,Male,No,140,168,0.833333,false
+Yes,India,Student,Male,Not sure,28,168,0.166667,false
+Yes,India,Student,Male,Yes,0,168,0.000000,false
+Yes,Ireland,Business,Female,No,29,58,0.500000,false
+Yes,Ireland,Business,Female,Not sure,0,58,0.000000,false
+Yes,Ireland,Business,Female,Yes,29,58,0.500000,false
+Yes,Ireland,Business,Male,No,275,300,0.916667,false
+Yes,Ireland,Business,Male,Not sure,0,300,0.000000,false
+Yes,Ireland,Business,Male,Yes,25,300,0.083333,false
+Yes,Ireland,Corporate,Female,No,30,60,0.500000,false
+Yes,Ireland,Corporate,Female,Not sure,0,60,0.000000,false
+Yes,Ireland,Corporate,Female,Yes,30,60,0.500000,false
+Yes,Ireland,Corporate,Male,No,363,396,0.916667,false
+Yes,Ireland,Corporate,Male,Not sure,0,396,0.000000,false
+Yes,Ireland,Corporate,Male,Yes,33,396,0.083333,false
+Yes,Ireland,Housewife,Female,No,40,80,0.500000,false
+Yes,Ireland,Housewife,Female,Not sure,0,80,0.000000,false
+Yes,Ireland,Housewife,Female,Yes,40,80,0.500000,false
+Yes,Ireland,Housewife,Male,No,264,288,0.916667,false
+Yes,Ireland,Housewife,Male,Not sure,0,288,0.000000,false
+Yes,Ireland,Housewife,Male,Yes,24,288,0.083333,false
+Yes,Ireland,Others,Female,No,35,70,0.500000,false
+Yes,Ireland,Others,Female,Not sure,0,70,0.000000,false
+Yes,Ireland,Others,Female,Yes,35,70,0.500000,false
+Yes,Ireland,Others,Male,No,198,216,0.916667,false
+Yes,Ireland,Others,Male,Not sure,0,216,0.000000,false
+Yes,Ireland,Others,Male,Yes,18,216,0.083333,false
+Yes,Ireland,Student,Female,No,37,74,0.500000,false
+Yes,Ireland,Student,Female,Not sure,0,74,0.000000,false
+Yes,Ireland,Student,Female,Yes,37,74,0.500000,false
+Yes,Ireland,Student,Male,No,308,336,0.916667,false
+Yes,Ireland,Student,Male,Not sure,0,336,0.000000,false
+Yes,Ireland,Student,Male,Yes,28,336,0.083333,false
+Yes,Israel,Business,Male,No,50,100,0.500000,false
+Yes,Israel,Business,Male,Not sure,25,100,0.250000,false
+Yes,Israel,Business,Male,Yes,25,100,0.250000,false
+Yes,Israel,Corporate,Male,No,66,132,0.500000,false
+Yes,Israel,Corporate,Male,Not sure,33,132,0.250000,false
+Yes,Israel,Corporate,Male,Yes,33,132,0.250000,false
+Yes,Israel,Housewife,Male,No,48,96,0.500000,false
+Yes,Israel,Housewife,Male,Not sure,24,96,0.250000,false
+Yes,Israel,Housewife,Male,Yes,24,96,0.250000,false
+Yes,Israel,Others,Male,No,36,72,0.500000,false
+Yes,Israel,Others,Male,Not sure,18,72,0.250000,false
+Yes,Israel,Others,Male,Yes,18,72,0.250000,false
+Yes,Israel,Student,Male,No,56,112,0.500000,false
+Yes,Israel,Student,Male,Not sure,28,112,0.250000,false
+Yes,Israel,Student,Male,Yes,28,112,0.250000,false
+Yes,Italy,Business,Male,No,75,100,0.750000,false
+Yes,Italy,Business,Male,Not sure,25,100,0.250000,false
+Yes,Italy,Business,Male,Yes,0,100,0.000000,false
+Yes,Italy,Corporate,Male,No,99,132,0.750000,false
+Yes,Italy,Corporate,Male,Not sure,33,132,0.250000,false
+Yes,Italy,Corporate,Male,Yes,0,132,0.000000,false
+Yes,Italy,Housewife,Male,No,72,96,0.750000,false
+Yes,Italy,Housewife,Male,Not sure,24,96,0.250000,false
+Yes,Italy,Housewife,Male,Yes,0,96,0.000000,false
+Yes,Italy,Others,Male,No,54,72,0.750000,false
+Yes,Italy,Others,Male,Not sure,18,72,0.250000,false
+Yes,Italy,Others,Male,Yes,0,72,0.000000,false
+Yes,Italy,Student,Male,No,84,112,0.750000,false
+Yes,Italy,Student,Male,Not sure,28,112,0.250000,false
+Yes,Italy,Student,Male,Yes,0,112,0.000000,false
+Yes,Mexico,Business,Male,No,25,25,1.000000,true
+Yes,Mexico,Business,Male,Not sure,0,25,0.000000,true
+Yes,Mexico,Business,Male,Yes,0,25,0.000000,true
+Yes,Mexico,Corporate,Male,No,33,33,1.000000,false
+Yes,Mexico,Corporate,Male,Not sure,0,33,0.000000,false
+Yes,Mexico,Corporate,Male,Yes,0,33,0.000000,false
+Yes,Mexico,Housewife,Male,No,24,24,1.000000,true
+Yes,Mexico,Housewife,Male,Not sure,0,24,0.000000,true
+Yes,Mexico,Housewife,Male,Yes,0,24,0.000000,true
+Yes,Mexico,Others,Male,No,18,18,1.000000,true
+Yes,Mexico,Others,Male,Not sure,0,18,0.000000,true
+Yes,Mexico,Others,Male,Yes,0,18,0.000000,true
+Yes,Mexico,Student,Male,No,28,28,1.000000,true
+Yes,Mexico,Student,Male,Not sure,0,28,0.000000,true
+Yes,Mexico,Student,Male,Yes,0,28,0.000000,true
+Yes,Moldova,Business,Male,No,0,25,0.000000,true
+Yes,Moldova,Business,Male,Not sure,0,25,0.000000,true
+Yes,Moldova,Business,Male,Yes,25,25,1.000000,true
+Yes,Moldova,Corporate,Male,No,0,33,0.000000,false
+Yes,Moldova,Corporate,Male,Not sure,0,33,0.000000,false
+Yes,Moldova,Corporate,Male,Yes,33,33,1.000000,false
+Yes,Moldova,Housewife,Male,No,0,24,0.000000,true
+Yes,Moldova,Housewife,Male,Not sure,0,24,0.000000,true
+Yes,Moldova,Housewife,Male,Yes,24,24,1.000000,true
+Yes,Moldova,Others,Male,No,0,18,0.000000,true
+Yes,Moldova,Others,Male,Not sure,0,18,0.000000,true
+Yes,Moldova,Others,Male,Yes,18,18,1.000000,true
+Yes,Moldova,Student,Male,No,0,28,0.000000,true
+Yes,Moldova,Student,Male,Not sure,0,28,0.000000,true
+Yes,Moldova,Student,Male,Yes,28,28,1.000000,true
+Yes,Netherlands,Business,Female,No,29,29,1.000000,true
+Yes,Netherlands,Business,Female,Not sure,0,29,0.000000,true
+Yes,Netherlands,Business,Female,Yes,0,29,0.000000,true
+Yes,Netherlands,Business,Male,No,175,350,0.500000,false
+Yes,Netherlands,Business,Male,Not sure,150,350,0.428571,false
+Yes,Netherlands,Business,Male,Yes,25,350,0.071429,false
+Yes,Netherlands,Corporate,Female,No,30,30,1.000000,false
+Yes,Netherlands,Corporate,Female,Not sure,0,30,0.000000,false
+Yes,Netherlands,Corporate,Female,Yes,0,30,0.000000,false
+Yes,Netherlands,Corporate,Male,No,231,462,0.500000,false
+Yes,Netherlands,Corporate,Male,Not sure,198,462,0.428571,false
+Yes,Netherlands,Corporate,Male,Yes,33,462,0.071429,false
+Yes,Netherlands,Housewife,Female,No,40,40,1.000000,false
+Yes,Netherlands,Housewife,Female,Not sure,0,40,0.000000,false
+Yes,Netherlands,Housewife,Female,Yes,0,40,0.000000,false
+Yes,Netherlands,Housewife,Male,No,168,336,0.500000,false
+Yes,Netherlands,Housewife,Male,Not sure,144,336,0.428571,false
+Yes,Netherlands,Housewife,Male,Yes,24,336,0.071429,false
+Yes,Netherlands,Others,Female,No,35,35,1.000000,false
+Yes,Netherlands,Others,Female,Not sure,0,35,0.000000,false
+Yes,Netherlands,Others,Female,Yes,0,35,0.000000,false
+Yes,Netherlands,Others,Male,No,126,252,0.500000,false
+Yes,Netherlands,Others,Male,Not sure,108,252,0.428571,false
+Yes,Netherlands,Others,Male,Yes,18,252,0.071429,false
+Yes,Netherlands,Student,Female,No,37,37,1.000000,false
+Yes,Netherlands,Student,Female,Not sure,0,37,0.000000,false
+Yes,Netherlands,Student,Female,Yes,0,37,0.000000,false
+Yes,Netherlands,Student,Male,No,196,392,0.500000,false
+Yes,Netherlands,Student,Male,Not sure,168,392,0.428571,false
+Yes,Netherlands,Student,Male,Yes,28,392,0.071429,false
+Yes,New Zealand,Business,Female,No,29,29,1.000000,true
+Yes,New Zealand,Business,Female,Not sure,0,29,0.000000,true
+Yes,New Zealand,Business,Female,Yes,0,29,0.000000,true
+Yes,New Zealand,Business,Male,No,25,100,0.250000,false
+Yes,New Zealand,Business,Male,Not sure,25,100,0.250000,false
+Yes,New Zealand,Business,Male,Yes,50,100,0.500000,false
+Yes,New Zealand,Corporate,Female,No,30,30,1.000000,false
+Yes,New Zealand,Corporate,Female,Not sure,0,30,0.000000,false
+Yes,New Zealand,Corporate,Female,Yes,0,30,0.000000,false
+Yes,New Zealand,Corporate,Male,No,33,132,0.250000,false
+Yes,New Zealand,Corporate,Male,Not sure,33,132,0.250000,false
+Yes,New Zealand,Corporate,Male,Yes,66,132,0.500000,false
+Yes,New Zealand,Housewife,Female,No,40,40,1.000000,false
+Yes,New Zealand,Housewife,Female,Not sure,0,40,0.000000,false
+Yes,New Zealand,Housewife,Female,Yes,0,40,0.000000,false
+Yes,New Zealand,Housewife,Male,No,24,96,0.250000,false
+Yes,New Zealand,Housewife,Male,Not sure,24,96,0.250000,false
+Yes,New Zealand,Housewife,Male,Yes,48,96,0.500000,false
+Yes,New Zealand,Others,Female,No,35,35,1.000000,false
+Yes,New Zealand,Others,Female,Not sure,0,35,0.000000,false
+Yes,New Zealand,Others,Female,Yes,0,35,0.000000,false
+Yes,New Zealand,Others,Male,No,18,72,0.250000,false
+Yes,New Zealand,Others,Male,Not sure,18,72,0.250000,false
+Yes,New Zealand,Others,Male,Yes,36,72,0.500000,false
+Yes,New Zealand,Student,Female,No,37,37,1.000000,false
+Yes,New Zealand,Student,Female,Not sure,0,37,0.000000,false
+Yes,New Zealand,Student,Female,Yes,0,37,0.000000,false
+Yes,New Zealand,Student,Male,No,28,112,0.250000,false
+Yes,New Zealand,Student,Male,Not sure,28,112,0.250000,false
+Yes,New Zealand,Student,Male,Yes,56,112,0.500000,false
+Yes,Nigeria,Business,Male,No,25,25,1.000000,true
+Yes,Nigeria,Business,Male,Not sure,0,25,0.000000,true
+Yes,Nigeria,Business,Male,Yes,0,25,0.000000,true
+Yes,Nigeria,Corporate,Male,No,33,33,1.000000,false
+Yes,Nigeria,Corporate,Male,Not sure,0,33,0.000000,false
+Yes,Nigeria,Corporate,Male,Yes,0,33,0.000000,false
+Yes,Nigeria,Housewife,Male,No,24,24,1.000000,true
+Yes,Nigeria,Housewife,Male,Not sure,0,24,0.000000,true
+Yes,Nigeria,Housewife,Male,Yes,0,24,0.000000,true
+Yes,Nigeria,Others,Male,No,18,18,1.000000,true
+Yes,Nigeria,Others,Male,Not sure,0,18,0.000000,true
+Yes,Nigeria,Others,Male,Yes,0,18,0.000000,true
+Yes,Nigeria,Student,Male,No,28,28,1.000000,true
+Yes,Nigeria,Student,Male,Not sure,0,28,0.000000,true
+Yes,Nigeria,Student,Male,Yes,0,28,0.000000,true
+Yes,Philippines,Business,Male,No,25,25,1.000000,true
+Yes,Philippines,Business,Male,Not sure,0,25,0.000000,true
+Yes,Philippines,Business,Male,Yes,0,25,0.000000,true
+Yes,Philippines,Corporate,Male,No,33,33,1.000000,false
+Yes,Philippines,Corporate,Male,Not sure,0,33,0.000000,false
+Yes,Philippines,Corporate,Male,Yes,0,33,0.000000,false
+Yes,Philippines,Housewife,Male,No,24,24,1.000000,true
+Yes,Philippines,Housewife,Male,Not sure,0,24,0.000000,true
+Yes,Philippines,Housewife,Male,Yes,0,24,0.000000,true
+Yes,Philippines,Others,Male,No,18,18,1.000000,true
+Yes,Philippines,Others,Male,Not sure,0,18,0.000000,true
+Yes,Philippines,Others,Male,Yes,0,18,0.000000,true
+Yes,Philippines,Student,Male,No,28,28,1.000000,true
+Yes,Philippines,Student,Male,Not sure,0,28,0.000000,true
+Yes,Philippines,Student,Male,Yes,0,28,0.000000,true
+Yes,Poland,Business,Female,No,0,29,0.000000,true
+Yes,Poland,Business,Female,Not sure,29,29,1.000000,true
+Yes,Poland,Business,Female,Yes,0,29,0.000000,true
+Yes,Poland,Business,Male,No,25,25,1.000000,true
+Yes,Poland,Business,Male,Not sure,0,25,0.000000,true
+Yes,Poland,Business,Male,Yes,0,25,0.000000,true
+Yes,Poland,Corporate,Female,No,0,30,0.000000,false
+Yes,Poland,Corporate,Female,Not sure,30,30,1.000000,false
+Yes,Poland,Corporate,Female,Yes,0,30,0.000000,false
+Yes,Poland,Corporate,Male,No,33,33,1.000000,false
+Yes,Poland,Corporate,Male,Not sure,0,33,0.000000,false
+Yes,Poland,Corporate,Male,Yes,0,33,0.000000,false
+Yes,Poland,Housewife,Female,No,0,40,0.000000,false
+Yes,Poland,Housewife,Female,Not sure,40,40,1.000000,false
+Yes,Poland,Housewife,Female,Yes,0,40,0.000000,false
+Yes,Poland,Housewife,Male,No,24,24,1.000000,true
+Yes,Poland,Housewife,Male,Not sure,0,24,0.000000,true
+Yes,Poland,Housewife,Male,Yes,0,24,0.000000,true
+Yes,Poland,Others,Female,No,0,35,0.000000,false
+Yes,Poland,Others,Female,Not sure,35,35,1.000000,false
+Yes,Poland,Others,Female,Yes,0,35,0.000000,false
+Yes,Poland,Others,Male,No,18,18,1.000000,true
+Yes,Poland,Others,Male,Not sure,0,18,0.000000,true
+Yes,Poland,Others,Male,Yes,0,18,0.000000,true
+Yes,Poland,Student,Female,No,0,37,0.000000,false
+Yes,Poland,Student,Female,Not sure,37,37,1.000000,false
+Yes,Poland,Student,Female,Yes,0,37,0.000000,false
+Yes,Poland,Student,Male,No,28,28,1.000000,true
+Yes,Poland,Student,Male,Not sure,0,28,0.000000,true
+Yes,Poland,Student,Male,Yes,0,28,0.000000,true
+Yes,Portugal,Business,Male,No,0,25,0.000000,true
+Yes,Portugal,Business,Male,Not sure,0,25,0.000000,true
+Yes,Portugal,Business,Male,Yes,25,25,1.000000,true
+Yes,Portugal,Corporate,Male,No,0,33,0.000000,false
+Yes,Portugal,Corporate,Male,Not sure,0,33,0.000000,false
+Yes,Portugal,Corporate,Male,Yes,33,33,1.000000,false
+Yes,Portugal,Housewife,Male,No,0,24,0.000000,true
+Yes,Portugal,Housewife,Male,Not sure,0,24,0.000000,true
+Yes,Portugal,Housewife,Male,Yes,24,24,1.000000,true
+Yes,Portugal,Others,Male,No,0,18,0.000000,true
+Yes,Portugal,Others,Male,Not sure,0,18,0.000000,true
+Yes,Portugal,Others,Male,Yes,18,18,1.000000,true
+Yes,Portugal,Student,Male,No,0,28,0.000000,true
+Yes,Portugal,Student,Male,Not sure,0,28,0.000000,true
+Yes,Portugal,Student,Male,Yes,28,28,1.000000,true
+Yes,Russia,Business,Male,No,25,50,0.500000,false
+Yes,Russia,Business,Male,Not sure,25,50,0.500000,false
+Yes,Russia,Business,Male,Yes,0,50,0.000000,false
+Yes,Russia,Corporate,Male,No,33,66,0.500000,false
+Yes,Russia,Corporate,Male,Not sure,33,66,0.500000,false
+Yes,Russia,Corporate,Male,Yes,0,66,0.000000,false
+Yes,Russia,Housewife,Male,No,24,48,0.500000,false
+Yes,Russia,Housewife,Male,Not sure,24,48,0.500000,false
+Yes,Russia,Housewife,Male,Yes,0,48,0.000000,false
+Yes,Russia,Others,Male,No,18,36,0.500000,false
+Yes,Russia,Others,Male,Not sure,18,36,0.500000,false
+Yes,Russia,Others,Male,Yes,0,36,0.000000,false
+Yes,Russia,Student,Male,No,28,56,0.500000,false
+Yes,Russia,Student,Male,Not sure,28,56,0.500000,false
+Yes,Russia,Student,Male,Yes,0,56,0.000000,false
+Yes,Singapore,Business,Male,No,25,50,0.500000,false
+Yes,Singapore,Business,Male,Not sure,25,50,0.500000,false
+Yes,Singapore,Business,Male,Yes,0,50,0.000000,false
+Yes,Singapore,Corporate,Male,No,33,66,0.500000,false
+Yes,Singapore,Corporate,Male,Not sure,33,66,0.500000,false
+Yes,Singapore,Corporate,Male,Yes,0,66,0.000000,false
+Yes,Singapore,Housewife,Male,No,24,48,0.500000,false
+Yes,Singapore,Housewife,Male,Not sure,24,48,0.500000,false
+Yes,Singapore,Housewife,Male,Yes,0,48,0.000000,false
+Yes,Singapore,Others,Male,No,18,36,0.500000,false
+Yes,Singapore,Others,Male,Not sure,18,36,0.500000,false
+Yes,Singapore,Others,Male,Yes,0,36,0.000000,false
+Yes,Singapore,Student,Male,No,28,56,0.500000,false
+Yes,Singapore,Student,Male,Not sure,28,56,0.500000,false
+Yes,Singapore,Student,Male,Yes,0,56,0.000000,false
+Yes,South Africa,Business,Female,No,0,29,0.000000,true
+Yes,South Africa,Business,Female,Not sure,0,29,0.000000,true
+Yes,South Africa,Business,Female,Yes,29,29,1.000000,true
+Yes,South Africa,Business,Male,No,75,100,0.750000,false
+Yes,South Africa,Business,Male,Not sure,0,100,0.000000,false
+Yes,South Africa,Business,Male,Yes,25,100,0.250000,false
+Yes,South Africa,Corporate,Female,No,0,30,0.000000,false
+Yes,South Africa,Corporate,Female,Not sure,0,30,0.000000,false
+Yes,South Africa,Corporate,Female,Yes,30,30,1.000000,false
+Yes,South Africa,Corporate,Male,No,99,132,0.750000,false
+Yes,South Africa,Corporate,Male,Not sure,0,132,0.000000,false
+Yes,South Africa,Corporate,Male,Yes,33,132,0.250000,false
+Yes,South Africa,Housewife,Female,No,0,40,0.000000,false
+Yes,South Africa,Housewife,Female,Not sure,0,40,0.000000,false
+Yes,South Africa,Housewife,Female,Yes,40,40,1.000000,false
+Yes,South Africa,Housewife,Male,No,72,96,0.750000,false
+Yes,South Africa,Housewife,Male,Not sure,0,96,0.000000,false
+Yes,South Africa,Housewife,Male,Yes,24,96,0.250000,false
+Yes,South Africa,Others,Female,No,0,35,0.000000,false
+Yes,South Africa,Others,Female,Not sure,0,35,0.000000,false
+Yes,South Africa,Others,Female,Yes,35,35,1.000000,false
+Yes,South Africa,Others,Male,No,54,72,0.750000,false
+Yes,South Africa,Others,Male,Not sure,0,72,0.000000,false
+Yes,South Africa,Others,Male,Yes,18,72,0.250000,false
+Yes,South Africa,Student,Female,No,0,37,0.000000,false
+Yes,South Africa,Student,Female,Not sure,0,37,0.000000,false
+Yes,South Africa,Student,Female,Yes,37,37,1.000000,false
+Yes,South Africa,Student,Male,No,84,112,0.750000,false
+Yes,South Africa,Student,Male,Not sure,0,112,0.000000,false
+Yes,South Africa,Student,Male,Yes,28,112,0.250000,false
+Yes,Sweden,Business,Female,No,0,58,0.000000,false
+Yes,Sweden,Business,Female,Not sure,0,58,0.000000,false
+Yes,Sweden,Business,Female,Yes,58,58,1.000000,false
+Yes,Sweden,Business,Male,No,75,125,0.600000,false
+Yes,Sweden,Business,Male,Not sure,25,125,0.200000,false
+Yes,Sweden,Business,Male,Yes,25,125,0.200000,false
+Yes,Sweden,Corporate,Female,No,0,60,0.000000,false
+Yes,Sweden,Corporate,Female,Not sure,0,60,0.000000,false
+Yes,Sweden,Corporate,Female,Yes,60,60,1.000000,false
+Yes,Sweden,Corporate,Male,No,99,165,0.600000,false
+Yes,Sweden,Corporate,Male,Not sure,33,165,0.200000,false
+Yes,Sweden,Corporate,Male,Yes,33,165,0.200000,false
+Yes,Sweden,Housewife,Female,No,0,80,0.000000,false
+Yes,Sweden,Housewife,Female,Not sure,0,80,0.000000,false
+Yes,Sweden,Housewife,Female,Yes,80,80,1.000000,false
+Yes,Sweden,Housewife,Male,No,72,120,0.600000,false
+Yes,Sweden,Housewife,Male,Not sure,24,120,0.200000,false
+Yes,Sweden,Housewife,Male,Yes,24,120,0.200000,false
+Yes,Sweden,Others,Female,No,0,70,0.000000,false
+Yes,Sweden,Others,Female,Not sure,0,70,0.000000,false
+Yes,Sweden,Others,Female,Yes,70,70,1.000000,false
+Yes,Sweden,Others,Male,No,54,90,0.600000,false
+Yes,Sweden,Others,Male,Not sure,18,90,0.200000,false
+Yes,Sweden,Others,Male,Yes,18,90,0.200000,false
+Yes,Sweden,Student,Female,No,0,74,0.000000,false
+Yes,Sweden,Student,Female,Not sure,0,74,0.000000,false
+Yes,Sweden,Student,Female,Yes,74,74,1.000000,false
+Yes,Sweden,Student,Male,No,84,140,0.600000,false
+Yes,Sweden,Student,Male,Not sure,28,140,0.200000,false
+Yes,Sweden,Student,Male,Yes,28,140,0.200000,false
+Yes,Switzerland,Business,Male,No,75,100,0.750000,false
+Yes,Switzerland,Business,Male,Not sure,25,100,0.250000,false
+Yes,Switzerland,Business,Male,Yes,0,100,0.000000,false
+Yes,Switzerland,Corporate,Male,No,99,132,0.750000,false
+Yes,Switzerland,Corporate,Male,Not sure,33,132,0.250000,false
+Yes,Switzerland,Corporate,Male,Yes,0,132,0.000000,false
+Yes,Switzerland,Housewife,Male,No,72,96,0.750000,false
+Yes,Switzerland,Housewife,Male,Not sure,24,96,0.250000,false
+Yes,Switzerland,Housewife,Male,Yes,0,96,0.000000,false
+Yes,Switzerland,Others,Male,No,54,72,0.750000,false
+Yes,Switzerland,Others,Male,Not sure,18,72,0.250000,false
+Yes,Switzerland,Others,Male,Yes,0,72,0.000000,false
+Yes,Switzerland,Student,Male,No,84,112,0.750000,false
+Yes,Switzerland,Student,Male,Not sure,28,112,0.250000,false
+Yes,Switzerland,Student,Male,Yes,0,112,0.000000,false
+Yes,Thailand,Business,Male,No,25,25,1.000000,true
+Yes,Thailand,Business,Male,Not sure,0,25,0.000000,true
+Yes,Thailand,Business,Male,Yes,0,25,0.000000,true
+Yes,Thailand,Corporate,Male,No,33,33,1.000000,false
+Yes,Thailand,Corporate,Male,Not sure,0,33,0.000000,false
+Yes,Thailand,Corporate,Male,Yes,0,33,0.000000,false
+Yes,Thailand,Housewife,Male,No,24,24,1.000000,true
+Yes,Thailand,Housewife,Male,Not sure,0,24,0.000000,true
+Yes,Thailand,Housewife,Male,Yes,0,24,0.000000,true
+Yes,Thailand,Others,Male,No,18,18,1.000000,true
+Yes,Thailand,Others,Male,Not sure,0,18,0.000000,true
+Yes,Thailand,Others,Male,Yes,0,18,0.000000,true
+Yes,Thailand,Student,Male,No,28,28,1.000000,true
+Yes,Thailand,Student,Male,Not sure,0,28,0.000000,true
+Yes,Thailand,Student,Male,Yes,0,28,0.000000,true
+Yes,United Kingdom,Business,Female,No,232,464,0.500000,false
+Yes,United Kingdom,Business,Female,Not sure,116,464,0.250000,false
+Yes,United Kingdom,Business,Female,Yes,116,464,0.250000,false
+Yes,United Kingdom,Business,Male,No,1650,2850,0.578947,false
+Yes,United Kingdom,Business,Male,Not sure,675,2850,0.236842,false
+Yes,United Kingdom,Business,Male,Yes,525,2850,0.184211,false
+Yes,United Kingdom,Corporate,Female,No,240,480,0.500000,false
+Yes,United Kingdom,Corporate,Female,Not sure,120,480,0.250000,false
+Yes,United Kingdom,Corporate,Female,Yes,120,480,0.250000,false
+Yes,United Kingdom,Corporate,Male,No,2178,3762,0.578947,false
+Yes,United Kingdom,Corporate,Male,Not sure,891,3762,0.236842,false
+Yes,United Kingdom,Corporate,Male,Yes,693,3762,0.184211,false
+Yes,United Kingdom,Housewife,Female,No,320,640,0.500000,false
+Yes,United Kingdom,Housewife,Female,Not sure,160,640,0.250000,false
+Yes,United Kingdom,Housewife,Female,Yes,160,640,0.250000,false
+Yes,United Kingdom,Housewife,Male,No,1584,2736,0.578947,false
+Yes,United Kingdom,Housewife,Male,Not sure,648,2736,0.236842,false
+Yes,United Kingdom,Housewife,Male,Yes,504,2736,0.184211,false
+Yes,United Kingdom,Others,Female,No,280,560,0.500000,false
+Yes,United Kingdom,Others,Female,Not sure,140,560,0.250000,false
+Yes,United Kingdom,Others,Female,Yes,140,560,0.250000,false
+Yes,United Kingdom,Others,Male,No,1188,2052,0.578947,false
+Yes,United Kingdom,Others,Male,Not sure,486,2052,0.236842,false
+Yes,United Kingdom,Others,Male,Yes,378,2052,0.184211,false
+Yes,United Kingdom,Student,Female,No,296,592,0.500000,false
+Yes,United Kingdom,Student,Female,Not sure,148,592,0.250000,false
+Yes,United Kingdom,Student,Female,Yes,148,592,0.250000,false
+Yes,United Kingdom,Student,Male,No,1848,3192,0.578947,false
+Yes,United Kingdom,Student,Male,Not sure,756,3192,0.236842,false
+Yes,United Kingdom,Student,Male,Yes,588,3192,0.184211,false
+Yes,United States,Business,Female,No,638,2378,0.268293,false
+Yes,United States,Business,Female,Not sure,783,2378,0.329268,false
+Yes,United States,Business,Female,Yes,957,2378,0.402439,false
+Yes,United States,Business,Male,No,2975,8575,0.346939,false
+Yes,United States,Business,Male,Not sure,2325,8575,0.271137,false
+Yes,United States,Business,Male,Yes,3275,8575,0.381924,false
+Yes,United States,Corporate,Female,No,660,2460,0.268293,false
+Yes,United States,Corporate,Female,Not sure,810,2460,0.329268,false
+Yes,United States,Corporate,Female,Yes,990,2460,0.402439,false
+Yes,United States,Corporate,Male,No,3927,11319,0.346939,false
+Yes,United States,Corporate,Male,Not sure,3069,11319,0.271137,false
+Yes,United States,Corporate,Male,Yes,4323,11319,0.381924,false
+Yes,United States,Housewife,Female,No,880,3280,0.268293,false
+Yes,United States,Housewife,Female,Not sure,1080,3280,0.329268,false
+Yes,United States,Housewife,Female,Yes,1320,3280,0.402439,false
+Yes,United States,Housewife,Male,No,2856,8232,0.346939,false
+Yes,United States,Housewife,Male,Not sure,2232,8232,0.271137,false
+Yes,United States,Housewife,Male,Yes,3144,8232,0.381924,false
+Yes,United States,Others,Female,No,770,2870,0.268293,false
+Yes,United States,Others,Female,Not sure,945,2870,0.329268,false
+Yes,United States,Others,Female,Yes,1155,2870,0.402439,false
+Yes,United States,Others,Male,No,2142,6174,0.346939,false
+Yes,United States,Others,Male,Not sure,1674,6174,0.271137,false
+Yes,United States,Others,Male,Yes,2358,6174,0.381924,false
+Yes,United States,Student,Female,No,814,3034,0.268293,false
+Yes,United States,Student,Female,Not sure,999,3034,0.329268,false
+Yes,United States,Student,Female,Yes,1221,3034,0.402439,false
+Yes,United States,Student,Male,No,3332,9604,0.346939,false
+Yes,United States,Student,Male,Not sure,2604,9604,0.271137,false
+Yes,United States,Student,Male,Yes,3668,9604,0.381924,false

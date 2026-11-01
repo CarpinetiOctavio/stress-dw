@@ -1,0 +1,16 @@
+days_indoors,level,numerator,denominator,rate,low_n
+Go out Every day,Maybe,26321,57981,0.453959,false
+Go out Every day,No,16314,57981,0.281368,false
+Go out Every day,Yes,15346,57981,0.264673,false
+1-14 days,Maybe,19495,63113,0.308890,false
+1-14 days,No,21935,63113,0.347551,false
+1-14 days,Yes,21683,63113,0.343558,false
+15-30 days,Maybe,16687,53474,0.312058,false
+15-30 days,No,19006,53474,0.355425,false
+15-30 days,Yes,17781,53474,0.332517,false
+31-60 days,Maybe,22414,60058,0.373206,false
+31-60 days,No,17292,60058,0.287922,false
+31-60 days,Yes,20352,60058,0.338872,false
+More than 2 months,Maybe,17660,55425,0.318629,false
+More than 2 months,No,21930,55425,0.395670,false
+More than 2 months,Yes,15835,55425,0.285701,false

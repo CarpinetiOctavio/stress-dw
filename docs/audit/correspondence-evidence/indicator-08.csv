@@ -1,0 +1,7 @@
+gender,growing_stress,level,numerator,denominator,rate,low_n
+Female,Maybe,Yes,10920,15730,0.694215,false
+Female,No,Yes,10920,15730,0.694215,false
+Female,Yes,Yes,14364,20691,0.694215,false
+Male,Maybe,Yes,38634,83570,0.462295,false
+Male,No,Yes,35250,76250,0.462295,false
+Male,Yes,Yes,36096,78080,0.462295,false

@@ -1,0 +1,17 @@
+unit,column,k,n_file,n_external,w_d,b,interpretable,result
+records,Days_Indoors,5,290051,824,0.028134,0.069772,False,indeterminate
+records,Growing_Stress,3,290051,824,0.053961,0.049336,True,concordant
+records,Changes_Habits,3,290051,824,0.011831,0.049336,True,concordant
+records,Mental_Health_History,3,290051,824,0.035631,0.049336,True,concordant
+records,Mood_Swings,3,290051,824,0.023382,0.049336,True,concordant
+records,Coping_Struggles,2,290051,824,0.050423,0.034886,True,concordant
+records,Work_Interest,3,290051,824,0.020089,0.049336,True,concordant
+records,Social_Weakness,3,290051,824,0.012253,0.049336,True,concordant
+profiles,Days_Indoors,5,97723,824,0.023931,0.069966,False,indeterminate
+profiles,Growing_Stress,3,97723,824,0.045847,0.049474,True,concordant
+profiles,Changes_Habits,3,97723,824,0.010252,0.049474,True,concordant
+profiles,Mental_Health_History,3,97723,824,0.030447,0.049474,True,concordant
+profiles,Mood_Swings,3,97723,824,0.020535,0.049474,True,concordant
+profiles,Coping_Struggles,2,97723,824,0.042335,0.034983,True,concordant
+profiles,Work_Interest,3,97723,824,0.016964,0.049474,True,concordant
+profiles,Social_Weakness,3,97723,824,0.010550,0.049474,True,concordant

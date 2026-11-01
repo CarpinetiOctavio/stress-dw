@@ -1,0 +1,17 @@
+growing_stress,symptom_cluster,care_options,level,numerator,denominator,rate,low_n
+Maybe,true,Not sure,No,2788,4602,0.605824,false
+Maybe,true,Not sure,Yes,1814,4602,0.394176,false
+Maybe,true,Yes,No,1611,5618,0.286757,false
+Maybe,true,Yes,Yes,4007,5618,0.713243,false
+No,true,Not sure,No,2907,4797,0.606004,false
+No,true,Not sure,Yes,1890,4797,0.393996,false
+No,true,Yes,No,1680,5856,0.286885,false
+No,true,Yes,Yes,4176,5856,0.713115,false
+Yes,false,Not sure,No,13022,21684,0.600535,false
+Yes,false,Not sure,Yes,8662,21684,0.399465,false
+Yes,false,Yes,No,7493,26478,0.282990,false
+Yes,false,Yes,Yes,18985,26478,0.717010,false
+Yes,true,Not sure,No,2941,4953,0.593782,false
+Yes,true,Not sure,Yes,2012,4953,0.406218,false
+Yes,true,Yes,No,1683,6050,0.278182,false
+Yes,true,Yes,Yes,4367,6050,0.721818,false

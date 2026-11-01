@@ -1,0 +1,7 @@
+growing_stress,level,numerator,denominator,rate,low_n
+Maybe,No,8506,17176,0.495226,false
+Maybe,Yes,8670,17176,0.504774,false
+No,No,8871,17907,0.495393,false
+No,Yes,9036,17907,0.504607,false
+Yes,No,8839,18265,0.483931,false
+Yes,Yes,9426,18265,0.516069,false

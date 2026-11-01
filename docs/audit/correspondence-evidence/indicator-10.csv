@@ -1,0 +1,16 @@
+days_indoors,level,numerator,denominator,rate,low_n,headline_rate
+Go out Every day,High,21446,57981,0.369880,false,0.672375
+Go out Every day,Low,18996,57981,0.327625,false,0.672375
+Go out Every day,Medium,17539,57981,0.302496,false,0.672375
+1-14 days,High,16561,63113,0.262402,false,0.598292
+1-14 days,Low,25353,63113,0.401708,false,0.598292
+1-14 days,Medium,21199,63113,0.335890,false,0.598292
+15-30 days,High,18512,53474,0.346187,false,0.703968
+15-30 days,Low,15830,53474,0.296032,false,0.703968
+15-30 days,Medium,19132,53474,0.357781,false,0.703968
+31-60 days,High,16687,60058,0.277848,false,0.628726
+31-60 days,Low,22298,60058,0.371274,false,0.628726
+31-60 days,Medium,21073,60058,0.350877,false,0.628726
+More than 2 months,High,17297,55425,0.312079,false,0.698926
+More than 2 months,Low,16687,55425,0.301074,false,0.698926
+More than 2 months,Medium,21441,55425,0.386847,false,0.698926

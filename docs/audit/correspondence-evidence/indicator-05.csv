@@ -1,0 +1,206 @@
+grouping_set,occupation,country,region,numerator,denominator,rate,low_n
+"occupation, country",Business,Australia,,184,1042,0.176583,false
+"occupation, country",Business,Belgium,,25,145,0.172414,false
+"occupation, country",Business,Bosnia and Herzegovina,,12,66,0.181818,false
+"occupation, country",Business,Brazil,,72,396,0.181818,false
+"occupation, country",Business,Canada,,573,3219,0.178006,false
+"occupation, country",Business,Colombia,,12,66,0.181818,false
+"occupation, country",Business,Costa Rica,,12,66,0.181818,false
+"occupation, country",Business,Croatia,,12,66,0.181818,false
+"occupation, country",Business,Czech Republic,,12,66,0.181818,false
+"occupation, country",Business,Denmark,,24,132,0.181818,false
+"occupation, country",Business,Finland,,12,66,0.181818,false
+"occupation, country",Business,France,,72,396,0.181818,false
+"occupation, country",Business,Georgia,,12,66,0.181818,false
+"occupation, country",Business,Germany,,144,792,0.181818,false
+"occupation, country",Business,Greece,,24,132,0.181818,false
+"occupation, country",Business,India,,85,475,0.178947,false
+"occupation, country",Business,Ireland,,170,950,0.178947,false
+"occupation, country",Business,Israel,,48,264,0.181818,false
+"occupation, country",Business,Italy,,48,264,0.181818,false
+"occupation, country",Business,Mexico,,12,66,0.181818,false
+"occupation, country",Business,Moldova,,12,66,0.181818,false
+"occupation, country",Business,Netherlands,,181,1003,0.180459,false
+"occupation, country",Business,New Zealand,,61,343,0.177843,false
+"occupation, country",Business,Nigeria,,12,66,0.181818,false
+"occupation, country",Business,Philippines,,12,66,0.181818,false
+"occupation, country",Business,Poland,,25,145,0.172414,false
+"occupation, country",Business,Portugal,,12,66,0.181818,false
+"occupation, country",Business,Russia,,24,132,0.181818,false
+"occupation, country",Business,Singapore,,24,132,0.181818,false
+"occupation, country",Business,South Africa,,61,343,0.177843,false
+"occupation, country",Business,Sweden,,86,488,0.176230,false
+"occupation, country",Business,Switzerland,,48,264,0.181818,false
+"occupation, country",Business,Thailand,,12,66,0.181818,false
+"occupation, country",Business,United Kingdom,,1576,8788,0.179335,false
+"occupation, country",Business,United States,,5182,29116,0.177978,false
+"occupation, country",Corporate,Australia,,210,1227,0.171149,false
+"occupation, country",Corporate,Belgium,,28,158,0.177215,false
+"occupation, country",Corporate,Bosnia and Herzegovina,,14,85,0.164706,false
+"occupation, country",Corporate,Brazil,,84,510,0.164706,false
+"occupation, country",Corporate,Canada,,658,3887,0.169282,false
+"occupation, country",Corporate,Colombia,,14,85,0.164706,false
+"occupation, country",Corporate,Costa Rica,,14,85,0.164706,false
+"occupation, country",Corporate,Croatia,,14,85,0.164706,false
+"occupation, country",Corporate,Czech Republic,,14,85,0.164706,false
+"occupation, country",Corporate,Denmark,,28,170,0.164706,false
+"occupation, country",Corporate,Finland,,14,85,0.164706,false
+"occupation, country",Corporate,France,,84,510,0.164706,false
+"occupation, country",Corporate,Georgia,,14,85,0.164706,false
+"occupation, country",Corporate,Germany,,168,1020,0.164706,false
+"occupation, country",Corporate,Greece,,28,170,0.164706,false
+"occupation, country",Corporate,India,,98,583,0.168096,false
+"occupation, country",Corporate,Ireland,,196,1166,0.168096,false
+"occupation, country",Corporate,Israel,,56,340,0.164706,false
+"occupation, country",Corporate,Italy,,56,340,0.164706,false
+"occupation, country",Corporate,Mexico,,14,85,0.164706,false
+"occupation, country",Corporate,Moldova,,14,85,0.164706,false
+"occupation, country",Corporate,Netherlands,,210,1263,0.166271,false
+"occupation, country",Corporate,New Zealand,,70,413,0.169492,false
+"occupation, country",Corporate,Nigeria,,14,85,0.164706,false
+"occupation, country",Corporate,Philippines,,14,85,0.164706,false
+"occupation, country",Corporate,Poland,,28,158,0.177215,false
+"occupation, country",Corporate,Portugal,,14,85,0.164706,false
+"occupation, country",Corporate,Russia,,28,170,0.164706,false
+"occupation, country",Corporate,Singapore,,28,170,0.164706,false
+"occupation, country",Corporate,South Africa,,70,413,0.169492,false
+"occupation, country",Corporate,Sweden,,98,571,0.171629,false
+"occupation, country",Corporate,Switzerland,,56,340,0.164706,false
+"occupation, country",Corporate,Thailand,,14,85,0.164706,false
+"occupation, country",Corporate,United Kingdom,,1820,10858,0.167618,false
+"occupation, country",Corporate,United States,,5950,35141,0.169318,false
+"occupation, country",Housewife,Australia,,180,1363,0.132062,false
+"occupation, country",Housewife,Belgium,,31,185,0.167568,false
+"occupation, country",Housewife,Bosnia and Herzegovina,,8,89,0.089888,false
+"occupation, country",Housewife,Brazil,,48,534,0.089888,false
+"occupation, country",Housewife,Canada,,511,4246,0.120349,false
+"occupation, country",Housewife,Colombia,,8,89,0.089888,false
+"occupation, country",Housewife,Costa Rica,,8,89,0.089888,false
+"occupation, country",Housewife,Croatia,,8,89,0.089888,false
+"occupation, country",Housewife,Czech Republic,,8,89,0.089888,false
+"occupation, country",Housewife,Denmark,,16,178,0.089888,false
+"occupation, country",Housewife,Finland,,8,89,0.089888,false
+"occupation, country",Housewife,France,,48,534,0.089888,false
+"occupation, country",Housewife,Georgia,,8,89,0.089888,false
+"occupation, country",Housewife,Germany,,96,1068,0.089888,false
+"occupation, country",Housewife,Greece,,16,178,0.089888,false
+"occupation, country",Housewife,India,,71,630,0.112698,false
+"occupation, country",Housewife,Ireland,,142,1260,0.112698,false
+"occupation, country",Housewife,Israel,,32,356,0.089888,false
+"occupation, country",Housewife,Italy,,32,356,0.089888,false
+"occupation, country",Housewife,Mexico,,8,89,0.089888,false
+"occupation, country",Housewife,Moldova,,8,89,0.089888,false
+"occupation, country",Housewife,Netherlands,,135,1342,0.100596,false
+"occupation, country",Housewife,New Zealand,,55,452,0.121681,false
+"occupation, country",Housewife,Nigeria,,8,89,0.089888,false
+"occupation, country",Housewife,Philippines,,8,89,0.089888,false
+"occupation, country",Housewife,Poland,,31,185,0.167568,false
+"occupation, country",Housewife,Portugal,,8,89,0.089888,false
+"occupation, country",Housewife,Russia,,16,178,0.089888,false
+"occupation, country",Housewife,Singapore,,16,178,0.089888,false
+"occupation, country",Housewife,South Africa,,55,452,0.121681,false
+"occupation, country",Housewife,Sweden,,86,637,0.135008,false
+"occupation, country",Housewife,Switzerland,,32,356,0.089888,false
+"occupation, country",Housewife,Thailand,,8,89,0.089888,false
+"occupation, country",Housewife,United Kingdom,,1280,11682,0.109570,false
+"occupation, country",Housewife,United States,,4630,38399,0.120576,false
+"occupation, country",Others,Australia,,194,1099,0.176524,false
+"occupation, country",Others,Belgium,,31,154,0.201299,false
+"occupation, country",Others,Bosnia and Herzegovina,,10,69,0.144928,false
+"occupation, country",Others,Brazil,,60,414,0.144928,false
+"occupation, country",Others,Canada,,569,3387,0.167995,false
+"occupation, country",Others,Colombia,,10,69,0.144928,false
+"occupation, country",Others,Costa Rica,,10,69,0.144928,false
+"occupation, country",Others,Croatia,,10,69,0.144928,false
+"occupation, country",Others,Czech Republic,,10,69,0.144928,false
+"occupation, country",Others,Denmark,,20,138,0.144928,false
+"occupation, country",Others,Finland,,10,69,0.144928,false
+"occupation, country",Others,France,,60,414,0.144928,false
+"occupation, country",Others,Georgia,,10,69,0.144928,false
+"occupation, country",Others,Germany,,120,828,0.144928,false
+"occupation, country",Others,Greece,,20,138,0.144928,false
+"occupation, country",Others,India,,81,499,0.162325,false
+"occupation, country",Others,Ireland,,162,998,0.162325,false
+"occupation, country",Others,Israel,,40,276,0.144928,false
+"occupation, country",Others,Italy,,40,276,0.144928,false
+"occupation, country",Others,Mexico,,10,69,0.144928,false
+"occupation, country",Others,Moldova,,10,69,0.144928,false
+"occupation, country",Others,Netherlands,,161,1051,0.153187,false
+"occupation, country",Others,New Zealand,,61,361,0.168975,false
+"occupation, country",Others,Nigeria,,10,69,0.144928,false
+"occupation, country",Others,Philippines,,10,69,0.144928,false
+"occupation, country",Others,Poland,,31,154,0.201299,false
+"occupation, country",Others,Portugal,,10,69,0.144928,false
+"occupation, country",Others,Russia,,20,138,0.144928,false
+"occupation, country",Others,Singapore,,20,138,0.144928,false
+"occupation, country",Others,South Africa,,61,361,0.168975,false
+"occupation, country",Others,Sweden,,92,515,0.178641,false
+"occupation, country",Others,Switzerland,,40,276,0.144928,false
+"occupation, country",Others,Thailand,,10,69,0.144928,false
+"occupation, country",Others,United Kingdom,,1476,9226,0.159983,false
+"occupation, country",Others,United States,,5152,30637,0.168163,false
+"occupation, country",Student,Australia,,237,1283,0.184723,false
+"occupation, country",Student,Belgium,,33,179,0.184358,false
+"occupation, country",Student,Bosnia and Herzegovina,,15,81,0.185185,false
+"occupation, country",Student,Brazil,,90,486,0.185185,false
+"occupation, country",Student,Canada,,732,3960,0.184848,false
+"occupation, country",Student,Colombia,,15,81,0.185185,false
+"occupation, country",Student,Costa Rica,,15,81,0.185185,false
+"occupation, country",Student,Croatia,,15,81,0.185185,false
+"occupation, country",Student,Czech Republic,,15,81,0.185185,false
+"occupation, country",Student,Denmark,,30,162,0.185185,false
+"occupation, country",Student,Finland,,15,81,0.185185,false
+"occupation, country",Student,France,,90,486,0.185185,false
+"occupation, country",Student,Georgia,,15,81,0.185185,false
+"occupation, country",Student,Germany,,180,972,0.185185,false
+"occupation, country",Student,Greece,,30,162,0.185185,false
+"occupation, country",Student,India,,108,584,0.184932,false
+"occupation, country",Student,Ireland,,216,1168,0.184932,false
+"occupation, country",Student,Israel,,60,324,0.185185,false
+"occupation, country",Student,Italy,,60,324,0.185185,false
+"occupation, country",Student,Mexico,,15,81,0.185185,false
+"occupation, country",Student,Moldova,,15,81,0.185185,false
+"occupation, country",Student,Netherlands,,228,1232,0.185065,false
+"occupation, country",Student,New Zealand,,78,422,0.184834,false
+"occupation, country",Student,Nigeria,,15,81,0.185185,false
+"occupation, country",Student,Philippines,,15,81,0.185185,false
+"occupation, country",Student,Poland,,33,179,0.184358,false
+"occupation, country",Student,Portugal,,15,81,0.185185,false
+"occupation, country",Student,Russia,,30,162,0.185185,false
+"occupation, country",Student,Singapore,,30,162,0.185185,false
+"occupation, country",Student,South Africa,,78,422,0.184834,false
+"occupation, country",Student,Sweden,,111,601,0.184692,false
+"occupation, country",Student,Switzerland,,60,324,0.185185,false
+"occupation, country",Student,Thailand,,15,81,0.185185,false
+"occupation, country",Student,United Kingdom,,1998,10802,0.184966,false
+"occupation, country",Student,United States,,6621,35819,0.184846,false
+"occupation, region",Business,,Africa,73,409,0.178484,false
+"occupation, region",Business,,Asia,193,1069,0.180543,false
+"occupation, region",Business,,Europe,2519,14027,0.179582,false
+"occupation, region",Business,,Latin America and the Caribbean,108,594,0.181818,false
+"occupation, region",Business,,Northern America,5755,32335,0.177981,false
+"occupation, region",Business,,Oceania,245,1385,0.176895,false
+"occupation, region",Corporate,,Africa,84,498,0.168675,false
+"occupation, region",Corporate,,Asia,224,1348,0.166172,false
+"occupation, region",Corporate,,Europe,2912,17404,0.167318,false
+"occupation, region",Corporate,,Latin America and the Caribbean,126,765,0.164706,false
+"occupation, region",Corporate,,Northern America,6608,39028,0.169314,false
+"occupation, region",Corporate,,Oceania,280,1640,0.170732,false
+"occupation, region",Housewife,,Africa,63,541,0.116451,false
+"occupation, region",Housewife,,Asia,143,1431,0.099930,false
+"occupation, region",Housewife,,Europe,2009,18673,0.107588,false
+"occupation, region",Housewife,,Latin America and the Caribbean,72,801,0.089888,false
+"occupation, region",Housewife,,Northern America,5141,42645,0.120553,false
+"occupation, region",Housewife,,Oceania,235,1815,0.129477,false
+"occupation, region",Others,,Africa,71,430,0.165116,false
+"occupation, region",Others,,Asia,171,1120,0.152679,false
+"occupation, region",Others,,Europe,2333,14720,0.158492,false
+"occupation, region",Others,,Latin America and the Caribbean,90,621,0.144928,false
+"occupation, region",Others,,Northern America,5721,34024,0.168146,false
+"occupation, region",Others,,Oceania,255,1460,0.174658,false
+"occupation, region",Student,,Africa,93,503,0.184891,false
+"occupation, region",Student,,Asia,243,1313,0.185072,false
+"occupation, region",Student,,Europe,3189,17239,0.184988,false
+"occupation, region",Student,,Latin America and the Caribbean,135,729,0.185185,false
+"occupation, region",Student,,Northern America,7353,39779,0.184846,false
+"occupation, region",Student,,Oceania,315,1705,0.184751,false
