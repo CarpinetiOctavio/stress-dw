@@ -46,7 +46,7 @@ Each row pairs a concept with what it changed in this repository and the evidenc
 
 ## What was built
 
-![The star schema: fact_response, one row per staged response, holds response_id, eight foreign keys and treatment; each foreign key joins one of eight dimensions on its surrogate key, and each dimension is shown with its natural key.](docs/specification/figures/star-schema.svg)
+![The star schema: fact_response, one row per staged response, holds its primary key response_id, eight foreign keys and treatment; each foreign key references the surrogate primary key of the same name in one of eight dimensions, and each dimension is shown with its natural key.](docs/specification/figures/star-schema.svg)
 
 *One fact row per staged response, with a foreign key to each of the eight dimensions; each dimension holds one row per natural key ([`dimensions.md`, Row set](docs/specification/dimensions.md#row-set)).*
 

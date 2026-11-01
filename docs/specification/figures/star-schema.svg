@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 446" width="800" height="446" role="img" aria-labelledby="t d">
 <title id="t">Star schema of the warehouse</title>
-<desc id="d">The star schema: fact_response, one row per staged response, holds response_id, eight foreign keys and treatment; each foreign key joins one of eight dimensions on its surrogate key, and each dimension is shown with its natural key.</desc>
+<desc id="d">The star schema: fact_response, one row per staged response, holds its primary key response_id, eight foreign keys and treatment; each foreign key references the surrogate primary key of the same name in one of eight dimensions, and each dimension is shown with its natural key.</desc>
 <style>
   svg { --ink: #0b0b0b; --ink2: #52514e; --grid: #e4e3df; --band: #f1efe9; --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; }
   @media (prefers-color-scheme: dark) {
@@ -29,62 +29,87 @@
 <marker id="ah2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--s2)"/></marker>
 <marker id="ah3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--s3)"/></marker>
 </defs>
-<rect class="box1" x="320" y="44" width="160" height="286" rx="6"/>
-<text class="h mono" x="400.0" y="66.0" text-anchor="middle">fact_response</text>
-<text x="400.0" y="82.0" text-anchor="middle">one row per</text>
-<text x="400.0" y="97.0" text-anchor="middle">staged response</text>
-<line class="axis" x1="320" y1="106" x2="480" y2="106"/>
-<text class="mono ink" x="332.0" y="124.0" text-anchor="start">response_id</text>
-<text class="mono" x="332.0" y="146.0" text-anchor="start">time_id</text>
-<text class="mono" x="332.0" y="166.0" text-anchor="start">gender_id</text>
-<text class="mono" x="332.0" y="186.0" text-anchor="start">family_history_id</text>
-<text class="mono" x="332.0" y="206.0" text-anchor="start">occupation_id</text>
-<text class="mono" x="332.0" y="226.0" text-anchor="start">country_id</text>
-<text class="mono" x="332.0" y="246.0" text-anchor="start">isolation_id</text>
-<text class="mono" x="332.0" y="266.0" text-anchor="start">access_id</text>
-<text class="mono" x="332.0" y="286.0" text-anchor="start">symptoms_id</text>
-<text class="mono ink" x="332.0" y="310.0" text-anchor="start">treatment</text>
-<rect class="box" x="20" y="16" width="272" height="72" rx="6"/>
+<rect class="box1" x="310" y="65.0" width="180" height="286" rx="6"/>
+<text class="h mono" x="400.0" y="87.0" text-anchor="middle">fact_response</text>
+<text x="400.0" y="103.0" text-anchor="middle">one row per</text>
+<text x="400.0" y="118.0" text-anchor="middle">staged response</text>
+<line class="axis" x1="310" y1="127.0" x2="490" y2="127.0"/>
+<text class="mono ink" x="322.0" y="145.0" text-anchor="start">response_id</text>
+<text class="t1" x="480.0" y="145.0" text-anchor="end">PK</text>
+<text class="mono" x="322.0" y="167.0" text-anchor="start">time_id</text>
+<text x="480.0" y="167.0" text-anchor="end">FK</text>
+<text class="mono" x="322.0" y="187.0" text-anchor="start">gender_id</text>
+<text x="480.0" y="187.0" text-anchor="end">FK</text>
+<text class="mono" x="322.0" y="207.0" text-anchor="start">family_history_id</text>
+<text x="480.0" y="207.0" text-anchor="end">FK</text>
+<text class="mono" x="322.0" y="227.0" text-anchor="start">occupation_id</text>
+<text x="480.0" y="227.0" text-anchor="end">FK</text>
+<text class="mono" x="322.0" y="247.0" text-anchor="start">country_id</text>
+<text x="480.0" y="247.0" text-anchor="end">FK</text>
+<text class="mono" x="322.0" y="267.0" text-anchor="start">isolation_id</text>
+<text x="480.0" y="267.0" text-anchor="end">FK</text>
+<text class="mono" x="322.0" y="287.0" text-anchor="start">access_id</text>
+<text x="480.0" y="287.0" text-anchor="end">FK</text>
+<text class="mono" x="322.0" y="307.0" text-anchor="start">symptoms_id</text>
+<text x="480.0" y="307.0" text-anchor="end">FK</text>
+<text class="mono ink" x="322.0" y="331.0" text-anchor="start">treatment</text>
+<rect class="box" x="20" y="16" width="262" height="90" rx="6"/>
 <text class="mono ink" x="32.0" y="38.0" text-anchor="start">dim_time</text>
-<text x="32.0" y="56.0" text-anchor="start">natural key</text>
-<text class="mono" x="32.0" y="73.0" text-anchor="start">year, month</text>
-<path class="link" d="M292,52.0 C312,52.0 300,142 320,142"/>
-<rect class="box" x="20" y="100" width="272" height="72" rx="6"/>
-<text class="mono ink" x="32.0" y="122.0" text-anchor="start">dim_gender</text>
-<text x="32.0" y="140.0" text-anchor="start">natural key</text>
-<text class="mono" x="32.0" y="157.0" text-anchor="start">gender</text>
-<path class="link" d="M292,136.0 C312,136.0 300,162 320,162"/>
-<rect class="box" x="20" y="184" width="272" height="72" rx="6"/>
-<text class="mono ink" x="32.0" y="206.0" text-anchor="start">dim_family_history</text>
-<text x="32.0" y="224.0" text-anchor="start">natural key</text>
-<text class="mono" x="32.0" y="241.0" text-anchor="start">family_history</text>
-<path class="link" d="M292,220.0 C312,220.0 300,182 320,182"/>
-<rect class="box" x="20" y="268" width="272" height="72" rx="6"/>
-<text class="mono ink" x="32.0" y="290.0" text-anchor="start">dim_occupation</text>
-<text x="32.0" y="308.0" text-anchor="start">natural key</text>
-<text class="mono" x="32.0" y="325.0" text-anchor="start">occupation</text>
-<path class="link" d="M292,304.0 C312,304.0 300,202 320,202"/>
-<rect class="box" x="508" y="16" width="272" height="72" rx="6"/>
-<text class="mono ink" x="520.0" y="38.0" text-anchor="start">dim_country</text>
-<text x="520.0" y="56.0" text-anchor="start">natural key</text>
-<text class="mono" x="520.0" y="73.0" text-anchor="start">country</text>
-<path class="link" d="M508,52.0 C488,52.0 500,222 480,222"/>
-<rect class="box" x="508" y="100" width="272" height="72" rx="6"/>
-<text class="mono ink" x="520.0" y="122.0" text-anchor="start">dim_isolation</text>
-<text x="520.0" y="140.0" text-anchor="start">natural key</text>
-<text class="mono" x="520.0" y="157.0" text-anchor="start">days_indoors</text>
-<path class="link" d="M508,136.0 C488,136.0 500,242 480,242"/>
-<rect class="box" x="508" y="184" width="272" height="72" rx="6"/>
-<text class="mono ink" x="520.0" y="206.0" text-anchor="start">dim_access</text>
-<text x="520.0" y="224.0" text-anchor="start">natural key</text>
-<text class="mono" x="520.0" y="239.0" text-anchor="start">care_options,</text>
-<text class="mono" x="520.0" y="252.0" text-anchor="start">mental_health_interview</text>
-<path class="link" d="M508,220.0 C488,220.0 500,262 480,262"/>
-<rect class="box" x="508" y="268" width="272" height="72" rx="6"/>
-<text class="mono ink" x="520.0" y="290.0" text-anchor="start">dim_symptoms</text>
-<text x="520.0" y="308.0" text-anchor="start">natural key</text>
-<text class="mono" x="520.0" y="323.0" text-anchor="start">growing_stress, mood_swings,</text>
-<text class="mono" x="520.0" y="336.0" text-anchor="start">coping_struggles, social_weakness</text>
-<path class="link" d="M508,304.0 C488,304.0 500,282 480,282"/>
-<text x="400.0" y="370.0" text-anchor="middle">Each foreign key of fact_response resolves to one row of its dimension.</text>
+<text class="mono" x="32.0" y="56.0" text-anchor="start">time_id</text>
+<text class="t1" x="270.0" y="56.0" text-anchor="end">PK</text>
+<text x="32.0" y="74.0" text-anchor="start">natural key</text>
+<text class="mono" x="32.0" y="91.0" text-anchor="start">year, month</text>
+<path class="link" d="M282,52 C302,52 290,163.0 310,163.0"/>
+<rect class="box" x="20" y="114" width="262" height="90" rx="6"/>
+<text class="mono ink" x="32.0" y="136.0" text-anchor="start">dim_gender</text>
+<text class="mono" x="32.0" y="154.0" text-anchor="start">gender_id</text>
+<text class="t1" x="270.0" y="154.0" text-anchor="end">PK</text>
+<text x="32.0" y="172.0" text-anchor="start">natural key</text>
+<text class="mono" x="32.0" y="189.0" text-anchor="start">gender</text>
+<path class="link" d="M282,150 C302,150 290,183.0 310,183.0"/>
+<rect class="box" x="20" y="212" width="262" height="90" rx="6"/>
+<text class="mono ink" x="32.0" y="234.0" text-anchor="start">dim_family_history</text>
+<text class="mono" x="32.0" y="252.0" text-anchor="start">family_history_id</text>
+<text class="t1" x="270.0" y="252.0" text-anchor="end">PK</text>
+<text x="32.0" y="270.0" text-anchor="start">natural key</text>
+<text class="mono" x="32.0" y="287.0" text-anchor="start">family_history</text>
+<path class="link" d="M282,248 C302,248 290,203.0 310,203.0"/>
+<rect class="box" x="20" y="310" width="262" height="90" rx="6"/>
+<text class="mono ink" x="32.0" y="332.0" text-anchor="start">dim_occupation</text>
+<text class="mono" x="32.0" y="350.0" text-anchor="start">occupation_id</text>
+<text class="t1" x="270.0" y="350.0" text-anchor="end">PK</text>
+<text x="32.0" y="368.0" text-anchor="start">natural key</text>
+<text class="mono" x="32.0" y="385.0" text-anchor="start">occupation</text>
+<path class="link" d="M282,346 C302,346 290,223.0 310,223.0"/>
+<rect class="box" x="518" y="16" width="262" height="90" rx="6"/>
+<text class="mono ink" x="530.0" y="38.0" text-anchor="start">dim_country</text>
+<text class="mono" x="530.0" y="56.0" text-anchor="start">country_id</text>
+<text class="t1" x="768.0" y="56.0" text-anchor="end">PK</text>
+<text x="530.0" y="74.0" text-anchor="start">natural key</text>
+<text class="mono" x="530.0" y="91.0" text-anchor="start">country</text>
+<path class="link" d="M518,52 C498,52 510,243.0 490,243.0"/>
+<rect class="box" x="518" y="114" width="262" height="90" rx="6"/>
+<text class="mono ink" x="530.0" y="136.0" text-anchor="start">dim_isolation</text>
+<text class="mono" x="530.0" y="154.0" text-anchor="start">isolation_id</text>
+<text class="t1" x="768.0" y="154.0" text-anchor="end">PK</text>
+<text x="530.0" y="172.0" text-anchor="start">natural key</text>
+<text class="mono" x="530.0" y="189.0" text-anchor="start">days_indoors</text>
+<path class="link" d="M518,150 C498,150 510,263.0 490,263.0"/>
+<rect class="box" x="518" y="212" width="262" height="90" rx="6"/>
+<text class="mono ink" x="530.0" y="234.0" text-anchor="start">dim_access</text>
+<text class="mono" x="530.0" y="252.0" text-anchor="start">access_id</text>
+<text class="t1" x="768.0" y="252.0" text-anchor="end">PK</text>
+<text x="530.0" y="270.0" text-anchor="start">natural key</text>
+<text class="mono" x="530.0" y="285.0" text-anchor="start">care_options,</text>
+<text class="mono" x="530.0" y="298.0" text-anchor="start">mental_health_interview</text>
+<path class="link" d="M518,248 C498,248 510,283.0 490,283.0"/>
+<rect class="box" x="518" y="310" width="262" height="90" rx="6"/>
+<text class="mono ink" x="530.0" y="332.0" text-anchor="start">dim_symptoms</text>
+<text class="mono" x="530.0" y="350.0" text-anchor="start">symptoms_id</text>
+<text class="t1" x="768.0" y="350.0" text-anchor="end">PK</text>
+<text x="530.0" y="368.0" text-anchor="start">natural key</text>
+<text class="mono" x="530.0" y="383.0" text-anchor="start">growing_stress, mood_swings,</text>
+<text class="mono" x="530.0" y="396.0" text-anchor="start">coping_struggles, social_weakness</text>
+<path class="link" d="M518,346 C498,346 510,303.0 490,303.0"/>
+<text x="400.0" y="436.0" text-anchor="middle">Each foreign key of fact_response resolves to one row of its dimension.</text>
 </svg>

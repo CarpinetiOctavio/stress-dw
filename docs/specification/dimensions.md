@@ -19,7 +19,7 @@ A dimension holds one row per distinct natural key present in staging. Every sta
 
 Ceilings are the product of the domain sizes in [`sources.md`](sources.md#value-domains), not expected counts.
 
-![The star schema: fact_response, one row per staged response, holds response_id, eight foreign keys and treatment; each foreign key joins one of eight dimensions on its surrogate key, and each dimension is shown with its natural key.](figures/star-schema.svg)
+![The star schema: fact_response, one row per staged response, holds its primary key response_id, eight foreign keys and treatment; each foreign key references the surrogate primary key of the same name in one of eight dimensions, and each dimension is shown with its natural key.](figures/star-schema.svg)
 
 *One fact row per staged response, with a foreign key to each of the eight dimensions ([`fact-table.md`, Columns](fact-table.md#columns)).*
 
