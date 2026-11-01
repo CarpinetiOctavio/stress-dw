@@ -39,7 +39,7 @@ The value scan searched every commit reachable from `8b67c52`, trees and commit 
 
 ## 4. Questions
 
-Every verdict is read under "H1 holds" (section 2). The criteria of each question are applied as written, with no post-exposure amendment. The status of every required cell is in [`required-cells.csv`](correspondence-evidence/required-cells.csv), written by `uv run python -m stress_dw.correspondence` from the published outputs; the same command prints the reading lists and cell tables below. In the cell tables, a level rate is written as numerator (rate), and a cell the output does not report is marked missing.
+Every verdict is read under "H1 holds" (section 2). The criteria of each question are applied as committed, with the amendments of the [criteria, section 7](correspondence-criteria.md#7-amendments), both made before any result of A5, A6 or A10; there is no post-exposure amendment. The status of every required cell is in [`required-cells.csv`](correspondence-evidence/required-cells.csv), written by `uv run python -m stress_dw.correspondence` from the published outputs; the same command prints the reading lists and cell tables below. In the cell tables, a level rate is written as numerator (rate), and a cell the output does not report is marked missing.
 
 Within each gender, the rates of indicators 2 and 4 are equal in every period, and those of indicator 7 at every level of `growing_stress`. The denominators of indicators 2 and 4 differ and are whole multiples of 431 rows for `Female` and 390 for `Male`. No verdict depends on this ([criteria, section 3.2](correspondence-criteria.md#32-branch-h1-holds)).
 
@@ -297,7 +297,7 @@ Indicator 11 (`social_weakness`):
 
 * **Criteria:** [Q6](correspondence-criteria.md#q6), with the [second amendment of 2026-10-29](correspondence-criteria.md#second-amendment-of-2026-10-29-before-any-result-of-a5-a6-or-a10) (criteria, section 7), as in Q3: the amendment supersedes the reading under both branches stated for `Occupation` in the criteria, section 3.1, in Q6's Branches entry, and in LOG-045, item 4. The premise of `care_options` holds (section 2). Q6 receives one verdict.
 * **Indicators:** 12 (`2012c311774d`), 13 (`2012c311774d`).
-* **C1:** not met. Loci: provenance; data volume: 35 strata, 1,050 required cells: 705 present, 345 missing, 219 flagged. Missing cells are listed in [`required-cells.csv`](correspondence-evidence/required-cells.csv); flagged cells are listed below.
+* **C1:** not met. Loci: provenance; data volume: 35 strata, 1,050 required cells: 705 present, 345 missing, 219 flagged. At least two strata exist, so the locus reasoning or design does not apply. Missing cells are listed in [`required-cells.csv`](correspondence-evidence/required-cells.csv); flagged cells are listed below.
 * **Verdict:** does not correspond. Cause: "under the reading that the file joins two sources, this cross says nothing about respondents"; "too few responses, or none, in a cell to read the comparison".
 * **Design findings:** none.
 
