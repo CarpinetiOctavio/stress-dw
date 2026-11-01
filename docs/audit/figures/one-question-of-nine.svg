@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 508" width="780" height="508" role="img" aria-labelledby="t d">
+<title id="t">Why one question of nine</title>
+<desc id="d">A matrix of the nine business questions against the 17 source columns, split into two column groups: group 1, the eight columns whose names are in the OSMI 2014 schema, and group 2, the eight symptom columns and Occupation, matched to RHMCD-20. Eight questions use columns from both groups; only Q5, on time spent indoors, uses columns from group 2 alone.</desc>
+<style>
+  svg { --ink: #0b0b0b; --ink2: #52514e; --grid: #e4e3df; --band: #f1efe9; --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; }
+  @media (prefers-color-scheme: dark) {
+    svg { --ink: #f0efec; --ink2: #c3c2b7; --grid: #3a3936; --band: #2a2927; --s1: #3987e5; --s2: #d95926; --s3: #199e70; }
+  }
+  text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; fill: var(--ink2); }
+  .ink { fill: var(--ink); } .h { fill: var(--ink); font-weight: 600; font-size: 14px; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; }
+  .faint { fill: var(--ink2); opacity: 0.55; }
+  .grid { stroke: var(--grid); stroke-width: 1; fill: none; }
+  .axis { stroke: var(--ink2); stroke-width: 1; fill: none; }
+  .band { fill: var(--band); }
+  .f1 { fill: var(--s1); } .f2 { fill: var(--s2); } .f3 { fill: var(--s3); }
+  .t1 { fill: var(--s1); } .t2 { fill: var(--s2); } .t3 { fill: var(--s3); }
+  .box { fill: none; stroke: var(--ink2); stroke-width: 1.5; }
+  .box1 { fill: none; stroke: var(--s1); stroke-width: 2; }
+  .box2 { fill: none; stroke: var(--s2); stroke-width: 2; }
+  .box3 { fill: none; stroke: var(--s3); stroke-width: 2; }
+  .link { stroke: var(--ink2); stroke-width: 1.2; fill: none; }
+  .bad { stroke: var(--s2); stroke-width: 1.8; fill: none; marker-end: url(#ah2); }
+  .good { stroke: var(--s3); stroke-width: 1.8; fill: none; marker-end: url(#ah3); }
+  .arrow { stroke: var(--ink2); stroke-width: 1.5; fill: none; marker-end: url(#ah); }
+</style>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--ink2)"/></marker>
+<marker id="ah2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--s2)"/></marker>
+<marker id="ah3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--s3)"/></marker>
+</defs>
+<rect class="band" x="176" y="52" width="224" height="430" rx="6" opacity="0.6"/>
+<rect class="band" x="422" y="52" width="252" height="430" rx="6" opacity="0.6"/>
+<text class="h" x="296.0" y="22.0" text-anchor="middle">Column group 1</text>
+<circle class="f1" cx="232.0" cy="17" r="6"/>
+<text x="288.0" y="38.0" text-anchor="middle">names in the OSMI 2014 schema</text>
+<text class="h" x="556.0" y="22.0" text-anchor="middle">Column group 2</text>
+<circle class="f2" cx="492.0" cy="17" r="6"/>
+<text x="548.0" y="38.0" text-anchor="middle">symptoms and Occupation; matched to RHMCD-20</text>
+<text class="mono ink" x="194.0" y="212.0" text-anchor="start" transform="rotate(-60 194.0 212.0)">Timestamp</text>
+<text class="mono ink" x="222.0" y="212.0" text-anchor="start" transform="rotate(-60 222.0 212.0)">Gender</text>
+<text class="mono ink" x="250.0" y="212.0" text-anchor="start" transform="rotate(-60 250.0 212.0)">Country</text>
+<text class="mono faint" x="278.0" y="212.0" text-anchor="start" transform="rotate(-60 278.0 212.0)">self_employed</text>
+<text class="mono ink" x="306.0" y="212.0" text-anchor="start" transform="rotate(-60 306.0 212.0)">family_history</text>
+<text class="mono ink" x="334.0" y="212.0" text-anchor="start" transform="rotate(-60 334.0 212.0)">treatment</text>
+<text class="mono ink" x="362.0" y="212.0" text-anchor="start" transform="rotate(-60 362.0 212.0)">mental_health_interview</text>
+<text class="mono ink" x="390.0" y="212.0" text-anchor="start" transform="rotate(-60 390.0 212.0)">care_options</text>
+<text class="mono ink" x="440.0" y="212.0" text-anchor="start" transform="rotate(-60 440.0 212.0)">Occupation</text>
+<text class="mono ink" x="468.0" y="212.0" text-anchor="start" transform="rotate(-60 468.0 212.0)">Growing_Stress</text>
+<text class="mono faint" x="496.0" y="212.0" text-anchor="start" transform="rotate(-60 496.0 212.0)">Changes_Habits</text>
+<text class="mono faint" x="524.0" y="212.0" text-anchor="start" transform="rotate(-60 524.0 212.0)">Mental_Health_History</text>
+<text class="mono ink" x="552.0" y="212.0" text-anchor="start" transform="rotate(-60 552.0 212.0)">Mood_Swings</text>
+<text class="mono ink" x="580.0" y="212.0" text-anchor="start" transform="rotate(-60 580.0 212.0)">Coping_Struggles</text>
+<text class="mono faint" x="608.0" y="212.0" text-anchor="start" transform="rotate(-60 608.0 212.0)">Work_Interest</text>
+<text class="mono ink" x="636.0" y="212.0" text-anchor="start" transform="rotate(-60 636.0 212.0)">Social_Weakness</text>
+<text class="mono ink" x="664.0" y="212.0" text-anchor="start" transform="rotate(-60 664.0 212.0)">Days_Indoors</text>
+<text class="h" x="20.0" y="212.0" text-anchor="start">Question</text>
+<text class="ink" x="20.0" y="238.0" text-anchor="start">Q1 · stress by month</text>
+<line class="grid" x1="176" y1="234" x2="674" y2="234"/>
+<circle class="f1" cx="190.0" cy="234" r="6"/>
+<circle class="f1" cx="218.0" cy="234" r="6"/>
+<circle class="f2" cx="464.0" cy="234" r="6"/>
+<text x="686.0" y="238.0" text-anchor="start">both groups</text>
+<text class="ink" x="20.0" y="264.0" text-anchor="start">Q2 · family history</text>
+<line class="grid" x1="176" y1="260" x2="674" y2="260"/>
+<circle class="f1" cx="190.0" cy="260" r="6"/>
+<circle class="f1" cx="218.0" cy="260" r="6"/>
+<circle class="f1" cx="302.0" cy="260" r="6"/>
+<circle class="f2" cx="464.0" cy="260" r="6"/>
+<text x="686.0" y="264.0" text-anchor="start">both groups</text>
+<text class="ink" x="20.0" y="290.0" text-anchor="start">Q3 · stress and coping</text>
+<line class="grid" x1="176" y1="286" x2="674" y2="286"/>
+<circle class="f1" cx="246.0" cy="286" r="6"/>
+<circle class="f2" cx="436.0" cy="286" r="6"/>
+<circle class="f2" cx="464.0" cy="286" r="6"/>
+<circle class="f2" cx="576.0" cy="286" r="6"/>
+<text x="686.0" y="290.0" text-anchor="start">both groups</text>
+<text class="ink" x="20.0" y="316.0" text-anchor="start">Q4 · treatment by gender</text>
+<line class="grid" x1="176" y1="312" x2="674" y2="312"/>
+<circle class="f1" cx="218.0" cy="312" r="6"/>
+<circle class="f1" cx="330.0" cy="312" r="6"/>
+<circle class="f2" cx="464.0" cy="312" r="6"/>
+<text x="686.0" y="316.0" text-anchor="start">both groups</text>
+<rect class="box3" x="14" y="325" width="756" height="24" rx="5"/>
+<text class="ink" x="20.0" y="342.0" text-anchor="start">Q5 · time indoors</text>
+<line class="grid" x1="176" y1="338" x2="674" y2="338"/>
+<circle class="f2" cx="464.0" cy="338" r="6"/>
+<circle class="f2" cx="548.0" cy="338" r="6"/>
+<circle class="f2" cx="632.0" cy="338" r="6"/>
+<circle class="f2" cx="660.0" cy="338" r="6"/>
+<text class="t3" x="686.0" y="342.0" text-anchor="start">one group</text>
+<text class="ink" x="20.0" y="368.0" text-anchor="start">Q6 · care options</text>
+<line class="grid" x1="176" y1="364" x2="674" y2="364"/>
+<circle class="f1" cx="218.0" cy="364" r="6"/>
+<circle class="f1" cx="246.0" cy="364" r="6"/>
+<circle class="f1" cx="386.0" cy="364" r="6"/>
+<circle class="f2" cx="436.0" cy="364" r="6"/>
+<circle class="f2" cx="464.0" cy="364" r="6"/>
+<text x="686.0" y="368.0" text-anchor="start">both groups</text>
+<text class="ink" x="20.0" y="394.0" text-anchor="start">Q7 · help-seeking</text>
+<line class="grid" x1="176" y1="390" x2="674" y2="390"/>
+<circle class="f1" cx="330.0" cy="390" r="6"/>
+<circle class="f2" cx="464.0" cy="390" r="6"/>
+<circle class="f2" cx="548.0" cy="390" r="6"/>
+<circle class="f2" cx="576.0" cy="390" r="6"/>
+<circle class="f2" cx="660.0" cy="390" r="6"/>
+<text x="686.0" y="394.0" text-anchor="start">both groups</text>
+<text class="ink" x="20.0" y="420.0" text-anchor="start">Q7.1 · by care options</text>
+<line class="grid" x1="176" y1="416" x2="674" y2="416"/>
+<circle class="f1" cx="330.0" cy="416" r="6"/>
+<circle class="f1" cx="386.0" cy="416" r="6"/>
+<circle class="f2" cx="464.0" cy="416" r="6"/>
+<circle class="f2" cx="548.0" cy="416" r="6"/>
+<circle class="f2" cx="576.0" cy="416" r="6"/>
+<circle class="f2" cx="660.0" cy="416" r="6"/>
+<text x="686.0" y="420.0" text-anchor="start">both groups</text>
+<text class="ink" x="20.0" y="446.0" text-anchor="start">Q7.2 · by disclosure</text>
+<line class="grid" x1="176" y1="442" x2="674" y2="442"/>
+<circle class="f1" cx="330.0" cy="442" r="6"/>
+<circle class="f1" cx="386.0" cy="442" r="6"/>
+<circle class="f1" cx="358.0" cy="442" r="6"/>
+<circle class="f2" cx="464.0" cy="442" r="6"/>
+<circle class="f2" cx="548.0" cy="442" r="6"/>
+<circle class="f2" cx="576.0" cy="442" r="6"/>
+<circle class="f2" cx="660.0" cy="442" r="6"/>
+<text x="686.0" y="446.0" text-anchor="start">both groups</text>
+<text x="20.0" y="496.0" text-anchor="start">Faded columns are not modeled.</text>
+</svg>
