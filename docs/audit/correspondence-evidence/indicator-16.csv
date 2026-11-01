@@ -1,0 +1,49 @@
+growing_stress,symptom_cluster,care_options,mental_health_interview,level,numerator,denominator,rate,low_n
+Maybe,true,Not sure,Maybe,No,670,883,0.758777,false
+Maybe,true,Not sure,Maybe,Yes,213,883,0.241223,false
+Maybe,true,Not sure,No,No,2049,3604,0.568535,false
+Maybe,true,Not sure,No,Yes,1555,3604,0.431465,false
+Maybe,true,Not sure,Yes,No,69,115,0.600000,false
+Maybe,true,Not sure,Yes,Yes,46,115,0.400000,false
+Maybe,true,Yes,Maybe,No,325,1004,0.323705,false
+Maybe,true,Yes,Maybe,Yes,679,1004,0.676295,false
+Maybe,true,Yes,No,No,1214,4404,0.275658,false
+Maybe,true,Yes,No,Yes,3190,4404,0.724342,false
+Maybe,true,Yes,Yes,No,72,210,0.342857,false
+Maybe,true,Yes,Yes,Yes,138,210,0.657143,false
+No,true,Not sure,Maybe,No,699,921,0.758958,false
+No,true,Not sure,Maybe,Yes,222,921,0.241042,false
+No,true,Not sure,No,No,2136,3756,0.568690,false
+No,true,Not sure,No,Yes,1620,3756,0.431310,false
+No,true,Not sure,Yes,No,72,120,0.600000,false
+No,true,Not sure,Yes,Yes,48,120,0.400000,false
+No,true,Yes,Maybe,No,339,1047,0.323782,false
+No,true,Yes,Maybe,Yes,708,1047,0.676218,false
+No,true,Yes,No,No,1266,4590,0.275817,false
+No,true,Yes,No,Yes,3324,4590,0.724183,false
+No,true,Yes,Yes,No,75,219,0.342466,false
+No,true,Yes,Yes,Yes,144,219,0.657534,false
+Yes,false,Not sure,Maybe,No,3076,4083,0.753368,false
+Yes,false,Not sure,Maybe,Yes,1007,4083,0.246632,false
+Yes,false,Not sure,No,No,9631,17076,0.564008,false
+Yes,false,Not sure,No,Yes,7445,17076,0.435992,false
+Yes,false,Not sure,Yes,No,315,525,0.600000,false
+Yes,false,Not sure,Yes,Yes,210,525,0.400000,false
+Yes,false,Yes,Maybe,No,1501,4670,0.321413,false
+Yes,false,Yes,Maybe,Yes,3169,4670,0.678587,false
+Yes,false,Yes,No,No,5646,20832,0.271025,false
+Yes,false,Yes,No,Yes,15186,20832,0.728975,false
+Yes,false,Yes,Yes,No,346,976,0.354508,false
+Yes,false,Yes,Yes,Yes,630,976,0.645492,false
+Yes,true,Not sure,Maybe,No,679,910,0.746154,false
+Yes,true,Not sure,Maybe,Yes,231,910,0.253846,false
+Yes,true,Not sure,No,No,2193,3928,0.558299,false
+Yes,true,Not sure,No,Yes,1735,3928,0.441701,false
+Yes,true,Not sure,Yes,No,69,115,0.600000,false
+Yes,true,Not sure,Yes,Yes,46,115,0.400000,false
+Yes,true,Yes,Maybe,No,334,1049,0.318398,false
+Yes,true,Yes,Maybe,Yes,715,1049,0.681602,false
+Yes,true,Yes,No,No,1268,4782,0.265161,false
+Yes,true,Yes,No,Yes,3514,4782,0.734839,false
+Yes,true,Yes,Yes,No,81,219,0.369863,false
+Yes,true,Yes,Yes,Yes,138,219,0.630137,false
