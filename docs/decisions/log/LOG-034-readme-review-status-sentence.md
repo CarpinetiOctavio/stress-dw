@@ -43,3 +43,7 @@ DC-96 of the [documentation-currency register](../../audit/documentation-currenc
 
 * The removal: done in #63.
 * The rest of the Status section and the Development section: the planned README rewrite.
+
+**Status (2026-11-01).**
+
+* The rest of the Status section and the Development section: the Status section rewritten, and the Development section kept as written (its test command updated in #81), in the README rewrite, #85.

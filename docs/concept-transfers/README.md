@@ -10,7 +10,7 @@ The figures use illustrative data only; none shows an indicator value.
 
 | Transfer | Concept | Applied to |
 |----------|---------|------------|
-| [Pre-registration](preregistration-and-data-leakage.md) | The target painted before the shots; data leakage | The criteria committed before any indicator value is exposed |
+| [Pre-registration](preregistration-and-data-leakage.md) | The target painted before the shots; data leakage | The criteria committed before the indicator output is exposed |
 | [Overfitting](overfitting.md) | Two points, four functions; early stopping | One principle instead of a patch per gap; the stopping rule |
 | [Parsimony](parsimony.md) | The fewest parameters that explain the data | The same principle in METIS, in a rule, a layer and the method |
 | [Boundary cases](boundary-cases.md) | The ticket-office sign read two ways | The two-reader test of the criteria |
