@@ -55,6 +55,10 @@ Within each gender, the rates of indicators 2 and 4 are equal in every period, a
 | Q7.1 | 15 | yes | does not correspond | provenance |
 | Q7.2 | 16 | yes | does not correspond | provenance |
 
+![A matrix of the nine business questions against the 17 source columns, split into two column groups: group 1, the eight columns whose names are in the OSMI 2014 schema, and group 2, the eight symptom columns and Occupation, matched to RHMCD-20. Eight questions use columns from both groups; only Q5, on time spent indoors, uses columns from group 2 alone.](figures/one-question-of-nine.svg)
+
+*Eight of the nine questions relate columns from both groups; only the one on time spent indoors stays within one. Groups: [LOG-040](../decisions/log/LOG-040-h1-column-groups.md); columns of each question: [`indicators.md`](../specification/indicators.md).*
+
 Q7 is the help-seeking question the [README](../../README.md) opens with. The causes are the loci of the [criteria, section 4](correspondence-criteria.md#4-locus-of-a-mismatch). In plain terms, provenance: "under the reading that the file joins two sources, this cross says nothing about respondents"; data volume: "too few responses, or none, in a cell to read the comparison".
 
 In every question that crosses the groups, the determination criterion C1 needs a relationship among respondents, so under "H1 holds" it is not met, with the locus provenance ([criteria, section 3.2](correspondence-criteria.md#32-branch-h1-holds)), whatever its cells show. Its cells are still read, and every locus they set is named ([criteria, section 4](correspondence-criteria.md#4-locus-of-a-mismatch)). The criteria unable to fail are met: checks C8 and C9 pass (`uv run pytest`).

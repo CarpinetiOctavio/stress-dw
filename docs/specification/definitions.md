@@ -16,6 +16,10 @@ Concepts used in more than one part of the specification are defined here, once.
 
 The *natural key* of a dimension is the set of source values that identifies one of its rows; [`dimensions.md`](dimensions.md) declares it for each dimension. Every column stored in a dimension is a pure function of that dimension's natural key. A dimension stores no column that depends on a value the dimension does not itself hold. A natural-key value therefore maps to exactly one dimension row. The reasoning is in [ADR-0007](../decisions/0007-person-grain-fact-table-and-dimension-grain-rule.md).
 
+![Top: the legacy Dim_Sintomas stores four symptom columns and a flag that depends on Days_Indoors, which it does not store, so two rows share the same four values with different flags, and one response matches both rows and the join counts it twice. Bottom: the rebuild stores the four columns in dim_symptoms and Days_Indoors in dim_isolation, one response matches one row in each, and the two conditions are computed at query time. Illustrative rows.](figures/dimension-fan-out.svg)
+
+*The legacy dimension's flag depended on a column it did not store, so records matched several rows; the rebuild stores only what its key determines ([legacy audit, A2](../audit/legacy-audit.md#checks)).*
+
 ## Multi-level self-report rule
 
 Every level of a multi-level self-report variable is reported as its own value: `growing_stress`, `social_weakness` and `mental_health_interview` ("Yes" / "No" / "Maybe"), and `care_options` ("Yes" / "No" / "Not sure"). No indicator merges "Maybe" or "Not sure" into another level. Three definitions in the specification are not folds of an ambiguous value:

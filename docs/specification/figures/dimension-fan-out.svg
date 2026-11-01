@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 372" width="760" height="372" role="img" aria-labelledby="t d">
+<title id="t">Dimension fan-out and its fix</title>
+<desc id="d">Top: the legacy Dim_Sintomas stores four symptom columns and a flag that depends on Days_Indoors, which it does not store, so two rows share the same four values with different flags, and one response matches both rows and the join counts it twice. Bottom: the rebuild stores the four columns in dim_symptoms and Days_Indoors in dim_isolation, one response matches one row in each, and the two conditions are computed at query time. Illustrative rows.</desc>
+<style>
+  svg { --ink: #0b0b0b; --ink2: #52514e; --grid: #e4e3df; --band: #f1efe9; --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; }
+  @media (prefers-color-scheme: dark) {
+    svg { --ink: #f0efec; --ink2: #c3c2b7; --grid: #3a3936; --band: #2a2927; --s1: #3987e5; --s2: #d95926; --s3: #199e70; }
+  }
+  text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; fill: var(--ink2); }
+  .ink { fill: var(--ink); } .h { fill: var(--ink); font-weight: 600; font-size: 14px; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; }
+  .faint { fill: var(--ink2); opacity: 0.55; }
+  .grid { stroke: var(--grid); stroke-width: 1; fill: none; }
+  .axis { stroke: var(--ink2); stroke-width: 1; fill: none; }
+  .band { fill: var(--band); }
+  .f1 { fill: var(--s1); } .f2 { fill: var(--s2); } .f3 { fill: var(--s3); }
+  .t1 { fill: var(--s1); } .t2 { fill: var(--s2); } .t3 { fill: var(--s3); }
+  .box { fill: none; stroke: var(--ink2); stroke-width: 1.5; }
+  .box1 { fill: none; stroke: var(--s1); stroke-width: 2; }
+  .box2 { fill: none; stroke: var(--s2); stroke-width: 2; }
+  .box3 { fill: none; stroke: var(--s3); stroke-width: 2; }
+  .link { stroke: var(--ink2); stroke-width: 1.2; fill: none; }
+  .bad { stroke: var(--s2); stroke-width: 1.8; fill: none; marker-end: url(#ah2); }
+  .good { stroke: var(--s3); stroke-width: 1.8; fill: none; marker-end: url(#ah3); }
+  .arrow { stroke: var(--ink2); stroke-width: 1.5; fill: none; marker-end: url(#ah); }
+</style>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--ink2)"/></marker>
+<marker id="ah2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--s2)"/></marker>
+<marker id="ah3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--s3)"/></marker>
+</defs>
+<text class="h" x="20.0" y="24.0" text-anchor="start">Legacy: Dim_Sintomas</text>
+<text x="20.0" y="42.0" text-anchor="start">stores four symptom columns and a flag whose formula also reads Days_Indoors, which it does not store</text>
+<text class="mono ink" x="24.0" y="70.0" text-anchor="start">growing_stress</text>
+<text class="mono ink" x="142.0" y="70.0" text-anchor="start">mood_swings</text>
+<text class="mono ink" x="246.0" y="70.0" text-anchor="start">coping_struggles</text>
+<text class="mono ink" x="374.0" y="70.0" text-anchor="start">social_weakness</text>
+<text class="mono ink" x="496.0" y="70.0" text-anchor="start">indicador_inferido_estres</text>
+<line class="axis" x1="20" y1="76" x2="672" y2="76"/>
+<rect class="band" x="20" y="81" width="652" height="20" rx="3"/>
+<text class="mono" x="24.0" y="96.0" text-anchor="start">No</text>
+<text class="mono" x="142.0" y="96.0" text-anchor="start">High</text>
+<text class="mono" x="246.0" y="96.0" text-anchor="start">Yes</text>
+<text class="mono" x="374.0" y="96.0" text-anchor="start">No</text>
+<text class="mono" x="496.0" y="96.0" text-anchor="start">1</text>
+<rect class="band" x="20" y="103" width="652" height="20" rx="3"/>
+<text class="mono" x="24.0" y="118.0" text-anchor="start">No</text>
+<text class="mono" x="142.0" y="118.0" text-anchor="start">High</text>
+<text class="mono" x="246.0" y="118.0" text-anchor="start">Yes</text>
+<text class="mono" x="374.0" y="118.0" text-anchor="start">No</text>
+<text class="mono" x="496.0" y="118.0" text-anchor="start">0</text>
+<text x="20.0" y="144.0" text-anchor="start">For these values, the flag is 1 when Days_Indoors is 15-30 days or longer, 0 otherwise.</text>
+<text class="ink" x="20.0" y="174.0" text-anchor="start">One response</text>
+<text class="mono" x="120.0" y="174.0" text-anchor="start">No · High · Yes · No · Days_Indoors 1-14 days</text>
+<path class="bad" d="M478,170 L548,170"/>
+<text class="t2" x="556.0" y="174.0" text-anchor="start">matches 2 rows: the join</text>
+<text class="t2" x="556.0" y="190.0" text-anchor="start">counts it twice</text>
+<line class="grid" x1="20" y1="204" x2="740" y2="204"/>
+<text class="h" x="20.0" y="226.0" text-anchor="start">Rebuild: dim_symptoms and dim_isolation</text>
+<text x="20.0" y="244.0" text-anchor="start">each stores only columns its natural key determines; the flag is not stored</text>
+<text class="mono ink" x="24.0" y="272.0" text-anchor="start">growing_stress</text>
+<text class="mono ink" x="142.0" y="272.0" text-anchor="start">mood_swings</text>
+<text class="mono ink" x="246.0" y="272.0" text-anchor="start">coping_struggles</text>
+<text class="mono ink" x="374.0" y="272.0" text-anchor="start">social_weakness</text>
+<line class="axis" x1="20" y1="278" x2="492" y2="278"/>
+<rect class="band" x="20" y="283" width="472" height="20" rx="3"/>
+<text class="mono" x="24.0" y="298.0" text-anchor="start">No</text>
+<text class="mono" x="142.0" y="298.0" text-anchor="start">High</text>
+<text class="mono" x="246.0" y="298.0" text-anchor="start">Yes</text>
+<text class="mono" x="374.0" y="298.0" text-anchor="start">No</text>
+<text class="mono ink" x="534.0" y="272.0" text-anchor="start">days_indoors</text>
+<line class="axis" x1="530" y1="278" x2="710" y2="278"/>
+<rect class="band" x="530" y="283" width="180" height="20" rx="3"/>
+<text class="mono" x="534.0" y="298.0" text-anchor="start">1-14 days</text>
+<text class="ink" x="20.0" y="324.0" text-anchor="start">One response</text>
+<path class="good" d="M120,320 L200,320"/>
+<text class="t3" x="210.0" y="324.0" text-anchor="start">one row in each dimension → 1 fact row</text>
+<text class="ink" x="20.0" y="354.0" text-anchor="start">At query time:</text>
+<text class="mono" x="120.0" y="354.0" text-anchor="start">explicit_recognition</text>
+<text x="278.0" y="354.0" text-anchor="start">and</text>
+<text class="mono" x="308.0" y="354.0" text-anchor="start">symptom_cluster</text>
+<text x="430.0" y="354.0" text-anchor="start">are computed from the dimension columns.</text>
+</svg>

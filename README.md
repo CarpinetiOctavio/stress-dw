@@ -8,6 +8,10 @@ It was rebuilt from scratch after an audit of the university course version foun
 
 > **Provenance.** The source file's origin is undocumented, and no output of this project is a finding about any population ([ADR-0001](docs/decisions/0001-position-as-portfolio-project.md); [details](#data-and-provenance)).
 
+![A matrix of the nine business questions against the 17 source columns, split into two column groups: group 1, the eight columns whose names are in the OSMI 2014 schema, and group 2, the eight symptom columns and Occupation, matched to RHMCD-20. Eight questions use columns from both groups; only Q5, on time spent indoors, uses columns from group 2 alone.](docs/audit/figures/one-question-of-nine.svg)
+
+*Eight of the nine questions relate columns from both groups; only the one on time spent indoors stays within one ([evidence, section 4](docs/audit/correspondence-evidence.md#4-questions)).*
+
 ## Status
 
 Pipeline closed ([`phase4-closure.md`](docs/audit/phase4-closure.md)); correspondence phase closed ([correspondence evidence](docs/audit/correspondence-evidence.md)). Decisions are recorded in [`docs/decisions`](docs/decisions); audit evidence and checks are in [`docs/audit`](docs/audit).
@@ -34,9 +38,17 @@ Each row pairs a concept with what it changed in this repository and the evidenc
 | [Two column groups](docs/decisions/log/LOG-040-h1-column-groups.md); [H1](docs/decisions/0001-position-as-portfolio-project.md#hypotheses-not-findings) | The file joins columns from two sources; a question that relates them cannot be answered with it | A10 matches the symptom columns to a published dataset ([legacy audit, Reading branch](docs/audit/legacy-audit.md#reading-branch)); one question of nine corresponds ([evidence, section 4](docs/audit/correspondence-evidence.md#4-questions)) |
 | [Overfitting](docs/concept-transfers/overfitting.md); [parsimony](docs/concept-transfers/parsimony.md) | A rule whose verdict changed no correspondence verdict was patched after each review | A stopping rule set in advance ended the process, and the documentary verdict was removed ([LOG-051](docs/decisions/log/LOG-051-stopping-rule-documentary-audit-readings.md); [LSN-014 and LSN-015](docs/audit/lessons/scope-and-proportion.md)) |
 
+![Top: the legacy Dim_Sintomas stores four symptom columns and a flag that depends on Days_Indoors, which it does not store, so two rows share the same four values with different flags, and one response matches both rows and the join counts it twice. Bottom: the rebuild stores the four columns in dim_symptoms and Days_Indoors in dim_isolation, one response matches one row in each, and the two conditions are computed at query time. Illustrative rows.](docs/specification/figures/dimension-fan-out.svg)
+
+*The legacy dimension's flag depended on a column it did not store, so records matched several rows; the rebuild stores only what its key determines ([legacy audit, A2](docs/audit/legacy-audit.md#checks)).*
+
 [`docs/concept-homes.md`](docs/concept-homes.md) is the index of concept homes.
 
 ## What was built
+
+![The star schema: fact_response, one row per staged response, holds response_id, eight foreign keys and treatment; each foreign key joins one of eight dimensions on its surrogate key, and each dimension is shown with its natural key.](docs/specification/figures/star-schema.svg)
+
+*One fact row per staged response, with a foreign key to each of the eight dimensions; each dimension holds one row per natural key ([`dimensions.md`, Row set](docs/specification/dimensions.md#row-set)).*
 
 * **Model.** A fact table at response grain ([`fact-table.md`, Grain](docs/specification/fact-table.md#grain)) and eight dimensions ([`dimensions.md`, Row set](docs/specification/dimensions.md#row-set)); every indicator is computed at query time, and nothing derived is stored beyond dimension attributes ([model conventions](docs/specification/definitions.md#model-conventions); [ADR-0007](docs/decisions/0007-person-grain-fact-table-and-dimension-grain-rule.md)).
 * **Pipeline.** Extraction, cleaning and deduplication in Python (pandas); the schema, the loads of the dimensions and the fact table, and the sixteen indicators in SQL under [`src/stress_dw/sql/`](src/stress_dw/sql/), run from Python. Staging is loaded in one transaction; then the eight dimensions and the fact table are dropped, recreated and reloaded in a second one ([load order](docs/specification/staging.md#load-order-and-transactions); [ADR-0010](docs/decisions/0010-reload-dimensions-and-fact-in-one-transaction.md)).
