@@ -43,6 +43,10 @@ A count indicator and its rate counterpart are the same cell: the count is the n
 
 A coarser cut is computed by summing the [numerators and the denominators](#query-vocabulary) of finer cells. Averaging rates across cells is not permitted.
 
+![Top: the legacy query averages porcentaje_tratamiento over two aggregated rows, 90.0 from 9 treated of 10 records and 50.0 from 500 of 1,000, and gets 70.0: each row weighs the same, whatever the number of records behind it. Bottom: the rebuild stores no rate; a coarser cut sums the numerators and the denominators of the finer cells, 509 over 1,010, and gets 0.504 (50.4%): each record weighs the same. Illustrative rows.](figures/average-of-rates.svg)
+
+*An average of rates gives each aggregated row the same weight, whatever the number of records behind it; the roll-up rule sums numerators and denominators, so each record weighs the same ([legacy audit, A7](../audit/legacy-audit.md#checks)).*
+
 ## `explicit_recognition`
 
 ```sql

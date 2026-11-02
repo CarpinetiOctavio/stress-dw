@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-labelledby="t d">
+<title id="t">Average of rates and the roll-up rule</title>
+<desc id="d">Top: the legacy query averages porcentaje_tratamiento over two aggregated rows, 90.0 from 9 treated of 10 records and 50.0 from 500 of 1,000, and gets 70.0: each row weighs the same, whatever the number of records behind it. Bottom: the rebuild stores no rate; a coarser cut sums the numerators and the denominators of the finer cells, 509 over 1,010, and gets 0.504 (50.4%): each record weighs the same. Illustrative rows.</desc>
+<style>
+  svg { --ink: #0b0b0b; --ink2: #52514e; --grid: #e4e3df; --band: #f1efe9; --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; }
+  @media (prefers-color-scheme: dark) {
+    svg { --ink: #f0efec; --ink2: #c3c2b7; --grid: #3a3936; --band: #2a2927; --s1: #3987e5; --s2: #d95926; --s3: #199e70; }
+  }
+  text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; fill: var(--ink2); }
+  .ink { fill: var(--ink); } .h { fill: var(--ink); font-weight: 600; font-size: 14px; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; }
+  .faint { fill: var(--ink2); opacity: 0.55; }
+  .grid { stroke: var(--grid); stroke-width: 1; fill: none; }
+  .axis { stroke: var(--ink2); stroke-width: 1; fill: none; }
+  .band { fill: var(--band); }
+  .f1 { fill: var(--s1); } .f2 { fill: var(--s2); } .f3 { fill: var(--s3); }
+  .t1 { fill: var(--s1); } .t2 { fill: var(--s2); } .t3 { fill: var(--s3); }
+  .box { fill: none; stroke: var(--ink2); stroke-width: 1.5; }
+  .box1 { fill: none; stroke: var(--s1); stroke-width: 2; }
+  .box2 { fill: none; stroke: var(--s2); stroke-width: 2; }
+  .box3 { fill: none; stroke: var(--s3); stroke-width: 2; }
+  .link { stroke: var(--ink2); stroke-width: 1.2; fill: none; }
+  .bad { stroke: var(--s2); stroke-width: 1.8; fill: none; marker-end: url(#ah2); }
+  .good { stroke: var(--s3); stroke-width: 1.8; fill: none; marker-end: url(#ah3); }
+  .arrow { stroke: var(--ink2); stroke-width: 1.5; fill: none; marker-end: url(#ah); }
+</style>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--ink2)"/></marker>
+<marker id="ah2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--s2)"/></marker>
+<marker id="ah3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--s3)"/></marker>
+</defs>
+<text class="h" x="20.0" y="24.0" text-anchor="start">Legacy: an average of stored percentages</text>
+<text x="20.0" y="42.0" text-anchor="start">each aggregated row stores a percentage, and the query averages the rows</text>
+<text class="ink" x="24.0" y="70.0" text-anchor="start">aggregated row</text>
+<text class="ink" x="150.0" y="70.0" text-anchor="start">treated of records</text>
+<text class="mono ink" x="320.0" y="70.0" text-anchor="start">porcentaje_tratamiento</text>
+<line class="axis" x1="20" y1="76" x2="520" y2="76"/>
+<rect class="band" x="20" y="81" width="500" height="20" rx="3"/>
+<text class="mono" x="24.0" y="96.0" text-anchor="start">1</text>
+<text class="mono" x="150.0" y="96.0" text-anchor="start">9 of 10</text>
+<text class="mono" x="320.0" y="96.0" text-anchor="start">90.0</text>
+<rect class="band" x="20" y="103" width="500" height="20" rx="3"/>
+<text class="mono" x="24.0" y="118.0" text-anchor="start">2</text>
+<text class="mono" x="150.0" y="118.0" text-anchor="start">500 of 1,000</text>
+<text class="mono" x="320.0" y="118.0" text-anchor="start">50.0</text>
+<text class="mono ink" x="20.0" y="150.0" text-anchor="start">AVG(porcentaje_tratamiento)</text>
+<text x="20.0" y="170.0" text-anchor="start">= (90.0 + 50.0) / 2 = 70.0</text>
+<path class="bad" d="M250,160 L320,160"/>
+<text class="t2" x="330.0" y="156.0" text-anchor="start">each row weighs the same: 10 records</text>
+<text class="t2" x="330.0" y="172.0" text-anchor="start">count as much as 1,000</text>
+<line class="grid" x1="20" y1="186" x2="740" y2="186"/>
+<text class="h" x="20.0" y="208.0" text-anchor="start">Rebuild: no rate is stored; the roll-up rule</text>
+<text x="20.0" y="226.0" text-anchor="start">a coarser cut sums the numerators and the denominators of the finer cells</text>
+<text class="ink" x="24.0" y="254.0" text-anchor="start">cell</text>
+<text class="mono ink" x="150.0" y="254.0" text-anchor="start">numerator</text>
+<text class="mono ink" x="320.0" y="254.0" text-anchor="start">denominator</text>
+<line class="axis" x1="20" y1="260" x2="520" y2="260"/>
+<rect class="band" x="20" y="265" width="500" height="20" rx="3"/>
+<text class="mono" x="24.0" y="280.0" text-anchor="start">1</text>
+<text class="mono" x="150.0" y="280.0" text-anchor="start">9</text>
+<text class="mono" x="320.0" y="280.0" text-anchor="start">10</text>
+<rect class="band" x="20" y="287" width="500" height="20" rx="3"/>
+<text class="mono" x="24.0" y="302.0" text-anchor="start">2</text>
+<text class="mono" x="150.0" y="302.0" text-anchor="start">500</text>
+<text class="mono" x="320.0" y="302.0" text-anchor="start">1,000</text>
+<text class="mono ink" x="20.0" y="330.0" text-anchor="start">SUM(numerator) / SUM(denominator)</text>
+<text x="290.0" y="330.0" text-anchor="start">= 509 / 1,010 = 0.504 (50.4%)</text>
+<path class="good" d="M500,326 L550,326"/>
+<text class="t3" x="560.0" y="330.0" text-anchor="start">each record weighs the same</text>
+</svg>
