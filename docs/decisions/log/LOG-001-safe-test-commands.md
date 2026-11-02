@@ -66,3 +66,7 @@ Procedure (b); command set (iii); home (3); the earlier counts as dated statemen
 **Status (2026-11-01).**
 
 * The README's Development section: its test command updated in #81; the section kept as written in the README rewrite, #85.
+
+**Status (2026-11-02).**
+
+* Updating section 2 of `phase4-closure.md`: done in #81.

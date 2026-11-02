@@ -40,3 +40,7 @@ Decision g of the [documentation-currency register](../../audit/documentation-cu
 ## Open, and where it goes
 
 * Running A6: the correspondence phase, after the criteria commit ([LOG-039](LOG-039-reading-rule.md)).
+
+**Status (2026-11-02).**
+
+* Running A6: done in #79.

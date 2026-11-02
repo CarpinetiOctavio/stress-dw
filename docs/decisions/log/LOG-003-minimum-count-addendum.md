@@ -46,3 +46,7 @@ ADR-0003 states, in its Consequences and in its addendum of 2026-09-23, that a m
 * The rule for reading flagged cells: the correspondence phase, in the correspondence criteria.
 * Showing or hiding flagged cells: the reporting layer.
 * Reduction of this entry to a pointer: not done; [LOG-037](LOG-037-addendum-pointers-to-log-entries.md) rejected full formalization, so this entry keeps the reasoning and the decision record's addendum of 2026-10-06 points to it.
+
+**Status (2026-11-02).**
+
+* The rule for reading flagged cells: done in #75 ([correspondence criteria, section 5](../../audit/correspondence-criteria.md#5-reading-of-cells-flagged-by-low_n)).
