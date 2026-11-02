@@ -43,3 +43,7 @@ Decision i of the [documentation-currency register](../../audit/documentation-cu
 
 * The wording of A6's row: done in #63.
 * Running A6: the correspondence phase, after the criteria commit (ADR-0011, rule 4).
+
+**Status (2026-11-02).**
+
+* Running A6: done in #79.

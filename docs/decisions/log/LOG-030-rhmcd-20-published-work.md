@@ -42,3 +42,7 @@ Item N13 of the [documentation-currency register](../../audit/documentation-curr
 
 * `legacy-audit.md:18` and `conceptual-framework.md:111`: no change needed, as recorded in the description of #57.
 * The match of the columns: check A10, in the correspondence phase.
+
+**Status (2026-11-02).**
+
+* The match of the columns: check A10, done in #79.

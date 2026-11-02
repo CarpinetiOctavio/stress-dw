@@ -58,3 +58,7 @@ Decision e of the [documentation-currency register](../../audit/documentation-cu
 * The documentary verdicts on Q2 and Q7.1: the correspondence phase.
 
 **Addendum (2026-10-25).** The documentary verdict on Q2 and Q7.1 assigned here is replaced, under [LOG-051](LOG-051-stopping-rule-documentary-audit-readings.md), which holds the reasoning, by a documentary layer that gives no verdict ([correspondence criteria](../../audit/correspondence-criteria.md), section 6). The objectives this entry sets stand.
+
+**Status (2026-11-02).**
+
+* The documentary verdicts on Q2 and Q7.1: replaced by the documentary layer (addendum of 2026-10-25, #75), to which the evidence document points for both questions (#83).

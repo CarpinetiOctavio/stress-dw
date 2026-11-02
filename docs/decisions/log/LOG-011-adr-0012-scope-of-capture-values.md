@@ -54,3 +54,7 @@ DC-85 of the [documentation-currency register](../../audit/documentation-currenc
 * The three changes: done in #57.
 * The text of the addendum and its date: done in #54.
 * The values as declared prior knowledge: the correspondence phase.
+
+**Status (2026-11-02).**
+
+* The values as declared prior knowledge: declared by location in #75 ([correspondence criteria, section 1](../../audit/correspondence-criteria.md#1-declaration-of-prior-knowledge)).
