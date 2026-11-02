@@ -21,6 +21,7 @@ Decisions that are not, or not only, recorded in a decision record are kept in t
 | [0012](0012-cite-only-frozen-and-versioned-sources-as-evidence.md) | Cite only the frozen legacy source and versioned artifacts, and admit outside material only as declared corroboration | accepted |
 | [0013](0013-keep-star-schema-add-flat-consumption-view.md) | Keep the star schema as the definition and integrity layer, add a flat view as the consumption interface, and defer a reduced star | accepted |
 | [0014](0014-explain-the-method-through-declared-concept-transfers.md) | Explain the method through declared concept transfers, one document each, demonstrated on the repository's own artifacts | accepted |
+| [0015](0015-layer-the-documentation-readme-explainers-records.md) | Layer the documentation: a plain README, one-page explainers, and the records as proof | accepted |
 
 
 ## Deviations from base MADR

@@ -653,3 +653,29 @@ page = 302
 pdf_page = 302
 quote = "de Gumbel menor número de parámetros"
 cited_in = ["docs/concept-transfers/parsimony.md#the-concept"]
+
+[[source]]
+id = "ritchie-2025"
+citation = "Ritchie, H. (2025, May 23). Suicide rates are higher in men than women. Our World in Data (data insight; data: WHO Mortality Database, 2024)."
+doi = ""
+retrieved_from = "https://ourworldindata.org/data-insights/suicide-rates-are-higher-in-men-than-women"
+retrieved_on = 2026-11-01
+file = "ritchie-2025-suicide-rates-are-higher-in-men-than-women.pdf"
+sha256 = "eb07b55e312d06d6c21d1d95fdf94c83056d753bce37ffc461b1962184917ee1"
+first_page = 1
+version = "browser print of the web page (3 pages), saved on 2026-11-01; the chart, with its data source and licence, is an image without a text layer"
+licence = "CC BY, as printed under the chart on p. 1"
+stored = true
+reproducible_hash = false
+
+[[source.claim]]
+claim = "Male suicide rates were higher than female rates in all countries included in the dataset."
+page = 1
+quote = "male suicide rates were higher in all countries included in this dataset"
+cited_in = ["docs/conceptual-framework.md#motivating-statistic"]
+
+[[source.claim]]
+claim = "In the United States, suicide rates among men are four times those among women."
+page = 1
+quote = "In the United States, rates among men are four times higher than amongst women"
+cited_in = ["docs/conceptual-framework.md#motivating-statistic"]

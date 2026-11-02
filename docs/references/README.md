@@ -27,3 +27,4 @@ A copy is stored here only when its licence permits redistribution (LOG-048). Ea
 | File | Register entry | Licence |
 |------|----------------|---------|
 | [`kim-2017-chi-squared-test-and-fishers-exact-test.pdf`](kim-2017-chi-squared-test-and-fishers-exact-test.pdf) | `kim-2017` | [CC BY-NC 3.0](https://creativecommons.org/licenses/by-nc/3.0/), as printed on its first page |
+| [`ritchie-2025-suicide-rates-are-higher-in-men-than-women.pdf`](ritchie-2025-suicide-rates-are-higher-in-men-than-women.pdf) | `ritchie-2025` | CC BY, as printed under the chart on its first page |

@@ -18,7 +18,11 @@ Three things are checked:
 * First and second person, in Markdown prose; in Python comments,
   docstrings, test names and assertion messages; and in SQL comments.
   Fenced code, inline code and text in quotation marks are skipped in
-  Markdown. The root README is exempt from this check only.
+  Markdown. The root README is exempt from this check. In each of the
+  two explainers named in ``FIRST_PERSON_FILES``, the one section between
+  the ``first-person`` markers, under its fixed heading, is exempt from the
+  first person only; the second person is still flagged there. Markers
+  anywhere else, or a section that is not well formed, fail.
 
 What the scan cannot detect: an attribution phrased freely, without a
 name, a listed role or a listed tool, passes; so does a pronoun inside a
@@ -65,6 +69,14 @@ ATTRIBUTION = (
 )
 # The pronoun's letter followed by a period is an author's initial in a reference list.
 PERSON = re.compile(r"\bI\b(?!\.)|\b(?i:we|my|our|you|your)\b|\b(?:us|Us)\b")
+SECOND_PERSON = re.compile(r"\b(?i:you|your)\b")
+FIRST_PERSON_FILES = (
+    "docs/explainers/why-and-how.md",
+    "docs/explainers/how-it-was-evaluated.md",
+)
+FIRST_PERSON_HEADING = "## In the first person"
+FIRST_PERSON_START = "<!-- first-person:start -->"
+FIRST_PERSON_END = "<!-- first-person:end -->"
 PROPER_NOUNS = ("Our World in Data",)
 
 
@@ -183,15 +195,54 @@ def _attribution_hits(root: Path) -> list[str]:
     return hits
 
 
+def _marker_lines(path: Path) -> tuple[list[int], list[int]]:
+    lines = path.read_text(encoding="utf-8").splitlines()
+    starts = [n for n, line in enumerate(lines, start=1) if line == FIRST_PERSON_START]
+    ends = [n for n, line in enumerate(lines, start=1) if line == FIRST_PERSON_END]
+    return starts, ends
+
+
+def _first_person_section(root: Path, path: Path) -> range:
+    """Line numbers of the exempt section, or an empty range if there is none."""
+    if path.relative_to(root).as_posix() not in FIRST_PERSON_FILES:
+        return range(0)
+    lines = path.read_text(encoding="utf-8").splitlines()
+    starts, ends = _marker_lines(path)
+    if len(starts) != 1 or len(ends) != 1 or ends[0] < starts[0]:
+        return range(0)
+    above = [line for line in lines[: starts[0] - 1] if line.strip()]
+    if not above or above[-1] != FIRST_PERSON_HEADING:
+        return range(0)
+    return range(starts[0] + 1, ends[0])
+
+
+def _section_hits(root: Path) -> list[str]:
+    hits: list[str] = []
+    for path in _scanned_files(root):
+        if path.suffix != ".md":
+            continue
+        name = path.relative_to(root).as_posix()
+        starts, ends = _marker_lines(path)
+        if name not in FIRST_PERSON_FILES:
+            hits.extend(
+                f"{name}:{n}: marker outside an exempt file" for n in starts + ends
+            )
+        elif not _first_person_section(root, path):
+            hits.append(f"{name}: no well-formed first-person section")
+    return hits
+
+
 def _person_hits(root: Path) -> list[str]:
     hits: list[str] = []
     for path in _scanned_files(root):
         if path.suffix not in PROSE_SUFFIXES or path == root / "README.md":
             continue
+        section = _first_person_section(root, path)
         for number, line in _prose(path):
             for proper_noun in PROPER_NOUNS:
                 line = line.replace(proper_noun, " ")
-            for match in PERSON.finditer(line):
+            pattern = SECOND_PERSON if number in section else PERSON
+            for match in pattern.finditer(line):
                 hits.append(f"{path.relative_to(root)}:{number}: {match.group(0)}")
     return hits
 
@@ -210,6 +261,11 @@ def test_no_act_is_attributed_to_a_person_role_or_tool() -> None:
 
 def test_no_first_or_second_person_appears_outside_the_readme() -> None:
     assert _person_hits(REPOSITORY_ROOT) == []
+
+
+def test_each_exempt_explainer_has_one_well_formed_first_person_section() -> None:
+    assert all((REPOSITORY_ROOT / name).is_file() for name in FIRST_PERSON_FILES)
+    assert _section_hits(REPOSITORY_ROOT) == []
 
 
 def _scratch_repository(root: Path) -> None:
@@ -240,3 +296,57 @@ def test_a_name_joined_to_another_word_by_a_slash_is_flagged(tmp_path: Path) -> 
 
     assert _name_hits(tmp_path) == ["draft.md:1: Placeholder"]
     assert _attribution_hits(tmp_path) == ["draft.md:1: Code decided"]
+
+
+def _first_person_document(heading: str = FIRST_PERSON_HEADING) -> str:
+    return (
+        "# Title\n\nI wrote this outside.\n\n"
+        f"{heading}\n\n{FIRST_PERSON_START}\n"
+        "> I wrote this inside. You read it.\n"
+        f"{FIRST_PERSON_END}\n"
+    )
+
+
+def test_the_first_person_is_allowed_only_inside_the_marked_section(
+    tmp_path: Path,
+) -> None:
+    _scratch_repository(tmp_path)
+    explainer = tmp_path / FIRST_PERSON_FILES[0]
+    explainer.parent.mkdir(parents=True)
+    explainer.write_text(_first_person_document(), encoding="utf-8")
+
+    assert _person_hits(tmp_path) == [
+        f"{FIRST_PERSON_FILES[0]}:3: I",
+        f"{FIRST_PERSON_FILES[0]}:8: You",
+    ]
+
+
+def test_a_section_without_its_fixed_heading_exempts_nothing(tmp_path: Path) -> None:
+    _scratch_repository(tmp_path)
+    explainer = tmp_path / FIRST_PERSON_FILES[0]
+    explainer.parent.mkdir(parents=True)
+    explainer.write_text(_first_person_document("## Notes"), encoding="utf-8")
+
+    assert _person_hits(tmp_path) == [
+        f"{FIRST_PERSON_FILES[0]}:3: I",
+        f"{FIRST_PERSON_FILES[0]}:8: I",
+        f"{FIRST_PERSON_FILES[0]}:8: You",
+    ]
+    assert _section_hits(tmp_path) == [
+        f"{FIRST_PERSON_FILES[0]}: no well-formed first-person section"
+    ]
+
+
+def test_markers_in_any_other_document_exempt_nothing(tmp_path: Path) -> None:
+    _scratch_repository(tmp_path)
+    (tmp_path / "draft.md").write_text(_first_person_document(), encoding="utf-8")
+
+    assert _person_hits(tmp_path) == [
+        "draft.md:3: I",
+        "draft.md:8: I",
+        "draft.md:8: You",
+    ]
+    assert _section_hits(tmp_path) == [
+        "draft.md:7: marker outside an exempt file",
+        "draft.md:9: marker outside an exempt file",
+    ]

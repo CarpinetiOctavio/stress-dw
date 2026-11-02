@@ -22,6 +22,10 @@ The project's argument rests on three levels, and they are not interchangeable:
 
 **Synthesis.** Across this literature, stigma is a real but modest and partial channel. Low perceived need and personal attitudes toward help-seeking are stronger, more consistent predictors of not seeking treatment than public or perceived stigma is. This is the mechanism the project's motivating idea sits inside — but the literature does not support a simple "stigma is the reason people don't seek treatment" story, and this document does not flatten it into one.
 
+### Motivating statistic
+
+- **Ritchie 2025.** *Our World in Data*, data insight, from the WHO Mortality Database (2024). Male suicide rates were higher than female rates in all countries included in its dataset; in the United States, they were four times higher. It supports the personal motivation stated in [why and how](explainers/why-and-how.md#in-the-first-person); it is not part of the mechanism above, and no output of this repository bears on it.
+
 ## 4. Variable mapping to Andersen's Behavioral Model
 
 | Variable | Andersen component | Basis | Note |
@@ -120,4 +124,5 @@ This section is provisional while checks it depends on are pending; the status o
 - Andrade, L. H., Alonso, J., Mneimneh, Z., Wells, J. E., Al-Hamzawi, A., Borges, G., Bromet, E., Bruffaerts, R., de Girolamo, G., de Graaf, R., Florescu, S., Gureje, O., Hinkov, H. R., Hu, C., Huang, Y., Hwang, I., Jin, R., Karam, E. G., Kovess-Masfety, V., Levinson, D., Matschinger, H., O'Neill, S., Posada-Villa, J., Sagar, R., Sampson, N. A., Sasu, C., Stein, D. J., Takeshima, T., Viana, M. C., Xavier, M., & Kessler, R. C. (2014). Barriers to mental health treatment: results from the WHO World Mental Health surveys. *Psychological Medicine*, 44(6), 1303–1317.
 - Schnyder, N., Panczak, R., Groth, N., & Schultze-Lutter, F. (2017). Association between mental health-related stigma and active help-seeking: systematic review and meta-analysis. *British Journal of Psychiatry*, 210, 261–268.
 - Schnyder, N., Panczak, R., Groth, N., & Schultze-Lutter, F. (2017). Authors' reply. *British Journal of Psychiatry*, 211(3), 182–183. https://doi.org/10.1192/bjp.211.3.182a
+- Ritchie, H. (2025, May 23). Suicide rates are higher in men than women. *Our World in Data*. Data: WHO Mortality Database (2024). https://ourworldindata.org/data-insights/suicide-rates-are-higher-in-men-than-women (copy of 2026-11-01 in [`references/`](references/README.md#stored-copies))
 
